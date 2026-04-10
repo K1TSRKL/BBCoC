@@ -1,0 +1,14 @@
+Accept
+Прийняти
+Cancel
+Скасувати
+Default
+За замовчуванням
+Many
+Багато
+Next page
+Наступна сторінка
+Whole Item
+Увесь предмет
+All
+Всі

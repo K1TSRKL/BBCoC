@@ -1,0 +1,14 @@
+Load
+Laden
+Save
+Speichern
+Return
+Zurück
+Save or load your favorite appearance
+Speichere oder lade deine Erscheinung
+Reorder Slots
+Slots neu anordnen
+Click to select slots to move
+Klicke, um Slots zum Verschieben auszuwählen
+Click on slots to place selections
+Klicke, um Slots zu platzieren

@@ -1,0 +1,132 @@
+Room Name
+Raumname
+Language
+Sprache
+Description
+Beschreibung
+Ban List
+Bannliste
+Administrator List
+Administratorliste
+Whitelist
+Whitelist
+Private
+Privat
+Locked
+Abgeschlossen
+Need exact name, admin, or whitelist to find it
+Benötigt genauen Namen, Admin oder Whitelist, um es zu finden
+Only admins and whitelisted members can enter or leave
+Nur Admins und Mitglieder auf der Whitelist können den Bereich betreten oder verlassen.
+Size (2-20)
+Größe (2-20)
+Member numbers separated by commas (ex: 123, ...)
+Mitgliedsnummer, getrennt durch Kommas (Bsp: 123, ...)
+Use the above buttons to quickadd to the respective lists
+Benutzen Sie die obigen Schaltflächen, um schnell zu den jeweiligen Listen hinzuzufügen
+Quick Add
+Quick Add
+Owner
+Eigentümer
+Lovers
+Liebhaber
+Friends
+Freunde
+Quick Ban
+Quick Bann
+Blacklist
+Blackliste
+Ghostlist
+Geistliste
+Room settings can only be updated by administrators
+Raum-Einstellungen können nur von Administratoren bearbeitet werden
+Background
+Hintergrund
+Visibility
+Sichtbarkeit
+Access
+Zugang
+Public
+Öffentlich
+Admin + Whitelist
+Verwaltung + Whitelist
+Admin
+Verwaltung
+Unlisted
+Ungelistet
+Import room code
+Raumcode importieren
+Please paste the room code. Importing room codes will overwrite existing settings. Are you sure?
+Bitte fügen Sie den Raumcode ein. Das Importieren von Raumcodes überschreibt bestehende Einstellungen. Sind Sie sicher?
+Failed to parse the passed room code (incomplete? invalid? outdated?)
+Fehler beim Parsen des übergebenen Raumcodes (unvollständig? ungültig? veraltet?)
+Successfully imported room code
+Raumcode erfolgreich importiert
+Export room code
+Raumcode exportieren
+Failed to copy room code to clipboard
+Fehler beim Kopieren des Raumcodes in die Zwischenablage
+Room code copied to clipboard
+Raumcode in die Zwischenablage kopiert
+Create
+Erstellen
+Save
+Speichern
+Exit
+Verlassen
+Cancel
+Abbrechen
+Updating the chat room...
+Chatraum wird aktualisiert...
+This room name is already taken
+Dieser Raumname ist bereits vergeben
+Account error, please try to relog
+Accountfehler, bitter erneut einloggen
+Invalid chat room data detected
+Ungültige Chatraum-Daten erkannt
+Room created, joining it...
+Raum wurde erstellt, wird beigetreten...
+Block Categories
+Kategorien sperren
+Customization
+Einstellungen
+Don't use maps
+Karten nicht benutzen
+Allow on and off
+Wechseln erlauben
+Only use maps
+Nur die Karte benutzen
+Never use the map exploration
+Die Karte niemals benutzen
+Hybrid map, can go on and off
+Hybride Karte, kann an und ausgeschaltet werden
+Only use the map, no regular chat
+Nur die Karte nutzen, kein normaler Chat
+No Game
+Keine Spiele
+Club Card
+Club Card
+LARP
+LARP
+Magic Battle
+Magischer Kampf
+GGTS
+GGTS
+Pandora
+Pandora
+(Click anywhere to return)
+(Klicke irgendwo um zurückzukehren)
+English
+Englisch
+French
+Französisch
+Spanish
+Spanisch
+German
+Deutsch
+Ukrainian
+Ukrainisch
+Chinese
+Chinesisch
+Russian
+Russisch

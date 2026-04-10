@@ -1,0 +1,202 @@
+Check all
+Позначити все
+Check none
+Прибрати позначки
+Apply the advanced rule
+Застосувати просунуте правило
+Check the Bondage Club areas that your submissive won't be able to enter.
+Позначте зони Бондаж Клубу в які ваший сабмісив не зможе ввійти.
+Check the appearance zones that your submissive won't be able to change by herself.
+Позначте зони зовнішнього вигляду які ваший сабмісив не зможе змінити.
+Check the item zones that your submissive won't be able to access on herself.
+Позначте зони предметів до яких ваший сабмісив не буде мати доступу.
+Club Shop
+Магазин Клубу
+Private Room
+Приватна кімната
+Introduction Class
+Вступний клас
+Maid Quarters
+Приміщення покоївок
+Kidnappers League
+Ліга викрадачів
+Shibari Dojo
+Шибарі Доджо
+Explore the Club
+Дослідження клубу
+Look for Trouble
+Пошук пригод
+Slave Market
+Ринок рабів
+Timer Cell
+Камера з таймером
+LARP Battles
+Битви LARP
+Visit the College
+Відвідати коледж
+Asylum
+Психіатрична лікарня
+Bondage Poker
+Бондаж Покер
+Infiltration
+Проникнення
+Movie Studio
+Кіно-Студія
+Magic School
+Школа магії
+Bondage Brawl
+Бондажна бійка
+Item Crafting
+Створення предметів
+Club Card Lounge
+Кімната Клуб-карт
+Gambling
+Азартні ігри
+Prison
+В'язниця
+Photographic
+Фото-студія
+Stable
+Стайня
+Houdini's Theater
+Театр Гудіні
+The Nursery
+Дитячі ясла
+Cafe
+Кафе
+Arcade
+Аркада
+Cloth
+Cloth
+Cloth Accessory
+Cloth Accessory
+Necklace
+Necklace
+Suit (Upper)
+Suit (Upper)
+Bottom
+Bottom
+Suit (Lower)
+Suit (Lower)
+Bra
+Bra
+Corset
+Corset
+Panties
+Panties
+Socks
+Socks
+Right Sock
+Right Sock
+Left Sock
+Left Sock
+Right Anklet
+Right Anklet
+Left Anklet
+Left Anklet
+Garters
+Garters
+Shoes
+Shoes
+Hat
+Hat
+Hair Accessory
+Hair Accessory
+Hair Accessory (All)
+Hair Accessory (All)
+Ears
+Ears
+Gloves
+Gloves
+Left Hand Rings
+Left Hand Rings
+Right Hand Rings
+Right Hand Rings
+Bracelet
+Bracelet
+Glasses
+Glasses
+Jewelry
+Jewelry
+Mask
+Mask
+Tail Strap
+Tail Strap
+Wings
+Wings
+Height
+Height
+Upper Body
+Upper Body
+Lower Body
+Lower Body
+Front Hair
+Front Hair
+Facial Hair
+Facial Hair
+Back Hair
+Back Hair
+Eyebrow
+Eyebrow
+Left Eye
+Left Eye
+Right Eye
+Right Eye
+Mouth
+Mouth
+Nipples
+Nipples
+Pussy/Penis
+Pussy/Penis
+Pronoun
+Pronoun
+Feet & Toes
+Feet & Toes
+Lower Legs
+Lower Legs
+Upper Legs
+Upper Legs
+Pussy & Vagina
+Pussy & Vagina
+Clitoris
+Clitoris
+Butt / Anal
+Butt / Anal
+Pelvis & Belly
+Pelvis & Belly
+Torso (Left)
+Torso (Left)
+Torso (Right)
+Torso (Right)
+Nipples Piercings
+Nipples Piercings
+Breast
+Breast
+Hands
+Hands
+Arms & Shoulders
+Arms & Shoulders
+Neck
+Neck
+Neck Accessories
+Neck Accessories
+Neck Restraints
+Neck Restraints
+Mouth (Left)
+Mouth (Left)
+Mouth (Center)
+Mouth (Center)
+Mouth (Right)
+Mouth (Right)
+Nose
+Nose
+Head
+Head
+Hood
+Hood
+Misc (Top Left)
+Misc (Top Left)
+Device (Bottom Left & Right)
+Device (Bottom Left & Right)
+Addon (Top Right)
+Addon (Top Right)

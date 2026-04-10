@@ -1,0 +1,8 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,(检查一下那只袜子)ADD_MINUTES:1,"一只奇形怪状的单只袜子穿起来作用不大|但作为填充物的话，就连嘴巴都能填满",0,0,0,
+0,0,0,Common_PlayerNotRestrained,(把袜子塞进嘴里)ADD_MINUTES:1,"你把那只袜子深深地塞进嘴里|尽可能地把它填满，就像在填充一个空洞。",10,0,0,SelfGag()
+10,0,0,HasLooseSockGag,(查看袜子)ADD_MINUTES:1,"一只奇形怪状的单只袜子穿起来作用不大|但作为填充物的话，就连嘴巴都能填满",10,0,0,ShowImage()
+10,0,0,,(咬住袜子)ADD_MINUTES:1,你用力咀嚼着那团袜子。随着时间的推移|它渐渐被你的口水浸透。,10,0,0,
+10,0,0,,(吮吸着袜子)ADD_MINUTES:1,"你吸吮着袜子，品味着那微妙的味道|同时又在想这袜子到底干不干净",10,0,0,
+10,0,0,!HasOtherGag,(尝试吐出袜子)ADD_MINUTES:1,你从口中吐出那湿漉漉的袜子，终于又能开口说话了。,0,0,0,SelfUngag()
+10,0,0,HasOtherGag,(尝试吐出袜子)ADD_MINUTES:1,"你试图把袜子吐出来，但其他的口塞让|你无从下手，首先你需要移除那个。",10,0,0,

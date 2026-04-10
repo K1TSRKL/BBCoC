@@ -1,0 +1,30 @@
+SelectYourAppearance,Select your appearance
+SelectSomeoneAppearance, Select TargetCharacterName's appearance
+MustPickItem,You must pick an item of type:
+WardrobeNameInfo,Set wardrobe character name:
+WardrobeNameError,Invalid name for character.
+ResetClothes,Reset character
+WearRandom,Randomize clothes
+Random,Randomize character
+Naked,Strip clothes
+Copy,Copy to clipboard
+Paste,Import from clipboard
+Character,Show character in previews
+StripItem,Strip item
+Swap,Reorder Items
+Next,Next
+Prev,Previous
+Cancel,Cancel changes
+Accept,Accept changes
+Wardrobe,Wardrobe
+WardrobeDisabled,Wardrobe can be bought in your private room.
+PermissionMode,Edit item permissions
+Use,Use this item
+UseDisabled,Unable to use due to player permissions
+Reset,Reset character
+ColorChange,Select a color
+ColorChangeDisabled,Unable to change color due to player permissions,,
+ColorChangeMulti,Select colors
+ColorChangeMultiDisabled,Unable to change color due to player permissions,,
+OwnerBlock,blocked by owner
+Layering,Change item layering

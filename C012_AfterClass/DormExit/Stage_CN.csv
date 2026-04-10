@@ -1,0 +1,11 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,@学生宿舍,,0,0,0,LaunchRoommatesDorm()
+0,0,0,,@学校图书馆,,0,0,0,LaunchLibrary()
+0,0,0,,@酒吧,,0,0,0,LaunchPub()
+0,0,0,,@学院游泳池,,0,0,0,LaunchPool()
+0,0,0,RescueSarahAvail,@去救Sarah,,0,0,0,LaunchRescueSarah()
+0,0,0,!KnowKinbakuClub,@在学院周围散散步,,0,0,0,LaunchKinbaku()
+0,0,0,KnowKinbakuClub,@Kinbaku俱乐部,,0,0,0,LaunchKinbaku()
+0,0,0,KnowBondageClub,@Bondage俱乐部,你准备好结束你在学院的冒险，独自去束缚俱乐部了吗？,0,0,0,LaunchBondageClub()
+10,0,0,,是的，我准备好了|（去俱乐部）,,0,0,0,EnterBondageClub()
+10,0,0,,还没有,你想去哪里？,0,0,0,

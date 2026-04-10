@@ -1,0 +1,267 @@
+#crafting-screen {
+	gap: var(--gap);
+	padding-left: min(1.5vh, 0.75vw);
+	padding-left: min(1.5dvh, 0.75dvw);
+}
+
+#crafting-screen > .screen-main-container {
+	grid-template: "left main right" / 3fr 1.75fr 3fr;
+}
+
+#crafting-accept-button[aria-disabled="false"] #crafting-accept-button-tooltip-disabled {
+	display: none;
+}
+
+#crafting-left-panel {
+	display: grid;
+	grid-area: crafting-left-panel;
+	row-gap: 3px;
+	overflow-y: hidden;
+	height: 100%;
+	grid-template:
+		"crafting-property-button crafting-left-panel-expanded" calc(2.5 * var(--menu-button-size))
+		"crafting-asset-button crafting-left-panel-expanded" calc(2.5 * var(--menu-button-size))
+		"crafting-lock-button crafting-left-panel-expanded" auto / calc(1.8 * var(--menu-button-size)) auto;
+}
+
+#crafting-left-panel input[type="search"] {
+	width: calc(100% - 6px);
+	margin: 3px;
+	margin-bottom: 0;
+	font: inherit;
+}
+
+.crafting-panel {
+	height: 100%;
+	display: none;
+	overflow-y: inherit;
+	background-color: rgba(0, 0, 0, 0.25);
+	grid-template-rows: min-content auto;
+	grid-area: crafting-left-panel-expanded;
+}
+
+.crafting-panel > .crafting-label > span {
+	justify-self: center;
+}
+
+#crafting-property-button[aria-checked="true"] ~ #crafting-property-panel,
+#crafting-asset-button[aria-checked="true"] ~ #crafting-asset-panel,
+#crafting-padlock-button[aria-checked="true"] ~ #crafting-padlock-panel {
+	display: grid;
+}
+
+.crafting-grid {
+	display: grid;
+	gap: calc(var(--menu-button-size) / 6);
+	margin: 3px;
+	padding: 3px;
+}
+
+#crafting-asset-grid,
+#crafting-padlock-grid {
+	grid-template-columns: repeat(3, min-content);
+	grid-template-rows: repeat(auto-fill, calc(2.5 * var(--menu-button-size)));
+}
+
+#crafting-property-grid {
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(auto-fill, 2.7em);
+}
+
+#crafting-asset-grid button,
+#crafting-padlock-grid button,
+#crafting-property-button,
+#crafting-asset-button,
+#crafting-padlock-button {
+	width: calc(1.8 * var(--menu-button-size));
+	height: calc(2.5 * var(--menu-button-size));
+}
+
+#crafting-padlock-grid button[data-hidden-asset]:not([aria-checked="true"]),
+#crafting-asset-grid button[data-hidden-asset]:not([aria-checked="true"]),
+#crafting-asset-grid button[data-hidden-group]:not([aria-checked="true"]) {
+	display: none;
+}
+
+#crafting-property-button {
+	font-size: min(3vh, 1.5vw);
+	grid-area: crafting-property-button;
+}
+
+#crafting-property-button > .button-label {
+	display: none;
+}
+
+#crafting-asset-button {
+	grid-area: crafting-asset-button;
+}
+
+#crafting-padlock-button {
+	grid-area: crafting-lock-button;
+}
+
+#crafting-asset-button > .button-label,
+#crafting-padlock-button > .button-label {
+	font-size: 0.65em;
+}
+
+#crafting-center-panel {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+#crafting-extended-button,
+#crafting-tighten-button,
+#crafting-layering-button,
+#crafting-colors-button,
+#crafting-private-checkbox,
+#crafting-ascii-description-checkbox {
+	height: calc(0.75 * var(--menu-button-size));
+	width: calc(0.75 * var(--menu-button-size));
+}
+
+.crafting-label {
+	width: calc(100% - 6px);
+	display: grid;
+	row-gap: calc(var(--menu-button-size) / 12);
+	column-gap: calc(var(--menu-button-size) / 6);
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: calc(var(--menu-button-size) / 12);
+	padding-bottom: calc(var(--menu-button-size) / 12);
+	cursor: pointer;
+	color: white;
+	font: inherit;
+	align-items: center;
+	user-select: none;
+}
+
+.crafting-label input, .crafting-label textarea {
+	font: inherit;
+}
+
+.crafting-label:not(:has(:disabled)) > span:hover {
+	color: yellow;
+}
+
+.crafting-label:has(:disabled) {
+	cursor: auto;
+	color: gray
+}
+
+#crafting-name-label, #crafting-description-label {
+	grid-template-rows: repeat(2, min-content);
+}
+
+#crafting-colors-label {
+	grid-template-columns: auto min-content;
+	grid-template-rows: min-content min-content;
+}
+
+#crafting-colors-label > span {
+	grid-column: 1 / 3;
+}
+
+#crafting-name-input, #crafting-colors-input {
+	height: calc(0.75 * var(--menu-button-size));
+}
+
+#crafting-description-input {
+	height: calc(3 * var(--menu-button-size));
+}
+
+#crafting-layering-label {
+	grid-template-columns: calc(1.5 * var(--menu-button-size)) min-content auto;
+}
+
+#crafting-layering-input {
+	height: calc(0.75 * var(--menu-button-size));
+}
+
+#crafting-private-label,
+#crafting-extended-label,
+#crafting-tighten-label,
+#crafting-ascii-description-label {
+	grid-template-columns: min-content auto;
+}
+
+#crafting-import-dialog {
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+@supports (height: 100dvh) {
+	#crafting-property-button {
+		font-size: min(3dvh, 1.5dvw);
+	}
+}
+
+.crafting-property-list-item {
+	display: flex;
+  	height: 2.7em;
+	background-color: white;
+	justify-content: space-between;
+	margin-right: var(--scrollbar-gutter);
+}
+
+.crafting-property-list-item p {
+	margin: 0;
+	font-size: 0.6em;
+	user-select: none;
+}
+.crafting-property-name {
+	font-size: 0.75em;
+	width: fit-content;
+	user-select: none;
+	margin-left: 0.15em;
+}
+.crafting-property-info {
+	width: 100%;
+	padding-inline: 0.2em;
+}
+.crafting-property-value {
+	display: inline;
+	margin-left: 0.25em;
+	user-select: none;
+	font-size: 0.75em;
+}
+.crafting-property-value input {
+	display: inline;
+	width: 2em;
+	margin-left: 0.25em;
+	background-color: rgb(245, 245, 245);
+}
+
+.crafting-property-value input::-webkit-outer-spin-button,
+.crafting-property-value input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.crafting-property-value input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.crafting-property-button {
+	aspect-ratio: 1;
+	color: gray;
+}
+.crafting-property-button:disabled {
+	--button-color: #949494;
+	cursor: not-allowed;
+}
+.crafting-property-add {
+	--button-color: #8cff82;
+}
+.crafting-property-add:last-child {
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+.crafting-property-remove {
+	--button-color: #ff8282;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}

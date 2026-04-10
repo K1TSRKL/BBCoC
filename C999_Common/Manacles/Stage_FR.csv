@@ -1,0 +1,8 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,(Tu les examines.)ADD_MINUTES:1,Les menottes et la chaîne sont en acier inoxydable.|Il faut des cadenas pour les maintenir fermés,0,0,0,
+0,0,0,Common_PlayerNotRestrained,(Tu t'amuses avec.)ADD_MINUTES:1,"Tu essayes les menottes sans les cadenasser.|Elles sont bien ajustées, tu ne pourras pas t'échapper.",0,0,0,
+0,0,0,Common_PlayerNotRestrained,(Tu t'enchaînes.)ADD_MINUTES:1,"Tu fermes et cadenasses les menottes|autour de ton cou, tes poignets et tes chevilles.",10,0,0,SelfShackle()
+10,0,0,HasLooseManacles,(Tu t'amuses avec un|autre jeu de menottes.)ADD_MINUTES:1,"Tu t'amuses avec un autre jeu de menottes,|étant enchainée tu ne peux rien faire de plus.",10,0,0,ShowImage()
+10,0,0,HasKey,(Tu te libères.)ADD_MINUTES:1,"Tu farfouilles un moment pour trouver la clé,|puis tu parviens finalement à te libérer.",0,0,0,Unlock()
+10,0,0,,(Tu essayes de|les enlever.)ADD_MINUTES:1,Tu essayes de faire glisser tes mains pour|retirer les menottes mais elles sont trop serrées.,10,0,0,
+10,0,0,,(Tu t'acharnes pour|te libérer.)ADD_MINUTES:1,Tu t'acharnes furieusement sur les menottes|mais tu n'as aucune chance de t'échapper.,10,0,0,

@@ -1,0 +1,105 @@
+NoChatRoomFound,No chat room found.  You can create a new one.
+SearchRoom,Search for a room
+ClearFilter,Clear filter
+CreateRoom,Create your room
+ApplyFilter,Apply filter
+LoadFilter, Load filtering
+FriendsInRoom,Friends in room:
+ResponseRoomFull,This room is already full
+ResponseRoomLocked,This room is locked
+ResponseRoomBanned,You're banned from this room
+ResponseRoomKicked,You've been kicked out
+ResponseCannotFindRoom,Room doesn't exist anymore
+ResponseAccountError,Account Error
+ResponseInvalidRoomData,Invalid Room Data
+ResponseJoinedRoom,Entering the room...
+ResponseAlreadyInRoom,Duplicate join request
+FilterMode,Remove unwanted rooms
+TempHideOnClick,Filter on click
+GhostPlayerOnClick,Ghost player on click
+ShowHiddenRooms,Show hidden rooms
+NormalMode,Return to room view
+NormalFilterMode,Return to previous view
+FilteredBecause,Filtered because:
+FilterReasonWord,Contains filtered word
+FilterReasonTempHidden,Filtered
+FilterReasonGhostList,Creator on ghostlist
+FilterExcludeTerms,Filter out terms (comma-separated)
+Help,Help
+CloseHelp,Close help
+HelpText1,In filter mode you can remove rooms you do not wish to see.
+HelpText2,"A room will be hidden if it meets one or more of the following criteria: it is not in your selected language, it contains a filtered out word, it has been filtered (see below), or its creator is ghostlisted."
+HelpText3,"Use ""Filter out terms"" to hide all rooms containing those words. Note this only checks the room name, not the description."
+HelpText4,"Click on a room in this view to instantly filter that one room (until next login) and/or ghostlist the player who made the room (saved permanently until you remove them from ghostlist). Make sure the room wasn't recreated, or you're gonna ghost some random player."
+HelpText5,"Use ""Show hidden rooms"" to show all the normally hidden rooms in case you want to unhide a particular room. Note that rooms hidden because of the language setting will not show here, but all other hidden rooms will."
+HelpText6,Clicking a hidden room will unhide it. If the room is just filtered it will be unhidden instantly. Otherwise you will be asked to confirm if you want to unghostlist the creator and/or remove some filter words to allow the room to be shown.
+UnhideConfirmRoom,"In order to unhide ""{RoomLabel}"" you are also about to:"
+UnhideConfirmMember,"Remove ""{MemberLabel}"" from your ghostlist"
+UnhideConfirmWords,"Remove ""{WordsLabel}"" from your filtered words"
+UnhideConfirmEnd,Are you sure you want to do this?
+UnhideCancel,Cancel
+UnhideConfirm,Do it
+RefreshRooms,Refresh rooms
+Exit,Leave room search
+FriendList,Friends
+Next,Next page
+Prev,Previous page
+Lobby,Lobby:
+Mixed,Mixed
+Female,Female
+Male,Male
+Asylum,Asylum
+Block,Block:
+ABDL,ABDL
+Leashing,Player Leashing
+SciFi,Sci-Fi
+Photos,Photographs
+Arousal,Arousal Activities
+Fantasy,Fantasy
+GameLabel,Game:
+GameClubCard,Club Card
+GameLARP,LARP
+GameMagicBattle,Magic Battle
+GameGGTS,GGTS
+GamePrison,Pandora
+GameAllRooms,All Games
+Language,All languages
+LanguageES,Spanish
+MapRooms,Map Rooms
+HybridRooms,Hybrid Rooms
+NormalRooms,Normal Rooms
+AllRooms,All Rooms
+AnyLobby,Any Lobby
+AnyLanguage,Any Language
+NoGame,No Game
+Search,Search
+SearchDescription,Search description:
+ShowLockedRooms,Show locked rooms:
+ShowFullRooms,Show full rooms:
+Smoking,Smoking
+RoomType,Room Type:
+SearchMenuButton,Search Menu
+ShowRoomPage,Show Room Page
+JoinRoom,Join Room
+AdminAccess,Admin Only
+WhitelistAccess,Whitelist Only
+RoomUnavailable,Try to Join
+ABDLBlockDescription,ABDL items are not allowed in this room.
+FantasyBlockDescription,Fantasy items are not allowed in this room.
+PhotosBlockDescription,Photographs are not allowed in this room.
+ArousalBlockDescription,Arousal activities are not allowed in this room.
+SciFiBlockDescription,Sci-Fi items are not allowed in this room.
+LeashingBlockDescription,Player Leashing is not allowed in this room.
+SmokingBlockDescription,Smoking is not allowed in this room.
+SpaceDescription,Only female characters are allowed in this room.
+MSpaceDescription,Only male characters are allowed in this room.
+XSpaceDescription,Mixed gender characters are allowed in this room.
+LARPRoomGameDescription,LARP game is active in this room.
+MagicBattleRoomGameDescription,Magic Battle is active in this room.
+GGTSRoomGameDescription,GGTS is active in this room.
+PrisonRoomGameDescription,Pandora is active in this room.
+ClubCardRoomGameDescription,Club Card is active in this room.
+LanguageDescription,The main language of this room is %LANGUAGE%.
+AlwaysMapDescription,This room is always a map.
+HybridMapDescription,This room allows both maps and normal rooms.
+NeverMapDescription,This room is just a normal room.

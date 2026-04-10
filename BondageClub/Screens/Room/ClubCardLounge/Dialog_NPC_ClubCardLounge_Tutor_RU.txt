@@ -1,0 +1,182 @@
+###_NPC
+(She looks at you and giggles.)
+(Она смотрит на тебя и хихикает.)   
+###_PLAYER
+I'm guessing you lost your last game?
+Я полагаю, ты проиграла свою последнюю игру?
+###_NPC
+That was a great victory, congratulations!  You're ready to face real opponents in the Club or we can do another practice.
+Это была великая победа, поздравляю! Вы готовы встретиться с реальными противниками в Клубе или мы можем провести еще одну тренировку.
+###_NPC
+Don't be bitter about that defeat, we can play another practice game if you want.  It's the best way to learn.
+Не расстраивайтесь из-за этого поражения, мы можем сыграть еще одну тренировочную игру, если хочешь. Это лучший способ научиться.
+###_NPC
+Welcome to the Club Card Lounge.  Can I help you?
+Добро пожаловать в Карточный Зал Клуба. Я могу вам помочь?
+###_PLAYER
+Who are you?
+Кто ты?
+###_NPC
+I'm DialogCharacterName.  I'm the BDSM Club Card tutor.
+Я DialogCharacterName. Я обучаю клубной карточной БДСМ игре.
+###_PLAYER
+What's going on here?
+Что тут происходит?
+###_NPC
+I teach members on how to play the Club Card game.  Would you like to learn?
+Я обучаю, как играть в клубную карточную игру. Хотите научиться?
+###_PLAYER
+What is the Club Card game?
+Что такое клубная карточная игра?
+###_NPC
+It's a kinky trading card game you can play with other members.  Would you like more details?
+Это извращенная карточная игра, в которую вы можете играть с другими участниками. Хотите узнать больше подробностей?
+###_PLAYER
+Tell me more about the cards.
+Расскажи подробнее о картах.
+###_NPC
+It would be my pleasure.  What would you like to know about the cards?
+С удовльствием. Что бы вы хотели узнать о картах?
+###_PLAYER
+Can we practice a game?
+Можно ли потренироваться в игре?
+###_NPC
+Yes!  The best way to learn is to practice.  Don't worry, there are no consequences for winning or losing.
+Да! Лучший способ научиться — это практиковаться. Не волнуйтесь, нет никаких последствий для победы или поражения.
+###_PLAYER
+Can I tie you up?
+Могу я связать тебя?
+###_NPC
+(She laughs.)  The usual wager is that winner will restrain the loser.  But here we only play to learn the game.
+(Она смеется.) Обычно делается ставка на то, что победитель сдержит проигравшего. Но здесь мы играем только для того, чтобы научиться игре.
+###_PLAYER
+I need to go.  (Leave her.)
+Мне нужно идти. (Оставь ее.)
+###_PLAYER
+Who can play this game?
+Кто может играть в эту игру?
+###_NPC
+Anyone can play the game, there are no restrictions.  You can find players everywhere in the club or invite them to play in your private room.
+Играть в игру может любой желающий, ограничений нет. Вы можете найти игроков повсюду в клубе или пригласить их поиграть в вашей приватной комнате.
+###_PLAYER
+How much does it cost?
+Сколько это стоит?
+###_NPC
+The game is free, each player gets the basic cards for no cost.  But if you want unique cards, you'll need to defeat some girls in the club first.
+Игра бесплатная, каждый игрок получает базовые карты бесплатно. Но если вам нужны уникальные карты, вам нужно сначала победить нескольких девушек в клубе.
+###_PLAYER
+How do you win?
+Как выиграть?
+###_NPC
+The goal of the game is to build the best BDSM club in town.  You win by having 100 Fame or more at the end of your turn.
+Цель игры - построить лучший БДСМ-клуб в городе. Вы выигрываете, имея 100 или более очков Славы в конце своего хода.
+###_PLAYER
+How do I gain fame?
+Как мне заработать Славу?
+###_NPC
+You need to play cards that will increase your fame.  You'll also need money to make your club bigger and invite more members.
+Вам нужно разыгрывать карты, которые увеличат вашу славу. Вам также понадобятся деньги, чтобы сделать свой клуб больше и пригласить больше членов.
+###_PLAYER
+Which deck can I use?
+Какую колоду я могу использовать?
+###_NPC
+You can use the default deck or build your own deck.  All decks must have between 30 to 40 cards.
+Вы можете использовать колоду по умолчанию или создавать свои собственные. Во всех колодах должно быть от 30 до 40 карт.
+###_PLAYER
+I have questions on the rules.
+У меня есть вопросы по правилам.
+###_NPC
+Of course.  How can I help you?
+Разумеется. Чем я могу помочь?
+###_PLAYER
+Thanks for your time.
+Спасибо что уделила мне время.
+###_NPC
+No problem.  Is there anything else you want?
+Без проблем. Есть что-нибудь еще, что вы хотите?
+###_PLAYER
+Who begins the game?
+Кто начинает игру?
+###_NPC
+It's random.  The player that begins draws 5 cards, the other draws 6.  The turns alternate from player to player.
+Это случайно. Игрок, который начинает, берет 5 карт, другой берет 6. Ходы чередуются от игрока к игроку.
+###_PLAYER
+What do I do when it's my turn?
+Что мне делать, когда наступит мой ход?
+###_NPC
+You can play a card from your hand or draw an additional card.  Both playing and drawing will end your turn.
+Вы можете разыграть карту с руки или взять дополнительную карту. И игра, и взятие завершат ваш ход.
+###_PLAYER
+What happens when my turn ends?
+Что произойдет, когда мой ход закончится?
+###_NPC
+Depending on the cards played on your board, you will gain or lose Fame & Money.  If you reach 100 Fame you win.  Then the other player turn begins.
+В зависимости от карт, сыгранных на вашей доске, вы получите или потеряете Славу и Деньги. Если вы наберете 100 Славы, вы выиграете. Иначе начинается ход другого игрока.
+###_PLAYER
+What happens if I go negative?
+Что произойдет, если мои значения станут отрицательными?
+###_NPC
+Fame can go negative, taking you further away from winning.  If your Money is negative, you will not gain Fame at the end of your turn and cannot win the game.
+Слава может стать отрицательной, отдалив вас от победы. Если значение ваших денег отрицательное, вы не получите Славу в конце своего хода и не сможете выиграть игру.
+###_PLAYER
+How many cards can be present on my board?
+Сколько карт может быть на моей доске?
+###_PLAYER
+What are the streets?
+Что такое улицы?
+###_NPC
+Cards that are no longer in the club, hand or deck, will go the the streets.
+Карты, покинувшие ваш клуб, руку или колоду, уходят на улицу.
+###_NPC
+It depends on your club size.  Your club begins as an apartment that can accommodate 5 members.  You can upgrade it with Money to allow more members.
+Это зависит от размера вашего клуба. Ваш клуб начинается с квартиры, в которой могут разместиться 5 человек. Вы можете обновить его с помощью денег, чтобы добавить больше участников.
+###_PLAYER
+What kinds of cards are available?
+Какие виды карт доступны?
+###_NPC
+Member cards have a girl image, they will stay on your board after being played.  Event cards have an object image and will only have a one-time effect.
+Карты участников имеют изображение девушки, они останутся на вашей доске после того, как вы сыграете. Карты событий имеют изображение объекта и будут иметь только одноразовый эффект.
+###_PLAYER
+Why cards have different colors?
+Почему карты разного цвета?
+###_NPC
+White cards have no requirement to be played.  Gray cards require a cottage.  Green require a house.  Blue require a mansion.  Red require a manor.
+Белые карты не требуют особых условий. Серые карты требуют коттедж. Зеленым нужен дом. Синий требует особняк. Красным требуется усадьба.
+###_PLAYER
+What about gold cards?
+А золотые карты?
+###_NPC
+Gold cards are unique cards that you can only get by defeating other club members.  They work like the regular cards though.
+Золотые карты — это уникальные карты, которые можно получить, только победив других членов клуба. Однако они работают как обычные карты.
+###_PLAYER
+What are the numbers on the top left?
+Что за цифры вверху слева?
+###_NPC
+The number in the house is the required club level, matching the color.  The one in the square is Fame per turn.  The one in the circle is Money per turn.
+Номер в домике - необходимый клубный уровень, соответствующий цвету. Та, что в квадрате — это Слава за ход. Тот, что в круге — это Деньги за ход.
+###_PLAYER
+Cards have categories?
+У карт есть категории?
+###_NPC
+Yes, these categories go below the image.  For example, a card with the Maid category will have an impact on all other cards that gives bonuses for maids.
+Да, эти категории располагаются под изображением. Например, карта с категорией Горничная повлияет на все остальные карты, дающие бонусы горничным.
+###_PLAYER
+Why would I go bankrupt?
+Зачем мне объявлять себя банкротом?
+###_NPC
+Going bankrupt resets your board and hand, without losing the game.  It can be used if you're in a dead-end, losing too much each turn or got a bad starting hand.
+Банкротство сбрасывает вашу доску и руку без проигрыша в игре. Его можно использовать, если вы находитесь в тупике, проигрываете слишком много каждый ход или у вас плохая стартовая рука.
+###_PLAYER
+I've changed my mind.
+Я передумал/а.
+###_NPC
+(Play a Club Card game with her.)
+(Сыграй с ней в карточную игру.)
+###_PLAYER
+Thanks.  I've had enough.
+Спасибо. С меня было достаточно
+###_NPC
+(Play another game.)
+(Сыграть в другую игру.)
+
+

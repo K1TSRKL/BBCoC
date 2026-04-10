@@ -1,0 +1,76 @@
+action:chat_autocomplete:desc,Tries to complete the message to a command or print help about it.
+action:chat_autocomplete:name,Auto Complete
+action:chat_focus_change:desc,Toggles the focus between the chat input and the main view.
+action:chat_focus_change:name,Focus Change
+action:chat_history_next:desc,Navigates to the next message in the chat history.
+action:chat_history_next:name,Chat History Next
+action:chat_history_prev:desc,Navigates to the previous message in the chat history.
+action:chat_history_prev:name,Chat History Previous
+action:chat_send_chat:desc,Sends the message to the chatroom.
+action:chat_send_chat:name,Send Message
+action:chat_send_ooc_chat:desc,Sends the OOC message to the chatroom.
+action:chat_send_ooc_chat:name,Send OOC Message
+action:chat_send_chat_mobile:desc,Sends the message to the chatroom (virtual keyboard compatibility).
+action:chat_send_chat_mobile:name,Send Message (mobile)
+action:chatroom_leave:desc,Tries to leave the chat room.
+action:chatroom_leave:name,Leave the Chat Room.
+action:chatroom_open_admin_screen:desc,Opens the admin screen.
+action:chatroom_open_admin_screen:name,Open Admin Screen
+action:chatroom_open_profile:desc,Opens your profile.
+action:chatroom_open_profile:name,Open Your Profile
+action:chatroom_open_wardrobe:desc,Opens your wardrobe.
+action:chatroom_open_wardrobe:name,Open Your Wardrobe
+action:chatroom_previous_page:desc,Go to previous page.
+action:chatroom_previous_page:name,Previous page.
+action:chatroom_next_page:desc,Go to next page.
+action:chatroom_next_page:name,Next page.
+action:chatroom_toggle_kneel:desc,Toggles the kneeling state.
+action:chatroom_toggle_kneel:name,Toggle Kneel
+action:map_focus_chat:desc,Change the focus to the chat input.
+action:map_focus_chat:name,Focus Chat
+action:map_zoom_in:desc,Zoom the map view in.
+action:map_zoom_in:name,Zoom In
+action:map_zoom_out:desc,Zoom the map view out.
+action:map_zoom_out:name,Zoom Out
+action:map_admin_undo:desc,Undo the last map change made.
+action:map_admin_undo:name,Undo
+action:maproom_A:desc,Moves the player left in the map chatroom.
+action:maproom_A:name,Move Left
+action:maproom_arrowdown:desc,Moves the player down in the map chatroom.
+action:maproom_arrowdown:name,Move Down
+action:maproom_arrowleft:desc,Moves the player left in the map chatroom.
+action:maproom_arrowleft:name,Move Left
+action:maproom_arrowright:desc,Moves the player right in the map chatroom.
+action:maproom_arrowright:name,Move Right
+action:maproom_arrowup:desc,Moves the player up in the map chatroom.
+action:maproom_arrowup:name,Move Up
+action:maproom_D:desc,Moves the player right in the map chatroom.
+action:maproom_D:name,Move Right
+action:maproom_S:desc,Moves the player down in the map chatroom.
+action:maproom_S:name,Move Down
+action:maproom_W:desc,Moves the player up in the map chatroom.
+action:maproom_W:name,Move Up
+action:navigation_arrowdown:desc,Scroll down the focused element.
+action:navigation_arrowdown:name,Scroll Down
+action:navigation_arrowup:desc,Scroll up the focused element.
+action:navigation_arrowup:name,Scroll Up
+action:navigation_end:desc,Scroll to the bottom of the focused element.
+action:navigation_end:name,Scroll to Bottom
+action:navigation_home:desc,Scroll to the top of the focused element.
+action:navigation_home:name,Scroll to Top
+action:navigation_pagedown:desc,Scroll down the focused element.
+action:navigation_pagedown:name,Scroll Down
+action:navigation_pageup:desc,Scroll up the focused element.
+action:navigation_pageup:name,Scroll Up
+category:chat,Chat
+category:chatroom,Chat Room
+category:maproom,Map Chat Room
+category:navigation,Navigation
+context:always,Always
+context:isChatRoomCharacterMode,In Chat Room Character Mode
+context:isChatRoomChatFocused,Chat Focused
+context:isChatRoomChatNOTFocused,Chat Not Focused
+context:isChatRoomMapMode,In Chat Room Map Mode
+context:isInChatRoom,In Chat Room
+context:isOnChatRoomScreen,On Chat Room Screen
+context:noModifiers,No Modifiers

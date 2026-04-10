@@ -1,0 +1,20 @@
+Move to the Carrots ($CARROTS) and avoid the crops ($CROPS)
+Sammle die Karotten ($CARROTS) und weiche den Gerten aus ($CROPS)
+Move to the Carrots and avoid the crops.  Tap to start.
+Trabe zu den Karooten, vermeide die Gerten.  Zum Staten drücken.
+Congratulations!  (Carrots: $CARROTS, crops: $CROPS)
+Glückwunsch! (Karotten: $CARROTS, Gerten: $CROPS)
+Sorry, you've failed.  (Carrots: $CARROTS, crops: $CROPS)
+Du hast leider versagt. (Karotten: $CARROTS, Gerten: $CROPS)
+Jump over the Hurdles. Win: ($HURDLEWIN), Failed: ($HURDLEFAIL)
+Springe über die Hürden. Geschafft: ($HURDLEWIN), Misslungen: ($HURDLEFAIL)
+Jump over the Hurdles.  Tap to start.
+Springe über die Hürden.  Zum Staten drücken.
+Congratulations!  (Win: $HURDLEWIN, Failed: $HURDLEFAIL)
+Glückwunsch! (Geschafft: $HURDLEWIN, Misslungen: $HURDLEFAIL)
+Sorry, you've failed.  (Win: $HURDLEWIN, Failed: $HURDLEFAIL)
+Du hast leider versagt. (Geschafft: $HURDLEWIN, Misslungen: $HURDLEFAIL)
+Whip the ponies ($PONY), not the trainer ($TRAINER).
+Peitsche das Pony aus ($PONY), aber nicht die Trainerin ($TRAINER).
+Whip the ponies, not the trainer.  Tap to start.
+Peitsche die Ponys nicht die Trainer.  Zum Staten drücken.

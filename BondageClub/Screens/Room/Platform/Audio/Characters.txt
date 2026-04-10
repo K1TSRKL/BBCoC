@@ -1,0 +1,7 @@
+Melody - Microsoft Azure - English US - Michelle - Rate: 1.00 - Pitch 3 - Volume 100
+Hazel - Microsoft Azure - English Ireland - Emily - Rate: 1.00 - Pitch 12 - Volume 100
+Olivia - Microsoft Azure - English UK - Sonia - Rate: 1.00 - Pitch 8 - Volume 100
+Isabella - Microsoft Azure - English UK - Libby - Rate: 1.00 - Pitch -8 - Volume 100
+Lucy - Microsoft Azure - English India - Neerja - Rate: 1.00 - Pitch -5 - Volume 100
+Edlaran - Microsoft Azure - English US - Aria - Rate: 1.10 - Pitch 12 - Volume 100
+Lyn - Microsoft Azure - English US - Ava - Rate: 1.00 - Pitch -2 - Volume 100

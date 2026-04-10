@@ -1,0 +1,271 @@
+/* #region SUBSCREEN STUFF */
+
+#keybind-main-content {
+	--border-color: black;
+	--gap: min(0.8vh, 0.4vw);
+	--gap: min(0.8dvh, 0.4dvw);
+	--padding: min(1vh, 0.5vw);
+	--padding: min(1dvh, 0.5dvw);
+	--text-color: #101010;
+	--conflict-color: red;
+
+	display: flex;
+	flex-direction: row;
+	gap: var(--gap);
+}
+
+#keybind-modal {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	justify-content: center;
+	align-items: center;
+
+	width: min(50vh, 25vw);
+	width: min(50dvh, 25dvw);
+	height: min(20vh, 10vw);
+	height: min(20dvh, 10dvw);
+
+	border: var(--border-width) solid black;
+	border-radius: var(--gap);
+
+	background-color: #ffffff80;
+	backdrop-filter: blur(5px);
+}
+
+#keybind-modal-cancel {
+	width: 50%;
+	height: min(3vh, 1.5vw);
+	height: min(3dvh, 1.5dvw);
+	border-radius: min(0.8vh, 0.4vw);
+	border-radius: min(0.8dvh, 0.4dvw);
+}
+
+#keybind-sidebar {
+	width: min(60vh, 30vw);
+	width: min(60dvh, 30dvw);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+#keybind-help-sheet {
+	max-width: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	padding: var(--padding);
+	border: var(--border-width) solid var(--border-color);
+	border-radius: var(--gap);
+	background-color: #FFFF88;
+	flex: 0 1 fit-content;
+	font-size: 0.8em;
+}
+
+.keybind-help-hr {
+	width: 100%;
+	height: var(--border-width);
+	background-color: var(--border-color);
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* #endregion */
+
+/* #region FIXING STYLES */
+
+@media (hover: hover) {
+	.button-styling.keybind-combo:hover:not(:has(.button-tooltip:hover)) {
+		--hover-color: cyan;
+	}
+}
+
+@supports (background-color: color-mix(in srgb, black 50%, transparent)) {
+	.button-styling.keybind-combo>.button-label {
+		background-color: transparent
+	}
+
+	@media (hover: hover) {
+		.button-styling.keybind-combo:hover:not(:has(.button-tooltip:hover))>.button-label {
+			background-color: transparent;
+		}
+	}
+}
+
+/* fixing tooltip stretching out of bounds */
+#keybind-main-content .button-tooltip {
+	max-width: min(100vh, 50vw);
+	max-width: min(100dvh, 50dvw);
+	text-wrap: balance;
+	width: max-content;
+}
+
+/* #endregion */
+
+/* #region CATEGORIES */
+.category {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.category-name {
+	font-size: 0.9em;
+	margin: 0;
+	margin-top: min(2vh, 1vw);
+	margin-top: min(2dvh, 1dvw);
+	font-weight: bold;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-left: calc(2 * var(--padding));
+	color: var(--text-color);
+}
+
+.category-content {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+/* #endregion */
+
+/* #region KEYBINDING MANAGER */
+
+#keybind-manager {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	height: min(75vh, 37.5vw);
+	height: min(75dvh, 37.5dvw);
+	width: min(140vh, 70vw);
+	width: min(140dvh, 70dvw);
+	padding-right: var(--scrollbar-gutter);
+}
+
+.keybinding {
+	display: grid;
+	grid-template-columns: 1fr 1fr auto;
+	align-items: center;
+	width: 100%;
+	gap: var(--gap);
+}
+
+.keybinding>* {
+	flex: 1;
+}
+
+.keybinding .keybind-name,
+.keybinding .keybind-contexts {
+	height: fit-content;
+	color: var(--text-color);
+}
+
+.keybinding .keybind-name {
+	font-size: 0.8em;
+}
+
+.keybinding .keybind-contexts {
+	font-size: 0.75em;
+	font-style: italic;
+	text-align: center;
+}
+
+.keybinding .keybind-name {
+	text-align: left;
+	left: 0%;
+	padding-left: calc(4 * var(--padding));
+}
+
+.keybinding .keybind-combo {
+	width: max-content;
+	height: 100%;
+	width: min(40vh, 20vw);
+	width: min(40dvh, 20dvw);
+	color: var(--text-color);
+}
+
+.keybind-modifier,
+.keybind-key {
+	font-family: inherit;
+}
+
+.button-styling.keybind-combo {
+	display: inline-block;
+	border-radius: var(--border-radius);
+	border: var(--border-width) solid var(--border-color);
+	font-size: 0.85em;
+	font-weight: 700;
+	padding: min(0.8vh, 0.4vw) min(1vh, 0.5vw);
+	padding: min(0.8dvh, 0.4dvw) min(1dvh, 0.5dvw);
+	white-space: nowrap;
+}
+
+.keybind-conflict-indicator {
+	height: min(6vh, 3vw);
+	height: min(6dvh, 3dvw);
+	width: min(6vh, 3vw);
+	width: min(6dvh, 3dvw);
+	background-color: transparent;
+	visibility: hidden;
+	pointer-events: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.keybinding[data-conflict] .keybind-conflict-indicator {
+	visibility: visible;
+	pointer-events: all;
+}
+
+.keybind-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: var(--gap);
+}
+
+.keybind-nav-button {
+	height: min(5vh, 2.5vw);
+	height: min(5dvh, 2.5dvw);
+	width: min(5vh, 2.5vw);
+	width: min(5dvh, 2.5dvw);
+}
+
+/* #endregion */
+
+/* #region KEYBINDING FILTERING */
+
+#keybind-filter {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+}
+
+#keybind-search-input {
+	height: min(5vh, 2.5vw);
+	height: min(5dvh, 2.5dvw);
+	width: 100%;
+	font-size: min(3vh, 1.5vw);
+	font-size: min(3dvh, 1.5dvw);
+	color: var(--text-color);
+	border: var(--border-width) solid var(--border-color);
+	padding-inline: var(--padding);
+}
+
+#keybind-search-mode-dropdown {
+	height: min(5vh, 2.5vw);
+	height: min(5dvh, 2.5dvw);
+	width: 100%;
+	font-size: min(3vh, 1.5vw);
+	font-size: min(3dvh, 1.5dvw);
+	color: var(--text-color);
+	border: var(--border-width) solid var(--border-color);
+	padding-inline: var(--padding);
+}
+
+/* #endregion */

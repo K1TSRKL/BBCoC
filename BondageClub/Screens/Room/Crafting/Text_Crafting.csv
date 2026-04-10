@@ -1,0 +1,116 @@
+Accept,Craft your item
+AcceptInvalid,: no item selected
+AddProperty,Add/increment effect
+Cancel,Cancel
+DescriptionArousing,Harder to resist an orgasm.
+DescriptionComfy,Comfier for the wearer.
+DescriptionDecoy,Can always struggle out.
+DescriptionDull,Easier to resist an orgasm.
+DescriptionEdging,Prevents the wearer from orgasming
+DescriptionFlexible,Cannot use squeeze out to struggle out.
+DescriptionHeavy,Slows down walking.
+DescriptionLarge,Harder to understand gagged speech.
+DescriptionLight,Speeds up walking.
+DescriptionLoose,Easier to struggle out.
+DescriptionMalleable,Takes less time to wear and remove.
+DescriptionNimble,Cannot use unfasten to struggle out.
+DescriptionNormal,No special effect.
+DescriptionPainful,More painful for the wearer.
+DescriptionPuzzling,Harder to picklock.
+DescriptionRigid,Takes more time to wear and remove.
+DescriptionSecure,Harder to struggle out.
+DescriptionSimple,Easier to picklock.
+DescriptionSmall,Easier to understand gagged speech.
+DescriptionStrong,Cannot use brute force to struggle out.
+DescriptionThick,Harder to see through.
+DescriptionThin,Easier to see through.
+Destroy,Destroy an item
+Download,Export crafting code
+DownloadSuccess,Crafting code pasted to clipboard
+EmptySlot,Empty
+EnterColor,Enter or pick the colors
+EnterDescription,Engrave a description
+EnterDescriptionLong,Engrave an extended description
+EnterExtendedDescription,Enable longer (alphanumeric-only) descriptions
+EnterName,Name of the crafted item
+EnterPriority,Item drawing priority
+EnterPrivate,Private (only you can use it)
+EnterTighten,Tighten or loosen item
+EnterType,Configure extended item
+Exit,Return to the main hall
+FilterAsset,Filter items
+FilterCrafts,Filter crafts
+FilterLock,Filter padlocks
+FilterProperty,Filter effects
+JSONCancel,Cancel
+JSONDescription0,"Load a new inventory of crafting items with the following steps, overriding {all} existing items:"
+JSONDescription1,Import the {json} file with exported crafting data (see the {download-tooltip} button in the main crafting menu)
+JSONDescription2,(Optional) select which specific new crafting items to import; defaults to all
+JSONDescription3,(Optional) reorder the new crafting items via dragging and dropping them
+JSONDescriptionAll,all
+JSONDownload,Download all crafts
+JSONError,Error while parsing craft
+JSONSelectNew,New crafts (select all)
+JSONSelectOld,Old crafts (select all)
+JSONToggle,Toggle status text
+JSONUpload,Import new crafting inventory
+LabelDelete,Delete
+LabelReorder,Reorder
+LabelSelectCraft,Select crafting mode
+LabelSlot,Edit
+Layering,Change item layering
+ModeAcceptDelete,Delete Mode:{br}{click} or {shift} + {click} on the to-be deleted crafting slot(s) and then click this button to confirm their {permanent} deletion
+ModeAcceptReorder,"Reorder Mode:{br}{click} or {shift} + {click} on the to-be moved crafting slot(s), drag-and-drop them to their desired position and then click this button to confirm their movement"
+ModeAcceptSlot,"Edit Mode:{br}{click} on a crafting slot to modify a craft or, when empty, to create a new one"
+ModeDeleteFail,Failed to delete any crafts
+ModeDeleteSuccess,Successfully deleted {nItems} crafts
+ModeReorderFail,Failed to reorder any crafts
+ModeReorderSuccess,Successfully reordered {nItems} crafts
+MultipleProperties,Multiple effects
+Next,Next
+NoLock,No lock
+OpenColorpicker,Open Colorpicker
+Page,Page
+Previous,Previous
+PropertyArousing,Arousing
+PropertyComfy,Comfy
+PropertyDecoy,Decoy
+PropertyDull,Dull
+PropertyEdging,Edging
+PropertyFlexible,Flexible
+PropertyHeavy,Heavy
+PropertyLarge,Large
+PropertyLight,Light
+PropertyLoose,Loose
+PropertyMalleable,Malleable
+PropertyNimble,Nimble
+PropertyNormal,Normal
+PropertyPainful,Painful
+PropertyPuzzling,Puzzling
+PropertyRigid,Rigid
+PropertySecure,Secure
+PropertySimple,Simple
+PropertySmall,Small
+PropertyStrong,Strong
+PropertyThick,Thick
+PropertyThin,Thin
+RemoveProperty,Remove/decrement effect
+Return,Return to item customizer
+SelectColor,Pick the item colors
+SelectDelete,Delete {n} crafting items
+SelectItem,Select an item
+SelectItemSuffix,Select an item for the GroupName
+SelectLock,Select a lock
+SelectName,Configure the crafted item
+SelectPriority,Configure layer priority
+SelectProperty,Select item effects
+SelectReorder,Reorder {n} crafting items
+SelectSlot,Edit or craft a new item
+TermMouseClick,click
+TermPermanent,permanent
+TermShift,shift
+Undress,Undress character preview
+Upload,Import crafting code
+UploadFailure,Failed to parse the passed crafting code
+UploadPrompt,Please paste the crafting code. Importing crafting codes will overwrite existing settings. Are you sure?
+UploadSuccess,Crafting code successfully parsed

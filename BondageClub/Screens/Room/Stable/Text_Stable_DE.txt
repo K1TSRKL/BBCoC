@@ -1,0 +1,12 @@
+Trial Training
+Probetraining
+Treadmill
+Laufband
+Horse Carriage
+Pferdekutsche
+You wait in an isolation stable
+Du wartest in einem Isolationsstall
+Try to hide the dice.
+Versuche die Würfel zu verstecken.
+You have successfully hidden the dice
+Die hast die Würfel erfolgreich versteckt.

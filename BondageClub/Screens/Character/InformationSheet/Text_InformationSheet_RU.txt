@@ -1,0 +1,276 @@
+﻿Name:
+Имя:
+Nickname:
+Псевдоним:
+Title:
+Титул:
+None
+Никто
+Mistress
+Госпожа
+Dominatrix
+Доминатрикс
+Club Slave
+Клубная Рабыня
+Head Maid
+Главная Горничная
+Maid
+Горничная
+Bondage Maid
+Бондаж Горничная
+Master Kidnapper
+Мастер-Похититель
+Kidnapper
+Похититель
+Patient
+Пациент
+Permanent Patient
+Постоянный Пациент
+Escaped Patient
+Сбежавший Пациент
+Nurse
+Медсестра
+Doctor
+Доктор
+Lady Luck
+Леди Удача
+Patron
+Покровитель
+College Student
+Студент колледжа
+Nawashi
+Веревочный художник
+Houdini
+Гудини
+Foal
+Жеребенок
+Farm Horse
+Фермерская лошадь
+Cold Blood Horse
+Хладнокровная Лошадь
+Warm Blood Horse
+Обычная Лошадь
+Hot Blood Horse
+Горячая Лошадь
+Wild Mustang
+Дикий Мустанг
+Shining Unicorn
+Сияющий Единорог
+Flying Pegasus
+Летающий Пегас
+Majestic Alicorn
+Величественный Аликорн
+Mole
+Крот
+Infiltrator
+Лазутчик
+Agent
+Агент
+Operative
+Оперативник
+Superspy
+Супер шпион
+Wizard
+Волшебник
+Magus
+Маг
+Magician
+Фокусник
+Sorcerer
+Колдун
+Sage
+Мудрец
+Oracle
+Оракул
+Witch
+Ведьма
+Warlock
+Чернокнижник
+Little One
+Малыш
+Baby
+Младенец
+Diaper Lover
+Любитель Подгузников
+Bondage Baby
+Связанный Ребёнок
+Duchess
+Герцогиня
+Switch
+Свитч
+Kitten
+Котёнок
+Puppy
+Щенок
+Foxy
+Лис
+Bunny
+Кролик
+Doll
+Кукла
+Demon
+Демон
+Angel
+Ангел
+Succubus
+Суккуб
+Good Girl
+Хорошая Девочка
+Good Slave Girl
+Хорошая Девочка-Рабыня
+Good Slave
+Хороший раб
+Drone
+Дрон
+Pronouns:
+Местоимения:
+Member Number:
+Номер Участника:
+- Relationships -
+- Отношения -
+Lover:
+Возлюбленная:
+Owner:
+Хозяйка:
+GGTS
+GGTS
+Money:
+Деньги:
+Member for
+Член в течении:
+Bondage Club Birthday!
+День рождения Бондаж-Клуба!
+Friends for
+Друзья в течении:
+On trial for
+На испытательном периоде:
+Collared for
+Ошейник в течении:
+Lover for
+Возлюбленная в течении:
+Dating for
+Встречаетесь в течении:
+Engaged for
+Помолвлен/а в течении:
+Married for
+Женат/а в течении:
+day(s)
+дней
+Unknown
+Неизвестно
+- Reputation -
+- Репутация -
+Dungeoneer:
+Подземелье:
+Dominant:
+Доминантность:
+Submissive:
+Покорность:
+Maid Sorority:
+Горничная:
+Kidnappers League:
+Лига Похитителей :
+Asylum Nurse:
+Медсестра Психушки:
+Asylum Patient:
+Пациент Психушки:
+LARP Battles:
+LARP Битвы:
+Gambling Hall:
+Игорный зал:
+ABDL:
+Подгузники:
+House Maiestas:
+Дом Майестас:
+House Vincula:
+Дом Винкула:
+House Amplector:
+Дом Амплектор:
+House Corporis:
+Дом Корпорис:
+Roleplay
+Ролевая
+Regular
+Обычная
+Hardcore
+Хардкорная
+Extreme
+Экстрим
+- Skills -
+- Навыки -
+Bondage:
+Бондаж:
+Self-bondage:
+Самобондаж:
+Lock-Picking:
+Взламывание замков:
+Evasion:
+Побег:
+Willpower:
+Сила воли:
+Infiltration:
+Проникновение:
+Dressage:
+Выездка:
+Skills modifier:
+Модификатор:
+Time left:
+Времени осталось:
+- Traits -
+- Черты -
+Spend more time with her to know her traits
+Проводите с ней больше времени, чтобы узнать ее черты
+Violent:
+Вспыльчивая:
+Peaceful:
+Тихая:
+Horny:
+Похотливая:
+Frigid:
+Фригидная:
+Rude:
+Грубый:
+Polite:
+Вежливая:
+Wise:
+Мудрая:
+Dumb:
+Тупая:
+Serious:
+Серьезная:
+Playful:
+Игривая:
+Relation:
+Отношение:
+(Perfect)
+(Идеальное)
+(Great)
+(Отличное)
+(Good)
+(Хорошие)
+(Fair)
+(Честное)
+(Neutral)
+(Нейтральное)
+(Poor)
+(Жалкое)
+(Bad)
+(Плохое)
+(Horrible)
+(Ужасное)
+(Atrocious)
+(Жестокое)
+Permission:
+Разрешены элементы:
+Everyone, no exceptions
+Все, без исключений
+Everyone, except blacklist
+Все, кроме черного списка
+Owner, Lovers, whitelist & Dominants
+Хозяйка, Возлюбленная, Белый Лист & Доминанты
+Owner, Lovers and whitelist only
+Только Хозяйка, Возлюбленная и Белый Лист
+Owner and Lovers only
+Только Хозяйка и Возлюбленная
+Owner only
+Только Хозяйка

@@ -1,0 +1,36 @@
+Beach
+海灘
+Bedroom
+臥室
+Boudoir
+閨房
+Cellar
+地窖
+Confessions
+懺悔室
+Desert
+沙漠
+Dungeon
+地牢
+Public Garden
+花園
+Gymnasium
+體育館
+Industrial
+工業風
+Introduction
+介紹處
+Kennels
+養犬場
+Kitchen 1
+廚房 1
+Kitchen 2
+廚房 2
+Nursery
+育嬰室
+Onsen
+溫泉
+Private Room
+私人
+Ranch
+牧場

@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES2021",
+		"lib": ["es2021", "dom", "DOM.Iterable"],
+		"checkJs": true,
+		"noEmit": true,
+		"types": [],
+		"strict": false,
+		"skipLibCheck": true,
+		"plugins": [
+			{
+				"name": "typescript-strict-plugin"
+			},
+		],
+	},
+	"include": ["Scripts/**/*", "Screens/**/*", "Assets/**/*", "Backgrounds/**/*.js"],
+	"exclude": ["Scripts/lib/**/*.js", "Scripts/MessagesPatch.d.ts", "node_modules/**/*"],
+}

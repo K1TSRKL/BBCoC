@@ -1,0 +1,1004 @@
+Exit the game
+Выйти из игры
+Apartment
+Квартира
+Cottage
+Коттедж
+House
+Дом
+Mansion
+Особняк
+Manor
+Усадьба
+Fame:
+Слава:
+Money:
+Деньги:
+Play this card
+Разыграть эту карту
+Draw and end your turn
+Возьми и закончи свой ход
+Go bankrupt
+Обанкротиться
+Concede the game
+Сдаться
+Yes
+Да
+No
+Нет
+Deck #
+Колода #
+Deck #DECKNUMBER isn't valid.  Using the default deck instead.
+Колода #DECKNUMBER несуществует. Вместо этого используйте колоду по умолчанию.
+Select the deck to play with.
+Выберите колоду для игры.
+PLAYERNAME's deck is selected.
+Колода PLAYERNAME выбрана.
+You will play with deck #DECKNUMBER.
+Вы будете играть с колодой #DECKNUMBER.
+Go bankrupt and start a fresh new club?
+Обанкротиться и основать новый клуб?
+Do you really want to concede this game?
+Вы действительно хотите сдаться и покинуть эту игру?
+Do you want to stop watching this game?
+Вы хотите прекратить наблюдение за этой игрой?
+SOURCEPLAYER went bankrupt and started a new club.
+SOURCEPLAYER обанкротился и начал собирать новый клуб.
+You've gone bankrupt and started a new club.
+Вы обанкротились и основали новый клуб.
+Your opponent has gone bankrupt and started a new club.
+Ваш оппонент обанкротился и основал новый клуб.
+Congratulations!  You reached 100 Fame and won the game.
+Поздравляем! Вы достигли 100 славы и выиграли игру.
+Your opponent reached 100 Fame and won the game.
+Ваш оппонент набрал 100 славы и выиграл игру.
+End the game
+Завершить игру
+Your opponent is playing...
+Ваш оппонент играет...
+PLAYERNAME plays CARDNAME.
+PLAYERNAME играет CARDNAME.
+PLAYERNAME plays CARDNAME on the opponent's board.
+PLAYERNAME играет CARDNAME на стол противника.
+PLAYERNAME can play another card.  The turn continues.
+PLAYERNAME может сыграть другую карту. Ход продолжается.
+You've been chosen to start the game.  Select a card to play or end your turn by drawing.
+Вы были выбраны, чтобы начать игру. Выберите карту для игры или закончите свой ход взятием карты.
+Your opponent has been chosen to start the game.  Please wait for her move.
+Ваш противник выбран для начала игры. Пожалуйста, дождитесь его хода.
+It's your opponent turn.
+Это ход вашего оппонента.
+It's your turn.
+Ваш ход.
+SOURCEPLAYER draws a card.  FAMEMONEY.
+SOURCEPLAYER берет карту.  FAMEMONEY.
+You draw a card.  It's your opponent turn.
+Вы берете карту. Это ход вашего оппонента.
+Your opponent draws a card.  It's your turn.
+Ваш оппонент берет карту. Ваш ход.
+Get Cottage (MONEY)
+Получить Коттедж (MONEY)
+Get House (MONEY)
+Получить Дом (MONEY)
+Get Mansion (MONEY)
+Получить Особняк (MONEY)
+Get Manor (MONEY)
+Получить Усадьбу (MONEY)
+PLAYERNAME upgraded to Cottage for MONEYAMOUNT Money.
+PLAYERNAME повышен до Коттеджа за MONEYAMOUNT Money.
+PLAYERNAME upgraded to House for MONEYAMOUNT Money.
+PLAYERNAME повышен до Дома за MONEYAMOUNT Money.
+PLAYERNAME upgraded to Mansion for MONEYAMOUNT Money.
+PLAYERNAME повышен до Особняк за MONEYAMOUNT Money.
+PLAYERNAME upgraded to Manor for MONEYAMOUNT Money.
+PLAYERNAME повешен до Усадьбы за MONEYAMOUNT Money.
+SOURCEPLAYER gained AMOUNT Fame.
+SOURCEPLAYER получил AMOUNT Fame.
+SOURCEPLAYER gained AMOUNT Money.
+SOURCEPLAYER получил AMOUNT Money.
+SOURCEPLAYER lost AMOUNT Fame.
+SOURCEPLAYER потерял AMOUNT Fame.
+SOURCEPLAYER lost AMOUNT Money.
+SOURCEPLAYER потерял AMOUNT Money.
+SOURCEPLAYER stole AMOUNT Fame from OPPONENTPLAYER.
+SOURCEPLAYER украл AMOUNT Fame у OPPONENTPLAYER.
+SOURCEPLAYER stole AMOUNT Money from OPPONENTPLAYER.
+SOURCEPLAYER украл AMOUNT Money у OPPONENTPLAYER.
+SOURCEPLAYER stole FAMEAMOUNT Fame and MONEYAMOUNT Money from OPPONENTPLAYER.
+SOURCEPLAYER украл FAMEAMOUNT Fame и MONEYAMOUNT Money у OPPONENTPLAYER.
+CARDNAME leaves SOURCEPLAYER's club.
+CARDNAME покидает клуб SOURCEPLAYER.
+CARDNAME event is removed.
+Событие CARDNAME удалено.
+CARDNAME event has expired.
+Событие CARDNAME закончилось.
+CARDNAME joins SOURCEPLAYER's club.
+CARDNAME присоединился к клубу SOURCEPLAYER.
+Liability
+Ответственность
+Staff
+Персонал
+Police
+Полиция
+Criminal
+Преступник
+Fetishist
+Фетишист
+Porn Actress
+Порноактриса
+Maid
+Гоничная
+Asylum Patient
+Пациент психушки
+Asylum Nurse
+Медсестра психушки
+Dominant
+Доминант
+Mistress
+Госпожа
+ABDL Baby
+ABDL Ребенок
+ABDL Mommy
+ABDL Мамочка
+Knot
+Узел
+Sensei
+Сэнсэй
+Shibari
+Шибари
+College Student
+Студент
+College Teacher
+Учитель
+Pet
+Питомец
+Owner
+Хозяйка
+Kinky Neighbor
+Извращенная соседка
++2 Money per turn if Cute Girl Next Door is present.
++2 Денег за ход, если присутствует Милая Соседка.
+Cute Girl Next Door
+Милая Соседка
+<F>The neighborhood is getting better everyday.
+<F>Район становится лучше с каждым днем.
+Voyeur
+Вуайеристка
++4 Money per turn if Exhibitionist is present.
++4 Денег за ход, если присутствует Эксгибиционистка.
+Exhibitionist
+Эксгибиционистка
+<F>We prefer the term naturist.
+<F>Мы предпочитаем термин натурист.
+Party Animal
+Тусовщица
+<F>The best plans always begin by: Hold my beer.
+<F>Лучшие планы всегда начинаются со слов: «Подержи мое пиво».
+Auctioneer
+Аукционистка
+Double all bonuses from auctions.
+Удвойте все бонусы от аукционов.
+Uptown Girl
+Девушка из центра
+<F>She's been living in her white bread world.
+<F>Она жила в своем мире белого хлеба.
+Tourist
+Туристка
+<F>I'll need a vacation from my vacation.
+<F>Мне нужен отпуск от моего отпуска.
+Diplomat
+Дипломат
+<F>Business or leasure?  Pain and pleasure.
+<F>Бизнес или отдых? Боль и удовольствие.
+Gambler
+Картежница
+When she enters your club, discard a card at random then draw a card.
+Вход: сбросьте случайную карту, затем возьмите карту.
+Red Twin
+Красный близнец
+<F>We don't share minds but can share orgasms.
+<F>Мы не разделяем умы, но можем разделять оргазмы.
+Blue Twin
+Синий близнец
++3 Fame per turn if Red Twin is present.
++3 Славы за ход, если присутствует Красный близнец.
+Rope Bunny
+Веревочный кролик
++2 Money per turn if at least one Dominant is present.
++2 Денег за ход, если присутствует хотя бы один Доминант.
+Shy Submissive
+Застенчивая саба
+Will leave your club at start of turn if there are more than 7 members.
+Покидает клуб в начале хода, если в нём больше 7 участников.
+Waitress
+Официантка
++1 Money per turn if Party Animal is present.  +1 Money per turn if Tourist is present.
++1 Денег за ход, если присутствует Тусовщица. +1 Денег за ход, если присутствует Туристка.
+Bouncer
+Вышибала
+<F>Your ass will bounce on the street if you make me mad.
+<F>Твоя задница будет прыгать по улице, если ты меня разозлишь
+Accountant
+Бухгалтер
++1 Money per turn at House level or better.  +1 Money per turn at Manor level.
++1 Денег за ход на уровне Дом или выше. +1 Денег за ход на уровне Усадьбы.
+Secretary
+Секретарша
+Your timed events will last one extra turn.
+Ваши временные события продлятся на один ход.
+Associate
+Ассоциированный
+You can play one extra card per turn.
+Вы можете разыграть одну дополнительную карту за ход.
+Human Resource
+Человеческие ресурсы
+Draw an extra card each time you end your turn by drawing a card.
+Вы получаете дополнительную карту если пропускаете ход.
+Policewoman
+Полицейская
+<F>I took the job for the free handcuffs.
+"Я пошла на эту работу из-за бесплатных наручников"
+Pusher
+Пушер
+Gains +1 Money per turn if Sidney present. Remove from your club at the end of turn if Police is present.
+В конце хода +1 money, если есть Сидни. Покидает клуб в конце хода, если есть Полицейский.
+Junkie
+Наркоман
+Gains +2 money per turn if Pusher present. Remove from your club at the end of turn if Police is present.
+В конце хода +2 money, если есть Пушер. Покидает клуб в конце хода, если есть Полицейский.
+Zealous Cop
+Рьяный полицейский
+<F>Rules are rules, and I'll make sure they will be followed.
+"Правила есть правила, и я позабочусь о том, чтобы они соблюдались"
+Gangster
+Гангстер
++2 Money per Criminal present (Max +5). Remove from your club at the end of turn if Police is present.
++2 money за каждого Преступника (макс. +5). Покидает клуб в конце хода, если есть Полицейский. 
+Paroled Thief
+Условно освобожденный
+Opponent steals 1 Money at end of your turn. Leave the club at end of turn if a Police is present.
+В конце вашего хода соперник крадёт 1 money. Покидает клуб, если есть Полицейский.
+Police Cadet
+Кадет полиции
+<F>Hey!  Give me back my keys!
+"Привет! Верните мне мои ключи!"
+Maid Lover
+Любитель горничных
++1 Money per turn for each Maid present. (max 3)
++1 Денег за ход за каждую присутствующую Горничную. (max 3)
+Diaper Lover
+Любитель подгузников
++1 Money per turn for each ABDL Baby present.
++1 Денег за ход за каждого присутсвующего ABDL Ребенка.
+Masochist
+Мазохист
++1 Fame per turn and +1 Money per turn if at least one Dominant is present.
++1 Славы и +1 Денег за ход, если присутствует хотя бы один Доминант.
+Feet Worshiper
+Фут-фетешист
++2 Money per turn if at least one Porn Actress or ABDL Mommy is present.
++2 Денег за ход, если присутствует хотя бы одна Порноактриса или ABDL Мамочка.
+Fin-Dom Simp
+Фин-Дом простофиля
++1 Money per turn for each Dominant present, maximum of +3.
++1 Денег за ход за каждого присутствующего Доминанта. Макс 3.
+Fin-Dom Whale
+Фин-Дом растратчик
++2 Money per turn for each Mistress present.  Draw a card when she enters your club.
++2 Деньги за ход за каждую присутствующую Госпожу. Вы получаете карту когда она входит в ваш клуб.
+Porn Addict
+Порно наркоман
++1 Money per turn for each Porn member present.
++1 Денег за ход за каждого присутствующего участника Порно.
+Porn Amateur
+Любительское порно
+<F>I'll be the next Marylin Cumroe.
+<F>Я буду следующей Мэрилин Камро.
+Porn Movie Director
+Режиссер порнофильмов
++1 Fame per turn and +1 Money per turn for each Porn Actress present.
++1 Слава за ход и +1 Денег за ход за каждую присутствующую Порноактрису.
+Porn Lesbian
+Лейсбийское порно
++1 Fame per turn if at least one other Porn Actress is present.
++1 Слава за ход, если присутствует хотя бы одна Порноактриса.
+Porn Veteran
+Порно ветеран
+<F>My body count?  You don't want to know.
+"Число моих партнеров? Вам лучше и не знать"
+Porn Star
+Порнозвезда
+<F>My father would not approve, until I got him a new house.
+<F>Мой отец не одобрял, пока я не купила ему новый дом.
+Rookie Maid
+Начинающая горничная
+<F>I can't wait for the sorority initiation.
+<F>Не могу дождаться посвящения в женский клуб.
+Coat Check Maid
+Гардеробщица
+<F>Do not lose your receipt ticket.
+<F>Не теряйте квитанцию.
+Regular Maid
+Обычная горничная
+<F>Should I refresh your drink Miss?
+<F>Мне освежить ваш напиток, Мисс?
+French Maid
+Французская горничная
+<F>Pour un service impeccable et coquin.
+<F>За безупречный и озорной сервис.
+Head Maid
+Старшая горничная
++1 Fame per turn for each other Maid present. (max 6)
++1 Слава за ход за каждую присутствующую Горничную. (max 6)
+Curious Patient
+Любопытный пациент
+<F>Why are the walls padded?
+<F>Почему стены покрыты мягкой обивкой?
+Part-Time Patient
+Пациент на неполный день
+Lose 1 fame and gain 1 Money when you take the draw action.
+Потеряйте 1 fame и получите 1 money, когда выполняете действие "взять карту". 
+Novice Nurse
+Начинающая медсестра
++1 Fame per turn for each Asylum Patient present. Max 3
++1 Славы за ход за каждого присутствующего Пациента психушки. Макс 3
+Commited Patient
+Преданный пациент
+<F>My jacket is never tight enough.
+"Моя куртка никогда не бывает достаточно узкой"
+Veteran Nurse
+Медсестра-ветеран
++2 Fame per turn for each Asylum Patient present. Max 6
++2 Славы за ход за каждого присутствующего пациента психушки. Макс 6.
+Permanent Patient
+Постоянный пациент
+<F>Monday exam is quite similar to therapy Tuesday.
+"Экзамен в понедельник очень похож на терапию во вторник"
+Doctor
+Доктор
++3 Fame per turn for each Asylum Patient present. Max 12
++3 Славы за ход за каждого присутствующего Пациента психушки. Max 12
+Amateur Rigger
+Любитель стяжек
+<F>Purple hands?  I'm sure it's normal.
+Фиолетовые руки? Я уверен, что это нормально.
+Domme
+Домина
+<F>Your knees will be sore tonight.
+Твои колени будут красными сегодня вечером.
+Madam
+Мадам
+<F>I will take care of your needs and your money.
+"Я позабочусь о твоих потребностях и твоих деньгах"
+<F>This collar will remind you of my power.
+"Этот ошейник будет напоминать тебе о моей власти"
+Dominatrix
+Доминантрикс
+<F>Bring your credit card slave.
+"Принеси свою кредитную карту, раб"
+Mistress Sophie
+Госпожа Софи
+<F>Votre douleur est mon plaisir.
+"Твоя боль - мое удовольствие"
+Scammer
+Мошенник
+<F>This new crypto will change everything.
+"Эта новая криптовалюта изменит все"
+Pyramid Schemer
+Интриган пирамиды
+<F>You recruit five friends, who recruit five friends, who...
+<F>Вы вербуете пятерых друзей, которые вербуют пятерых друзей, которые...
+Ponzi Schemer
+Схема Понзи
+<F>Trust me, this police ankle bracelet is only a kink of mine.
+<F>Поверь мне, этот полицейский браслет на щиколотке - всего лишь моя изюминка.
+Party Pooper
+Зануда
+<F>Why is everyone so boring nowadays?
+"Почему в наше время все такие скучные?"
+College Dropout
+Отчисление из колледжа
+-1 Fame per turn for each College Student present.
+-1 Слава за ход за каждого Студента в клубе.
+Union Leader
+Лидер Союза
+-1 Money per turn for each Maid and Staff present.
+-1 Денег за ход за каждую присутствующую Горничную и Персонал.
+No-Fap Advocate
+Противник маструбации
+-2 Fame per turn for each Porn Actress present.
+-2 Славы за ход за каждую присутствующую Порноактрису.
+Pandora Infiltrator
+Инфильтратор Пандоры
+<F>Pssssst, you want to try a real BDSM club?
+"Псссс, хочешь попробовать настоящий БДСМ-клуб?"
+Uncontrollable Sub
+Неуправляемая саба
+-1 Fame per turn for each Dominant present.  -1 Fame per turn for each Mistress present.
+-1 Славы за ход за каждого присутствующего Доминанта. -1 Славы за ход за каждую присутствующую Госпожу.
+Baby Girl
+Малышка
++1 Money per turn if at least one ABDL Mommy is present.
++1 Денег за ход, если присутствует хотя бы одна ABDL Мамочка.
+Caring Mother
+Заботливая Мать
+<F>Mother do you think they'll try to break my balls.
+<F>Мама, как ты думаешь, они попытаются разбить мне яйца?
+Diaper Baby
+Подгузник для младенцев
++3 Money per turn if at least one Maid is present.
++3 Денег за ход, если присутствует хотя бы одна Горничная.
+Sugar Baby
+Богатенький младенец
+<F>This baby wants a diamond pacifier.
+<F>Этот ребенок хочет алмазную соску.
+Babysitter
+Няня
++2 Fame per turn for each ABDL Baby present. Max 4
++2 Славы за ход за каждого присутствующего ABDL Ребенка. Макс 4.
+Soap Opera Mother
+Фанатка сериалов
++25 Fame when she enters your club if at least one ABDL Baby is present.
++25 Славы, когда она входит в ваш клуб, если присутствует хотя бы один ABDL Ребенок.
+Amanda
+Аманда
+<F>I never thought I would find a second home in this perverted place.
+<F>Я никогда не думала, что найду второй дом в этом извращенном месте.
+Sarah
+Сара
++1 Fame per turn if Amanda or Mistress Sophie is present.  -2 Fame per turn if Sidney is present.
++1 Славы за ход, если Аманда присутствует. -2 Славы за ход, если присутствует Сидни.
+Sidney
+Синди
+<F>Anyone that calls me Piggy will end up in a hogtie.
+<F>Любой, кто назовет меня Хрюшей, пожалеет об этом.
+Jennifer
+Дженнифер
+Select and remove one member from your club before she enters.
+Выберите и замените любого члена вашего клуба на Дженнифер.
+College Freshwoman
+Первокурсница
++1 Fame per turn if Julia is present.  +1 Fame per turn if Yuki is present.
++1 Слава за ход, если Джулия присутствует. +1 Слава за ход, если присутствует Юки.
+College Nerd
+Ботан
++1 Money per turn if Julia is present.  +1 Money per turn if Yuki is present.
++1 Денег за ход, если есть Джулия. +1 Денег за ход, если есть Юки.
+Hidden Genius
+Скрытый гений
++4 Fame per turn if Mildred is present.
++4 Славы за ход, если Милдред присутствует.
+Substitute Teacher
+Подмена Учителя
++1 Fame per turn for each College Student present. Max 4
++1 Слава за ход за каждого присутствующего Студента. Макс 4
+Julia
+Джулия
+<F>Seeing them learn and grow is magnifico.
+"Видеть, как они учатся и растут — это великолепно"
+Yuki
+Юки
+<F>You cannot learn with a closed mind or closed legs.
+"Вы не можете учиться с закрытым умом или закрытыми ногами"
+Mildred
+Милдред
+<F>In my class, silence is gold and will be enforced.
+"В моем классе молчание — золото, и к нему будут принуждать"
+Scratch and Win
+Соскреби и выиграй
++7 Money.
++7 Денег
+Kinky Garage Sale
+Извращенная распродажа
++12 Money.
++12 money.
+Second Mortgage
+Вторая ипотека
++20 Money.
++20 money.
+Foreign Investment
+Иностранные инвестиции
++30 Money.
++30 money.
+Cat Burglar
+Кошка-грабитель
+Steal 2 Fame and Money. Then steal 2 Fame and 2 Money unless your opponent has Police.
+Украдите 2 Fame и Money. Затем украдите 2 Fame и 2 Money, если у соперника нет Полицейского.
+Money Heist
+Ограбление Денег
+Steal 6 Money. Then steal 2 Money if a Criminal is present. Then steal 4 Money if your opponent doesn't have Police.
+Украдите 6 Money. Затем украдите 2 Money, если есть Преступник. Затем украдите 4 Money, если у соперника нет Полицейского.
+BDSM Ball
+БДСМ Балл
++1 Fame for each member that's not Dominant, Liability, Maid or Staff.
++1 Слава за каждого члена, кроме Доминанта, Ответственности, Горничной или Персонала.
+Vampire Ball
+Вампирский Балл
++3 Fame for each member that's not Dominant, Liability, Maid or Staff.
++3 Славы за каждого члена, кроме Доминанта, Ответственности, Горничной или Персонала.
+Straitjacket Saturday
+Смирительная рубашка
+Draw a random Ayslum Nurse. Gain 4 money for each Asylum Patient present.
+Получите случайную Медсестру. Получите 4 money за каждого Пациента.
+Local Influencer
+Местный авторитет
+You lose 4 Money and draw a card when she enters your club.
+Вы теряете 4 Денег и получаете карту когда она входит в ваш клуб.
+Contract Caretaker
+Смотритель по контракту
+When a ABDL Baby enters your club, if opponent has more fame they don't gain fame at the end of their next turn
+Когда ABDL Малышка вступает в ваш клуб, если у противника больше Славы, он не получает Славу в конце своего следующего хода.
+Daycare Enthusiast
+Завсегдатай детского сада
+Gain 3 fame when an ABDL Mommy enters your club. Gain 3 money when an ABDL Baby enters your club.
+Получите +3 Славы когда ABDL Мамочка вступает в ваш клуб. Или 3 Денег, когда ABDL Малышка вступает в ваш клуб.
+Fussy Baby
+Капризный малыш
+Returns to hand when the opponent plays an Event and you gain 4 fame.
+Когда противник разыгрывает событие, возвращается в руку и вы получаете 4 Славы.
+Knot Nut
+Любитель узлов
+<F>These ropes wont hold me forever... better add more.
+<F>Эти верёвки меня надолго не удержат... нужно добавить ещё.
+Living Art
+Живое искусство
+Gain 1 Fame when you play a Knot or Shibari Event.
+Получите 1 Славу, когда вы разыгрываете событие Узел или Шибари.
+SOURCEPLAYER gained AMOUNT fame from Living Art.
+SOURCEPLAYER получил AMOUNT fame от Living Art.
+Quack Doctor
+Врач-шарлатан
+Start of your turn, for each Asylum Patient present, players lose 1 fame. (Max 4)
+В начале вашего хода все игроки теряют 1 Славу за каждого Пациента психушки в вашем клубе. (Макс 4)
+Rope Slave
+Раб Узлов
+Gain 1 Money when you play a Knot or Shibari event.
+Получите 1 Денег, когда разыгрываете событие с Узлом или Шибари.
+SOURCEPLAYER gained AMOUNT money from Rope Slave.
+SOURCEPLAYER получил AMOUNT money от Rope Slave.
+Suki
+Suki
++1 Fame per turn if at least one maid is present.
++1 Славы за ход, если присутствует хотя бы одна горничная.
+Wannabe Princess
+Принцесса-подражательница
++2 Fame per turn if your building level is a Manor.
++2 Славы за ход, если уровень вашего здания - Поместье.
+Attention Whore
+Внимательная шлюха
+Select and remove one ongoing event before she enters your club.
+Выберите и удалите одно текущее событие, прежде чем она войдет в ваш клуб.
+Select an ongoing event to remove before Attention Whore enters.
+Выберите текущее событие для удаления до входа Внимательной шлюхи
+Big Baby
+Большая малышка
++1 Money if opponent has more cards in their hand. Opponent draws a card when she enters your club.
++1 Денег, если у противника больше карт в руке. Противник получает карту, когда она входит в ваш клуб.
+Cam Girl
+Онлайн-Девушка
+Draw a card when she enters your club.
+Получите карту, когда она входит в ваш клуб.
+Confused Maid
+Конфузная горничная
+<F>I've tried three dusters but this toilet is still clogged.
+<F>Упс. Кажется я утопила в туалете все тряпки.
+Detective
+Детектив
+For each card your opponent draws gain 1 Money. If no Liability are present gain 1 Fame and 1 Money instead.
++1 Денег за каждую карту которую получает противник, а так же если нет карт ответственности, +1 очко Славы.
+Med Student
+Мед Студент
++1 Money per turn if an Asylum Patient is present. +1 Fame per turn if a College Teacher is present.
++1 Деньг за ход, если в клубе есть пациент психушки. +1 Слава за ход, если есть учитель из колледжа.
+Picky Nurse
+Придирчивая медсестра
+Only enters if 2 Asylum Patient or more are present.  Leaves if there are less than 2 Asylum Patient.
+Вступает в клуб  только если есть 2 пациента психушки или больше. Покидает клуб, если пациентов психушки меньше двух.
+Rope Slinger
+Метатель верёвок
+When she enters your club, play all knots in your hand. When you upgrade your building, return this member to your hand.
+Вход: разыграйте все Узлы из вашей руки. При улучшении клуба верните этого участника в руку.
+Sam the Busty Cow
+Sam the Busty Cow
+<F>Got Milk?
+<F>Есть молоко?
+Student Custodian
+Студент-Хранитель
+If a Teacher or Staff is present, draw a card and lose 1 money per opposing club level when they play a liability or event.
+Если есть учитель или персонал, +1 карта и минус enemy lvl club Денег когда оппонент use liability или event.
+Teacher's Aide
+Помощница учителя
+<F>Aiding her teacher day and night
+<F>Помогает своему учителю день и ночь.
+Alvin
+Alvin
+Summon a Ropeslave when playing Restrain, Shibari event or Kidnapping a Dominant or Mistress (max 3 in club)
+Призывает Раба Узлов когда играет Запрет, Шибари события или при похищении Доминанта/Госпожи. Макс 3.
+Restrain
+Запрет
+For 3 turns, you nor your opponent can play Events. Cancels all Events.
+В течение 3 ходов ни вы, ни ваш противник не можете разыгрывать События. Отменяет все текущие события.
+Angela
+Angela
+<F>Hmms nya~ Could I interest you in a lewd potion mew?~
+<F>Хмс-ня~ Могу я заинтересовать тебя приворотным зельем?
+Nanny
+Воспитательница
+When an ABDL Baby enters your club, gain fame equal to your club level.
+Когда в ваш клуб вступает ABDL Ребенок, вы получаете Славу равную вашему уровню клуба.
+Quality Maid
+Профессиональная горничная
+The costs for you to upgrade your club is reduced by 10.
+Цены на улучшения вашего клуба уменьшаются на 10.
+Shibari Lover
+Любитель Шибари
+When this card or another Shibari member enters your club, play a random Knot from your deck.
+Когда эта карта или другой участник Shibari входит в ваш клуб, разыграйте случайный Узел из вашей колоды. 
+Sophie
+Sophie
+Before she enters your club, select a member to double their Fame and Money.
+Перед тем как она войдет в ваш клуб, выберите участника, чтобы удвоить его Славу и деньги.
+Select a member to enhance before Sophie enters.
+Выберите участника для усиления перед входом Sophie.
+CARDNAME got their fame and money boosted by the lovely Sophie~
+CARDNAME получила усиление fame и money от очаровательной Sophie~
+Theatre Nurse
+Медсестра-Хирург
+When an asylum patient enters your club, gain 3 money and draw a card.
+Когда пациент психушки вступает в ваш клуб, получите 3 Денег и получите карту.
+Goddess of Ropes
+Богиня верёвок
+When you play a Shibari card, play a random Knot from your deck.
+Когда вы разыгрываете карту Шибари, разыграйте случайный Узел из своей колоды.
+LARP Queen
+Королева LARP
+<F>For my next quest, I need enchanted ropes, love potions and a cursed chastity belt.
+<F>Для моего следующего квеста мне нужны заколдованные верёвки, любовные зелья и проклятый пояс верности.
+Nawashi
+Наваши
+When she enters your club, your opponent doesn't gain fame at the end of their next turn.
+Когда она вступает в ваш клуб, противник не получит Славу в конце своего следующего хода.
+View the Streets (discard pile)
+Посмотреть свою улицу (Сброс)
+View the opponent's Streets (discard pile)
+Посмотреть улицу противника (Сброс)
+Prodigious Patient
+Выдающийся пациент
+When she leaves your club, your opponent loses 15 fame and discards a random card. Leaves your club after 6 turns.
+Покидая ваш клуб, лишает противника 15 Славы и одной случайной карты с руки. Покинет ваш клуб через 6 ходов.
+Sheriff
+Шериф
+Draw 2 cards when she enters your club.
+Вы получаете 2 карты, когда она входит в клуб.
+Dommy Mommy
+Dommy Mommy
++1 Fame per turn for each ABDL Baby present. Gain 1 Fame for each member present when she enters your club.
++1 Слава за ход за каждого присутствующего ABDL Baby. +1 Славы за каждого члена клуба, когда она войдет в ваш клуб.
+Hypnotherapist
+Гипнолог
+When she enters your club, return all Tier 1 members to their owner's hands, then take another action.
+При вступлении в клуб, выгоняет все карты 1-ого тира в руки. Получите доп ход в этом раунде.
+All Tier 1 members have returned to their owners' hands.
+Все члены Tier 1 вернулись в руки своих владельцев.
+Stepmother
+Мачеха
+Enters: Gain 2 Fame for each member present with - Fame. When a member with - Fame enters, Steal Fame equal to twice their Money.
+Вход: +2 fame за каждого участника с -Fame. При входе участника с -Fame украдите fame, равное его удвоенному money.
+Bank Loan
+Банковский кредит
+For 3 turns, you gain double Money at the end of turn.  Cancels opponent Repay Loan.
+В течение 3 ходов вы получаете удвоенную сумму Денег в конце хода. Отменяет событие противника «Погасить кредит».
+Repay Loan
+Погасить кредит
+For 3 turns, your opponent gains no Money at the end of turn.  Cancels opponent Bank Loan.
+В течение 3 ходов ваш противник не получает Денег в конце хода. Отменяет "Банковский кредит" противника.
+Burlington Bowtie
+Burlington Bowtie
+Gain 4 fame. Gain 2 fame per Sensei present.
+Получите 4 fame. Получите 2 fame за каждого Сенсея.
+SOURCEPLAYER gained AMOUNT Fame from Burlington Bowtie.
+SOURCEPLAYER получил AMOUNT Fame от Burlington Bowtie.
+Charity Auction
+Благотворительный аукцион
+Select and remove one member from your club, gain 1 Fame per building level.
+Выберите и удалите одного члена своего клуба и получайте 1 Славу за каждый уровень клуба.
+Closed Hitch
+Closed Hitch
+Draw a card.
+Вытаскивает карту.
+SOURCEPLAYER draws a card from Closed Hitch.
+SOURCEPLAYER получает карту от Closed Hitch.
+First Bell
+Первый звонок
+Draw a random college student from your deck. If it's your first turn or you control a teacher, play again.
+Получите из своей колоды случайного студента колледжа. Если это ваш первый ход или в клубе есть учитель, сыграйте ещё раз.
+SOURCEPLAYER draws 1 card from First Bell.  
+SOURCEPLAYER берет 1 карту случайного студента от First Bell.  
+SOURCEPLAYER could not draw any cards from First Bell.  
+SOURCEPLAYER не смог взять карты из First Bell. 
+Homeroom
+Домашняя комната
+Can only be played if you control 3 or more College members. Both players cannot advance their club for 4 turns.
+Можно играть, только если в клубе есть 3 или более членов Колледжа. Оба игрока не могут улучшать свой клуб 4 хода.
+Kidnapping
+Похищении
+Remove any member from your opponent club.  You lose opponent building level^2 Money.
+Удалите любого члена из клуба противника. Вы теряете деньги равные уровню клуба противника в квадрате.
+Nursery Night
+Ночь в яслях
++3 Money for each ABDL Baby, ABDL Mommy and Maid in your club.
++3 Деньги за каждого ABDL-Малыша , ABDL-Мамочку и горничную в вашем клубе.
+Overtime
+Овертайм
+For 3 turns, you can play an extra card.
+В течение 3 ходов вы можете разыгрывать дополнительную карту.
+Quick Release Knot
+Quick Release Knot
+Gain money equal to the number of knots in your streets plus 4. Shuffle this and all knots from your streets into your deck. 
+Получите money, равное количеству Узлов на ваших улицах плюс 4. Замешайте эту и все Узлы с ваших улиц в вашу колоду.
+SOURCEPLAYER gained AMOUNT Money from Quick Release Knot.
+SOURCEPLAYER получил AMOUNT Money от Quick Release Knot.
+Ransomware
+Вирус-Вымогатель
+Opponent loses 5 Money per building level.  Cannot be played if your opponent has Amanda or Jennifer.
+Противник теряет 5 Денег за каждый уровень своего клуба. Не может быть сыграно, если у противника есть Аманда или Дженнифер.
+Shibari Evening
+Вечер Шибари
++1 Fame for each Non-Dominant members in your club. +1 Extra Fame for each Shibari member.
++1 Слава за каждого не доминанта в вашем клубе. +1 дополнительная Слава за каждого члена Шибари.
+Slave Auction
+Аукцион рабов
+Select and remove one member from your club, gain 1 Money per building level.
+Выберите и удалите одного члена своего клуба и получите 1 Денег за каждый уровень клуба.
+Square Knot
+Square Knot
+Your opponent loses 4 fame. If a Sensei is present, you gain 4 fame.
+Ваш соперник теряет 4 fame. Если у вас есть Сенсей, вы получаете 4 fame.
+OPPONENTPLAYER lost AMOUNT Fame from Square Knot.
+OPPONENTPLAYER потерял AMOUNT Fame от Square Knot.
+SOURCEPLAYER gained AMOUNT Fame from Square Knot
+SOURCEPLAYER получил AMOUNT Fame от Square Knot
+Struggler's Knot
+Struggler's Knot
+Take another action.
+Получите доп ход в этом раунде.
+Teamwork
+Командная работа
+For 4 turns, you draw an extra card each time you take draw a card action.
+В течение 4 ходов, каждый раз, когда вы выполняете действие "взять карту", вы берёте дополнительную карту.
+Toy Box
+Ящик с игрушками
++3 Money and draw a card.
+Получите карту и +3 Денег.
+Virtual Meeting
+Виртуальная встреча
+Draw 2 cards
+Получите 2 карты.
+College Bash
+Студенческая вечеринка
++2 Fame for each College Girl.  Extra +2 Fame if Sidney is present.
++2 Славы за каждого студента. Дополнительно +2 Славы за каждого студента, если присутствует Сидни.
+Help Button
+Кнопка помощи
+Return a member from your club to its owners deck, a random Maid or Nurse of equal level joins your club from your deck.
+Верните члена вашего клуба в колоду владельца. Случайная горничная или медсестра равного уровня вступает к вам в клуб из вашей колоды.
+Prank
+Пранк
+Your opponent discards 2 random cards.
+Противник теряет 2 карты с руки.
+Public Spanking
+Публичная порка
+For the next 3 turns, your opponent loses 4 fame plus the tier level of your highest tier Dominant present.
+Следующие 3 хода ваш противник будет теряеть Славу. 4 + уровень карты вашего сильнейшего Доминанта.
+Rope Auction
+Аукцион веревок
+Remove a member from your club to play 1 random Knot from your deck.
+Удалите одного члена из своего клуба, чтобы разыграть случайный Узел из колоды.
+Select a member from your club to remove.
+Выберите участника из вашего клуба для удаления.
+Launder
+Отмывание Денег
+A Criminal must be present. Lose all your Money. +1 Fame for every 3 Money lost.
+Преступник должен присутствовать. Вы теряете все свои деньги, но получаете +1 Слава за каждые 3 Денег.
+Master Class
+Мастер-класс
+For the next 3 turns, if a Sensei is present, play a random Knot from your deck at the start of your turn.
+Следующие 3 хода, если в клубе есть сэнсэй, вы играете случайный Узел из своей колоды в начале своего хода.
+Pandora's Box
+Ящик Пандоры
+Discard your hand. Each player draws until they have at least 4 cards in hand. Each player draws a card.
+Сбросьте свою руку. Игроки получают карты, пока у них в руке не будет как минимум 4 карт. Игроки получают еще доп карту.
+Recess
+Перерыв
+Draw 2 cards. Gain 2 money for each ABDL Baby and College Student present.
+Получите 2 карты. +2 Денег за каждого присутствующего ABDL-Малыша и Студента.
+Tie Tight
+Крепкие связки
+Shuffle a member from your opponents club into their deck. They draw a card.
+Уберите члена клуба вашего соперника в его колоду. Оппонет получит карту.
+Weekend Meeting
+Встреча на выходных
+Draw 3 cards
+Получите 3 карты.
+Bad Press
+Плохая пресса
+For 3 turns, your opponent gains no Fame at the end of turn.  Cancels opponent Clever Marketing.
+В течение 3 ходов ваш оппонент не получает Славу в конце хода. Отменяет "Умный маркетинг" оппонента.
+Daycare Party
+Вечеринка в садике
+Gain 4 Fame and draw a card for each ABDL Mommy present.
+Получите 4 Славы и карту за каждую ABDL-Мамочку в вашем клубе.
+Fit To Be Tied
+Готова быть связанной
+Play all Knots in your hand, deck, and streets and shuffle them into your deck.
+Разыгрывает все узлы из вашей руки, колоды и улицы. После чего помещает их в колоду и перемешивает.
+Moving Out of Town
+Переезд из города
+Remove any member from your opponent club.
+Удалите любого члена из клуба противника.
+Porn Convention
+Конвенция порноактрис
+For 3 turns, all players gain 3 Fame for each Porn Actress in their club at end of turn.
+В течение 3 ходов все игроки получают +3 Славы за каждую Порноактрису в своем клубе в конце хода.
+SOURCEPLAYER gains AMOUNT Fame from the Porn Convention.
+SOURCEPLAYER получает AMOUNT Fame от Конвенции Порно.
+Sabotage
+Саботаж
+At the end of your opponent's next 3 turns: If the play action was taken, they randomly discard a card. If the draw action was taken, they lose 8 fame.
+В течение 3 ходов протиник при действие "сыграть", сбрасывает случайную карту. И при действие "взять карту", теряет 8 fame.
+Clever Marketing
+Умный маркетинг
+For 3 turns, you gain double Fame at the end of turn.  Cancels opponent Bad Press.
+Следующие 3 хода вы получаете двойную Славу в конце хода. Отменяет «Плохую прессу» противника.
+Fancy Meeting
+Причудливая встреча
+Draw 5 cards
+Получите 5 карт.
+Bun Bun
+Зайка
+Costs 1 money and gain 1 fame. +1 money if owner Present. +1 fame at building level 5.
+Вход: -1 money и +1 fame. В конце хода +1 money с Хозяйкой и +1 fame если уровень клуба 5.
+Naughty Kitty
+Озорная кошечка
+When she enters the club, discard your hand and lose 3 money. For each card you draw, gain money equal to your building level.
+Вход: сбросьте руку, -3 money. За каждую карту, которую вы взяли, получите money = уровень клуба.
+Jessica
+Джессика
+Pets treat your building level as 2 higher. When you play a pet, draw a card and gain 1 fame.
+Питомцы считают клуб на 2 уровня выше. При игре питомца: возьмите карту, +1 fame.
+SOURCEPLAYER gained AMOUNT fame from Jessica
+SOURCEPLAYER получил AMOUNT fame от Джессика.
+MerMaid
+Русалка
+When she enters the club, lose 25 money. When she enters your club, draw a card and take another action.
+Вход: -25 money. Возьмите карту и выполните ещё одно действие.
+Puppy
+Щенок
+When she enters the club, lose 8 money. Gains +1 money per 2 building tiers. Gains +1 Fame if an owner is present.
+Вход: -8 money. +1 money за каждые 2 уровня клуба. +1 fame, если есть Хозяйка.
+Protective Owner
+Хозяйка Хранительница
+Pets treat your building level as 1 higher. If you would discard a pet from your hand, shuffle it into your deck instead.
+Питомцы считают клуб на 1 уровень выше. Если питомец должен быть сброшен с вашей руки, замешайте его в колоду.
+Feline Fatale
+Роковая Кошка
+When she enters the club, lose 14 money and remove a member from the opponent's club and they lose fame equal to your building level.
+Вход: -14 money. Удалите участника из клуба соперника, и он потеряет fame = уровень вашего клуба.
+Select a member from your opponent club to remove.
+Выберите участника клуба соперника для удаления.
+Wolf Girl
+Волчица
+Enters: Lose 7 Money & opponent randomly discards a card. +1 Fame per 2 of your building levels. +1 Money if an owner is present.
+Вход: -7 money, соперник случайно сбрасывает карту с руки. +1 fame за каждые 2 уровня клуба. +1 money, если есть Хозяйка.
+Pet toys
+Игрушки для питомцев
+Gain 2 money per pet in your club and gain 2 Fame per owner in your club, then play again.
++2 money за каждого питомца в клубе, +2 fame за каждую Хозяйку в клубе, затем выполните ещё одно действие.
+Pet Sitter
+Няня для питомцев
+Gains +1 money for each pet in either club (Max 5). If your opponent has any Pets in their club, they gain 1 money each turn.
++1 money за каждого питомца в любом клубе (макс. 5). Если у соперника есть питомцы, он получает 1 money каждый ход.
+Pet Rock
+Камушек
+<F>Just a rock...
+<F>Просто камень...
+Tips
+Чаевые
+At the start of your next 5 turns, gain 1 money.
+В начале каждого из следующих 5 ходов получите 1 money.
+Pet Trainer
+Дрессировщик
+When you play a pet you gain 2 fame. Gains +3 fame if show dog is present in your club.
+При игре питомца +2 fame. Если в клубе есть Шоу-Пес, в конце хода +3 fame.
+SOURCEPLAYER gained AMOUNT fame from Pet Trainer
+SOURCEPLAYER получил AMOUNT fame от Дрессировщика.
+Show Dog
+Шоу-Пес
+When she enters the club, lose 15 money. Your opponent can see your hand as long as this member is in your club. 
+Вход: -15 money. Соперник видит вашу руку, пока этот участник в клубе.
+Miss Mouse
+Мисс Мышь
+Costs 1 Money. When you play a pet, gain 1 Fame per 2 building tiers. Gains +1 Money if owner present.
+Вход: -1 money. При игре питомца +1 fame за каждые 2 уровня клуба. Если есть Хозяйка, в конце хода +1 money.
+SOURCEPLAYER gained AMOUNT fame from Miss Mouse
+SOURCEPLAYER получил AMOUNT fame от Мисс Мышь.
+Rich Owner
+Богатая Хозяйка
+Pets treat your building level as 1 higher. +1 Fame if a Maid is present. When a Pet enters, gain 1 Money per pet present (Max 5)
+Питомцы считают клуб на 1 уровень выше. В конце хода +1 fame с Горничной и +1 money за каждого питомца (макс. 5).
+SOURCEPLAYER gained AMOUNT money from Rich Owner
+SOURCEPLAYER получил AMOUNT money от Богатой Хозяйки.
+Tour Guide
+Экскурсовод
+When she enters your club, draw a card. Gains +3 money if tourist is present, gains +3 fame if diplomat is present.
+Вход: возьмите карту. В конце хода +3 money с Туристом и +3 fame с Дипломатом.
+Moon
+Moon
+Enters: Moon's magic creates an illusory copy of any chosen member (except herself) in your hand.
+Вход: магия Moon создаёт иллюзорную копию любого выбранного участника (кроме неё самой) в вашей руке.
+Select a member to receive an illusory copy in your hand.
+Выберите участника, чтобы получить его иллюзорную копию в руку.
+Moon waves her tails, casting an illusion spell, after which CARDNAME appears in your hand.
+Moon взмахивает хвостами, используя заклинание иллюзии, после чего CARDNAME появляется в вашей руке.
+Sticky Fingers
+Пальцы липучки
+Enters: Steal 1 Fame and Money. When you steal with another effect, steal 1 Fame and Money.
+Вход: украдите 1 Fame и Money. Когда вы крадёте с другим эффектом, украдите 1 Fame и Money.
+Con Artist
+Мошенник
+When you take the draw action, steal 1 Fame. If no Police are in your opponent's club, steal 2 Fame instead.
+Когда вы берёте карту, украдите 1 Fame или 2 Fame, если в клубе соперника нет Полицейского.
+Earner
+Криминалист
+Gain +1 Money for each Criminal in your streets. (Max +3)
+В конце хода получите +1 money за каждого Преступника на ваших улицах. (Макс. +3)
+Naughty Baby 
+Шаловливая Малышка
+Enters: Steal 4 money if no Police are present. Then steal 4 fame if no Police are present in opponent's club.
+Вход: украдите 4 money, если у вас нет Полицейского. Затем украдите 4 fame, если в клубе соперника нет Полицейского.
+Consigliere
+Консильери
+At the end of your turn, spend 8 money to draw a card and gain 3 Fame.
+В конце хода потратьте 8 money, чтобы взять карту и получить 3 Fame.
+Inspector
+Инспектор
+Unless your club level is higher than your opponent's, increase the cost for players to upgrade by 10.
+Если уровень вашего клуба не выше уровня клуба соперника, увеличьте стоимость улучшений для всех игроков на 10.
+Tax Auditor
+Налоговый инспектор
+Enters: Select a level 3 or lower member in your opponent's club and set their Money to 1.
+Вход: выберите участника 3-го уровня или ниже в клубе соперника и установите его Money на 1.
+Select a member from your opponent club to set its money to 1
+Выберите участника из клуба соперника, чтобы установить его money на 1.
+Housekeeper
+Домработница
+When a non-maid member enters your club, gain 1 Fame per member present that shares a type with it (Max = club level).
+Когда в клуб входит участник, не горничная, получите 1 Fame за каждого участника с таким же типом (Макс. = уровень клуба).
+SOURCEPLAYER gained AMOUNT fame from Housekeeper  
+SOURCEPLAYER получил AMOUNT fame от Домработницы 
+Troublemaker
+Хулиганка
+Opponent loses 3 fame each time they upgrade unless they have a bouncer.
+Соперник теряет 3 fame каждый раз, когда он улучшает клуб, если у него нет Вышибалы.
+Maid Manager
+Менеджер горничных
+Gains +1 Money for every 2 maids present. At club level 4 or higher, gains +1 Fame instead. (Max +4)
+Получите +1 money за каждых 2 горничных. При уровне клуба 4 или выше получите вместо этого +1 fame. (Макс. +4)
+Throne Room Servant
+Служительница тронного зала
+Gains +3 fame per tier 5 member in your club (Max +8)
+Получите +3 fame за каждого участника 5-го уровня в вашем клубе (Макс. +8)
+Night Maid
+Ночная горничная
+Gains +2 fame and +4 money as long as you have an active event.
+Получите +2 fame и +4 money, пока у вас есть активное событие.
+Feather Duster  
+Метёлка для пыли  
+End any one event currently in play, if you control a maid, gain money equal to its tier and draw a card.  
+Завершите любое активное событие. Если у вас есть горничная, получите money, равное её уровню, и возьмите карту.  
+Select an ongoing event to end.
+Выберите событие что бы удалить его.
+Afterhours Service
+Вечернее обслуживание
+For the next three turns, for each maid or staff in your club you lose 2 money and gain 1 fame.
+Следующие 3 хода, за каждую горничную или сотрудника в вашем клубе вы теряете 2 money и получаете 1 fame.

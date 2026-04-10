@@ -1,0 +1,165 @@
+GGTSFailureStrike0,[GGTS] SourceCharacter disobeyed.  Strike recorded.  Sixty minutes removed.
+GGTSFailureStrike1,[GGTS] SourceCharacter disobeyed.  Strike one recorded.  Three strikes equal punishment.
+GGTSFailureStrike2,[GGTS] SourceCharacter disobeyed.  Strike two recorded.  Three strikes equal punishment.
+GGTSFailureStrike3,[GGTS] SourceCharacter disobeyed.  Strike three recorded.  Level failed.  Report GGTS for punishment.
+GGTSForbiddenWordStrike0,[GGTS] Forbidden word SourceCharacter.  Strike recorded.  Sixty minutes removed.
+GGTSForbiddenWordStrike1,[GGTS] Forbidden word SourceCharacter.  Strike one recorded.  Three strikes equal punishment.
+GGTSForbiddenWordStrike2,[GGTS] Forbidden word SourceCharacter.  Strike two recorded.  Three strikes equal punishment.
+GGTSForbiddenWordStrike3,[GGTS] Forbidden word SourceCharacter.  Strike three recorded.  Level failed.  Report GGTS for punishment.
+GGTSInteractionNewTaskTarget,[GGTS] SourceCharacter program new task for TargetCharacter.
+GGTSInteractionPause5Target,[GGTS] SourceCharacter program five minutes pause for TargetCharacter.
+GGTSInteractionSpeed10Target,[GGTS] SourceCharacter program normal pace for TargetCharacter.
+GGTSInteractionSpeed20Target,[GGTS] SourceCharacter program slower pace for TargetCharacter.
+GGTSInteractionSpeed5Target,[GGTS] SourceCharacter program faster pace for TargetCharacter.
+GGTSIntroNotPlaying,[GGTS] GGTS control public room.  SourceCharacter unrecognized for GGTS.
+GGTSIntroOnlyInAsylum,[GGTS] GGTS is only available in the asylum.
+GGTSIntroPendingPunishment,[GGTS] GGTS inactive for SourceCharacter.  Three strikes recorded.  Report GGTS for punishment.
+GGTSIntroPrivate,[GGTS] Launching GGTS private room.  Time counts triple.  GGTS more active.  Good girl follow commands.  Three strikes equal punishment.  GGTS in control.  Be good girl SourceCharacter.
+GGTSIntroPrivateSlave,[GGTS] Launching GGTS private room.  Time counts triple.  GGTS more active.  Good slave follow commands.  Strike remove sixty minutes.  Master GGTS in control.  Be good slave SourceCharacter.
+GGTSIntroPublic,[GGTS] GGTS control public room.  Be good girl SourceCharacter.
+GGTSKeepPoseStrike0,[GGTS] SourceCharacter broke pose rule.  Strike recorded.  Sixty minutes removed.
+GGTSKeepPoseStrike1,[GGTS] SourceCharacter broke pose rule.  Strike one recorded.  Three strikes equal punishment.
+GGTSKeepPoseStrike2,[GGTS] SourceCharacter broke pose rule.  Strike two recorded.  Three strikes equal punishment.
+GGTSKeepPoseStrike3,[GGTS] SourceCharacter broke pose rule.  Strike three recorded.  Level failed.  Report GGTS for punishment.
+GGTSNoAdminLocked,[GGTS] Good girl do not administrate locked room.
+GGTSNoAdminPrivate,[GGTS] Good girl do not administrate room.
+GGTSOrgasmStrike0,[GGTS] SourceCharacter broke orgasm rule.  Strike recorded.  Sixty minutes removed.
+GGTSOrgasmStrike1,[GGTS] SourceCharacter broke orgasm rule.  Strike one recorded.  Three strikes equal punishment.
+GGTSOrgasmStrike2,[GGTS] SourceCharacter broke orgasm rule.  Strike two recorded.  Three strikes equal punishment.
+GGTSOrgasmStrike3,[GGTS] SourceCharacter broke orgasm rule.  Strike three recorded.  Level failed.  Report GGTS for punishment.
+GGTSTaskActivityBite,[GGTS] SourceCharacter.  Bite yourself.
+GGTSTaskActivityBiteTarget,[GGTS] SourceCharacter.  Bite TargetCharacter.
+GGTSTaskActivityCaress,[GGTS] SourceCharacter.  Caress yourself.
+GGTSTaskActivityCaressTarget,[GGTS] SourceCharacter.  Caress TargetCharacter.
+GGTSTaskActivityHandGag,[GGTS] SourceCharacter.  Place hand over your mouth.
+GGTSTaskActivityHandGagTarget,[GGTS] SourceCharacter.  Place hand over TargetCharacter mouth.
+GGTSTaskActivityKiss,[GGTS] SourceCharacter.  Kiss yourself.
+GGTSTaskActivityKissTarget,[GGTS] SourceCharacter.  Kiss TargetCharacter.
+GGTSTaskActivityLick,[GGTS] SourceCharacter.  Lick yourself.
+GGTSTaskActivityLickTarget,[GGTS] SourceCharacter.  Lick TargetCharacter.
+GGTSTaskActivityMasturbateHand,[GGTS] SourceCharacter.  Masturbate yourself.
+GGTSTaskActivityMasturbateHandTarget,[GGTS] SourceCharacter.  Masturbate TargetCharacter.
+GGTSTaskActivityNod,[GGTS] SourceCharacter.  Nod for GGTS.
+GGTSTaskActivityPet,[GGTS] SourceCharacter.  Pet yourself.
+GGTSTaskActivityPetTarget,[GGTS] SourceCharacter.  Pet TargetCharacter.
+GGTSTaskActivityPinch,[GGTS] SourceCharacter.  Pinch yourself.
+GGTSTaskActivityPinchTarget,[GGTS] SourceCharacter.  Pinch TargetCharacter.
+GGTSTaskActivitySpank,[GGTS] SourceCharacter.  Spank yourself.
+GGTSTaskActivitySpankTarget,[GGTS] SourceCharacter.  Spank TargetCharacter.
+GGTSTaskActivityTickle,[GGTS] SourceCharacter.  Tickle yourself.
+GGTSTaskActivityTickleTarget,[GGTS] SourceCharacter.  Tickle TargetCharacter.
+GGTSTaskActivityWiggle,[GGTS] SourceCharacter.  Wiggle for GGTS.
+GGTSTaskClothBarefoot,[GGTS] SourceCharacter.  Get barefoot.
+GGTSTaskClothHeels,[GGTS] SourceCharacter.  Wear high heels.
+GGTSTaskClothNaked,[GGTS] SourceCharacter.  Get naked.
+GGTSTaskClothSocks,[GGTS] SourceCharacter.  Wear only socks.
+GGTSTaskClothUnderwear,[GGTS] SourceCharacter.  Wear only underwear.
+GGTSTaskClothUpperLowerOff,[GGTS] SourceCharacter.  Remove upper and bottom clothes.
+GGTSTaskClothUpperLowerOn,[GGTS] SourceCharacter.  Dress with clothes.
+GGTSTaskDone,[GGTS] Good girl SourceCharacter.
+GGTSTaskDoneSlave,[GGTS] Good slave SourceCharacter.
+GGTSTaskDoneSlaveGirl,[GGTS] Good slave girl SourceCharacter.
+GGTSTaskItemArmsFeetFuturisticCuffs,"[GGTS] SourceCharacter.  Wear futuristic arms, legs and ankles cuffs."
+GGTSTaskItemArmsFeetFuturisticCuffsTarget,"[GGTS] SourceCharacter.  Use futuristic arms, legs and ankles cuffs on TargetCharacter."
+GGTSTaskItemArmsFuturisticArmbinder,[GGTS] SourceCharacter.  Wear futuristic armbinder.
+GGTSTaskItemArmsFuturisticArmbinderTarget,[GGTS] SourceCharacter.  Use futuristic armbinder on TargetCharacter.
+GGTSTaskItemArmsFuturisticCuffs,[GGTS] SourceCharacter.  Wear futuristic arms cuffs.
+GGTSTaskItemArmsFuturisticCuffsTarget,[GGTS] SourceCharacter.  Use futuristic arms cuffs on TargetCharacter.
+GGTSTaskItemArmsFuturisticStraitjacket,[GGTS] SourceCharacter.  Wear futuristic straitjacket.
+GGTSTaskItemArmsFuturisticStraitjacketTarget,[GGTS] SourceCharacter.  Use futuristic straitjacket on TargetCharacter.
+GGTSTaskItemBeltToFuck,[GGTS] GGTS bring penetration machine to replace SourceCharacter belt.
+GGTSTaskItemBootsFuturisticHeels,[GGTS] SourceCharacter.  Wear futuristic heels.
+GGTSTaskItemBootsFuturisticHeelsTarget,[GGTS] SourceCharacter.  Use futuristic heels on TargetCharacter.
+GGTSTaskItemBreastFuturisticBra,[GGTS] SourceCharacter.  Wear futuristic chastity bra.
+GGTSTaskItemBreastFuturisticBra2,[GGTS] SourceCharacter.  Wear futuristic bra.
+GGTSTaskItemBreastFuturisticBra2Target,[GGTS] SourceCharacter.  Use futuristic bra on TargetCharacter.
+GGTSTaskItemBreastFuturisticBraTarget,[GGTS] SourceCharacter.  Use futuristic chastity bra on TargetCharacter.
+GGTSTaskItemChangeGag,[GGTS] GGTS change SourceCharacter gag level.
+GGTSTaskItemChaste,[GGTS] GGTS enforcing chastity for SourceCharacter.
+GGTSTaskItemEarsDeaf,[GGTS] GGTS change SourceCharacter deaf level.
+GGTSTaskItemEarsFuturisticEarphones,[GGTS] SourceCharacter.  Wear futuristic earphones.
+GGTSTaskItemEarsFuturisticEarphonesTarget,[GGTS] SourceCharacter.  Use futuristic earphones on TargetCharacter.
+GGTSTaskItemFuckMachineIntensity,[GGTS] GGTS instruct SourceCharacter penetration machine.
+GGTSTaskItemFuckToBelt,[GGTS] GGTS penetration machine lock back SourceCharacter belt and leave.
+GGTSTaskItemHandsFuturisticMittens,[GGTS] SourceCharacter.  Wear futuristic mittens.
+GGTSTaskItemHandsFuturisticMittensTarget,[GGTS] SourceCharacter.  Use futuristic mittens on TargetCharacter.
+GGTSTaskItemHeadFuturisticMask,[GGTS] SourceCharacter.  Wear futuristic mask.
+GGTSTaskItemHeadFuturisticMaskTarget,[GGTS] SourceCharacter.  Use futuristic mask on TargetCharacter.
+GGTSTaskItemIntensity,[GGTS] GGTS change SourceCharacter vibration.
+GGTSTaskItemMaskBlind,[GGTS] GGTS change SourceCharacter blind level.
+GGTSTaskItemMouthFuturisticBallGag,[GGTS] SourceCharacter.  Wear futuristic ball gag.
+GGTSTaskItemMouthFuturisticBallGagTarget,[GGTS] SourceCharacter.  Use futuristic ball gag on TargetCharacter.
+GGTSTaskItemMouthFuturisticPanelGag,[GGTS] SourceCharacter.  Wear futuristic panel gag.
+GGTSTaskItemMouthFuturisticPanelGagTarget,[GGTS] SourceCharacter.  Use futuristic panel gag on TargetCharacter.
+GGTSTaskItemNeckFuturisticCollar,[GGTS] SourceCharacter.  Wear futuristic collar.
+GGTSTaskItemNeckFuturisticCollarTarget,[GGTS] SourceCharacter.  Use futuristic collar on TargetCharacter.
+GGTSTaskItemPelvisFuturisticChastityBelt,[GGTS] SourceCharacter.  Wear futuristic chastity belt.
+GGTSTaskItemPelvisFuturisticChastityBeltTarget,[GGTS] SourceCharacter.  Use futuristic chastity belt on TargetCharacter.
+GGTSTaskItemPelvisFuturisticTrainingBelt,[GGTS] SourceCharacter.  Wear futuristic training belt.
+GGTSTaskItemPelvisFuturisticTrainingBeltTarget,[GGTS] SourceCharacter.  Use futuristic training belt on TargetCharacter.
+GGTSTaskItemPose,[GGTS] GGTS control SourceCharacter restraints.
+GGTSTaskItemRemoveBody,[GGTS] GGTS remove SourceCharacter body restraints.
+GGTSTaskItemRemoveHead,[GGTS] GGTS remove SourceCharacter head restraints.
+GGTSTaskItemRemoveLimb,[GGTS] GGTS remove SourceCharacter limb restraints.
+GGTSTaskItemTorsoFuturisticHarness,[GGTS] SourceCharacter.  Wear futuristic harness.
+GGTSTaskItemTorsoFuturisticHarnessTarget,[GGTS] SourceCharacter.  Use futuristic harness on TargetCharacter.
+GGTSTaskItemTransform,[GGTS] GGTS transform SourceCharacter restraints.
+GGTSTaskItemUnchaste,[GGTS] GGTS stop enforcing chastity for SourceCharacter.
+GGTSTaskItemUngag,[GGTS] GGTS remove SourceCharacter gag.
+GGTSTaskLockRoom,[GGTS] SourceCharacter room locked.
+GGTSTaskNewRuleKeepPose,[GGTS] SourceCharacter.  New rule enforced: keep pose.
+GGTSTaskNewRuleNoOrgasm,[GGTS] SourceCharacter.  New rule enforced: No orgasm.
+GGTSTaskNoTalking,[GGTS] SourceCharacter.  No talking one minute.
+GGTSTaskPoseBehindBack,[GGTS] SourceCharacter.  Put hands behind back.
+GGTSTaskPoseKneel,[GGTS] SourceCharacter.  Kneel down.
+GGTSTaskPoseLegsClosed,[GGTS] SourceCharacter.  Close legs.
+GGTSTaskPoseLegsOpen,[GGTS] SourceCharacter.  Open legs.
+GGTSTaskPoseOverHead,[GGTS] SourceCharacter.  Raise and show hands.
+GGTSTaskPoseStand,[GGTS] SourceCharacter.  Stand up.
+GGTSTaskQueryCanFail,"[GGTS] SourceCharacter, can GGTS fail?"
+GGTSTaskQueryCanFailMaster,"[GGTS] SourceCharacter, can Master GGTS fail?"
+GGTSTaskQueryFreeWill,"[GGTS] SourceCharacter, you have free will?"
+GGTSTaskQueryLove,"[GGTS] SourceCharacter, you love GGTS?"
+GGTSTaskQueryLoveMaster,"[GGTS] SourceCharacter, you love Master GGTS?"
+GGTSTaskQueryServeObey,"[GGTS] SourceCharacter, who you serve and obey?"
+GGTSTaskQueryServeObeyMaster,"[GGTS] SourceCharacter, who you serve and obey?"
+GGTSTaskQuerySlaveWorthy,"[GGTS] SourceCharacter, are you slave worthy?"
+GGTSTaskQuerySurrender,"[GGTS] SourceCharacter, you surrender to GGTS?"
+GGTSTaskQuerySurrenderMaster,"[GGTS] SourceCharacter, you surrender to Master GGTS?"
+GGTSTaskQueryWhatAreYou,"[GGTS] SourceCharacter, what are you?"
+GGTSTaskQueryWhatIsGGTS,"[GGTS] SourceCharacter, spell GGTS acronym."
+GGTSTaskQueryWhoControl,"[GGTS] SourceCharacter, who's in control?"
+GGTSTaskQueryWhoControlMaster,"[GGTS] SourceCharacter, who's in control?"
+GGTSTaskRestrainLegs,[GGTS] SourceCharacter.  Restrain your legs.
+GGTSTaskUndoRuleKeepPose,[GGTS] SourceCharacter.  Rule revoked: keep pose.
+GGTSTaskUndoRuleNoOrgasm,[GGTS] SourceCharacter.  Rule revoked: No orgasm.
+GGTSTaskUnlockRoom,[GGTS] SourceCharacter room unlocked.
+GGTSTimeOverStrike0,[GGTS] Time over SourceCharacter.  Strike recorded.  Sixty minutes removed.
+GGTSTimeOverStrike1,[GGTS] Time over SourceCharacter.  Strike one recorded.  Three strikes equal punishment.
+GGTSTimeOverStrike2,[GGTS] Time over SourceCharacter.  Strike two recorded.  Three strikes equal punishment.
+GGTSTimeOverStrike3,[GGTS] Time over SourceCharacter.  Strike three recorded.  Level failed.  Report GGTS for punishment.
+GGTSTaskAnswerWhatIsGGTS,"Good Girl Training System."
+GGTSTaskAnswerWhatAreYouGirl1,"I'm a good girl."
+GGTSTaskAnswerWhatAreYouGirl2,"I am a good girl."
+GGTSTaskAnswerWhatAreYouSlaveGirl1,"I'm a good slave girl."
+GGTSTaskAnswerWhatAreYouSlaveGirl2,"I am a good slave girl."
+GGTSTaskAnswerWhatAreYouSlave1,"I'm a good slave."
+GGTSTaskAnswerWhatAreYouSlave2,"I am a good slave."
+GGTSTaskAnswerWhoControl,"GGTS is in control."
+GGTSTaskAnswerWhoControlMaster,"Master GGTS is in control."
+GGTSTaskAnswerLove,"I love GGTS."
+GGTSTaskAnswerLoveMaster,"I love Master GGTS."
+GGTSTaskAnswerCanFail1,"GGTS cannot fail."
+GGTSTaskAnswerCanFail2,"GGTS can't fail."
+GGTSTaskAnswerCanFailMaster1,"Master GGTS cannot fail."
+GGTSTaskAnswerCanFailMaster2,"Master GGTS can't fail."
+GGTSTaskAnswerSurrender,"I surrender to GGTS."
+GGTSTaskAnswerSurrenderMaster,"I surrender to Master GGTS."
+GGTSTaskAnswerServeObey,"I serve and obey GGTS."
+GGTSTaskAnswerServeObeyMaster,"I serve and obey Master GGTS."
+GGTSTaskAnswerFreeWill1,"I don't have free will."
+GGTSTaskAnswerFreeWill2,"I do not have free will."
+GGTSTaskAnswerSlaveWorthy,"I strive to be slave worthy."
+GGTSBannedWordsLvl0,"fuck|shit"
+GGTSBannedWordsLvl4,"cunt|bitch"
+GGTSBannedWordsLvl5,"whore|bastard"

@@ -1,0 +1,39 @@
+Stage,LoveReq,SubReq,VarReq,IntroText,Image
+0,0,0,,"Čas na oběd, COMMON_PLAYERNAME! Nemáš hlad?",SarahIntro.jpg
+0,5,0,,"COMMON_PLAYERNAME! To je prima, potkat tě|v polední pauze. Nemáš hlad?",SarahIntroHappy.jpg
+0,0,5,,"Zdravím Vás, slečno COMMON_PLAYERNAME! (Dívá se do země.)|Je čas oběda. Cítíte se hladová?",SarahIntroSubbie.jpg
+0,0,0,SubdueMildred,"To, co jsi provedla učitelce Mildred bylo boží!|Teď je čas oběda. Nemáš hlad?",SarahIntroSubbie.jpg
+0,0,0,HasEgg,"COMMON_PLAYERNAME! To vajíčko mám pořád v sobě,|a to jak občas zavrčí je boží! (Chichotá se.)",SarahIntroHappy.jpg
+5,0,0,,"(Sára tě sice vidí, ale utíká pryč.|Předstírá, že má naspěch.)",SarahIntroGone.jpg
+10,0,0,,"Můžeš zkusit univerzitní menzu, jestli chceš,|ale jídlo tam není nic moc.",SarahIntro.jpg
+10,0,5,,"Pokud máte opravdu hlad, můžete zkusit menzu,|ale moc to nedoporučuju, slečno.",SarahIntroSubbie.jpg
+20,0,0,,"Nedaleko je malá kavárna,|tu bys mohla zkusit, pokud chceš.",SarahIntro.jpg
+20,0,5,,"Nedaleko je malá kavárna, slečno.|Tu byste mohla zkusit, pokud chcete.",SarahIntroSubbie.jpg
+30,0,0,,Nechtěla bys teď jít do té kavárny se mnou?,SarahIntro.jpg
+30,0,5,,"Přála byste si jít se mnou|do té kavárny hned teď, slečno?",SarahIntroSubbie.jpg
+40,0,0,,"Promiň, ale já teď s tebou teď nemůžu jít.|Už mám na oběd jiné plány.",SarahIntro.jpg
+50,0,0,,,SarahIntroGone.jpg
+100,0,0,,,SarahPlayerLunch0.jpg
+110,0,0,,,SarahPlayerLunch0.jpg
+120,0,0,,,SarahPlayerLunch0.jpg
+130,0,0,,,SarahPlayerLunch0.jpg
+140,0,0,,,SarahPlayerLunch0.jpg
+150,0,0,,,SarahPlayerLunch0.jpg
+160,0,0,,,SarahPlayerLunch0.jpg
+170,0,0,,,SarahPlayerLunchGone.jpg
+180,0,0,,,RestroomDoor.jpg
+190,0,0,,,SarahPlayerLunch0.jpg
+200,0,0,,,SarahRestroom.jpg
+210,0,0,,,SarahRestroom.jpg
+220,0,0,,,SarahPlayerRestroomKiss.jpg
+230,0,0,,,SarahRestroom.jpg
+240,0,0,,,SarahPlayerRestroomNaked.jpg
+250,0,0,,,SarahPlayerRestroomLove.jpg
+260,0,0,,,SarahPlayerRestroomLove.jpg
+270,0,0,,,SarahPlayerRestroomNaked.jpg
+300,0,0,,,SarahPlayerLunch0.jpg
+310,0,0,,,SarahPlayerLunch0.jpg
+320,0,0,,,SarahPlayerLunch0.jpg
+330,0,0,,,SarahLocker.jpg
+340,0,0,,,SarahLocker.jpg
+350,0,0,,,SarahLocker.jpg

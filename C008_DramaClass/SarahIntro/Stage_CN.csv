@@ -1,0 +1,51 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,IsDamsel,什么样的服装？,我应该扮演一个遇险的少女|我需要找一件白色的婚纱。,0,0,0,
+0,0,0,!IsDamsel,什么样的服装？,我应该扮演英雄骑士|我需要一套白色的中世纪盔甲。,0,0,0,
+0,0,0,,戏剧课很愚蠢。,好吧，我还是自己寻找吧|（她找到了一套服装）你介意我在这里脱衣服吗？,10,-1,0,
+0,0,0,!Common_PlayerRestrained,（寻找她的服装） ADD_MINUTES:1,（你找到她的服装，她高兴得跳了起来）|太棒了！你不介意我在这里脱衣吧？,10,0,-1,
+0,0,0,IsDamsel,（指向服装架） ADD_MINUTES:1,我找到了！（她拿出了一件婚纱）|你不介意我在这里脱衣服吧？,10,0,0,
+0,0,0,!IsDamsel,（指向服装架） ADD_MINUTES:1,我找到了！（她挑了一件白色盔甲）|你不介意我在这里脱衣服吧？,10,0,0,
+10,0,0,IsDamsel,你可以在这里脱衣|我来帮你穿礼服。,你真是太好了。（她脱下衣服）|那我该先穿什么？裙子？,20,1,0,Strip()
+10,0,0,!IsDamsel,你可以在这里脱衣|我来帮你拿盔甲。,你真是太好了。（她脱下衣服）|那我该先穿什么？锁子甲？,20,1,0,Strip()
+10,0,0,IsDamsel,（点头）,（她高兴地脱到内衣）|那我该先穿什么？裙子？,20,0,0,Strip()
+10,0,0,!IsDamsel,（点头）,（她高兴地脱到内衣）|那我该先穿什么？锁子甲？,20,0,0,Strip()
+20,0,0,PlayerIsRoped,（转身指向你的绳索）,不！我更喜欢你被绑起来的时候|再挣扎一下，你可能会出去。,20,0,0,TestUntiePlayer()
+20,0,0,PlayerInArmbinder,（转动并摇晃你的单手套）,不！我更喜欢你克制的时候|再挣扎一段时间，总会摆脱困境的。,20,0,0,TestUnstrapPlayer()
+20,0,0,PlayerIsCuffed,（转身指向你的袖口）,不，我没有带钥匙。,20,0,0,TestUncuffPlayer()
+20,0,0,IsBothFree,你知道你很漂亮吗？,啊，你真好。感谢COMMON_PLAYERNAME。,20,0,0,
+20,0,0,IsBothFree,你绑起来会很好看。,（她咯咯地笑着点了点头）你想约束我吗？,20,0,0,TiedUpComment()
+20,0,0,ReadyHug,演出前拥抱几次？,当然！我喜欢拥抱。什么样的拥抱？,300,0,0,StartHugs()
+20,0,0,IsBothFree,（帮她穿衣服） ADD_MINUTES:1,（你帮她穿上她的戏服）太棒了！|我们准备好看戏了吗？,30,0,0,Costume()
+20,0,0,IsBothFree,Sarah，你想约束我吗？,哦，不，我不能那样做，小姐|（她脸红了，低下头）,20,0,0,RandomBondage()
+20,0,0,!Common_PlayerRestrained,（挠她一下） ADD_MINUTES:1,（你挠她的肋骨，她轻轻地咯咯笑，她不是很怕痒）,20,0,0,
+20,0,0,!Common_PlayerRestrained,（打她） ADD_MINUTES:1,（她弯下腰，这样你就可以很容易地打|她的屁股了。她呻吟着，似乎很享受）,20,0,0,Spank()
+20,0,5,!Common_PlayerRestrained,（拍她一下） ADD_MINUTES:1,（当她高兴地尖叫时|你重重地拍了拍她的脸和胸部）,20,0,0,Slap()
+20,0,0,!Common_PlayerRestrained,（给她手淫） ADD_MINUTES:1,（你弯下腰给她自慰，但她把你的手推开了）,20,0,0,Masturbate()
+20,0,0,CanUntie,（解开她的束缚） ADD_MINUTES:1,（她开玩笑地跟你打架，但你还是解开她的绑）,20,0,0,Untie()
+20,0,0,CanUnstrap,（把她解开） ADD_MINUTES:1,（她开玩笑地挣扎着要保住她的单手套，|但你还是解开并释放她）,20,0,0,Untie()
+20,0,0,CanUngag,（解开她的口塞） ADD_MINUTES:1,（她不停的转着头，但你还是把口塞拿掉）,20,0,0,Ungag()
+30,0,0,IsPlayReady,让我们一起表演吧|（参加戏剧课）,,30,0,0,StartDrama()
+30,0,0,!IsPlayReady,大家还没准备好。,也许我们需要加快速度。,30,0,0,
+100,0,0,Common_PlayerGagged,@昂！,点头表示同意，或者摇头表示不同意。|你需要帮忙吗？,100,0,0,
+100,0,0,,（慢慢点头）,不！我更喜欢这样的你。你能帮我找到我的服装吗？,0,0,0,CheckUngag()
+100,0,0,,（摇头）,好吧，你戴着那个恶作剧看起来很可爱。|你能帮我找到我的服装吗？,0,0,0,
+200,0,0,,欢迎来到天堂。,（她点点头，呻吟着，慢慢从高潮中恢复过来）,20,1,0,
+200,0,0,,（轻轻抚摸她的头）,（她发出呼噜声和呻吟声，慢慢从高潮中恢复过来）,20,1,0,
+200,0,0,,现在我控制你的高潮。,（她低下头，慢慢从高潮中恢复过来）,20,0,1,
+200,0,0,,（拍了拍她的脸）,（她低下头，慢慢从高潮中恢复过来）,20,0,1,
+200,0,0,,你真是个荡妇。,（她摇摇头，慢慢从高潮中恢复过来）,20,-1,1,
+200,0,0,,下次你会乞求高潮。,（她低下头，慢慢从高潮中恢复过来）,20,0,1,
+300,0,0,,给我一个拥抱！ ADD_MINUTES:1,（你们互相拥抱，友好地拥抱了很久）,310,0,0,"Hug(""PlayerSarahHug"")"
+300,5,0,HugDone,（吻她） ADD_MINUTES:1,（你温柔地亲吻她的脖子和嘴唇|她咯咯地笑着，脸红了）,310,0,0,"Hug(""PlayerSarahKiss"")"
+300,0,0,AmandaReadyHug,去拥抱Amanda。 ADD_MINUTES:1,（Sarah冲到Amanda身边，咯咯地笑着跳进她的怀里）,310,0,0,"Hug(""AmandaSarahHug"")"
+300,0,5,AmandaReadyHug,去亲吻Amanda。 ADD_MINUTES:1,（Sarah脸红了，给了Amanda一个吻。|她们抱在一起亲吻着）,310,0,0,"Hug(""AmandaSarahKiss"")"
+300,0,0,AmandaReadyHug,让我们来一个集体拥抱。 ADD_MINUTES:1,（你邀请他们两个在你的怀里，|在演出来了一个温暖的拥抱）,310,0,0,"Hug(""GroupHug"")"
+300,10,10,AmandaReadyHug,让我们集体接吻。 ADD_MINUTES:1,（你命令他们接吻，并加入这场爱情三吻的乐趣）,310,0,0,"Hug(""GroupKiss"")"
+300,0,0,,够了。,当然，你能帮我穿衣服吗？,20,0,0,AllowLeave()
+310,0,0,,给我一个拥抱！ ADD_MINUTES:1,（你们互相拥抱，友好地拥抱了很久）,310,0,0,"Hug(""PlayerSarahHug"")"
+310,5,0,HugDone,（吻她） ADD_MINUTES:1,（你温柔地亲吻她的脖子和嘴唇|她咯咯地笑着，脸红了）,310,0,0,"Hug(""PlayerSarahKiss"")"
+310,0,0,AmandaReadyHug,去拥抱Amanda。 ADD_MINUTES:1,（Sarah冲到Amanda身边，咯咯地笑着跳进她的怀里）,310,0,0,"Hug(""AmandaSarahHug"")"
+310,0,5,AmandaReadyHug,去亲吻Amanda。 ADD_MINUTES:1,（Sarah脸红了，给了Amanda一个吻。|她们抱在一起亲吻着）,310,0,0,"Hug(""AmandaSarahKiss"")"
+310,0,0,AmandaReadyHug,让我们来一个集体拥抱。 ADD_MINUTES:1,（你邀请他们两个在你的怀里，|在演出来了一个温暖的拥抱）,310,0,0,"Hug(""GroupHug"")"
+310,10,10,AmandaReadyHug,让我们集体接吻。 ADD_MINUTES:1,（你命令他们接吻，并加入这场爱情三吻的乐趣）,310,0,0,"Hug(""GroupKiss"")"
+310,0,0,,够了。,当然，你能帮我穿衣服吗？,20,0,0,AllowLeave()

@@ -1,0 +1,56 @@
+Select your appearance
+Wähle dein Aussehen
+ Select TargetCharacterName's appearance
+Wähle ein Aussehen für TargetCharacterName
+You must pick an item of type:
+Folgende Auswahl muss getroffen werden:
+Set wardrobe character name:
+Name für Kleiderschrank-Charakter:
+Invalid name for character.
+Ungültiger Charaktername.
+Reset character
+Charakter zurücksetzen
+Randomize clothes
+Zufällige Bekleidung
+Randomize character
+Zufälliger Charakter
+Strip clothes
+Kleidung ablegen
+Copy to clipboard
+In Zwischenablagen kopieren
+Import from clipboard
+Aus Zwischenablage importieren
+Show character in previews
+Charakter in der Vorschau zeigen
+Strip item
+Gegenstände ablegen
+Reorder Items
+Gegenstände neu anordnen
+Next
+Weiter
+Previous
+Zurück
+Cancel changes
+Änderungen verwerfen
+Accept changes
+Änderungen übernehmen
+Wardrobe
+Kleiderschrank
+Wardrobe can be bought in your private room.
+Kleiderschrank kann in deinem Privatzimmer erworben werden
+Edit item permissions
+Berechtigung für Gegenstände anpassen
+Use this item
+Diesen Gegenstand benutzen
+Unable to use due to player permissions
+Kann aufgrund von Spielerberechtigungen nicht verwendbar
+Select a color
+Farbe auswählen
+Unable to change color due to player permissions
+Farbe kann aufgrund von Spielerberechtigungen nicht geändert werden
+Select colors
+Farben auswählen
+blocked by owner
+Durch Eigentümer blockiert
+Change item layering
+Ändere Objekt Layer

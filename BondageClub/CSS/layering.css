@@ -1,0 +1,158 @@
+#layering {
+  display: grid;
+  grid-template:
+    "asset-header button-grid" min-content
+    "asset-grid asset-grid" min-content
+    "layer-header layer-header" min-content
+    "layer-grid layer-grid" auto
+    / auto min-content
+  ;
+  justify-items: center;
+  align-items: center;
+  gap: var(--gap);
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+#layering * {
+  font-family: inherit;
+  font-size: min(3.5vh, 1.75vw);
+  user-select: none;
+  text-overflow: ellipsis;
+}
+
+#layering h2 {
+  margin: var(--gap);
+  color: white;
+}
+
+#layering h1 {
+  margin: 0;
+  color: white;
+  font-size: min(5vh, 2.5vw);
+  padding: var(--gap);
+}
+
+#layering input[type=number] {
+  /* Add an absolute 16px marigin to better deal with the increment/decrement button scaling upon resizing */
+  width: calc(min(7vh, 3.5vw) + 16px);
+  padding: min(0.2vh, 0.1vw);
+}
+
+#layering input[type=number]:focus {
+  background-color: white !important;
+}
+
+#layering input[type=number]:invalid {
+  background-color: #fbb !important;
+}
+
+.layering-input-unfocused {
+  background-color: lightgray;
+}
+
+.layering-button-grid {
+  --max-rows: 3;
+
+  display: grid;
+  gap: var(--gap);
+  overflow: unset !important;
+  grid-template-columns: repeat(var(--max-rows), var(--menu-button-size));
+  direction: rtl;
+  width: 100%;
+  height: 100%;
+}
+
+.layering-button-grid>button {
+  width: var(--menu-button-size);
+  height: var(--menu-button-size);
+}
+
+#layering-button-grid {
+  grid-area: button-grid;
+}
+
+#layering-asset-header {
+  grid-area: asset-header;
+}
+
+#layering-reset-button {
+  background-image: url("../Icons/Swap.png");
+}
+
+#layering-exit-button {
+  background-image: url("../Icons/Exit.png");
+}
+
+#layering-lock-button {
+  background-image: url("../Icons/Lock.png");
+}
+
+#layering-hide-button {
+  background-image: url("../Icons/Visibility.png");
+}
+
+#layering-hide-button[aria-checked="false"] #layering-hide-button-tooltip-show {
+  display: none;
+}
+
+#layering-hide-button[aria-checked="true"] #layering-hide-button-tooltip-hide {
+  display: none;
+}
+
+#layering-asset-grid {
+  grid-area: asset-grid;
+  min-height: var(--menu-button-size);
+}
+
+#layering-layer-header {
+  grid-area: layer-header;
+}
+
+#layering-layer-div {
+  box-sizing: border-box;
+  grid-area: layer-grid;
+  width: 100%;
+  height: calc(100% - var(--gap));
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  align-self: self-start;
+}
+
+#layering-layer-outer-grid {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+}
+
+#layering-layer-outer-grid:not(:last-child) .layering-layer-inner-grid {
+  padding-bottom: var(--gap);
+}
+
+.layering-layer-inner-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: var(--gap) 0;
+  width: 100%;
+}
+
+.layering-pair {
+  align-items: center;
+  display: grid;
+  grid-template-columns: min-content auto;
+}
+
+.layering-pair:not(:has(input:disabled))>.layering-pair-text:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.layering-pair-text {
+  color: white;
+  overflow-x: hidden;
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+}
+
+.layering-button-pink[data-pose] {
+  --button-color: pink;
+}

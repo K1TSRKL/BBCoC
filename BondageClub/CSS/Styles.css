@@ -1,0 +1,399 @@
+canvas {
+	padding: 0;
+	margin: auto;
+	outline: none;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	width: 100%;
+}
+
+@media (min-aspect-ratio: 2/1) {
+	canvas {
+		width: unset;
+		height: 100%;
+	}
+}
+
+input {
+	box-sizing: border-box;
+	background: white;
+	padding-bottom: unset;
+	padding-top: unset;
+	border: var(--border-width) solid black;
+}
+
+textarea {
+	box-sizing: border-box;
+	background: white;
+	resize: none;
+	padding-bottom: unset;
+	padding-top: unset;
+	border: var(--border-width) solid black;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.NoSelect {
+	touch-action: manipulation;
+	/* iOS Safari */
+	-webkit-touch-callout: none;
+	/* Safari */
+	-webkit-user-select: none;
+	/* Konqueror HTML */
+	-khtml-user-select: none;
+	/* Old versions of Firefox */
+	-moz-user-select: none;
+	/* Internet Explorer/Edge */
+	-ms-user-select: none;
+	/* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+	user-select: none;
+}
+
+.custom-select {
+	/* Default background color */
+	--button-color: white;
+	/* Background color for disabled buttons */
+	--disabled-color: grey;
+
+	background-color: var(--button-color);
+	border: var(--border-width) solid black;
+	box-sizing: border-box;
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+	text-overflow: ellipsis;
+}
+
+.custom-select:disabled {
+	background-color: var(--disabled-color);
+	cursor: auto;
+}
+
+textarea:invalid:not(:disabled):not(:read-only),
+input:invalid:not(:disabled):not(:read-only),
+select:invalid:not(:disabled):not(:read-only) {
+	background-color: #fbb;
+	box-shadow: 0 0 3px 2px #c22;
+}
+
+/* Disable datalist picker button in Chrome */
+input[type="search"]::-webkit-calendar-picker-indicator {
+	display: none !important;
+}
+
+/* Range Inputs - WebKit */
+
+.range-input {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	background-color: transparent;
+	cursor: pointer;
+	/* Increases the hitbox of the slider to make it easier to select */
+	padding: 1% 0;
+	margin: -1% 0;
+	border: none;
+}
+
+.range-input:focus {
+	outline: none;
+}
+
+.range-input.Vertical {
+	transform: rotate(270deg);
+}
+
+.range-input::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 25%;
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 3px;
+	border: var(--border-width) solid rgba(128, 128, 128, 0.25);
+}
+
+.range-input::-webkit-slider-thumb {
+	border: var(--border-width) solid rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 8px -2px rgba(0, 0, 0, 0.5);
+	height: 1em;
+	width: 1em;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -0.4em;
+	background-color: #ccc;
+}
+
+.range-input[data-thumb]::-webkit-slider-thumb {
+	background-color: transparent;
+	box-shadow: none;
+	background-position: center;
+	background-size: cover;
+	border: 0;
+	font-size: 1.5em;
+	border-radius: 0;
+}
+
+.range-input[data-thumb].Vertical::-webkit-slider-thumb {
+	transform: rotate(90deg);
+}
+
+.range-input[data-thumb=lock]::-webkit-slider-thumb {
+	background-image: url("../Assets/Female3DCG/ItemMisc/Preview/MetalPadlock.png");
+	width: 0.5em;
+}
+
+.range-input[data-thumb=blindfold]::-webkit-slider-thumb {
+	background-image: url("../Assets/Female3DCG/ItemHead/Preview/StuddedBlindfold.png");
+}
+
+.range-input[data-thumb=lightbulb]::-webkit-slider-thumb {
+	background-image: url("../Icons/Lightbulb.png");
+	width: 0.6em;
+}
+
+.range-input[data-thumb=player]::-webkit-slider-thumb {
+	background-image: url("../Icons/Player.png");
+	width: 1.2em;
+	height: 1.2em;
+}
+
+.range-input[data-thumb=rope]::-webkit-slider-thumb {
+	background-image: url("../Icons/Rope.png");
+	width: 1.2em;
+	height: 1.2em;
+}
+
+/* Range Inputs - Firefox */
+
+.range-input::-moz-range-track {
+	width: 100%;
+	height: 25%;
+	cursor: pointer;
+	background-color: #fff;
+	border: var(--border-width) solid rgba(128, 128, 128, 0.25);
+	border-radius: 3px;
+}
+
+.range-input::-moz-range-thumb {
+	border: var(--border-width) solid rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 8px -2px rgba(0, 0, 0, 0.5);
+	height: 1em;
+	width: 1em;
+	border-radius: 50%;
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.range-input[data-thumb]::-moz-range-thumb {
+	background-color: transparent;
+	box-shadow: none;
+	background-position: center;
+	background-size: cover;
+	border: 0;
+	font-size: 1.5em;
+	border-radius: 0;
+}
+
+.range-input[data-thumb].Vertical::-moz-range-thumb {
+	transform: rotate(90deg);
+}
+
+.range-input[data-thumb=lock]::-moz-range-thumb {
+	background-image: url("../Assets/Female3DCG/ItemMisc/Preview/MetalPadlock.png");
+	width: 0.5em;
+}
+
+.range-input[data-thumb=blindfold]::-moz-range-thumb {
+	background-image: url("../Assets/Female3DCG/ItemHead/Preview/StuddedBlindfold.png");
+}
+
+.range-input[data-thumb=lightbulb]::-moz-range-thumb {
+	background-image: url("../Icons/Lightbulb.png");
+	width: 0.6em;
+}
+
+.range-input[data-thumb=player]::-moz-range-thumb {
+	background-image: url("../Icons/Player.png");
+	width: 1.2em;
+	height: 1.2em;
+}
+
+.range-input[data-thumb=rope]::-moz-range-thumb {
+	background-image: url("../Icons/Rope.png");
+	width: 1.2em;
+	height: 1.2em;
+}
+
+.checkbox {
+	/* Default background color */
+	--checkbox-color: white;
+	/* Background color for disabled buttons */
+	--disabled-color: grey;
+	/* Background color for hovered and/or active buttons */
+	--hover-color: cyan;
+
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: var(--checkbox-color);
+	position: relative;
+	font: inherit;
+	color: black;
+	width: min(6vh, 3vw);
+	height: min(6vh, 3vw);
+	border: var(--border-width) solid black;
+	cursor: pointer;
+}
+
+.checkbox:hover {
+	background-color: var(--hover-color);
+}
+
+.checkbox:disabled {
+	background-color: var(--disabled-color);
+	cursor: auto;
+}
+
+.checkbox::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+	background-color: black;
+	width: 90%;
+	height: 90%;
+	visibility: hidden;
+}
+
+.checkbox:checked::before {
+	visibility: visible;
+}
+
+@supports (height: 100dvh) {
+	.checkbox {
+		width: min(6dvh, 3dvw);
+		height: min(6dvh, 3dvw);
+		border-width: var(--border-width);
+	}
+}
+
+.checkbox-pair {
+  display: grid;
+  gap: var(--gap);
+  min-height: min(7vh, 3.5vw);
+  height: fit-content;
+  align-items: center;
+}
+
+.checkbox-pair-vertical {
+  grid-template-rows: min-content auto;
+}
+
+.checkbox-pair-horizontal {
+  grid-template-columns: min-content auto;
+}
+
+/* Dropdown */
+
+.dropdown {
+	color: white;
+	word-wrap: break-word;
+	background-color: rgba(0, 0, 0, 0.55);
+	padding: min(1vh, 0.5vw);
+	user-select: none;
+}
+
+.dropdown-header {
+	display: grid;
+	font-size: min(3.6vh, 1.8vw);
+	min-height: min(7vh, 3.5vw);
+	text-align: center;
+	align-items: center;
+}
+
+.dropdown-grid {
+	font-size: min(3vh, 1.5vw);
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.dropdown-checkbox-grid {
+	display: grid;
+	grid-template-columns: min-content auto;
+	min-height: min(7vh, 3.5vw);
+	height: fit-content;
+	align-items: center;
+}
+
+.dropdown-checkbox-grid:hover {
+	color: yellow;
+}
+
+.dropdown-checkbox-label {
+	padding-left: min(2vh, 1vw);
+}
+
+.truncated-text {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+/* A scrollable container with a standardized-ish scrollbar layout */
+.scroll-box {
+	overflow: hidden auto;
+	scroll-padding: 3px;
+	scrollbar-gutter: stable;
+	scrollbar-color: rgb(149, 149, 149) rgb(0, 0, 0, 0.7);
+}
+
+@media (hover: hover) {
+	.scroll-box {
+		scrollbar-color: rgb(149, 149, 149, 0.9) rgb(0, 0, 0, 0.4);
+		transition: scrollbar-color 0.3s ease;
+	}
+
+	.scroll-box:hover {
+		scrollbar-color: rgb(149, 149, 149) rgb(0, 0, 0, 0.7);
+	}
+}
+
+[hidden] {
+	display: none !important;
+}
+
+bc-tint-input {
+	--hue: 0;
+
+	color-scheme: light only;
+	display: inline-block;
+	aspect-ratio: 1 / 0.6;
+	width: 160px;
+	position: relative;
+	border-width: 2px;
+	border-style: inset;
+	border-color: gray;
+	box-sizing: border-box;
+	background-blend-mode: multiply;
+	background:
+		linear-gradient(90deg, white, hsl(var(--hue), 100%, 50%)),
+		linear-gradient(white, black);
+}
+
+bc-tint-input:invalid {
+	background-color: #fbb;
+	box-shadow: 0 0 3px 2px #c22;
+}
+
+bc-tint-input:disabled {
+	border-color: black;
+}

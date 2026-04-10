@@ -1,0 +1,57 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+140,0,0,PlayerIsDamsel,住手！否则大地将染成血色。,两位骑士都看向那位少女。,150,0,0,"GlobalStage(150, 1, 0)"
+140,0,0,PlayerIsDamsel,停下！不要让地面染成红色。,两位骑士都看向那位少女。,150,0,0,"GlobalStage(150, -1, 0)"
+140,0,0,PlayerIsDamsel,对不起，Julia|我忘了我的台词。,Julia轻声对你说：“住手！否则大地将染成血色。”,140,0,0,ForgetLine()
+140,0,0,!PlayerIsDamsel,（静静地听着）,Sarah像公主一样走了进来，说：“住手！否则大地将染成血色。”,150,0,0,"GlobalStage(150, 0, 0)"
+140,0,0,!PlayerIsDamsel,（不耐烦地拍手）,Sarah冲上舞台说：“停下！不要让地面染成红色.”,150,0,0,"GlobalStage(150, 0, 1)"
+140,0,0,!PlayerIsDamsel,（做些鬼脸来|分散她的注意力）,Sarah尽量不笑，说：|“住手！否则大地将染成血色。”,150,0,0,"GlobalStage(150, -1, 0)"
+150,0,0,PlayerIsDamsel,请允许我说出我的心声。,两位骑士都好奇地看着你。,160,0,0,"GlobalStage(160, -1, 0)"
+150,0,0,PlayerIsDamsel,我的心灵会作出|最真挚的选择,两位骑士都焦急地看着你。,160,0,0,"GlobalStage(160, 1, 0)"
+150,0,0,PlayerIsDamsel,对不起，Julia|我忘了我的台词。,Julia叹了口气，低声说：|“我的心灵会作出最真挚的选择”,150,0,0,ForgetLine()
+150,0,0,!PlayerIsDamsel,（静静地听着）,Sarah看着两位骑士说：|“我的心灵会作出最真挚的选择”,160,0,0,"GlobalStage(160, 0, 0)"
+150,0,0,!PlayerIsDamsel,（不耐烦地拍手）,Sarah加快速度说：“请允许我说出我的心声”,160,0,0,"GlobalStage(160, 0, 1)"
+150,0,0,!PlayerIsDamsel,（竖起大拇指让她高兴起来）,Sarah微笑着对你说：“我的心灵会作出最真挚的选择”,160,0,0,"GlobalStage(160, 1, 0)"
+160,0,0,PlayerIsDamsel,我喜欢白骑士。,黑骑士愤怒地看了你一眼，然后走上舞台。,200,0,0,"GlobalStage(200, -1, 0)"
+160,0,0,PlayerIsDamsel,我要向|白骑士表白,黑骑士愤怒地看了你一眼，然后走上舞台。,200,0,0,"GlobalStage(200, 1, 0)"
+160,0,0,PlayerIsDamsel,我喜欢黑骑士。,黑骑士微笑着走上舞台。,210,0,0,"GlobalStage(210, -1, 0)"
+160,0,0,PlayerIsDamsel,我向你的黑人冠军表白。,黑骑士微笑着走上舞台。,210,0,0,"GlobalStage(210, 1, 0)"
+160,0,0,PlayerIsDamsel,对不起，Julia|我忘了我的台词。,Julia叹了口气，轻声对你说：|“我要向白骑士表白”,150,0,0,ForgetLine()
+160,0,0,!PlayerIsDamsel,（静静地听着）,,160,0,0,SarahChooseKnight()
+160,0,0,!PlayerIsDamsel,（不耐烦地拍手）,,160,0,0,SarahChooseKnight()
+250,0,0,CanKissHeroine,（急于亲吻女主角） ADD_MINUTES:1,你冲进白骑士的怀抱，准备了一个美妙的吻。,260,0,0,FinalKiss()
+250,0,0,CanKneelHeroine,（跪在女主角旁边） ADD_MINUTES:1,你恭敬地跪在Sarah旁边|抱住她的腿，完成最后一幕。,260,0,0,FinalDomme()
+250,0,0,CanHugHeroine,（去拥抱女主角） ADD_MINUTES:1,你张开双臂，紧紧拥抱白骑士|共同完成最后一幕,260,0,0,FinalHug()
+250,10,0,PlayerIsHeroine,（赶紧吻她） ADD_MINUTES:1,你冲向Sarah，在最后一幕和她分享一个可爱的吻。,260,0,0,FinalKiss()
+250,0,10,PlayerIsHeroine,（指向地板） ADD_MINUTES:1,Sarah恭敬地跪在你旁边，抱住你的腿，完成最后一幕。,260,0,0,FinalDomme()
+250,0,0,PlayerIsHeroine,（去抱抱她） ADD_MINUTES:1,你去找Sarah，在最后一幕给她一个温暖的拥抱。,260,0,0,FinalHug()
+250,0,0,PlayerIsVillain,（观看现场） ADD_MINUTES:1,Amanda冲向Sarah，他们在最后一幕分享了一个可爱的吻。,260,0,0,FinalKiss()
+255,0,0,,（放开她） ADD_MINUTES:1,当她微笑着看着你时，你让她摆脱了困境。,250,0,0,ReleaseDamsel()
+255,0,0,,你将成为我的妻子。 ADD_MINUTES:1,少女摇了摇头，笑了|这出戏以他们俩都是囚犯而告终。,300,0,0,FinalTwoPrisoners()
+255,0,0,,你将成为我的未婚妻。 ADD_MINUTES:1,少女摇了摇头，笑了|这出戏以他们俩都是囚犯而告终。,300,0,0,FinalTwoPrisoners()
+255,0,0,,对不起，Julia|我忘了我的台词。,Julia大笑起来说：“别担心，即兴发挥吧，我们已经脱稿了。”,255,0,0,
+280,0,0,CanKissVillain,（赶紧亲吻那个恶棍） ADD_MINUTES:1,你冲进黑骑士的怀抱，准备一个美妙的最后之吻。,290,0,0,FinalKiss()
+280,0,0,CanKneelVillain,（跪在恶棍旁边） ADD_MINUTES:1,你恭敬地跪在Amanda旁边|抱住她的腿，完成最后一幕。,290,0,0,FinalDomme()
+280,0,0,CanHugVillain,（去抱抱那个恶棍） ADD_MINUTES:1,你张开双臂，拥抱黑骑士，完成最后一幕。,290,0,0,FinalHug()
+280,10,0,PlayerIsVillain,（抓住并亲吻她） ADD_MINUTES:1,你把她拉到你身边，在最后一幕给她一个温柔的吻。,290,0,0,FinalKiss()
+280,0,10,PlayerIsVillain,（指向地板） ADD_MINUTES:1,Sarah恭敬地跪在你旁边|抱住你的腿，完成最后一幕。,290,0,0,FinalDomme()
+280,0,0,PlayerIsVillain,（拥抱她） ADD_MINUTES:1,你把她拉到你身边|在最后一幕给她一个又长又温暖的拥抱。,290,0,0,FinalHug()
+280,0,0,PlayerIsHeroine,（观看现场） ADD_MINUTES:1,Amanda抓住Sarah，在最后一幕中|他们互相温柔地吻了一下。,290,0,0,FinalKiss()
+285,0,0,,（放开她） ADD_MINUTES:1,当她好奇地看着你时，你让她摆脱了困境。,280,0,0,ReleaseDamsel()
+285,0,0,,你将成为我的囚徒。 ADD_MINUTES:1,少女摇摇头，咯咯地笑了起来|这出戏以他们俩都是囚犯而告终。,300,0,0,FinalTwoPrisoners()
+285,0,0,,你是我的囚犯。 ADD_MINUTES:1,少女摇摇头，咯咯地笑了起来|这出戏以他们俩都是囚犯而告终。,300,0,0,FinalTwoPrisoners()
+285,0,0,,对不起，Julia|我忘了我的台词。,Julia大笑起来说：|“别担心，即兴发挥吧，我们已经脱稿了。”,285,0,0,
+400,0,0,,我不会娶你的|脱下这件衣服。,听到这个消息我很难过|（她脱下礼服扔掉了）,410,-1,1,Strip()
+400,0,0,,可爱的少女，让我们|看看你完美的身体。,哦，是的，我美丽的骑士！|（她脱下礼服扔掉了）,410,1,0,Strip()
+400,0,0,,你穿那件礼服不好看,它显得我很臃肿么？我会脱下它|（她脱下礼服扔掉了）,410,-1,0,Strip()
+400,0,0,,只穿你的内衣会更漂亮,对！这是个好主意。我会脱下它。|（她脱下礼服扔掉了）,410,1,-1,Strip()
+410,0,0,!IsRestrained,为我跳舞，亲爱的姑娘 ADD_MINUTES:1,（她咯咯地笑着表演芭蕾舞演员的脚尖舞）,410,0,0,
+410,0,0,!IsRestrained,为我跳一曲，甜美的少女 ADD_MINUTES:1,（她咯咯地笑着表演芭蕾舞演员的脚尖舞）,410,0,0,
+410,0,0,IsRestrained,为我跳舞，亲爱的姑娘 ADD_MINUTES:1,（她在束缚中笨拙地跳舞，高兴的笑着）,410,0,0,
+410,0,0,IsRestrained,为我跳一曲，甜美的少女 ADD_MINUTES:1,（她在束缚中笨拙地跳舞，高兴的笑着）,410,0,0,
+410,0,0,CanUntie,（解开她） ADD_MINUTES:1,（她拒绝继续被绑着，但你可以解开结并释放她）,410,0,0,Untie()
+410,0,0,CanUnstrap,（把她解开） ADD_MINUTES:1,（她不想把单手套粘在身上，但你可以解开它）,410,0,0,Untie()
+410,0,0,CanUngag,（解开她嘴上的束缚） ADD_MINUTES:1,（你把口塞拿掉，她看着你）|真是个可爱的女孩。,410,0,0,Ungag()
+410,0,0,CanKiss,（吻她） ADD_MINUTES:1,（你靠近她，给她一个长长的吻）|这是一个非常漂亮的吻。,410,0,0,Kiss()
+410,0,0,CanAbuse,（挠她一下） ADD_MINUTES:1,（她咯咯地笑着，轻轻地挣扎着。她似乎不太怕痒）,410,0,0,
+410,0,0,CanAbuse,（打她） ADD_MINUTES:1,（你狠狠地打了她屁股。她每次打都会轻声呻吟，很享受）,410,0,0,Spank()
+410,0,0,CanAbuse,（自慰她） ADD_MINUTES:1,（你慢慢地自慰，而她呻吟得越来越快）,410,0,0,Masturbate()

@@ -1,0 +1,25 @@
+﻿Stage,LoveReq,SubReq,VarReq,IntroText,Image
+0,0,0,IsHeroine,所以你也要加入我们的戏剧表演了。|我扮演的是英勇的白马骑士。,Background.jpg
+0,0,0,!IsHeroine,看来你要加入我们的戏剧表演了。|我在剧中扮演邪恶的黑骑士角色。,Background.jpg
+0,5,0,IsHeroine,看到你加入演出真是太棒了！|我饰演的是英勇无畏的白马骑士。,Background.jpg
+0,5,0,!IsHeroine,见到你参加表演真是一件愉快的事。|我在剧中扮演反派角色——黑骑士。,Background.jpg
+0,0,5,IsHeroine,欢迎来到戏剧课，小姐。|我将饰演英勇的白马骑士这一角色。,Background.jpg
+0,0,5,!IsHeroine,欢迎来到戏剧课，小姐。|我将扮演剧中的反派角色——黑骑士。,Background.jpg
+0,0,0,Common_PlayerGagged,你戴着那个口套看起来挺可爱的。|不过在剧中这个口套并不需要。,Background.jpg
+10,0,0,,现在请遮住你的眼睛，这样我就可以换装了。,Background.jpg
+10,0,5,,COMMON_PLAYERNAME小姐，你能...|请你遮住眼睛好吗？我要换装了。,Background.jpg
+10,0,0,Common_PlayerGagged,你戴着那个口套看起来挺可爱的。|不过在剧中这个口套并不需要。,Background.jpg
+20,0,0,,,CoverEyes.jpg
+30,0,0,,对不起，可能是我没有意识到需要继续|遮着眼睛。请原谅我的疏忽。,Background.jpg
+40,0,0,,我想你现在能看到我换装的过程了。|你能帮我穿上这套盔甲吗？,Background.jpg
+40,0,0,Common_PlayerGagged,你戴着那个口套的样子挺可爱的。|不过现在能不能请你帮我穿上这套盔甲呢？,Background.jpg
+40,0,0,Common_PlayerRestrained,你的束缚看起来相当不错。|不过有它们在，你可能帮不上忙了。,Background.jpg
+40,0,0,IsChaste,（她用力拉扯着贞操带）COMMON_PLAYERNAME？|你确实有解开那条贞操带的钥匙吗？,Background.jpg
+40,0,0,IsRestrained,现在可能不是进行捆绑的最佳时机了。|(她挣扎着) 能否请你放了我呢？,Background.jpg
+40,0,0,IsGagged,啊...嗯...难受极了！|(她在口套的束缚下挣扎着),Background.jpg
+50,0,0,SarahMissing,Sarah上课又一次迟到了。|我们是否应该不等她就先去呢？,Background.jpg
+50,0,0,!SarahMissing,大家都准备好进行剧中的表演了吗？,Background.jpg
+100,0,0,,（Amenda还在享受着刚才美妙的高潮）,BackgroundOrgasm.jpg
+200,0,0,,像你这样的女孩不应该拥有任何钥匙，我收下了| (她拿走了你的手铐钥匙),Background.jpg
+300,0,0,,,Background.jpg
+310,0,0,,,Background.jpg

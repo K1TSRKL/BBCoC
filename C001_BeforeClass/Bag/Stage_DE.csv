@@ -1,0 +1,8 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,(Die Riemen öffnen.),"Du öffnest die Riemen, sie sind locker.|In der Tasche kannst du Seile erkennen.",10,0,0,
+0,0,0,,(An der Tasche ziehen.),"Hör auf, du Idiotin! Was machst du da?|(Sie zieht die Tasche weg von dir.)",30,0,0,SidneyAnnoy()
+10,0,0,,(Die Riemen schließen.),Du schiebst die Riemen vorsichtig wieder zusammen.,0,0,0,
+10,0,0,,(Die Seile stehlen.),Du stiehlst vorsichtig die Seile aus der Tasche.,20,0,0,GetRope()
+10,0,0,,(Wegen der Seile fragen.),,30,0,0,SidneyRope()
+10,0,0,,(An der Tasche ziehen.),"Hör auf, du Idiotin! Was machst du da?|(Sie zieht die Tasche weg von dir.)",30,0,0,SidneyAnnoy()
+20,0,0,,(An der Tasche ziehen.),"Hör auf, du Idiotin! Was machst du da?|(Sie zieht die Tasche weg von dir.)",30,0,0,SidneyAnnoy()

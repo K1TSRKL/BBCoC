@@ -1,0 +1,10 @@
+HorseWalkCarrotSpots,Move to the Carrots ($CARROTS) and avoid the crops ($CROPS)
+HorseWalkCarrotStart,Move to the Carrots and avoid the crops.  Tap to start.
+CarrotVictory,"Congratulations!  (Carrots: $CARROTS, crops: $CROPS)"
+CarrotDefeat,"Sorry, you've failed.  (Carrots: $CARROTS, crops: $CROPS)"
+HorseWalkHurdleSpots,"Jump over the Hurdles. Win: ($HURDLEWIN), Failed: ($HURDLEFAIL)"
+HorseWalkHurdleStart,"Jump over the Hurdles.  Tap to start."
+HurdleVictory,"Congratulations!  (Win: $HURDLEWIN, Failed: $HURDLEFAIL)"
+HurdleDefeat,"Sorry, you've failed.  (Win: $HURDLEWIN, Failed: $HURDLEFAIL)"
+HorseWalkHitSpots,"Whip the ponies ($PONY), not the trainer ($TRAINER)."
+HorseWalkHitStart,"Whip the ponies, not the trainer.  Tap to start."

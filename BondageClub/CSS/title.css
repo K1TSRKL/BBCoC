@@ -1,0 +1,47 @@
+#input-nickname-group {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: var(--gap);
+	justify-items: center;
+	width: fit-content;
+}
+
+#title-subscreen-hgroup {
+	color: black;
+}
+
+#title-subscreen-status {
+	color: red;
+	margin-left: var(--gap);
+}
+
+#title-subscreen-main {
+	display: grid;
+	gap: var(--gap);
+	justify-items: center;
+	grid-auto-rows: min-content min-content auto;
+}
+
+#title-subscreen-titlebuttons {
+	width: 100%;
+	display: grid;
+	gap: var(--gap);
+	justify-items: center;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: min-content;
+	box-sizing: border-box;
+}
+
+.title-button > .button-label {
+	display: contents;
+}
+
+.title-button {
+	width: 100%;
+	height: fit-content;
+	font-size: 1.15em
+}
+
+.title-button[active] {
+	background-color: yellow;
+}

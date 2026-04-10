@@ -1,0 +1,173 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,A jak se v té|jídelně vaří?,"Abych pravdu řekla, nic moc,|ale je to lepší, než hladovět.",10,0,0,
+0,0,0,,"Školní jídelna? Vsadím se,|že tam vaří hnusně.","Asi bys to měla posoudit sama,|ale víceméně máš pravdu, není to nic moc.",10,-1,0,
+0,0,0,,Co dnes dávají?,"Dneska jsou špagety, ale musím tě varovat.|Těstoviny jim moc nejdou.",10,0,0,
+0,0,0,,Mňam!|Mám hlad jako vlk!,"(Chichotá se.) No, nedělej si velké naděje.|Jídlo tam moc dobré nedělají.",10,1,0,
+10,0,0,,Chytrá holka jako ty musí|vědět o lepším místě.,"Já… Já… Já si myslím,|že bys mohla zkusit nedalekou kavárnu.",20,0,1,
+10,0,0,,A dá se tady|někde najíst líp?,"Ano. Tady kousek je kavárna, co bys mohla zkusit.",20,0,0,
+10,0,0,,"Je nějaká lepší možnost?|Prosím, prosím, prosím!","(Chichotá se.) Kousek odsud je kavárna,|co bys mohla zkusit.",20,0,-1,
+20,5,0,,"Super! Půjdeš|se mnou, kámoško?",Jistě! Vyrazíme hned teď?,30,1,0,
+20,0,5,,Perfektní!|A ty půjdeš se mnou!,"Já… Ale… Myslím, že bych vám|tu kavárnu mohla ukázat, slečno.",30,0,1,
+20,1,-3,,"Půjdete tam se mnou,|slečno Amando?",Vezmi si peněženku a vyrazíme!|(Popadne tě za paži a nenechá tě odejít.),30,0,-1,NoLeave()
+20,0,0,NoOption,Chceš tam jít se mnou?,"Nemůžu, na oběd už mám jiné plány.",40,0,0,
+20,0,0,NoOption,Mohla bys mi|to místo ukázat?,"Nemůžu, na oběd už mám jiné plány.",40,0,0,
+20,0,0,,"Já tu kavárnu tedy|zkusím, tak zatím!",Měj se. (Otáčí se a míří na oběd.),50,0,0,EndLunch()
+30,0,0,,Tak jdeme!|(Najez se s Amandou.),(Odcházíte spolu do nedaleké restaurace|a nacházíte si volný stůl.),100,0,0,StartLunch()
+40,0,0,,"Tak jo,|uvidíme se později.",Zatím ahoj!|(Vyráží na oběd.),50,0,0,EndLunch()
+40,0,0,,Tak si to pořádně užij!,"Díky, užiju! A ty taky!|(Vyráží na oběd.)",50,1,0,EndLunch()
+40,0,0,,S tebou je otrava!,Hm.|(Otáčí se a odchází na oběd.),50,-1,0,EndLunch()
+100,0,0,,Tak co doporučuješ?,"Nejraději mám polévku a salát.|Tak co, líbí se ti zatím naše škola?",110,0,0,
+100,0,0,,Mám hlad jak vlk!|Co tady mají dobrého?,"(Dívá se jinam.) Všechno tady mají dobré.|Tak co, líbí se ti zatím naše škola?",110,-1,1,
+100,0,0,,"Nevím, co si dát. Mohla|bys objednat za mě?","Můžeš zkusit polévku a salát, jestli chceš.|Tak co, líbí se ti zatím naše škola?",110,0,-1,
+110,0,0,,"Moc! Zdá se, že|je to dobrá univerzita.",Je to tak! A co bys vlastně chtěla být?,120,0,0,GoodMatch()
+110,0,0,,"Tahle škola, to je|hotový blázinec.",Nesouhlasím. A co bys vlastně chtěla být?,120,-1,0,BadMatch()
+110,0,0,,Takhle úchylnou školu|jsem ještě neviděla.,(Chichotá se.) A co bys vlastně chtěla být?,120,0,0,
+110,0,0,,"Těžko soudit,|z těch pár hodin.",Máš naprostou pravdu.|A co bys vlastně chtěla být?,120,0,0,GoodMatch()
+110,0,0,,Je to pěkně|nudná škola.,Některé hodiny jsou asi nudné.|A co bys vlastně chtěla být?,120,0,0,
+120,0,0,,Muzikantka.,Aha. A co je tvůj oblíbený předmět?,130,0,0,
+120,0,0,,Doktorka.,To je pěkné! A co je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Atletka.,Sport mi nikdy moc nešel.|A co je tvůj oblíbený předmět?,130,0,0,BadMatch()
+120,0,0,,Učitelka.,To je pěkné! A co je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Herečka.,Aha. A co je tvůj oblíbený předmět?,130,0,0,
+120,0,0,,Domina.,"Nezlehčuj to! A co je tvůj oblíbený předmět?",130,0,0,
+120,0,0,,Architektka.,To je pěkné! A co je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Farmářka.,Aha. A co je tvůj oblíbený předmět?,130,0,0,
+120,0,0,,Programátorka.,To je pěkné! A co je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Ještě nevím.,Brzy se už budeš muset rozhodnout.|A co je tvůj oblíbený předmět?,130,0,0,BadMatch()
+130,0,0,,Matika.,Super! A jakého máš koníčka?,140,0,0,GoodMatch()
+130,0,0,,Hudebka.,Dobře. A jakého máš koníčka?,140,0,0,
+130,0,0,,Čeština.,Dobře. A jakého máš koníčka?,140,0,0,
+130,0,0,,Tělocvik.,Sportování nemám moc ráda.|A jakého máš koníčka?,140,0,0,BadMatch()
+130,0,0,,Chemie.,Super! A jakého máš koníčka?,140,0,0,GoodMatch()
+130,0,0,,Francouzština.,Super! A jakého máš koníčka?,140,0,0,GoodMatch()
+130,0,0,,Výtvarka.,Dobře. A jakého máš koníčka?,140,0,0,
+130,0,0,,Dějepis.,Super! A jakého máš koníčka?,140,0,0,GoodMatch()
+130,0,0,,Drama.,Dobře. A jakého máš koníčka?,140,0,0,
+130,0,0,,Nevím.,"Nesmysl, každý má nějakou oblíbený předmět!|A jakého máš koníčka?",140,0,0,BadMatch()
+140,0,0,,Basketbal.,Já sport ráda nemám.|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,BadMatch()
+140,0,0,,Rockovou muziku.,Fakt?|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,
+140,0,0,,Videohry.,Skvěle!|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,GoodMatch()
+140,0,0,,Roztleskávání.,Fakt?|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,
+140,0,0,,Chození na párty.,Fakt?|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,
+140,0,0,,Hry na hrdiny.,Skvěle!|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,GoodMatch()
+140,0,0,,Pořádně se opít.,To je pěkné hnusné!|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,BadMatch()
+140,0,0,,Klasickou hudbu.,Skvěle!|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,GoodMatch()
+140,0,0,,Milování.,(Červená se.) Božíčku!|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,GoodMatch()
+140,0,0,,Já žádné koníčky nemám.,Fakt?|(Servírka vás přerušuje s objednávkou jídla.),150,0,0,
+150,0,0,,"Salát, prosím.","(Usmívá se a objednává si totéž.)|Velmi dobrá volba, spolužačko.",160,0,0,GoodMatch()
+150,0,0,,"Steak, prosím.",(Usmívá se a objednává si polévku a salát.)|To opravdu dokážeš k obědu sníst celý steak?,160,0,0,BadMatch()
+150,0,0,,"Polévku, prosím.","(Usmívá se a objednává si totéž.)|Velmi dobrá volba, spolužačko.",160,0,0,GoodMatch()
+150,0,0,,"Hamburger, prosím.","(Usmívá se a objednává si polévku a salát.)|Doufám, že ti tu bude chutnat.",160,0,0,
+150,0,0,,"Talíř nachos, prosím.","(Usmívá se a objednává si polévku a salát.)|Doufám, že ti tu bude chutnat.",160,0,0,
+150,0,0,,"Jen cheesecake, prosím.","(Usmívá se a objednává si polévku a salát.)|Doufám, že ti tu bude chutnat.",160,0,0,
+150,0,0,,"Polévku a salát, prosím.","(Usmívá se a objednává si totéž.)|Velmi dobrá volba, spolužačko.",160,0,0,GoodMatch()
+150,0,0,,"Hot dog s chilli, prosím.","(Usmívá se a objednává si polévku a salát.)|Doufám, že ti tu bude chutnat.",160,0,0,
+150,0,0,,"Fettuccine alfredo,|prosím.","(Usmívá se a objednává si totéž.)|Velmi dobrá volba, spolužačko.",160,0,0,GoodMatch()
+150,0,0,,"Jen vodu, prosím.",(Objednává si polévku a salát.)|Měla by sis dát víc než jen vodu.,160,0,0,BadMatch()
+160,0,0,,Bon appetite!|(Sněz svůj oběd.),"Bon appetite! (Obě jste obslouženy,|sníte svůj oběd a přichází účet.)",170,1,0,EatLunch()
+160,0,0,,Dobrou chuť!|(Sněz svůj oběd.),"Tobě taky! (Obě jste obslouženy,|sníte svůj oběd a přichází účet.)",170,0,0,EatLunch()
+160,0,0,,"Pospěšte si, číšnice!|(Sněz svůj oběd.)","Prosím, nebuď hrubá. (Obě jste obslouženy,|sníte svůj oběd a přichází účet.)",170,-1,1,EatLunch()
+170,0,0,,Jsem švorc.|Mohla bys zaplatit?,To jsi taky mohla říct dřív!|Pojďme tedy zpátky do školy.,180,-1,-1,BadMatch()
+170,0,0,,Zaplatíš to?|Já zaplatím příště.,(Mračí se.) No dobře.|Pojďme zpátky do školy.,180,-1,0,
+170,0,0,,Já to zaplatím.,To je od tebe až příliš milé.|Pojďme tedy zpátky do školy.,180,0,1,
+170,0,0,,Účet si rozpočítáme.,To je fér.|Pojďme tedy zpátky do školy.,180,0,0,GoodMatch()
+170,0,0,,Utečeme bez placení?,"Neblázni, já to zaplatím!|Pojďme zpátky do školy.",180,-1,0,BadMatch()
+180,0,0,,Velmi správně.|(Vraťte se do školy.),,0,0,0,TestMatch()
+180,0,0,,To asi budeme muset.|(Vraťte se do školy.),,0,0,0,TestMatch()
+200,0,0,,"Máme ještě čas,|než zazvoní?",(Chichotá se.) Čas na co?,210,0,0,
+200,0,0,,"Díky, žes mi ukázala|tuhle prima kavárnu.",Potěšení bylo na mé straně!|Bylo to s tebou prima.,210,1,-1,
+200,0,0,,"Chci abys věděla, že jsem|se s tebou dobře bavila.","To já s tebou taky! Myslím, že si skvěle padneme.",210,1,0,
+200,0,0,HasSeduction,"Amy, ty jsi ta|nejsladší věc na téhle škole.","(Zčervená a zachichotá se.)|Ty jsi taky sladká, COMMON_PLAYERNAME.",210,2,0,
+200,0,0,,Smím tě políbit?ADD_MINUTES:1,(Přikývne a přitiskne své rty na tvé.),220,1,0,Kiss()
+200,0,0,,(Nic neříkej a polib ji.)ADD_MINUTES:1,(Beze slov se navzájem políbíte na rty.),220,0,1,Kiss()
+200,0,0,,Ať nepřijdeme pozdě!|(Zpátky do školy.),,0,0,0,EndBonus()
+210,0,0,,"Miluji tě, Amando!.ADD_MINUTES:1",(Zčervená a přitiskne své rty na tvé.),220,1,0,Kiss()
+210,0,0,,Smím tě políbit?ADD_MINUTES:1,(Přikývne a přitiskne své rty na tvé.),220,1,-1,Kiss()
+210,0,0,,(Nic neříkej a polib ji.)ADD_MINUTES:1,"(Beze slov se navzájem políbíte na rty.)",220,0,1,Kiss()
+210,0,0,,Ať nepřijdeme pozdě!|(Zpátky do školy.),,0,0,0,EndBonus()
+220,0,0,,(Polib ji znovu.)ADD_MINUTES:1,"(Popadneš ji a znovu jí líbáš,|zatímco ona tichoučce sténá.)",220,0,0,
+220,0,0,,Máš andělské rty.ADD_MINUTES:1,(Popadnete se navzájem a dlouze|si proplétáte jazyky ve francouzském polibku.),230,1,0,
+220,0,0,,(Dej jí francouzák.)ADD_MINUTES:1,(Popadnete se navzájem a dlouze|si proplétáte jazyky ve francouzském polibku.),230,0,0,
+220,0,0,,Ať nepřijdeme pozdě!|(Zpátky do školy.),,0,0,0,EndBonus()
+230,0,0,,Mmmmmhmmmh.ADD_MINUTES:1,(Udržujete si tempo|a hrajete si navzájem se svými jazyky.),230,0,0,
+230,0,0,MakeLoveReady,Chtěla by ses|se mnou pomilovat?,"Promiň, ale mé srdce je už zadané.|(Povzdychne si) I když ona o tom ani neví.",230,0,0,TestMakeLove()
+230,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()
+240,0,0,,(Polib ji.)ADD_MINUTES:1,(Navzájem se něžně líbáte.|Každý dotek vyvolává další vzdechy.),240,0,0,Kiss()
+240,0,0,,(Masíruj jí ňadra.)ADD_MINUTES:1,(Láskyplně si masírujete navzájem prsa.|Jemně a bezbolestně.),240,0,0,
+240,0,0,,(Masturbuj ji.)ADD_MINUTES:1,"(Navzájem se dráždíte a při tom tiše vzdycháte.|Dáváte si pozor, aby se nikdo nedíval.)",240,0,0,LoveMasturbate()
+240,0,0,,Ať nepřijdeme pozdě!|(Zpátky do školy.),,0,0,0,EndBonus()
+250,0,0,,Takhle se mě|ještě nikdo nedotýkal.,"(Chichotá se.) Božíčku, jsem si jistá, že přeháníš!",260,0,-1,
+250,0,0,,Teda! Nemám slov.,(Přikyvuje a červená se.)|A bylo to tak neočekávané.,260,0,0,
+250,0,0,,To bylo boží!,(Červená se.) Ano to bylo!|A bylo to tak neočekávané.,260,0,0,
+250,0,0,,Udělala ses taky?,"Neboj, užila jsem si to!",260,0,1,
+250,0,0,,Myslelas při tom|na někoho jiného?,"Já… Ne! Já… to je… Promiň.|Netrap se tím, bylo to krásné.",260,-1,1,
+250,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()
+260,0,0,,"Polibek, má lásko?ADD_MINUTES:1",(Kývne hlavou a něžně tě políbí.),280,1,0,Kiss()
+260,0,0,,(Zůstaň potichu a polib ji.)ADD_MINUTES:1,(Navzájem se něžně líbáte.),280,0,1,Kiss()
+260,0,0,,Příště budu ještě lepší.,"To neříkej, bylo to báječné!|Pojďme zpátky do školy.",270,0,-1,
+260,0,0,,Příště se uděláš|jako šílená.,(Na tvá slova se mračí.)|Pojďme zpátky do školy.,270,-1,1,
+260,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()
+270,0,0,,Pojďme zpátky spolu.|(Zpátky do školy.),,0,0,0,EndBonus()
+270,0,0,,Zpátky půjdu sama.|(Zpátky do školy.),,0,-1,0,EndBonus()
+270,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()
+280,0,0,,(Znovu ji polib.)ADD_MINUTES:1,(Chichotá se a zase tě líbá.),280,0,0,
+280,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()
+300,0,0,,(Nic neříkej a polib ji.)ADD_MINUTES:1,(Přitlačíš jí zády k plotu a líbáš ji na rty.),310,0,1,Kiss()
+300,0,0,,"Tohle bylo prima,|ale teď tě chci líbat.ADD_MINUTES:1",(Přitlačíš jí zády k plotu a líbáš ji na rty.),310,0,1,Kiss()
+300,0,0,,Jsi překrásná!|Smím tě políbít?ADD_MINUTES:1,(Přikyvuje a ty ji tiskneš k plotu a líbáš na rty.),310,1,0,Kiss()
+300,1,0,,"Chtěla jsem ti říct,|že jsem si to moc užila.","Já taky! Vypadá to, že si skvěle pasujeme.",320,1,0,
+300,0,0,,Bavila ses|dneska dobře?,"To ano! Vypadá to, že si skvěle pasujeme.",320,0,0,
+300,0,0,,"Chci tě teď a tady,|Amando.",Já… Ale…|(Dlaní ji umlčíš a přitiskneš ji k plotu.),330,-1,1,
+300,0,0,,"A teď zmlkni, děvko!",Já… Ale…|(Dlaní ji umlčíš a přitiskneš ji k plotu.),330,-2,1,
+310,0,0,,(Znovu ji polib.)ADD_MINUTES:1,"(Tiše sténá, ale dalšímu líbání se nebrání.)",310,0,0,
+310,1,0,,"Chtěla jsem ti říct,|že jsem si to moc užila.","Já taky! Vypadá to, že si skvěle pasujeme.",320,0,0,
+310,0,0,,Bavila ses|dneska dobře?,"To ano! Vypadá to, že si skvěle pasujeme.",320,0,0,
+310,0,0,,"Chci tě teď a tady,|Amando!",Já… Ale…|(Dlaní ji umlčíš a přitiskneš ji k plotu.),330,-1,1,
+310,0,0,,"A teď zmlkni, děvko!",Já… Ale…|(Dlaní ji umlčíš a přitiskneš ji k plotu.),,330,-2,1,
+320,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()
+320,5,0,,Chtěla bych|více romantiky.ADD_MINUTES:1,"(Pomalu přikývne,|vezme tě za ruce a láskyplně tě políbí.)",220,0,0,Kiss()
+320,0,0,,Líbil by|se ti orgasmus?,Ne… Ano… (Dáš ji svou dlaň na ústa|a přitiskneš ji k plotu.),330,0,0,
+320,0,0,,"Chci tě teď a tady,|Amando!",Já… Ale… (Dlaní ji umlčíš a přitiskneš ji k plotu.),330,-1,1,
+320,0,0,,"A teď zmlkni, děvko!",Já… Ale… (Dlaní ji umlčíš a přitiskneš ji k plotu.),330,-2,1,
+330,0,0,,(Polib ji.)ADD_MINUTES:1,(Pomalu ji líbáš a ona sténá.),330,0,0,Kiss()
+330,0,0,,(Polechtej ji.)ADD_MINUTES:1,"(Hravě se snaží uhýbat tvému lechtání,|ale zdá se, že se jí to líbí.)",330,0,0,Tickle()
+330,0,0,,(Masturbuj ji.)ADD_MINUTES:1,(Tichoučce sténá zatímco ji masturbuješ.|Lehce se chvěje pod tvými láskyplnými dotyky.),330,0,0,Masturbate()
+330,0,0,IsRoped,(Rozvaž ji.)ADD_MINUTES:1,"(Uzlík za uzlem ji postupně|osvobozuješ z jejího spoutání.)",330,0,0,Untie()
+330,0,0,IsGagged,(Sundej jí roubík.)ADD_MINUTES:1,"(Opatrně ji sundáváš roubík.)|Díky, to nebylo moc pohodlné.",330,0,0,Ungag()
+330,0,0,IsBoundAndGagged,"Napálila jsem tě, čubko!|(Zanech ji spoutanou.)",,330,0,0,EvilEnd()
+330,0,0,,Pojďme zpátky.|(Zpátky do školy.),,0,0,0,EndBonus()
+400,0,0,,Proč jsi mě|sem zatáhla?,"Mám bláznivý nápad, ale musíš mi důvěřovat.|Budeš mě poslouchat a sundáš si šaty?",410,0,0,
+400,0,0,,(Plaše se zasměj.)|O co jde?,"Mám bláznivý nápad, ale musíš mi důvěřovat.|Budeš mě poslouchat a sundáš si šaty?",410,0,-1,
+400,0,0,,"O co tady, kurva jde?","Mám bláznivý nápad, ale musíš mi důvěřovat.|Budeš mě poslouchat a sundáš si šaty?",410,-1,1,
+400,0,0,,(Zkus ji odstrčit.),(Přitlačí tě zpátky.) Mám bláznivý nápad.|Budeš mě poslouchat a sundáš si šaty?,410,0,1,
+410,0,0,,Poslouchat tě?|To nikdy neudělám.,Respektuju to a nebudu tě nikdy k ničemu nutit.|Pojďme tedy zpátky do školy.,490,0,2,
+410,0,0,,Tady na veřejnosti ne.|Ale možná později.,"To je v pohodě, nutit tě nikdy nebudu.|Pojďme tedy zpátky do školy.",490,0,0,
+410,0,0,,"Dobře, poddám se.|(Vysvleč se.)ADD_MINUTES:1","Nádhera! To je tak zvrhlé, líbí se mi to!|A teď se otoč a dej ruce za záda.",420,0,0,SubbieStrip()
+410,0,0,,"Ano, slečno Amando.|(Vysvleč se.)ADD_MINUTES:1","Hodná holka! To je tak zvrhlé, líbí se mi to!|A teď se otoč a dej ruce za záda.",420,0,-1,SubbieStrip()
+420,0,0,,To je paráda!|(Otoč se.),"Já vím! Říkala jsem ti, že to bude zvrhlé.|Teď tě spoutám provazy, je to v pohodě?",430,1,0,
+420,0,0,,"Dobře, Amando.|(Otoč se.)","(Popadne tě za zadek a usmívá se.)|Teď tě spoutám provazy, je to v pohodě?",430,0,0,
+420,0,0,,(Pokus se obrátit|karty a svléct ji.),"(Je silnější než ty a přinutí tě se otočit.)|Jelikož neumíš poslouchat, musím tě spoutat!",430,0,1,
+420,0,0,,Asi bychom měli přestat.|(Zase se obleč.),"To je v pohodě, nutit tě nikdy nebudu.|(Znovu se oblékáš.) Pojďme zpátky.",490,-1,0,
+430,0,0,,"Ano, slečno Amando.|(Poslechni.) ADD_MINUTES:1",(Popadne tě za paže a omotává je spolu|s tvým tělem provazem.) Teď udělej „Á“!,440,0,-1,SubbieRope()
+430,0,0,,Takže to je doopravdy?|(Poslechni.) ADD_MINUTES:1,(Popadne tě za paže a omotává je spolu|s tvým tělem provazem.) Teď udělej „Á“!,440,0,0,SubbieRope()
+430,0,0,,Asi bychom měli přestat.|(Zase se obleč.),"To je v pohodě, nutit tě nikdy nebudu.|(Znovu se oblékáš.) Pojďme zpátky.",490,-1,0,
+440,0,0,,(Vyplázni jazyk.)ADD_MINUTES:1,"(Chichotá se a taky na tebe vyplazuje jazyk.)|No tak! Otevři pořádně pusu, subinko!",440,0,0,
+440,0,0,,(Zatni zuby.)ADD_MINUTES:1,"Ale ty vůbec nepomáháš, víš to?|No tak! Otevři pořádně pusu, subinko!",440,0,0,ClenchTeeth()
+440,0,0,,(Otevři pusu.)ADD_MINUTES:1,(Do pusy ti vmáčkne kuličkový roubík a zapne ho.|Můžu se tě teď dotýkat? Chceš trochu potěšení?,450,0,0,SubbieGag()
+440,0,0,,Asi bychom měli přestat.|Můžeš mě pustit?,"To je v pohodě, nutit tě nikdy nebudu.|(Pouští tě.) Pojďme zpátky.",490,-1,0,SubbieRelease()
+450,0,0,,@Aaaao ossím.|(Pomalu přikývni.),(Tiskne tě k plotu a začíná tě třít dlaní.),460,0,0,
+450,0,0,,@UO UASSHEE!|(Rychle přikyvuj.),(Tiskne tě k plotu a začíná tě třít dlaní.),460,1,0,
+450,0,0,,(Zatřes hlavou|ze strany na stranu.),"(Pro zábavu tě ještě polechtá a pak tě pustí.)|V pohodě, doufám, že ses bavila. Pojďme zpátky.",490,-1,0,SubbieRelease()
+460,0,0,,(Užívej si doteků.)ADD_MINUTES:1,"(Oddáváš se jejím láskyplným dotekům, ona tahá|za provaz ve tvém rozkroku a dráždí ti tím klitoris.)",460,0,0,SubbieMasturbate()
+460,0,0,,(Svíjej se v jejím rytmu.)ADD_MINUTES:1,(Pohybuješ zadkem do jejího rytmu. Pomalu se|v tobě sbírá rozkoš z jejich doteků.,460,0,0,SubbieMasturbate()
+460,0,0,,(Hravě se braň.)ADD_MINUTES:1,"(Hravě s ní zápasíš a zdá se, že se jí to líbí.|Přidává na rychlosti a dráždí tě trochu více.)",460,0,0,SubbieMasturbate()
+460,0,0,,(Zmítej se v panice.)ADD_MINUTES:1,"(Uvědomí si tvou paniku a pouští tě.) To je|v pohodě, doufám, že ses bavila. Pojďme zpátky.",490,-1,-1,SubbieRelease()
+470,0,0,,(Červenej se|a dívej se do země.),"Nebuď plachá, rozkoš nemůže být špatná.|(Rozepíná ti roubík.) Líbilo se ti to?",480,0,-1,SubbieUngag()
+470,0,0,,@Uiuuu ooo!,"(Chichotá se a rozepíná ti roubík.)|Tak co, líbilo se ti to?",480,0,0,SubbieUngag()
+470,0,0,,(Nastav k ní zadek.),"Znovu? Možná později. (Chichotá se|a rozepíná ti roubík.) Tak co, líbilo se ti to?",480,0,0,SubbieUngag()
+480,0,0,,Už jsem zažila i lepší.,"To mě mrzí. Myslela jsem, že se ti to líbí.|(Pouští tě.) Pojďme tedy zpátky do školy.",490,-1,0,SubbieRelease()
+480,0,0,,To bylo boží!,To ráda slyším. Taky jsem si to užila.|(Pouští tě.) Pojďme zpátky do školy.,490,0,0,SubbieRelease()
+480,0,0,,"To byl nejlepší orgasmus,|co jsem kdy měla!",Óóóó. (Červená se a pouští tě.)|To je tak milé. Pojďme zpátky do školy.,490,1,0,SubbieRelease()
+480,0,0,,"To bylo úžasné, slečno!|Budete mou Paní?",Já? Paní? (Chichotá se a pouští tě.)|Budu o tom přemýšlet. Pojďme zpátky do školy.,490,0,-1,SubbieRelease()
+480,0,0,,Příště svážu já tebe.,To se ještě uvidí. (Vyplázne na tebe jazyk|a pouští tě.) Pojďme zpátky do školy.,490,0,1,SubbieRelease()
+490,0,0,,Ať nepřijdeme pozdě.|(Zpátky do školy.),,0,0,0,EndBonus()

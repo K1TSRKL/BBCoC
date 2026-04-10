@@ -1,0 +1,13 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,@校服,,0,0,0,"Change(""Clothed"")"
+0,0,0,,@黑色连衣裙,,0,0,0,"Change(""BlackDress"")"
+0,0,0,!Common_PlayerChaste,@红色比基尼,,0,0,0,"Change(""RedBikini"")"
+0,0,0,!Common_PlayerChaste,@白色内衣,,0,0,0,"Change(""WhiteLingerie"")"
+0,0,0,!Common_PlayerChaste,@内衣,,0,0,0,"Change(""Underwear"")"
+0,0,0,,@裸体,,0,0,0,"Change(""Naked"")"
+0,0,0,CostumeJudo,@柔道服,,0,0,0,"Change(""Judo"")"
+0,0,0,CostumeTennis,@网球服,,0,0,0,"Change(""Tennis"")"
+0,0,0,CostumeHeroine,@英雄盔甲,,0,0,0,"Change(""Heroine"")"
+0,0,0,CostumeVillain,@邪恶盔甲,,0,0,0,"Change(""Villain"")"
+0,0,0,CostumeDamsel,@少女礼服,,0,0,0,"Change(""Damsel"")"
+0,0,0,CostumeTeacher,@教师服,,0,0,0,"Change(""Teacher"")"

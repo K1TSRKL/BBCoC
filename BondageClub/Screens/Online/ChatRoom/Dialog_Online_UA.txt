@@ -1,0 +1,731 @@
+###_NPC
+(You can use or remove items by selecting specific body regions.)
+(Ви можете використовувати або прибирати предмети, вибираючи певні ділянки тіла.)
+(You don't have access to use or remove items on DialogCharacterObject.)
+(Ви не маєте доступу до використання або зняття предметів на DialogCharacterName.)
+###_PLAYER
+(View DialogCharacterPossessive profile.)
+(Переглянути DialogCharacterPossessive профіль.)
+(Change DialogCharacterPossessive clothes.)
+(Змінити DialogCharacterPossessive одяг.)
+(Manage your relationship.)
+(Керувати вашими стосунками.)
+###_NPC
+(You can give more access to your items by putting DialogCharacterObject on your whitelist, or less control by putting DialogCharacterObject on your blacklist.)
+(Ви можете надати більше доступу до своїх предметів, додавши DialogCharacterObject до білого списку, або зменшити контроль, додавши DialogCharacterObject до чорного списку.)
+###_PLAYER
+(Check DialogCharacterPossessive drink tray.)
+(Перевірити піднос DialogCharacterName.)
+###_NPC
+(There's a variety of drinks.  Some are offered by the club and some are more expensive.)
+(Тут є різноманітні напої. Деякі пропонує клуб, а деякі дорожчі.)
+###_PLAYER
+(Try to take DialogCharacterPossessive suitcase.)
+(Спробувати взяти валізу DialogCharacterName.)
+###_NPC
+(It will take 5 minutes to get the suitcase open and steal the cash. Make sure DialogCharacterSubject is secure!)
+(Щоб відкрити валізу та вкрасти гроші, знадобиться 5 хвилин. Переконайтеся, що DialogCharacterName надійно зв'язані!)
+(You will need to tie DialogCharacterObject first so DialogCharacterSubject can't escape or resist!)
+(Вам потрібно буде спочатку зв’язати DialogCharacterName, щоб вони не могли втекти або чинити опір!)
+###_PLAYER
+(Use the laptop to steal data.)
+(Використати ноутбук для крадіжки даних.)
+(Room administrator action.)
+(Дії адміністратора кімнати.)
+###_NPC
+(As a room administrator, you can take these actions with DialogCharacterObject.)
+(Як адміністратор кімнати ви можете виконувати ці дії на DialogCharacterName.)
+###_PLAYER
+(Character actions.)
+(Дії персонажа.)
+###_NPC
+(Possible character actions.)
+(Можливі дії персонажа.)
+###_PLAYER
+(Stop DialogCharacterObject from leaving.)
+(Перешкодити вихід DialogCharacterName.)
+(GGTS interactions.)
+(Взаємодії GGTS.)
+###_NPC
+(As a nurse, you can program GGTS for DialogCharacterPossessive specific needs.)
+(As a nurse, you can program GGTS for DialogCharacterPossessive specific needs.)
+###_PLAYER
+(Leave this menu.)
+(Покинути це меню.)
+(Add to item whitelist.)
+(Додати до білого списку.)
+###_NPC
+(This member is now on your item permission whitelist.  DialogCharacterSubject will have higher access to restrain or free you.)
+(Цей учасник тепер у вашому білому списку дозволів для предметів. DialogCharacterSubject матиме вищий доступ, щоб зв'язувати або звільняти вас.)
+###_PLAYER
+(Remove from item whitelist.)
+(Прибрати з білого списку.)
+###_NPC
+(This member is no longer on your item permission whitelist.)
+(This member is no longer on your item permission whitelist.)
+###_PLAYER
+(Add to item blacklist.)
+(Add to item blacklist.)
+###_NPC
+(This member is now on your item permission blacklist.  DialogCharacterSubject will have less access to restrain or free you.)
+(This member is now on your item permission blacklist.  DialogCharacterSubject will have less access to restrain or free you.)
+###_PLAYER
+(Remove from item blacklist.)
+(Remove from item blacklist.)
+###_NPC
+(This member is no longer on your item permission blacklist.)
+(This member is no longer on your item permission blacklist.)
+###_PLAYER
+(Add to friendlist.)
+(Add to friendlist.)
+###_NPC
+(This member is considered to be a friend by you.  DialogCharacterSubject must also add you on DialogCharacterPossessive friendlist to be able to find each other.)
+(This member is considered to be a friend by you.  DialogCharacterSubject must also add you on DialogCharacterPossessive friendlist to be able to find each other.)
+###_PLAYER
+(Remove from friendlist.)
+(Remove from friendlist.)
+###_NPC
+(This member is not longer considered to be a friend by you.)
+(This member is not longer considered to be a friend by you.)
+###_PLAYER
+(Ghost and ignore DialogCharacterObject.)
+(Ghost and ignore DialogCharacterObject.)
+###_NPC
+(This member is now ghosted and ignored by you.  Nothing DialogCharacterSubject says or does will appear in your chat log.)
+(This member is now ghosted and ignored by you.  Nothing DialogCharacterSubject says or does will appear in your chat log.)
+###_PLAYER
+(Stop ghosting DialogCharacterObject.)
+(Stop ghosting DialogCharacterObject.)
+###_NPC
+(This member is no longer ghosted by you.  You will see what DialogCharacterSubject says or does in your chat log.)
+(This member is no longer ghosted by you.  You will see what DialogCharacterSubject says or does in your chat log.)
+###_PLAYER
+(Manage Ownership & Lovership)
+(Manage Ownership & Lovership)
+###_NPC
+(You can ask DialogCharacterObject to become your lover or submissive or advance the relationship.)
+(You can ask DialogCharacterObject to become your lover or submissive or advance the relationship.)
+###_PLAYER
+(Owner rules, restrictions & punishments.)
+(Owner rules, restrictions & punishments.)
+###_NPC
+(Select the owner rule, restriction or punishment that you want to enforce.)
+(Select the owner rule, restriction or punishment that you want to enforce.)
+###_PLAYER
+(Lover rules, restrictions & punishments.)
+(Lover rules, restrictions & punishments.)
+###_NPC
+(Select the lover rule, restriction or punishment that you want to enforce on your lover.)
+(Select the lover rule, restriction or punishment that you want to enforce on your lover.)
+###_PLAYER
+(Give DialogCharacterObject the money envelope.)
+(Give DialogCharacterObject the money envelope.)
+(Offer DialogCharacterObject a trial period to become your submissive.)
+(Offer DialogCharacterObject a trial period to become your submissive.)
+###_NPC
+(The request was sent.  DialogCharacterSubject must accept for the trial period to start.)
+(The request was sent.  DialogCharacterSubject must accept for the trial period to start.)
+###_PLAYER
+(Accept a trial period to become DialogCharacterPossessive submissive.)
+(Accept a trial period to become DialogCharacterPossessive submissive.)
+(Offer DialogCharacterObject to end the trial and be fully collared.)
+(Offer DialogCharacterObject to end the trial and be fully collared.)
+###_NPC
+(There's a $100 fee to prepare the ceremony and get DialogCharacterObject a slave collar.  Will you pay now?)
+(There's a $100 fee to prepare the ceremony and get DialogCharacterObject a slave collar.  Will you pay now?)
+###_PLAYER
+(Accept DialogCharacterObject collar and begin the ceremony.)
+(Accept DialogCharacterObject collar and begin the ceremony.)
+(Ask DialogCharacterObject to be your girlfriend.)
+(Ask DialogCharacterObject to be your girlfriend.)
+###_NPC
+(The request has been sent.  DialogCharacterSubject must accept it to start dating you.)
+(The request has been sent.  DialogCharacterSubject must accept it to start dating you.)
+###_PLAYER
+(Accept to be DialogCharacterPossessive girlfriend.)
+(Accept to be DialogCharacterPossessive girlfriend.)
+(Offer DialogCharacterObject to become your fiancée.)
+(Offer DialogCharacterObject to become your fiancée.)
+###_NPC
+(The request has been sent.  DialogCharacterSubject must accept it to become your fiancée.)
+(The request has been sent.  DialogCharacterSubject must accept it to become your fiancée.)
+###_PLAYER
+(Accept DialogCharacterObject proposal of engagement.)
+(Accept DialogCharacterObject proposal of engagement.)
+(Offer DialogCharacterObject to marry each other.)
+(Offer DialogCharacterObject to marry each other.)
+###_NPC
+(There's a $100 fee asked of both sides for the wedding.  Will you pay now?)
+(There's a $100 fee asked of both sides for the wedding.  Will you pay now?)
+###_PLAYER
+(Accept DialogCharacterObject proposal and become DialogCharacterPossessive wife.)
+(Accept DialogCharacterObject proposal and become DialogCharacterPossessive wife.)
+(Release DialogCharacterObject from the slave bond.)
+(Release DialogCharacterObject from the slave bond.)
+###_NPC
+(Are you sure you want to release DialogCharacterObject? THIS ACTION IS NOT REVERSIBLE!)
+(Are you sure you want to release DialogCharacterObject? THIS ACTION IS NOT REVERSIBLE!)
+###_PLAYER
+(Tell DialogCharacterObject you want to break up.)
+(Tell DialogCharacterObject you want to break up.)
+###_NPC
+(Are you sure you want to break up with DialogCharacterObject? THIS ACTION IS NOT REVERSIBLE!)
+(Are you sure you want to break up with DialogCharacterObject? THIS ACTION IS NOT REVERSIBLE!)
+###_PLAYER
+(Back)
+(Назад)
+(Yes, I want to permanently break the ownership!)
+(Yes, I want to permanently break the ownership!)
+###_NPC
+(The ownership has been broken.)
+(Контракт власності було розірвано.)
+(The submissive must not be wearing any collar to complete this action.)
+(The submissive must not be wearing any collar to complete this action.)
+###_PLAYER
+(Cancel)
+(Скасувати)
+###_NPC
+(Main menu)
+(Головне меню)
+###_PLAYER
+(Yes, I want to break up with DialogCharacterObject.)
+(Yes, I want to break up with DialogCharacterObject.)
+###_NPC
+(Your love relation is now over.)
+(Your love relation is now over.)
+###_PLAYER
+(Pay $100 for the collaring ceremony.)
+(Pay $100 for the collaring ceremony.)
+###_NPC
+(You pay and prepare the ceremony.  A maid brings a slave collar, DialogCharacterSubject must accept it to complete the collaring.)
+(You pay and prepare the ceremony.  A maid brings a slave collar, DialogCharacterSubject must accept it to complete the collaring.)
+###_PLAYER
+(Refuse to pay.)
+(Refuse to pay.)
+(Pay $100 for the wedding.)
+(Pay $100 for the wedding.)
+###_NPC
+(You pay and ask DialogCharacterObject to marry you. You wait for DialogCharacterPossessive answer.)
+(You pay and ask DialogCharacterObject to marry you. You wait for DialogCharacterPossessive answer.)
+###_PLAYER
+(Back to main menu.)
+(Back to main menu.)
+###_NPC
+(Main menu.)
+(Main menu.)
+###_PLAYER
+(Look at free drinks.)
+(Look at free drinks.)
+###_NPC
+(Free drinks menu.)
+(Free drinks menu.)
+###_PLAYER
+(Look at regular drinks.)
+(Look at regular drinks.)
+###_NPC
+(Regular drinks menu.)
+(Regular drinks menu.)
+###_PLAYER
+(Look at shared drinks.)
+(Look at shared drinks.)
+###_NPC
+(Shared drinks menu.)
+(Shared drinks menu.)
+###_PLAYER
+(Look at hot drinks.)
+(Look at hot drinks.)
+###_NPC
+(Hot drinks menu.)
+(Hot drinks menu.)
+###_PLAYER
+(Get a free glass of water.)
+(Get a free glass of water.)
+(Get a free orange juice.)
+(Get a free orange juice.)
+(Get a free beer.)
+(Get a free beer.)
+(Get a free glass of wine.)
+(Get a free glass of wine.)
+(Back to drink options.)
+(Back to drink options.)
+###_NPC
+(Drink options.)
+(Drink options.)
+###_PLAYER
+(Get a $5 Virgin Mojito.)
+(Get a $5 Virgin Mojito.)
+(Get a $5 Margarita.)
+(Get a $5 Margarita.)
+(Get a $5 glass of Whiskey.)
+(Get a $5 glass of Whiskey.)
+(Get a $5 glass of Champagne.)
+(Get a $5 glass of Champagne.)
+(Get a $10 jug of Sicilian Lemonade for everyone.)
+(Get a $10 jug of Sicilian Lemonade for everyone.)
+(Get a $10 round of shooters for everyone.)
+(Get a $10 round of shooters for everyone.)
+(Get a $10 jug of Sex on the Beach for everyone.)
+(Get a $10 jug of Sex on the Beach for everyone.)
+(Get a $10 beer pitcher for everyone.)
+(Get a $10 beer pitcher for everyone.)
+(Get a free tea.)
+(Get a free tea.)
+(Get a free coffee.)
+(Get a free coffee.)
+(Get a $5 hot chocolate.)
+(Get a $5 hot chocolate.)
+(Get a $5 espresso.)
+(Get a $5 espresso.)
+(Get a $5 cappuccino.)
+(Get a $5 cappuccino.)
+(Call the maids to escort DialogCharacterObject out of the room.)
+(Call the maids to escort DialogCharacterObject out of the room.)
+(Ban DialogCharacterObject from the room.)
+(Ban DialogCharacterObject from the room.)
+(Move Character.)
+(Move Character.)
+###_NPC
+(Move started.)
+(Move started.)
+###_PLAYER
+(Promote DialogCharacterObject as room administrator.)
+(Promote DialogCharacterObject as room administrator.)
+(Demote DialogCharacterObject from room administration.)
+(Demote DialogCharacterObject from room administration.)
+(Add DialogCharacterObject to the room whitelist.)
+(Додайте DialogCharacterObject до білого списку кімнати.)
+(Remove DialogCharacterObject from the room whitelist.)
+(Видалити DialogCharacterObject з білого списку кімнати.)
+(Whisper to DialogCharacterObject.)
+(Whisper to DialogCharacterObject.)
+(Stop whispering to DialogCharacterObject.)
+(Stop whispering to DialogCharacterObject.)
+(Hold on to DialogCharacterPossessive leash.)
+(Hold on to DialogCharacterPossessive leash.)
+(Let go of DialogCharacterPossessive leash.)
+(Let go of DialogCharacterPossessive leash.)
+(Help DialogCharacterObject stand.)
+(Help DialogCharacterObject stand.)
+###_NPC
+(You help DialogCharacterObject up on DialogCharacterPossessive feet.)
+(You help DialogCharacterObject up on DialogCharacterPossessive feet.)
+###_PLAYER
+(Help DialogCharacterObject kneel.)
+(Help DialogCharacterObject kneel.)
+###_NPC
+(You help DialogCharacterObject down on DialogCharacterPossessive knees.)
+(You help DialogCharacterObject down on DialogCharacterPossessive knees.)
+###_PLAYER
+(Help DialogCharacterObject to struggle free.)
+(Help DialogCharacterObject to struggle free.)
+(Take a photo of both of you.)
+(Take a photo of both of you.)
+(Lend DialogCharacterObject some lockpicks.)
+(Lend DialogCharacterObject some lockpicks.)
+###_NPC
+(You give DialogCharacterObject some lockpicks to struggle out with until DialogCharacterSubject leaves the room)
+(You give DialogCharacterObject some lockpicks to struggle out with until DialogCharacterSubject leaves the room)
+###_PLAYER
+(Give DialogCharacterObject a spare key to your locks.)
+(Give DialogCharacterObject a spare key to your locks.)
+###_NPC
+(You give DialogCharacterObject an extra key to your private padlocks)
+(You give DialogCharacterObject an extra key to your private padlocks)
+###_PLAYER
+(Hand over the keys to your locks.)
+(Hand over the keys to your locks.)
+###_NPC
+(You give DialogCharacterObject the keys to your private padlocks)
+(You give DialogCharacterObject the keys to your private padlocks)
+###_PLAYER
+(Stop her chat room struggles.)
+(Stop her chat room struggles.)
+(Spin the Wheel of Fortune.)
+(Spin the Wheel of Fortune.)
+(Force DialogCharacterObject to spin your Wheel of Fortune.)
+(Force DialogCharacterObject to spin your Wheel of Fortune.)
+###_NPC
+(DialogCharacterSubject will be required to spin your Wheel of Fortune.)
+(DialogCharacterSubject will be required to spin your Wheel of Fortune.)
+###_PLAYER
+(Generate a new GGTS task.)
+(Generate a new GGTS task.)
+(Give DialogCharacterObject a five minutes pause.)
+(Give DialogCharacterObject a five minutes pause.)
+(Slow pace for GGTS demands.)
+(Slow pace for GGTS demands.)
+(Normal pace for GGTS demands.)
+(Normal pace for GGTS demands.)
+(Fast pace for GGTS demands.)
+(Fast pace for GGTS demands.)
+(Wardrobe access.)
+(Wardrobe access.)
+###_NPC
+(Select DialogCharacterPossessive wardrobe access.)
+(Select DialogCharacterPossessive wardrobe access.)
+###_PLAYER
+(Owner presence rules.)
+(Owner presence rules.)
+###_NPC
+(Select the rules that will be enforced when you two are in the same room.)
+(Select the rules that will be enforced when you two are in the same room.)
+###_PLAYER
+(Key and locks restrictions.)
+(Key and locks restrictions.)
+###_NPC
+(Select DialogCharacterPossessive restrictions for keys and locks.)
+(Select DialogCharacterPossessive restrictions for keys and locks.)
+###_PLAYER
+(Remote restrictions.)
+(Remote restrictions.)
+###_NPC
+(Select DialogCharacterPossessive restrictions for remotes.)
+(Select DialogCharacterPossessive restrictions for remotes.)
+###_PLAYER
+(Timed cell, GGTS and forced labor.)
+(Timed cell, GGTS and forced labor.)
+###_NPC
+(You can send DialogCharacterObject to a timed cell, the Good Girl Training System or force DialogCharacterObject to serve drinks and get DialogCharacterPossessive salary.)
+(You can send DialogCharacterObject to a timed cell, the Good Girl Training System or force DialogCharacterObject to serve drinks and get DialogCharacterPossessive salary.)
+###_PLAYER
+(Collar and nickname options.)
+(Collar and nickname options.)
+###_NPC
+(Select the option.)
+(Select the option.)
+###_PLAYER
+(Advanced rules.)
+(Advanced rules.)
+###_NPC
+(Select the advanced rule to configure.)
+(Select the advanced rule to configure.)
+###_PLAYER
+(Allow DialogCharacterObject wardrobe access.)
+(Allow DialogCharacterObject wardrobe access.)
+###_NPC
+(DialogCharacterSubject can now access DialogCharacterPossessive wardrobe and change clothes.)
+(DialogCharacterSubject can now access DialogCharacterPossessive wardrobe and change clothes.)
+###_PLAYER
+(Block DialogCharacterObject wardrobe for 1 hour.)
+(Block DialogCharacterObject wardrobe for 1 hour.)
+###_NPC
+(DialogCharacterSubject wardrobe access will be blocked for the next hour.)
+(DialogCharacterSubject wardrobe access will be blocked for the next hour.)
+###_PLAYER
+(Block DialogCharacterObject wardrobe for 1 day.)
+(Block DialogCharacterObject wardrobe for 1 day.)
+###_NPC
+(DialogCharacterSubject wardrobe access will be blocked for the next day.)
+(DialogCharacterSubject wardrobe access will be blocked for the next day.)
+###_PLAYER
+(Block DialogCharacterObject wardrobe for 1 week.)
+(Block DialogCharacterObject wardrobe for 1 week.)
+###_NPC
+(DialogCharacterSubject wardrobe access will be blocked for the next week.)
+(DialogCharacterSubject wardrobe access will be blocked for the next week.)
+###_PLAYER
+(Block DialogCharacterObject wardrobe until you allow it.)
+(Block DialogCharacterObject wardrobe until you allow it.)
+###_NPC
+(DialogCharacterSubject wardrobe access will be blocked until you allow it again.)
+(DialogCharacterSubject wardrobe access will be blocked until you allow it again.)
+###_PLAYER
+(Back to rules.)
+(Back to rules.)
+(☑ Forbid DialogCharacterObject from talking.)
+(☑ Forbid DialogCharacterObject from talking.)
+###_NPC
+(DialogCharacterSubject will now be able to talk when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject will now be able to talk when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☐ Forbid DialogCharacterObject from talking.)
+(☐ Forbid DialogCharacterObject from talking.)
+###_NPC
+(DialogCharacterSubject won't be able to talk when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject won't be able to talk when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☑ Forbid DialogCharacterObject from emoting.)
+(☑ Forbid DialogCharacterObject from emoting.)
+###_NPC
+(DialogCharacterSubject will now be able to emote when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject will now be able to emote when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☐ Forbid DialogCharacterObject from emoting.)
+(☐ Forbid DialogCharacterObject from emoting.)
+###_NPC
+(DialogCharacterSubject won't be able to emote when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject won't be able to emote when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☑ Forbid DialogCharacterObject from whispering.)
+(☑ Forbid DialogCharacterObject from whispering.)
+###_NPC
+(DialogCharacterSubject can now whisper to anyone when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject can now whisper to anyone when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☐ Forbid DialogCharacterObject from whispering.)
+(☐ Forbid DialogCharacterObject from whispering.)
+###_NPC
+(DialogCharacterSubject won't be able to whisper to someone else when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject won't be able to whisper to someone else when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☑ Forbid DialogCharacterObject from changing pose.)
+(☑ Forbid DialogCharacterObject from changing pose.)
+###_NPC
+(DialogCharacterSubject will now be able to change DialogCharacterPossessive pose when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject will now be able to change DialogCharacterPossessive pose when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☐ Forbid DialogCharacterObject from changing pose.)
+(☐ Forbid DialogCharacterObject from changing pose.)
+###_NPC
+(DialogCharacterSubject won't be able to change DialogCharacterPossessive pose when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject won't be able to change DialogCharacterPossessive pose when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☑ Forbid DialogCharacterObject from accessing DialogCharacterSelf.)
+(☑ Forbid DialogCharacterObject from accessing DialogCharacterSelf.)
+###_NPC
+(DialogCharacterSubject will now be able to access DialogCharacterSelf when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject will now be able to access DialogCharacterSelf when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☐ Forbid DialogCharacterObject from accessing DialogCharacterSelf.)
+(☐ Forbid DialogCharacterObject from accessing DialogCharacterSelf.)
+###_NPC
+(DialogCharacterSubject won't be able to access DialogCharacterSelf when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject won't be able to access DialogCharacterSelf when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☑ Forbid DialogCharacterObject from accessing others.)
+(☑ Forbid DialogCharacterObject from accessing others.)
+###_NPC
+(DialogCharacterSubject will now be able to access other members when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject will now be able to access other members when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(☐ Forbid DialogCharacterObject from accessing others.)
+(☐ Forbid DialogCharacterObject from accessing others.)
+###_NPC
+(DialogCharacterSubject won't be able to access other members when DialogCharacterSubject's in the same room as you.)
+(DialogCharacterSubject won't be able to access other members when DialogCharacterSubject's in the same room as you.)
+###_PLAYER
+(Allow DialogCharacterObject to buy keys.)
+(Allow DialogCharacterObject to buy keys.)
+###_NPC
+(The store will sell keys to DialogCharacterObject.)
+(The store will sell keys to DialogCharacterObject.)
+###_PLAYER
+(Confiscate DialogCharacterPossessive keys.)
+(Confiscate DialogCharacterPossessive keys.)
+###_NPC
+(DialogCharacterSubject lost all of DialogCharacterPossessive keys.)
+(DialogCharacterSubject lost all of DialogCharacterPossessive keys.)
+###_PLAYER
+(Block DialogCharacterObject from buying keys.)
+(Block DialogCharacterObject from buying keys.)
+###_NPC
+(The store will not sell keys to DialogCharacterObject anymore.)
+(The store will not sell keys to DialogCharacterObject anymore.)
+###_PLAYER
+(Allow DialogCharacterObject to use family keys.)
+(Allow DialogCharacterObject to use family keys.)
+###_NPC
+(DialogCharacterObject will now be able to use family keys.)
+(DialogCharacterObject will now be able to use family keys.)
+###_PLAYER
+(Block DialogCharacterObject from using family keys.)
+(Block DialogCharacterObject from using family keys.)
+###_NPC
+(DialogCharacterObject won't be able to use family keys.)
+(DialogCharacterObject won't be able to use family keys.)
+###_PLAYER
+(Allow DialogCharacterObject to use owner/family locks on DialogCharacterSelf.)
+(Allow DialogCharacterObject to use owner/family locks on DialogCharacterSelf.)
+###_NPC
+(DialogCharacterSubject will be able to use owner & family locks on DialogCharacterSelf.)
+(DialogCharacterSubject will be able to use owner & family locks on DialogCharacterSelf.)
+###_PLAYER
+(Block DialogCharacterObject from using owner/family locks on DialogCharacterSelf.)
+(Block DialogCharacterObject from using owner/family locks on DialogCharacterSelf.)
+###_NPC
+(DialogCharacterSubject will not be able to use owner & family locks on DialogCharacterSelf anymore.)
+(DialogCharacterSubject will not be able to use owner & family locks on DialogCharacterSelf anymore.)
+###_PLAYER
+(Allow DialogCharacterObject to buy remotes.)
+(Allow DialogCharacterObject to buy remotes.)
+###_NPC
+(The store will sell remotes to DialogCharacterObject.)
+(The store will sell remotes to DialogCharacterObject.)
+###_PLAYER
+(Allow DialogCharacterObject to use remotes on DialogCharacterSelf.)
+(Allow DialogCharacterObject to use remotes on DialogCharacterSelf.)
+###_NPC
+(DialogCharacterPossessive remotes will work on DialogCharacterObject now.)
+(DialogCharacterPossessive remotes will work on DialogCharacterObject now.)
+###_PLAYER
+(Confiscate DialogCharacterPossessive remotes.)
+(Confiscate DialogCharacterPossessive remotes.)
+###_NPC
+(DialogCharacterSubject lost all of DialogCharacterPossessive remotes.)
+(DialogCharacterSubject lost all of DialogCharacterPossessive remotes.)
+###_PLAYER
+(Block DialogCharacterObject from buying remotes.)
+(Block DialogCharacterObject from buying remotes.)
+###_NPC
+(The store will not sell remotes to DialogCharacterObject anymore.)
+(The store will not sell remotes to DialogCharacterObject anymore.)
+###_PLAYER
+(Block DialogCharacterObject from using remotes on DialogCharacterSelf)
+(Block DialogCharacterObject from using remotes on DialogCharacterSelf)
+###_NPC
+(DialogCharacterPossessive remotes won't work on DialogCharacterObject anymore.)
+(DialogCharacterPossessive remotes won't work on DialogCharacterObject anymore.)
+###_PLAYER
+(Timed cell.)
+(Timed cell.)
+###_NPC
+(For how long do you want to lock DialogCharacterObject up?  DialogCharacterSubject will be isolated, and you won't be able to unlock DialogCharacterObject.)
+(For how long do you want to lock DialogCharacterObject up?  DialogCharacterSubject will be isolated, and you won't be able to unlock DialogCharacterObject.)
+###_PLAYER
+(Good Girl Training System.)
+(Good Girl Training System.)
+###_NPC
+(How many minutes of Good Girl Training System will DialogCharacterSubject be forced to do?)
+(How many minutes of Good Girl Training System will DialogCharacterSubject be forced to do?)
+###_PLAYER
+(Force DialogCharacterObject to serve drinks as a maid.)
+(Force DialogCharacterObject to serve drinks as a maid.)
+###_NPC
+(DialogCharacterSubject will be sent to the maid quarters to prepare drinks.  You will earn DialogCharacterPossessive salary.)
+(DialogCharacterSubject will be sent to the maid quarters to prepare drinks.  You will earn DialogCharacterPossessive salary.)
+(DialogCharacterSubject needs to be a maid in the sorority, be able to talk and be able to walk to do that job for you.)
+(DialogCharacterSubject needs to be a maid in the sorority, be able to talk and be able to walk to do that job for you.)
+###_PLAYER
+(Lock DialogCharacterObject for 5 minutes.)
+(Lock DialogCharacterObject for 5 minutes.)
+###_NPC
+(DialogCharacterSubject will be isolated and locked up for 5 minutes.)
+(DialogCharacterSubject will be isolated and locked up for 5 minutes.)
+###_PLAYER
+(Lock DialogCharacterObject for 15 minutes.)
+(Lock DialogCharacterObject for 15 minutes.)
+###_NPC
+(DialogCharacterSubject will be isolated and locked up for 15 minutes.)
+(DialogCharacterSubject will be isolated and locked up for 15 minutes.)
+###_PLAYER
+(Lock DialogCharacterObject for 30 minutes.)
+(Lock DialogCharacterObject for 30 minutes.)
+###_NPC
+(DialogCharacterSubject will be isolated and locked up for 30 minutes.)
+(DialogCharacterSubject will be isolated and locked up for 30 minutes.)
+###_PLAYER
+(Lock DialogCharacterObject for 60 minutes.)
+(Lock DialogCharacterObject for 60 minutes.)
+###_NPC
+(DialogCharacterSubject will be isolated and locked up for 60 minutes.)
+(DialogCharacterSubject will be isolated and locked up for 60 minutes.)
+###_PLAYER
+(Send DialogCharacterObject for 5 minutes.)
+(Send DialogCharacterObject for 5 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 5 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 5 minutes of Good Girl Training System.)
+###_PLAYER
+(Send DialogCharacterObject for 15 minutes.)
+(Send DialogCharacterObject for 15 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 15 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 15 minutes of Good Girl Training System.)
+###_PLAYER
+(Send DialogCharacterObject for 30 minutes.)
+(Send DialogCharacterObject for 30 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 30 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 30 minutes of Good Girl Training System.)
+###_PLAYER
+(Send DialogCharacterObject for 60 minutes.)
+(Send DialogCharacterObject for 60 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 60 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 60 minutes of Good Girl Training System.)
+###_PLAYER
+(Send DialogCharacterObject for 90 minutes.)
+(Send DialogCharacterObject for 90 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 90 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 90 minutes of Good Girl Training System.)
+###_PLAYER
+(Send DialogCharacterObject for 120 minutes.)
+(Send DialogCharacterObject for 120 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 120 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 120 minutes of Good Girl Training System.)
+###_PLAYER
+(Send DialogCharacterObject for 180 minutes.)
+(Send DialogCharacterObject for 180 minutes.)
+###_NPC
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 180 minutes of Good Girl Training System.)
+(DialogCharacterSubject will be locked up in the asylum until DialogCharacterSubject completes 180 minutes of Good Girl Training System.)
+###_PLAYER
+(Don't send DialogCharacterObject.)
+(Don't send DialogCharacterObject.)
+###_NPC
+(Select the rule, restriction or punishment that you want to enforce.)
+(Select the rule, restriction or punishment that you want to enforce.)
+###_PLAYER
+(Release DialogCharacterObject from the slave collar.)
+(Release DialogCharacterObject from the slave collar.)
+###_NPC
+(You remove DialogCharacterPossessive slave collar.)
+(You remove DialogCharacterPossessive slave collar.)
+###_PLAYER
+(Give DialogCharacterObject the slave collar.)
+(Give DialogCharacterObject the slave collar.)
+###_NPC
+(You lock the slave collar back on DialogCharacterObject.)
+(You lock the slave collar back on DialogCharacterObject.)
+###_PLAYER
+(Change or lock DialogCharacterPossessive nickname.)
+(Change or lock DialogCharacterPossessive nickname.)
+(Restrict Bondage Club areas.)
+(Restrict Bondage Club areas.)
+###_NPC
+(The areas you've selected will be blocked for your submissive.)
+(The areas you've selected will be blocked for your submissive.)
+###_PLAYER
+(Lock specific appearance zones.)
+(Lock specific appearance zones.)
+###_NPC
+(The appearance zones you've selected will be locked for your submissive.)
+(The appearance zones you've selected will be locked for your submissive.)
+###_PLAYER
+(Lock specific item zones.)
+(Lock specific item zones.)
+###_NPC
+(The item zones you've selected will be locked for your submissive.)
+(The item zones you've selected will be locked for your submissive.)
+###_PLAYER
+(Forbidden words list.)
+(Forbidden words list.)
+###_NPC
+(The forbidden words list for your submissive has been updated.)
+(The forbidden words list for your submissive has been updated.)
+###_PLAYER
+(Allow DialogCharacterObject to use lovers locks on DialogCharacterSelf.)
+(Allow DialogCharacterObject to use lovers locks on DialogCharacterSelf.)
+###_NPC
+(DialogCharacterSubject will be able to use lovers locks on DialogCharacterSelf.)
+(DialogCharacterSubject will be able to use lovers locks on DialogCharacterSelf.)
+###_PLAYER
+(Block DialogCharacterObject from using lovers locks on DialogCharacterSelf.)
+(Block DialogCharacterObject from using lovers locks on DialogCharacterSelf.)
+###_NPC
+(DialogCharacterSubject will not be able to use lovers locks on DialogCharacterSelf anymore.)
+(DialogCharacterSubject will not be able to use lovers locks on DialogCharacterSelf anymore.)
+###_PLAYER
+(Allow DialogCharacterObject owner to use lovers locks on DialogCharacterObject.)
+(Allow DialogCharacterObject owner to use lovers locks on DialogCharacterObject.)
+###_NPC
+(DialogCharacterPossessive owner will be able to use lovers locks on DialogCharacterObject.)
+(DialogCharacterPossessive owner will be able to use lovers locks on DialogCharacterObject.)
+###_PLAYER
+(Block DialogCharacterObject owner from using lovers locks on DialogCharacterObject.)
+(Block DialogCharacterObject owner from using lovers locks on DialogCharacterObject.)
+###_NPC
+(DialogCharacterPossessive owner will not be able to use lovers locks on DialogCharacterObject anymore.)
+(DialogCharacterPossessive owner will not be able to use lovers locks on DialogCharacterObject anymore.)

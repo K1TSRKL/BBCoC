@@ -1,0 +1,9 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,Common_PlayerNotRestrained,（搜索房间） ADD_MINUTES:1,你搜查了房间，但没有找到任何有用的东西。,10,0,0,Search()
+10,0,0,Common_PlayerNotRestrained,（搜索房间） ADD_MINUTES:1,你搜查了房间，但没有找到任何有用的东西。,10,0,0,Search()
+10,0,0,Common_PlayerNotRestrained,（脱下） ADD_MINUTES:1,你从校服脱到内衣。,20,0,0,Strip()
+20,0,0,Common_PlayerNotRestrained,（搜索房间） ADD_MINUTES:1,你搜查了房间，但没有找到任何有用的东西。,20,0,0,Search()
+20,0,0,Common_PlayerNotRestrained,（穿回衣服） ADD_MINUTES:1,你穿回你的校服。,10,0,0,DressBack()
+20,0,0,Common_PlayerNotRestrained,（穿上你的服装） ADD_MINUTES:1,你穿着为你的角色找到的最好的服装。,30,0,0,Costume()
+30,0,0,Common_PlayerNotRestrained,（搜索房间） ADD_MINUTES:1,你搜查了房间，但没有找到任何有用的东西。,30,0,0,Search()
+30,0,0,Common_PlayerNotRestrained,（脱下） ADD_MINUTES:1,你把衣服脱到内衣上。,20,0,0,Strip()

@@ -1,0 +1,85 @@
+PlayerGagged,,,You've visited some kinky rooms recently?  (She laughs.),,
+ItemMouth,,,(She shakes her head from left to right but you're able to silence her.),,
+RemoveItemMouth,,,(You remove her gag and she smiles.)  Thanks!  Do you think I should go back to work?,,
+ItemEars,,,(You push some earplugs into place.) How can I hear the clients now?,,
+RemoveItemEars,,,"(You pull the earplugs out.) Thank you, I can hear you clearly again.",,
+ItemArms,,,(She doesn't resist much and allows you to restrain her.)  It will be a fun shift after all.,,
+RemoveItemArms,,,(You free her arms and she claps her hands.)  Well done!  You know your bondage.,,
+ItemHands,,,(you restrain her hands while she watches you.)  This is going be a very kinky shift.,,
+RemoveItemHands,,,"(You release her hands and she nods a little.)  Thanks, you seem like you know what you're doing.",,
+ItemLegs,,,(She shakes her butt as you restrain her.)  You went to the shop recently?,,
+RemoveItemLegs,,,(You release her legs as she shakes her butt again.)  Shake your booty!,,
+ItemFeet,,,"(She tries to keep her balance as you restrain her feet.)  Don't worry, I won't fall.",,
+RemoveItemFeet,,,(You release her feet and she stands up.)  Any other restraints I could try?,,
+ItemNeck,,,(You fasten the collar around her neck.)  I'm not looking for an owner you know.,,
+RemoveItemNeck,,,"(You remove the collar from her neck.)  Keep that collar, you can bring subs in your room.",,
+ItemPelvis,,,"(You lock the belt on her as she giggles.)  Strangely, not being able to touch is a turn on for me.",,
+RemoveItemPelvis,,,(You unlock the device from her waist.)  Great!  Metal detectors would have been problematic.,,
+ItemHead,,,(You strap it on her head as she grumbles.)  I've never been a fan of these.,,
+RemoveItemHead,,,"(You remove the device as she nods quickly.)  This is much better, thanks!",,
+ItemBreastWhip,,,(She whimpers as you whip her breast.)  Ow!  You won't whip a discount out of me.,,
+ItemBreastCrop,,,"(You swing the crop on her torso.)  That's pretty unfair, I'm only trying to do my job.",,
+ItemPelvisWhip,,,"(You whip her butt as she whimpers from the pain.)  Bring subs to your place and whip them, not me!",,
+ItemPelvisCrop,,,(You lash the leather crop pretty hard on her.)  Oooow!  I'm glad I'm not your slave.,,
+0,,,Welcome to the Bondage Club private rooms.  Are you looking to rent a room?,,"!DialogLogQuery(""RentRoom"", ""PrivateRoom"")"
+0,,,Welcome to the Bondage Club private rooms.  Do you want to improve your room?,,"DialogLogQuery(""RentRoom"", ""PrivateRoom"")"
+0,,"Hi, I'm DialogPlayerName.","Nice to meet you, I'm DialogCharacterName.  I manage the private room rentals and improvements.",DialogRemove(),
+0,,Can you help me?,"No, I'm not allowed to play with customers.  And I prefer to see you like that.  (She winks.)",,!Player.CanInteract()
+0,10,I have a few questions.,Of course.  What would you like to know?,,
+0,100,I'd like to rent my own room.,The rent is $250.  Do you have enough money?,,"!DialogLogQuery(""RentRoom"", ""PrivateRoom"")"
+0,200,I'd like to improve my room.,"Excellent!  The club can provide wardrobes, cages, security and expansions for private rooms.  What would you like?",,"DialogLogQuery(""RentRoom"", ""PrivateRoom"")"
+0,20,Can we play some kinky games?,I don't have much to do and it's a quiet day.  I guess we can play.,,VendorCanPlay()
+0,,Can we play some kinky games?,"I'd love to, but I have rooms and items to rent.",,!VendorCanPlay()
+0,,Let's talk later.  (Leave her.),,DialogLeave(),
+10,,How much is a room?,The price for a regular room is $250.,,
+10,,How long do I have the room for?,It's yours as long as you're a club member.,,
+10,,Can I invite friends over?,"Of course.  The room isn't huge, but it's big enough for four people.",,
+10,,Can I make my room bigger?,"Yes, you can get two room expansions.  Each of them will allow you to receive four more friends.",,
+10,,What are the improvements I can get?,"Wardrobe, fancy beds, cages, security and expansions for now.  But the club is always improving, you can check again later.",,
+10,0,That's all the questions I had.,Alright.  What can I do for you then?,,
+20,0,Can I tie you up?,"Alright, you can use anything you want on me.  I won't complain too much.",DialogAllowItem(true),"DialogReputationGreater(""Dominant"", -29)"
+20,0,Can I tie you up?,A subbie like you?  No way!  (She grabs your arms and restrains them.)  This is much better.,"DialogWearRandomItem(""ItemArms"")","DialogReputationLess(""Dominant"", -30)"
+20,0,Will you tie me up?,Sure!  Give me your hands.  (She restrains your arms.)  Anything else I can do for you?,"DialogWearRandomItem(""ItemArms"")","DialogReputationLess(""Dominant"", 29)"
+20,0,Will you tie me up?,"Miss, I cannot tie you up.  I don't want to get in trouble with a Domme.",,"DialogReputationGreater(""Dominant"", 30)"
+20,0,I've changed my mind.,Alright.  What can I do for you then?,,
+100,110,Here's the money. (Pay $250),Marvelous!  Here are your room keys.  (She gives you keys for your own room.),RentRoom(),DialogMoneyGreater(250)
+100,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(250)
+100,0,I've changed my mind.,Alright.  What can I do for you then?,,
+110,120,Great!  This room is mine now?,Make yourself at home.  You can contact me anytime if you need improvements.,,
+120,0,Thanks!  (Check your room.),,DialogLeave(),
+200,210,I would like a wardrobe.,An excellent choice.  The price is $100.  Can you afford it?,,"!DialogLogQuery(""Wardrobe"", ""PrivateRoom"")"
+200,270,What kind of beds do you have?,"(She opens a catalog and shows you the beds.)  All our beds are $150, which one would you like?",,
+200,220,I want some cages.,"We have a kinky tenant.  (She giggles.)  We can prepare cages for your room for $150, do you have the funds?",,"!DialogLogQuery(""Cage"", ""PrivateRoom"")"
+200,230,I'd like to invite more people.,"Of course, we can double the size of your room for $200, do you have the funds?",,"!DialogLogQuery(""Expansion"", ""PrivateRoom"")"
+200,240,I'd like even more space.,"(She ponders.)  It could be done, but we'll need to renovate to get you a bigger room.  Can you cover the $400 fees for it?",,CanGetSecondExtension()
+200,250,Can I get a security service?,"(She nods.)  Since Pandora's Box moved in town, security is a must to protect your friends.  For $200, they will never get kidnapped again.",,"!DialogLogQuery(""Security"", ""PrivateRoom"")"
+200,260,I want to cancel the security service.,Are you sure?  The $200 security fee isn't refundable.  And Pandora's Box might strike again.,,"DialogLogQuery(""Security"", ""PrivateRoom"")"
+200,0,I've changed my mind.,Alright.  What can I do for you then?,,
+210,,How can I use the wardrobe?,The wardrobe allows you to sort your clothes and items.  To change from one look to another quickly.,,
+210,120,Here's the money. (Pay $100),Wonderful!  Give us a few seconds and we'll prepare your wardrobe.,GetWardrobe(),DialogMoneyGreater(100)
+210,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(100)
+210,0,I've changed my mind.,Alright.  What can I do for you then?,,
+220,,Why do I need cages?,To keep your submissives locked down of course.  You don't want to lose your properties.,,
+220,120,Here's the money. (Pay $150),Wonderful!  We'll move the cages in your room right now.,GetCage(),DialogMoneyGreater(150)
+220,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(150)
+220,0,I've changed my mind.,Alright.  What can I do for you then?,,
+230,,How does it work?,"It's easy, just navigate to check on your friends in the expanded part of your room.  Four more friends will be able to join.",,
+230,120,Here's the money. (Pay $200),Wonderful!  Here are the keys for the expansion doors.  (She gives you the room expansion keys.),GetExpansion(),DialogMoneyGreater(200)
+230,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(200)
+230,0,I've changed my mind.,Alright.  What can I do for you then?,,
+240,120,Here's the money. (Pay $400),This is great!  I'll call the maintenance team right now.  (They renovate your room to give you even more space.),GetSecondExpansion(),DialogMoneyGreater(400)
+240,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(400)
+240,0,I've changed my mind.,Alright.  What can I do for you then?,,
+250,120,Here's the money. (Pay $200),Wonderful!  Security will start patrolling right away.  Pandora's Box will not annoy you anymore.,GetSecurity(),DialogMoneyGreater(200)
+250,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(200)
+250,0,I've changed my mind.,Alright.  What can I do for you then?,,
+250,,Why do I need security?,Security will patrol around your room and make sure that nobody from Pandora's Box touches your friends.,,
+250,,Can I cancel that deal later?,"(She nods.)  You can, but there's no refund for the $200 fee.",,
+260,0,"Yes, cancel the security service.","Very well, the security team will not patrol around your room anymore.  Beware of Pandora's spies.",CancelSecurity(),
+260,200,"No, I need to think about it.",Alright.  What can I do for you then?,,
+270,,Can I change my bed later?,"Of course, but you will need to pay $150 again.",,
+270,120,I'll take the white bed. (Pay $150),Great!  We'll deliver your new bed right now.,"GetBed(""White"")",DialogMoneyGreater(150)
+270,120,I'll take the pink bed. (Pay $150),Great!  We'll deliver your new bed right now.,"GetBed(""Pink"")",DialogMoneyGreater(150)
+270,120,I'll take the black bed. (Pay $150),Great!  We'll deliver your new bed right now.,"GetBed(""Black"")",DialogMoneyGreater(150)
+270,0,I don't have enough money.,You can get work as a maid or take kidnapping bounties if you need money.,,!DialogMoneyGreater(150)
+270,0,I've changed my mind.,Alright.  What can I do for you then?,,

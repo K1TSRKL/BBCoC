@@ -1,0 +1,519 @@
+.dialog-root {
+	--button-height: calc(min(25vh, 12.5vw) - 2px);
+
+	display: grid;
+	gap: var(--gap);
+	grid-template:
+		". dialog-status" min-content
+		"dialog-paginate dialog-grid" auto / var(--menu-button-size) auto;
+}
+
+.dialog-menubar {
+	display: grid;
+	grid-area: dialog-menubar;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: repeat(auto-fill, 1fr);
+	direction: rtl;
+	gap: var(--gap);
+	padding-right: var(--scrollbar-gutter);
+}
+
+.dialog-menubar-button {
+	--tooltip-gap: var(--gap);
+
+	width: var(--menu-button-size);
+	aspect-ratio: 1 / 1;
+}
+
+.dialog-menubar-button > .button-image {
+	width: min(90px, 94%);
+	height: min(90px, 94%);
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.dialog-paginate {
+	grid-area: dialog-paginate;
+	align-self: end;
+	display: grid;
+	gap: var(--gap);
+	grid-template-rows: repeat(2, min-content);
+	padding-bottom: 3px;
+}
+
+.dialog-paginate-button {
+	--tooltip-gap: var(--gap);
+
+	height: var(--menu-button-size);
+	width: var(--menu-button-size);
+}
+
+.dialog-icon {
+	--hover-color: var(--button-color);
+
+	display: none;
+	cursor: auto;
+	grid-area: dialog-grid;
+	align-self: self-start;
+	justify-self: center;
+}
+
+.dialog-icon > .button-label {
+	text-align: center;
+}
+
+.dialog-icon:empty {
+	display: none !important;
+}
+
+.dialog-status {
+	font: inherit;
+	color: white;
+	user-select: none;
+
+	min-height: 1.15em; /* 1 line */
+	max-height: 4.6em; /* 4 lines */
+	align-self: center;
+	justify-self: center;
+	grid-area: dialog-status;
+}
+
+.dialog-grid {
+	display: grid;
+	gap: var(--gap);
+	grid-template-rows: repeat(auto-fill, var(--button-height));
+	grid-template-columns: repeat(4, 1fr);
+	padding: 3px;
+	padding-right: var(--scrollbar-gutter);
+	grid-area: dialog-grid;
+	scroll-snap-type: y proximity;
+}
+
+.dialog-root[data-show-icon] {
+	gap: calc(3px + var(--gap));
+}
+
+.dialog-root[data-show-icon] > .dialog-icon {
+	display: block;
+}
+
+.dialog-root[data-show-icon] > .dialog-grid {
+	display: none;
+}
+
+.dialog-grid-button {
+	--tooltip-gap: var(--gap);
+
+	scroll-snap-align: start;
+	height: var(--button-height);
+	width: min(100%, calc(0.8 * var(--button-height)));
+}
+
+.dialog-grid-button:disabled[aria-checked="true"],
+.dialog-grid-button[aria-disabled="true"][aria-checked="true"] {
+	background-color: var(--disabled-color) !important;
+}
+
+.dialog-grid-button:disabled[aria-checked="true"] > .button-label,
+.dialog-grid-button[aria-disabled="true"][aria-checked="true"] > .button-label {
+	background-color: var(--disabled-color) !important;
+}
+
+.dialog-grid-button > .button-tooltip {
+	width: calc(400% + 4 * var(--border-width) + 3 * var(--gap));
+	font-size: 0.65em;
+	max-height: calc(2 * var(--button-height) + var(--gap));
+	display: -webkit-box;
+	line-clamp: 15;
+	-webkit-line-clamp: 15;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+@supports selector(:nth-child(1n of :not([hidden]))) {
+	.dialog-grid .dialog-grid-button:nth-child(4n - 3 of :not([hidden])) > .button-tooltip {
+		left: unset;
+		transform: unset;
+	}
+
+	.dialog-grid .dialog-grid-button:nth-child(4n - 2 of :not([hidden])) > .button-tooltip {
+		left: calc(100% / 3);
+		transform: translateX(calc(-100% / 3));
+	}
+
+	.dialog-grid .dialog-grid-button:nth-child(4n - 1 of :not([hidden])) > .button-tooltip {
+		left: calc(100% / 1.5);
+		transform: translateX(calc(-100% / 1.5));
+	}
+
+	.dialog-grid .dialog-grid-button:nth-child(4n of :not([hidden])) > .button-tooltip {
+		left: 100%;
+		transform: translateX(-100%);
+	}
+}
+
+/* Fallback for browsers that do not support https://caniuse.com/css-nth-child-of */
+@supports not selector(:nth-child(1n of :not([hidden]))) {
+	.dialog-grid .dialog-grid-button:nth-child(4n - 3) > .button-tooltip {
+		left: unset;
+		transform: unset;
+	}
+
+	.dialog-grid .dialog-grid-button:nth-child(4n - 2) > .button-tooltip {
+		left: calc(100% / 3);
+		transform: translateX(calc(-100% / 3));
+	}
+
+	.dialog-grid .dialog-grid-button:nth-child(4n - 1) > .button-tooltip {
+		left: calc(100% / 1.5);
+		transform: translateX(calc(-100% / 1.5));
+	}
+
+	.dialog-grid .dialog-grid-button:nth-child(4n) > .button-tooltip {
+		left: 100%;
+		transform: translateX(-100%);
+	}
+}
+
+.dialog-grid-button[data-craft]:not([aria-checked="true"]) {
+	--button-color: #FFFF88;
+}
+
+.dialog-grid-button[data-permission="Block"] {
+	--button-color: red;
+	--hover-color: pink;
+}
+
+.dialog-grid-button[data-permission="Limited"] {
+	--button-color: orange;
+	--hover-color: #fed8b1;
+}
+
+.dialog-grid-button[data-permission="Favorite"] {
+	--button-color: green;
+	--hover-color: lime;
+}
+
+#dialog-crafted-info {
+	display: grid;
+	overflow: hidden;
+	grid-area: dialog-grid;
+	gap: var(--gap) 0px;
+	grid-template:
+		"dialog-crafted-name dialog-crafted-gap dialog-crafted-icon ." minmax(auto, min-content)
+		"dialog-crafted-crafter dialog-crafted-gap dialog-crafted-icon ." minmax(auto, min-content)
+		"dialog-crafted-property dialog-crafted-gap dialog-crafted-icon ." minmax(auto, min-content)
+		"dialog-crafted-private dialog-crafted-gap dialog-crafted-icon ." minmax(auto, min-content)
+		"dialog-crafted-footer dialog-crafted-footer dialog-crafted-footer dialog-crafted-footer" minmax(auto, min-content) / auto var(--gap) min(100%, calc(0.8 * var(--button-height))) var(--scrollbar-gutter)
+}
+
+#dialog-crafted ul {
+	padding: unset;
+	margin: unset;
+	list-style-type: none;
+}
+
+.dialog-crafted-info {
+	font: inherit;
+	overflow-wrap: break-word;
+	height: min-content;
+	width: 100%;
+	color: white;
+	user-select: none;
+	text-indent: 1em hanging each-line;
+}
+
+#dialog-crafted-name {
+	grid-area: dialog-crafted-name;
+}
+
+#dialog-crafted-crafter {
+	grid-area: dialog-crafted-crafter;
+}
+
+#dialog-crafted-property {
+	grid-area: dialog-crafted-property;
+}
+
+#dialog-crafted-property ul {
+	padding-left: 1em;
+}
+
+#dialog-crafted-private {
+	grid-area: dialog-crafted-private;
+}
+
+#dialog-crafted-gap {
+	grid-area: dialog-crafted-gap;
+}
+
+#dialog-crafted-icon {
+	grid-area: dialog-crafted-icon;
+	margin-top: 3px;
+	display: block;
+}
+
+#dialog-crafted-footer {
+	height: 100%;
+	overflow: hidden auto;
+	grid-area: dialog-crafted-footer;
+}
+
+#dialog-crafted-footer > * {
+	display: block;
+	max-width: calc(100% - var(--scrollbar-gutter));
+	padding-right: unset;
+}
+
+#dialog-dialog {
+	--dialog-button-size: min(8vh, 4vw);
+	grid-template:
+		". dialog-status dialog-menubar" min-content
+		"dialog-paginate dialog-grid dialog-grid" auto / var(--menu-button-size) auto calc(var(--menu-button-size) + 3px + var(--scrollbar-gutter));
+}
+
+#dialog-dialog-grid {
+	max-height: calc(6px + 8 * var(--dialog-button-size) + 7 * var(--gap));
+}
+
+#dialog-dialog-status {
+	min-height: 3.45em; /* 3 lines */
+	max-height: 7.9em; /* 6 lines */
+}
+
+#dialog-dialog-grid {
+	display: block;
+	height: minmax(auto, min-content);
+}
+
+.dialog-dialog-button {
+	width: 100%;
+	min-height: var(--dialog-button-size);
+	height: min-content;
+	padding-top: 0.15em;
+	padding-bottom: 0.15em;
+	margin-block: calc(var(--gap) / 2);
+}
+
+/* For browsers that support https://caniuse.com/css-nth-child-of */
+@supports selector(:nth-child(1 of :not([hidden]))) {
+	.dialog-dialog-button:nth-child(1 of :not([hidden])) {
+		margin-top: unset;
+	}
+
+	.dialog-dialog-button:nth-last-child(1 of :not([hidden])) {
+		margin-bottom: unset;
+	}
+}
+
+.dialog-dialog-button > .button-label {
+	position: unset;
+	padding-inline: 0.15em 0.15em;
+}
+
+.dialog-focus-grid [role="radiogroup"] {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: var(--border-width) solid #80808040;
+}
+
+.dialog-focus-grid [role="radio"] {
+	position: absolute;
+	border: var(--border-width) solid #80808040;
+}
+
+.dialog-focus-grid [role="radio"][data-blocked] {
+	border-color: #88000580;
+}
+
+.dialog-focus-grid [role="radio"][data-equipped] {
+	border-color: #D5A30080;
+}
+
+.dialog-focus-grid [role="radio"][aria-checked="true"] {
+	border-width: calc(2.5 * var(--border-width));
+	border-color: cyan;
+}
+
+.dialog-self-menu-root {
+	gap: 0 var(--gap);
+}
+
+.dialog-self-menu-root > .dialog-grid {
+	width: calc(100% - var(--scrollbar-gutter));
+	padding-right: var(--scrollbar-gutter);
+}
+
+.dialog-self-menu-root > .dialog-status {
+	padding-bottom: var(--gap);
+}
+
+.dialog-self-menu-menubar {
+	min-width: calc(5 * var(--menu-button-size) + 2 * var(--gap));
+	grid-area: dialog-menubar;
+	display: grid;
+	gap: calc(0.5 * var(--gap));
+	direction: rtl;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(3, var(--menu-button-size)) calc(3px + var(--menu-button-size) + 0.5 * var(--gap)) repeat(auto-fill, var(--menu-button-size));
+}
+
+.dialog-expression-grid > .dialog-menubar-button,
+.dialog-pose-grid > .dialog-menubar-button,
+.dialog-expression-preset-slot > canvas,
+#dialog-owner-rules-grid > li {
+	scroll-snap-align: start;
+}
+
+#dialog-expression {
+	grid-template:
+		"dialog-menubar dialog-menubar" var(--menu-button-size)
+		"dialog-status dialog-status" min-content
+		"dialog-left-menu dialog-grid" auto / var(--menu-button-size) min-content;
+}
+
+#dialog-expression-menu-left {
+	grid-area: dialog-left-menu;
+	display: grid;
+	padding-top: 3px;
+	gap: calc(0.5 * var(--gap));
+	grid-template-rows: repeat(auto-fill, var(--menu-button-size));
+}
+
+.dialog-expression-grid {
+	display: grid;
+	gap: calc(0.5 * var(--gap));
+	grid-template-columns: repeat(3, var(--menu-button-size));
+	grid-template-rows: repeat(auto-fill, var(--menu-button-size));
+	height: calc(7 * var(--menu-button-size) + 3 * var(--gap));
+}
+
+.dialog-expression-grid[hidden] {
+	display: grid !important;
+	visibility: hidden;
+}
+
+#dialog-expression-button-grid {
+	display: none;
+}
+
+#dialog-pose {
+	width: fit-content;
+	grid-template:
+		"dialog-menubar dialog-menubar" var(--menu-button-size)
+		"dialog-status dialog-status" min-content
+		". dialog-grid" auto / var(--menu-button-size) min-content;
+}
+
+#dialog-pose > .dialog-grid {
+	gap: calc(0.5 * var(--gap));
+}
+
+.dialog-pose-grid {
+	display: grid;
+	gap: calc(0.5 * var(--gap));
+}
+
+#dialog-expression-preset {
+	width: fit-content;
+	grid-template:
+		"dialog-menubar dialog-menubar" var(--menu-button-size)
+		"dialog-status dialog-status" min-content
+		"dialog-grid dialog-grid" auto / var(--menu-button-size) min-content;
+}
+
+#dialog-expression-preset-button-grid {
+	display: block;
+	padding-block: 3px;
+	margin: unset;
+}
+
+.dialog-expression-preset-slot {
+	--expression-preset-size: min(8dvh, 4dvw);
+	display: grid;
+	gap: calc(var(--gap) / 2);
+	grid-template:
+		"canvas save-button" 50%
+		"canvas load-button" 50% / calc(2 * var(--menu-button-size) + var(--gap)) min-content;
+}
+
+.dialog-expression-preset-slot button {
+	height: var(--expression-preset-size);
+	width: calc(2 * var(--menu-button-size) + 0.5 * var(--gap));
+	justify-self: start;
+}
+
+.dialog-expression-preset-slot button[name="save"] {
+	grid-area: save-button;
+	margin-top: calc(var(--gap) / 4);
+	align-self: self-end;
+}
+
+.dialog-expression-preset-slot button[name="load"] {
+	grid-area: load-button;
+	margin-bottom: calc(var(--gap) / 4);
+	align-self: self-start;
+}
+
+.dialog-expression-preset-slot:first-child button {
+	margin-top: unset;
+}
+
+.dialog-expression-preset-slot:last-child button {
+	margin-bottom: unset;
+}
+
+.dialog-expression-preset-slot canvas {
+	grid-area: canvas;
+	max-height: calc(2 * var(--expression-preset-size) + var(--gap) / 2);
+	max-width: calc(2 * var(--expression-preset-size) + var(--gap) / 2);
+	min-height: min(20dvh, 10dvw, 200px) !important;
+	min-width: min(20dvh, 10dvw, 200px) !important;
+	position: static;
+}
+
+#dialog-owner-rules {
+	grid-template:
+		"dialog-menubar dialog-menubar" var(--menu-button-size)
+		"dialog-status dialog-status" min-content
+		"dialog-grid dialog-grid" auto / var(--menu-button-size) min-content;
+}
+
+#dialog-owner-rules-grid {
+	width: 100% !important;
+	display: block;
+	color: white;
+	margin-block: unset;
+	user-select: none;
+}
+
+#dialog-owner-rules-grid > li {
+	text-indent: 1em hanging each-line;
+}
+
+@supports(height: 100dvh) {
+	.dialog-root {
+		--button-height: calc(min(25dvh, 12.5dvw) - 2px);
+	}
+
+	#dialog-dialog {
+		--dialog-button-size: min(8dvh, 4dvw);
+	}
+}
+
+@supports (background-color: color-mix(in srgb, black 50%, transparent)) {
+	.dialog-grid-button:disabled[aria-checked="true"],
+	.dialog-grid-button[aria-disabled="true"][aria-checked="true"] {
+		background-color: color-mix(in srgb, var(--disabled-color) 34%, var(--checked-color) 66%) !important;
+	}
+
+	.dialog-grid-button:disabled[aria-checked="true"] > .button-label,
+	.dialog-grid-button[aria-disabled="true"][aria-checked="true"] > .button-label {
+		background-color: color-mix(
+			in srgb,
+			color-mix(in srgb, var(--disabled-color) 34%, var(--checked-color) 66%) 50%,
+			transparent
+		) !important;
+	}
+}

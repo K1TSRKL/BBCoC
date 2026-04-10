@@ -1,0 +1,322 @@
+Name:
+Ім'я:
+Nickname:
+Псевдонім:
+Title:
+Титул:
+None
+Жодного
+Mistress
+Господиня
+Master
+Господар
+Club Slave
+Клубний раб
+Head Maid
+Головна покоївка
+Maid
+Покоївка
+Bondage Maid
+Бондаж покоївка
+Master Kidnapper
+Майстер-викрадач
+Kidnapper
+Викрадач
+Patient
+Пацієнт
+Permanent Patient
+Постійний пацієнт
+Escaped Patient
+Пацієнт-утікач
+Nurse
+Медсестра
+Doctor
+Лікар
+Lady Luck
+Пані Удача
+Lord Fortune
+Пан Фортуна
+Patron
+Меценат
+College Student
+Студент коледжу
+Nawashi
+Наваші
+Houdini
+Гудіні
+Foal
+Лоша
+Farm Horse
+Фермерський кінь
+Cold Blood Horse
+Холоднокровний кінь
+Warm Blood Horse
+Теплокровний кінь
+Hot Blood Horse
+Гарячокровний кінь
+Wild Mustang
+Дикий мустанг
+Shining Unicorn
+Сяючий єдиноріг
+Flying Pegasus
+Летючий пегас
+Majestic Alicorn
+Величний Алікорн
+Mole
+Кріт
+Infiltrator
+Інфільтратор
+Agent
+Агент
+Operative
+Сищик
+Superspy
+Супершпигун
+Wizard
+Чаклун
+Magus
+Волхв
+Magician
+Чарівник
+Sorcerer
+Чарівник
+Sage
+Мудрець
+Oracle
+Оракул
+Witch
+Відьма
+Warlock
+Чорнокнижник
+Little One
+Крихітка
+Baby
+Маля
+Diaper Lover
+Любитель підгузків
+Bondage Baby
+Бондаж-дитина
+Duchess
+Герцогиня
+Duke
+Герцог
+Switch
+Світч
+Princess
+Принцеса
+Prince
+Принц
+Missy
+Міссі
+Sissy
+Сіссі
+Tomboy
+Томбой
+Femboy
+Фембой
+Pet
+Домашня тваринка
+Brat
+Шибеник
+Kitten
+Кошеня
+Puppy
+Цуценя
+Foxy
+Лисеня
+Bunny
+Кроленя
+Doll
+Лялька
+Demon
+Демон
+Angel
+Ангел
+Alien
+Прибулець
+Succubus
+Суккуб
+Incubus
+Інкуб
+Good Girl
+Гарна дівчинка
+Good Slave Girl
+Гарна дівчинка-рабиня
+Good Boy
+Гарний хлопчик
+Good Slave Boy
+Гарний хлопчик-раб
+Good Slave
+Гарний раб
+Drone
+Дрон
+Mistree
+Містрі
+Good One
+Хороший
+Liege
+Сеньйор
+Concubus
+Конкуб
+Majesty
+Величність
+Captain
+Капітан
+Admiral
+Адмірал
+Dominatrix
+Домінатрікс
+Pronouns:
+Займенники:
+Member Number:
+Номер члена:
+-
+-‎
+- Relationships -
+- Відношення -
+Lover:
+Коханий(на):
+Owner:
+Власник:
+GGTS
+GGTS‎
+Money:
+Гроші:
+Member for
+Член протягом
+Bondage Club Birthday! 
+Клубний день народження!
+Friends for
+Друзі протягом
+On trial for
+На випробувальному періоді протягом
+Collared for
+У власності протягом
+Dating for
+Зустрічаються протягом
+Engaged for
+Обручені протягом
+Married for
+Одружені протягом
+day(s)
+днів
+Unknown
+Невідомо
+- Reputation -
+- Репутація -
+Dungeoneer:
+Дослідник підземелля:
+Dominant:
+Домінант:
+Submissive:
+Сабмісив:
+Maid Sorority:
+Товариство покоївок:
+Kidnappers League:
+Ліга викрадачів:
+Asylum Nurse:
+Медсестра дурки:
+Asylum Patient:
+Пацієнт дурки:
+LARP Battles:
+Битви LARP:
+Gambling Hall:
+Гральний зал:
+ABDL:
+ABDL:‎
+House Maiestas:
+Дім Маєстас:
+House Vincula:
+Дім Вінкула:
+House Amplector:
+Дім Амплектор:
+House Corporis:
+Дім Корпорис:
+difficulty
+складність
+ - Can change again in NumberOfDays day(s)
+ - Можна змінити через NumberOfDays днів
+Roleplay
+Рольова
+Regular
+Звичайна
+Hardcore
+Хардкорна
+Extreme
+Екстремальна
+- Skills -
+- Навички -
+Bondage:
+Бондаж:
+Self-bondage:
+Селф-бондаж:
+Lockpicking:
+Злом:
+Evasion:
+Вилаз:
+Willpower:
+Сила волі:
+Infiltration:
+Інфільтрація:
+Dressage:
+Виїздка:
+ABSVAL for DURATION
+ABSVAL на DURATION
+- Traits -
+- Риси -
+Spend more time with her to know her traits
+Проведіть з ними більше часу щоб дізнатися їхні риси
+Violent:
+Жорстокість:
+Peaceful:
+Мирність:
+Horny:
+Гарячість:
+Frigid:
+Байдужість:
+Rude:
+Грубість:
+Polite:
+Ввічливість:
+Wise:
+Мудрість:
+Dumb:
+Тупість:
+Serious:
+Серйозність:
+Playful:
+Грайливість:
+Relation:
+Відношення:
+(Perfect)
+(Ідеальне)
+(Great)
+(Чудове)
+(Good)
+(Хороше)
+(Fair)
+(Справедливе)
+(Neutral)
+(Нейтральне)
+(Poor)
+(Кепське)
+(Bad)
+(Погане)
+(Horrible)
+(Жахливе)
+(Atrocious)
+(Мерзенне)
+Permission:
+Дозволи:
+Everyone, no exceptions
+Всі, без виключення
+Everyone, except blacklist
+Всі, окрім чорного списку
+Owner, Lovers, whitelist & Dominants
+Власник, кохані, білий список та домінанти
+Owner, Lovers and whitelist only
+Тільки власник, кохані та білий список
+Owner and Lovers only
+Тільки власник та кохані
+Owner only
+Тільки власник

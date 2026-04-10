@@ -1,0 +1,149 @@
+###_NPC
+(There's a small wooden drawer.)
+（這裡有一個小木抽屜。）
+###_PLAYER
+(Open the first one.)
+（打開第一個。）
+###_NPC
+(You pull hard on the top drawer, but it doesn't open.  It seems to be stuck.)
+（你用力拉最上面的抽屜，沒能打開。似乎卡住了。）
+(You pull hard on the top drawer and it slowly opens.  You find a catsuit and some lingerie.  There's enough room to put more clothes inside.)
+（你用力拉最上面的抽屜，它慢慢打開。裡面有一件緊身衣和一些內衣。裡面的空間足夠放更多的衣服。）
+###_PLAYER
+(Open the second one.)
+（打開第二個。）
+###_NPC
+(You pull hard on the second drawer, but it doesn't open.  It seems to be stuck.)
+（你用力拉第二個抽屜，沒能打開。似乎卡住了。）
+(You open the second drawer.  It contains a few latex clothes.)
+（你打開第二個抽屜。裡面有幾件乳膠衣服。）
+###_PLAYER
+(Open the third one.)
+（打開第三個。）
+###_NPC
+(You pull hard on the third drawer, but it doesn't open.  It seems to be stuck.)
+（你用力拉第三個抽屜，沒能打開。似乎卡住了。）
+(You open the third drawer.  It contains a few leather cuffs and collars.)
+（你打開第三個抽屜。裡面有一些皮革銬和項圈。）
+###_PLAYER
+(Leave it.)
+（不管它。）
+(Wear the black catsuit.)
+（穿上黑色緊身衣。）
+###_NPC
+(You swap your clothes for a black catsuit and shows it to the camera.  You then push hard on the top drawer to close it.)
+（你換上黑色緊身衣，然後對著鏡頭展示。然後用力推最上面的抽屜，把它關上。）
+###_PLAYER
+(Wear the lingerie.)
+（穿上內衣。）
+###_NPC
+(You swap your clothes for the lingerie and shows it to the camera.  You then push hard on the top drawer to close it.)
+（你換上內衣，然後對著鏡頭展示。然後用力推最上面的抽屜，把它關上。）
+###_PLAYER
+(Strip naked.)
+（脫光衣服。）
+###_NPC
+(You slowly strip naked for the camera and leave your clothes inside.  You then push hard on the top drawer to close it.)
+（你在鏡頭前慢慢脫光衣服，把衣服留在裡面。然後用力推最上面的抽屜，把它關上。）
+###_PLAYER
+(Close it.)
+（關上它。）
+###_NPC
+(You push hard on the top drawer to close it.)
+（你用力推最上面的抽屜把它關上。）
+###_PLAYER
+(Inspect the latex clothes.)
+（檢查乳膠衣服。）
+###_NPC
+(The latex clothes are very shiny and smell new.  They seem to have a strange locking mechanism.)
+（乳膠衣服非常閃亮，聞起來很新。這些衣服似乎有一個奇怪的鎖定機構。）
+###_PLAYER
+(Wear the latex corset.)
+（穿上乳膠束腰。）
+###_NPC
+(You put on the latex corset and it seems to lock on you when you attach it.)
+（你穿上乳膠束腰，當你穿好後，它似乎鎖在了你身上。）
+###_PLAYER
+(Wear the latex ballet heels.)
+（穿上乳膠芭蕾高跟鞋。）
+###_NPC
+(You put on the latex ballet heels and it seems to lock on you when you attach it.)
+（你穿上乳膠芭蕾高跟鞋，當你穿好後，它似乎鎖在了你身上。）
+(You close the second drawer.)
+（你關上第二個抽屜。）
+###_PLAYER
+(Inspect the restraints.)
+（檢查束縛。）
+###_NPC
+(The restraints seem pretty strong and smell new.  They seem to have a strange locking mechanism.)
+（束縛看起來很結實，聞起來很新。這些東西似乎有一種奇怪的鎖定機制。）
+###_PLAYER
+(Wear the cuffs.)
+（戴上皮銬。）
+###_NPC
+(You put on the leather cuffs one by one, hearing a small locking click each time you attach one.)
+（你一個一個地戴上皮銬，每繫上一個，都會聽到輕微的鎖定喀嗒聲。）
+###_PLAYER
+(Wear the collar.)
+（戴上項圈。）
+###_NPC
+(You put on the leather collar, hearing a small locking click when you attach it.)
+（你戴上皮革項圈，戴好時，能聽到輕微的鎖定喀嗒聲。）
+(You close the third drawer.)
+（你關上第三個抽屜。）
+(There are a few duster gags in the first drawer.)
+（第一個抽屜裡有一些撣子口塞。）
+(There are many dusters in the second drawer.)
+（第二個抽屜裡有很多撣子。）
+(There are a few electric items in the third drawer.)
+（第三個抽屜裡有一些電擊物品。）
+###_PLAYER
+(Dust the drawer.)
+（給抽屜除塵。）
+###_NPC
+(You dust the drawer as the camera zooms on your gag.)
+（鏡頭拉近你的口塞，你清掃抽屜。）
+###_PLAYER
+(Wear the duster gag.)
+（戴上撣子口塞。）
+###_NPC
+(You strap the duster gag around your head as the camera zooms on you.)
+（鏡頭對準你，你將撣子口塞套在頭上。）
+###_PLAYER
+(Leave the duster gag inside.)
+（將撣子口塞留在裡面。）
+###_NPC
+(You slowly remove the duster gag and try not to drool on your outfit.)
+（你慢慢地取下撣子口塞，盡量避免口水流到你的衣服上。）
+(You close the drawer.)
+（你關上抽屜。）
+###_PLAYER
+(Take a feather duster.)
+（拿起撣子。）
+###_NPC
+(You take a feather duster and caress it in front of the camera.)
+（你拿著撣子，在鏡頭前撫摸它。）
+###_PLAYER
+(Take a long duster.)
+（拿起一個長雞毛撣。）
+###_NPC
+(You take a long duster and caress it in front of the camera.)
+（你拿起一個長雞毛撣，在鏡頭前撫摸它。）
+###_PLAYER
+(Leave your item.)
+（放下你的物品。）
+###_NPC
+(You stare at your item one more time, sigh and slowly put it away.)
+（你再次凝視著你的物品，嘆了口氣，慢慢地把它收起來。）
+###_PLAYER
+(Take an electric toothbrush.)
+（拿起一把電動牙刷。）
+###_NPC
+(You take an electric toothbrush and turn it on and off for the viewers.)
+（你拿起一把電動牙刷，朝著觀眾打開又關閉它。）
+###_PLAYER
+(Take a vibrating wand.)
+（拿起一根振動棒。）
+###_NPC
+(You take a vibrating wand and turn it on and off for the viewers.)
+（你拿起一根振動棒，朝著觀眾打開又關閉它。）

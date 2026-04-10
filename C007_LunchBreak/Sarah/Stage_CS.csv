@@ -1,0 +1,136 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,Mám hlad jako vlk!,(Zpívá.) Je hladová jako vlk!|Jdeš někam ven nebo budeš jíst tady?,10,1,0,
+0,0,0,,Nevím. Možná bych|měla oběd vynechat.,"To ne! Musíš něco jíst! Je tady jídelna,|nebo se můžeš jít najíst někam ven.",10,0,-1,
+0,0,0,,Mám chuť na tebe!,"(Chichotá se.) Cože? Na koho? Na mě?|Jdeš ven, nebo budeš jíst tady?",10,0,1,
+0,0,0,,Hlad? Jenom pokud|tady vaří bez GMO!,"Vůbec netuším, co to znamená.|Půjdeš jíst někam ven, nebo se najíš tady?",10,-1,0,
+10,0,0,,Já nevím.|Co bych měla dělat?,Zkus nedalekou kavárnu. Já tam chodím|se svýma kámoškama docela často.,20,0,-1,
+10,0,0,,A co je lepší?,Zkus nedalekou kavárnu. Já tam chodím|se svýma kámoškama docela často.,20,0,0,
+10,0,0,,"Ven! Kamkoliv, hlavně|odsud vypadnout.",Tak zkus nedalekou kavárnu. Já tam chodím|se svýma kámoškama docela často.,20,-1,0,
+20,5,0,,"Tak jo! A půjdeš|se mnou, krasavice?","Krasavice? (Chichotá se a směje se.)|Dobrá, tak rovnou vyrazíme?",30,1,0,
+20,0,5,,"Výborně!|Pojď se mnou, holka!","Ale já měla v plánu… To je fuk.|Ráda vám tu kavárnu ukážu, slečno!",30,0,1,
+20,0,0,NoOption,Nechceš tam|jít se mnou?,"Nemůžu, už mám na oběd jiné plány.",40,0,0,
+20,0,0,NoOption,Mohla bys mi|to místo ukázat?,"Nemůžu, už mám na oběd jiné plány.",40,0,0,
+20,0,0,,Zkusím tu kavárnu.|Uvidíme se později.,Určitě! (Otáčí se a vyráží na oběd.),50,0,0,EndLunch()
+30,0,0,,Tak pojďme!|(Najez se se Sárou.),(Odcházíte spolu do nedaleké restaurace|a nacházíte si volný stůl),100,0,0,StartLunch()
+40,0,0,,"Tak jo,|uvidíme se později!",Určitě! (Zamává ti a vyráží na oběd.),50,0,0,EndLunch()
+40,0,0,,Tak si tedy užij oběd!,Rozhodně! (Zamává ti a vyráží na oběd.),50,1,0,EndLunch()
+40,0,0,,Stojíš za prd!,"Ne, ty stojíš za prd! (Otáčí se a vyráží na oběd.)",50,-2,0,EndLunch()
+100,0,0,,Tak co doporučuješ?,"Dělají tady superboží nachos.|Tak co, líbí se ti zatím naše škola?",110,0,0,
+100,0,0,,Padám hlady!|Co tady mají dobrého?,"(Chichotá se.) Já miluju místní nachos.|Tak co, líbí se ti zatím naše škola?",110,0,1,
+100,0,0,,"Nevím, co si dát.|Mohla bys mi objednat?","Já nevím, koukni se do jídelního lístku.|Tak co, líbí se ti zatím naše škola?",110,0,-1,
+110,0,0,,"Moc! Zdá se, že|je to dobrá univerzita.","Ano i ne, některé hodiny dokážou být pěkně nudné.|A co bys chtěla v životě dělat?",120,0,0,
+110,0,0,,"Tahle škola, to je|hotový blázinec.",(Nahlas se směje.) Naprosto přesně!|A co bys chtěla v životě dělat?,120,0,0,GoodMatch()
+110,0,0,,Takhle úchylnou školu|jsem ještě neviděla!,(Nahlas se směje.) Rozhodně!|A co bys chtěla v životě dělat?,120,0,0,GoodMatch()
+110,0,0,,Těžko soudit|z těch pár hodin.,"Jenom tak žvaníme, můžeš být upřímná.|A co bys chtěla v životě dělat?",120,0,0,BadMatch()
+110,0,0,,Je to pěkně|nudná škola.,"Jo, některé hodiny dokážou být pořádně nudné.|A co bys chtěla v životě dělat?",120,0,0,
+120,0,0,,Muzikantku.,Super! A co je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Doktorku.,Dobře. A co je tvůj oblíbený předmět?,130,0,0,
+120,0,0,,Atletku.,Dobře. A co je tvůj oblíbený předmět?,130,0,0,
+120,0,0,,Učitelku.,Dobře. A co je tvůj oblíbený předmět?,130,0,0,
+120,0,0,,Herečku.,Super! A co je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Dominu.,(Červená se.) A co je tvůj oblíbený předmět?,130,0,1,GoodMatch()
+120,0,0,,Architektku.,Nuda!. A co je tvůj oblíbený předmět?,130,0,0,BadMatch()
+120,0,0,,Farmářku.,Bleee! S prasaty a kukuřicí?|A co je tvůj oblíbený předmět?,130,-1,0,BadMatch()
+120,0,0,,Programátorku.,Nuda!. A co je tvůj oblíbený předmět?,130,0,0,BadMatch()
+120,0,0,,Ještě nevím.,"Já mám to samý, netuším, co budu dělat.|Co je tvůj oblíbený předmět?",130,0,0,GoodMatch()
+130,0,0,,Matika.,Jako fakt? A co děláš mimo školu?,140,0,0,BadMatch()
+130,0,0,,Hudebka.,Super! A co děláš mimo školu?,140,0,0,GoodMatch()
+130,0,0,,Čeština.,Dobře. A co děláš mimo školu?,140,0,0,
+130,0,0,,Tělocvik.,Dobře. A co děláš mimo školu?,140,0,0,
+130,0,0,,Chemie.,Jako fakt? A co děláš mimo školu?,140,0,0,BadMatch()
+130,0,0,,Francouzština.,Super! A co děláš mimo školu?,140,0,0,GoodMatch()
+130,0,0,,Výtvarka.,Super! A co děláš mimo školu?,140,0,0,GoodMatch()
+130,0,0,,Dějepis.,Dobře. A co děláš mimo školu?,140,0,0,
+130,0,0,,Divadelní kroužek.,Super! A co děláš mimo školu?,140,0,0,GoodMatch()
+130,0,0,,Nevím.,"Nestyď se, vždyť jen tak plkáme!|A co děláš mimo školu?",140,0,0,BadMatch()
+140,0,0,,Basket.,"Hmmmmm. (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,
+140,0,0,,Rockovou muziku.,"To je skvělé! (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,GoodMatch()
+140,0,0,,Pařím hry.,"Hmmmmm. (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,
+140,0,0,,Roztleskávačku.,"Hmmmmm. (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,
+140,0,0,,Chodím na párty.,"To je skvělé! (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,GoodMatch()
+140,0,0,,Hry na hrdiny.,"Hmmmmm. (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,
+140,0,0,,Opíjím se.,"Na tom není nic špatného! (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,GoodMatch()
+140,0,0,,Klasickou hudbu.,"To zní nudně. (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,BadMatch()
+140,0,0,,Šukám.,"(Přikyvuje a červená se.) Ty jsi tak zvrácená!|(Přerušuje vás servírka, co přišla pro objednávku.)",150,1,0,GoodMatch()
+140,0,0,,Nemám žádné koníčky.,"Fakt? Žádné? (Přerušuje vás servírka,|která přišla pro vaši objednávku.)",150,0,0,BadMatch()
+150,0,0,,"Salát, prosím.",(Usmívá se a objednává si talíř nachos.)|Moje spolubydlící miluje místní polévku a salát.,160,0,0,GoodMatch()
+150,0,0,,"Steak, prosím.","(Usmívá se a objednává si talíř nachos.)|Příště zkus to nachos, dávají ho s třemi druhy sýra.",160,0,0,
+150,0,0,,"Polévku, prosím.",(Usmívá se a objednává si talíř nachos.)|Moje spolubydlící miluje místní polévku a salát.,160,0,0,GoodMatch()
+150,0,0,,"Hamburger, prosím.",(Objednává si talíř nachos.)|Fast food už jíst nemůžu.,160,0,0,BadMatch()
+150,0,0,,"Talíř nachos, prosím.",(Usmívá se a objednává si to samé.)|Nejlepší rozhodnutí tvého života!,160,0,0,GoodMatch()
+150,0,0,,"Jen cheesecake, prosím.",Jenom cheesecake? To je skvělý nápad!|(Objednává si taky cheesecake a usmívá se.),160,0,0,GoodMatch()
+150,0,0,,"Polévku a salát, prosím.",(Usmívá se a objednává si talíř nachos.)|Moje spolubydlící miluje místní polévku a salát.,160,0,0,GoodMatch()
+150,0,0,,"Chilli hot dog, prosím.",(Objednává si talíř nachos.)|Fast food už jíst nemůžu.,160,0,0,BadMatch()
+150,0,0,,"Fettuccine alfredo,|prosím.","(Usmívá se a objednává si talíř nachos.)|Příště zkus to nachos, dávají ho s třemi druhy sýra.",160,0,0,
+150,0,0,,"Jen vodu, prosím.",(Objednává si talíř nachos.)|Jenom vodu? Nejsi nemocná?,160,0,0,
+160,0,0,,"Doufám, že jsou rychlí.|Nechci přijít pozdě.","Zbytečně se stresuješ, já chodím pozdě pořád.|Jdu si umýt ruce. (Odchází na toaletu.)",170,0,-1,RestroomTimerStart(false)
+160,0,0,,"Takže ty jsi myšička,|co má ráda sýr?",Přesně to jsem! (Legračně napodobuje myš.)|Jdu si umýt ruce. (Odchází na toaletu.),170,1,0,RestroomTimerStart(true)
+160,0,0,,"Účtem se netrap,|já to zatáhnu.",Opravdu? To je od tebe velkorysé.|Jdu si umýt ruce. (Odchází na toaletu.),170,0,1,RestroomTimerStart(true)
+160,0,0,,Mohla bys to zaplatit?|Já zaplatím příště.,Mhm. No dobře. (Vypadá nešťastně.)|Jdu si umýt ruce. (Odchází na toaletu.),170,-1,0,RestroomTimerStart(false)
+170,0,0,,(Čekej trpělivě.)ADD_MINUTES:1,"(Trpělivě na ni čekáš,|ale ona se z toalety stále nevrací.)",170,0,0,RestroomTimerRun()
+170,0,0,,(Dívej se z okna.)ADD_MINUTES:1,(Díváš se na lidi venku a čekáš.|Stále ještě nepřišla z toalety.),170,0,0,RestroomTimerRun()
+170,0,0,,(Běž na toaletu.),"(Jdeš na malé záchodky, ale jediné dveře,|co tam jsou, jsou zavřené.)",180,0,0,
+170,0,0,,(Odejdi z kavárny.)|(Zpátky do školy.),,0,-3,0,LeaveStranded()
+180,0,0,,(Čekej u dveří.)ADD_MINUTES:1,"(Čekáš trpělivě u dveří, ale ona nevychází.)",180,0,0,RestroomTimerRun()
+180,0,0,,(Zaklepej na dveře.),"(Slyšíš Sářin hlas.) Dej mi minutku, prosím!",180,0,0,
+180,0,0,,(Otevři dveře.),"(Zkoušíš otevřít dveře, ale ty jsou zamčené.)",180,0,0,
+180,0,0,,(Vyraz dveře.),"(Snažíš se násilím otevřít dveře,|ale ty se ani nehnou.)",180,0,0,
+180,0,0,,Sáro|Pust mě dovnitř!,(Sára křikem odpovídá.)|Dej mi minutku!,180,0,0,RestroomTestDoor()
+180,0,0,,Dělej!,"(Sára křikem odpovídá.)|Minutku, prosím!",180,0,0,RestroomTestDoor()
+180,0,0,,(Vrať se k vašemu stolu.),,170,0,0,
+180,0,0,,(Odejdi z kavárny.)|(Zpátky do školy.),,0,-3,0,LeaveStranded()
+190,0,0,,Tobě to teda trvalo!,(Chichotá se.) Tak je to se mnou pořád.|(Servírka přináší jídlo.),300,0,0,
+190,0,0,,"Děvče, takhle|mě nenechávej čekat!",Omlouvám se. Bylo to moc dlouho?|(Servírka přináší jídlo.),300,-1,1,
+190,0,0,,Máš krásné ruce|k umývání.,(Usmívá se.) Díky! Netrvalo to moc dlouho?|(Servírka přináší jídlo.),300,1,0,
+190,0,0,,Kdo si myje ruce|deset minut?,Deset minut? To bylo tak dlouho?|(Servírka přináší jídlo.),300,-1,0,
+200,5,0,,Ja si taky potřebuji|umýt ruce.,Óó! Nestyď se a přiznej to!|Tobě jde určitě o něco jiného! (Mrká.),210,0,-1,
+200,5,0,,Chtěla jsem víc soukromí.,Více soukromí? (Chichotá se.)|A k čemu ho potřebuješ?,210,0,0,
+200,5,0,,"Můžu tě políbit, Sáro?",(Bez dalšího slova se navzájem|láskyplně obejmete a pomalu se líbáte.),220,1,0,Kiss()
+200,0,5,,(Beze slova zamkni|dveře.),"(Vypadá trochu nervózně.)|O co tady jde, slečno?",230,0,1,
+200,0,5,,"A teď jsi jen moje, děvče!","Cože? Ale slečno, tady jsme na veřejném místě!",230,-1,1,
+200,0,0,,Jídlo už musí být hotové.|(Zpátky ke stolu.),(Přikývne a obě se vracíte k vašemu stolu.),300,0,0,
+210,0,0,,(Popadni ji a polib ji.),"(Nebrání se, zatímco ji objímáš a láskyplně ji líbáš.)",220,0,1,Kiss()
+210,0,0,,"Bylo by božské, kdybych|směla políbit tvé rty!",(Chichotá se.) Ty jsi tak romantická!|(Obejme tě a pomalu tě líbá.),220,0,-1,Kiss()
+210,0,0,,"Miluji tě, Sáro!|Smím tě políbit?",(Bez dalšího slova se navzájem|láskyplně obejmete a pomalu se líbáte.),220,1,0,Kiss()
+210,0,5,,"A teď jsi jen moje, děvče!","Cože? Ale slečno, tady jsme na veřejném místě!",230,-1,1,
+210,0,0,,Jídlo už musí být hotové.|(Zpátky ke stolu.),(Přikývne a obě se vracíte k vašemu stolu.),300,0,0,
+220,0,0,,(Znovu ji polib.)ADD_MINUTES:1,(Pomalu se líbáte na záchodcích kavárny.),220,0,0,
+220,0,0,,Pojďme být|trochu zlobivé!,(Chichotá se.) Zlobivé? Co máš na mysli?,230,0,0,
+220,0,5,,"A teď jsi jen moje, děvče!","Cože? Ale slečno, tady jsme na veřejném místě!",230,-1,1,
+220,0,0,,Jídlo už musí být hotové.|(Zpátky ke stolu.),(Povzdychne si a obě se vracíte k vašemu stolu.),300,-1,0,
+230,0,0,,Chci se milovat.|Být s tebou nahá.,"(Obě se svlečete a díváte se na sebe.)|Tohle je tak zvrhlé! (Ujistí se, že dveře jsou zamknuté.)",240,1,0,Strip()
+230,0,0,,Chci tě nahou|a pořádně svázanou.,"Ó ano, slečno! (Ujištuje se, že dveře|jsou zamknuté a obě se svlékáte.)",240,0,1,Strip()
+230,0,0,,Troufneš si svléct|se tu se mnou?,"Cha! No jistě! (Ujištuje se, že dveře|jsou zamknuté a obě se svlékáte.)",240,0,0,Strip()
+230,0,0,,Jídlo už musí být hotové.|(Zpátky ke stolu.),(Povzdychne si a obě se vracíte k vašemu stolu.),300,-1,0,
+240,5,0,,"Jsi tak krásná, Sáro!|(Miluj se se Sárou.)",Ach ano! A nemáš s sebou nějaké perverzní hračky?,250,0,0,BonusDone()
+240,0,5,,"Pojď ke mně, děvče!|(Miluj se se Sárou.)","Jistě! A nepřinesla jste si s sebou|i nějaké perverzní hračky, slečno?",250,0,0,BonusDone()
+240,0,0,,Měli bychom toho nechat.|(Zpátky ke stolu.),(Povzdychne si a obě se zpátky oblékáte|a vracíte se ke svému stolu.),300,-1,-1,Dress()
+250,0,0,,(Tři se o ni.)ADD_MINUTES:1,(Třete se navzájem jedna o druhou|a sténáte v pomalé a sladké extázi.),250,0,0,MakeLove()
+250,0,0,,(Prsti sebe i ji.)ADD_MINUTES:1,(Prsty dráždíš současně sebe i ji.|Obě se z těch pohybů chvějete a potíte.),250,0,0,MakeLove()
+250,0,0,,(Stiskni jí bradavky.)ADD_MINUTES:1,"(Jemně křičí, když jí svíráš bradavky|a vypadá, že se jí to hodně líbí.)",250,0,0,Violence()
+250,0,5,,(Vlep jí facku.)ADD_MINUTES:1,(Pořádně jí pleskneš do tváře.|Sklání hlavu a přidává na rychlosti.),250,0,0,Violence()
+250,0,0,IsRoped,(Rozvaž ji.)ADD_MINUTES:1,"(Snaží se zůstat svázaná,|ale ty jí přesto rozvazuješ uzly.)",250,0,0,Untie()
+250,0,0,IsGagged,(Sundej jí roubík.)ADD_MINUTES:1,"(Snaží se nechat si roubík,|ale tobě se daří jí ho sundat.)",250,0,0,Ungag()
+250,0,0,IsBoundAndGagged,"Napálila jsem tě, čubko!|(Zanech ji spoutanou.)",,250,0,0,EvilEnd()
+250,0,0,,Měli bychom toho nechat.|(Zpátky ke stolu.),(Povzdychne si a obě se zpátky oblékáte|a vracíte se ke svému stolu.),300,-2,-1,Dress()
+260,0,0,,To bylo překrásné!|(Pomož jí vstát.),(Pomáháš jí vstát a ona přikyvuje.)|Ano! To byla čirá magie!,270,1,0,Release()
+260,0,0,,Ty jsi ale coura!|(Pomož jí vstát.),(Pomáháš jí vstát.) Coura?|Jak jsi na to přišla? (Vyplazuje jazyk.),270,0,1,
+260,0,0,IsBoundAndGagged,"Napálila jsem tě, čubko!|(Zanech ji spoutanou.)",,260,0,0,EvilEnd()
+270,0,0,,Čas na oběd!|(Obleč se a vrať se.),Ach ano! Mám teď tááááákovýhle hlad!|(Sedáte si k již prostřenému stolu.),300,0,0,Dress()
+300,0,0,,Já nemám hlad.,Musíš víc jíst! (Rychle jí.)|(Vrací se servírka s účtem.),310,0,-1,
+300,0,0,,Bon appetite!,(Přikývne a docela rychle jí.)|(Vrací se servírka s účtem.),310,0,0,EatLunch()
+300,0,0,,Dobrou chuť!,(Přikývne a docela rychle jí.)|(Vrací se servírka s účtem.),310,0,0,EatLunch()
+300,0,0,,Jez pořádně|a chovej se slušně.,(Přikývne a způsobně se nají.)|(Vrací se servírka s účtem.),310,0,1,EatLunch()
+310,0,0,,Já jsem švorc.|Mohla bys to zaplatit?,Cože? Ale… (Mračí se a bere si účet.)|Tak pojďme zpátky. (Vypadá nešťastně.),320,-2,-1,
+310,0,0,,Teď to zaplať ty!|Já zaplatím příště.,(Mračí se.) Dobrá.|Pojďme zpátky do školy.,320,-1,0,
+310,0,0,,Já to zaplatím.,"Óó, to je od tebe až příliš milé!|Tak tedy pojďme zpátky.",320,0,1,
+310,0,0,,Měli bychom|si rozdělit účet.,"Jo, to je naprosto v pohodě!|Pojďme tedy zpátky.",320,0,0,
+310,0,0,,Utečeme bez placení?,To je hodně lákavé!|Ale na to mě tady příliš dobře znají.,320,0,0,
+320,0,0,,Pojďme zpátky.|(Zpátky do školy.),"(Na cestě zpátky se Sára zastavuje u skříněk.)|Počkej, prosím, chvilku! Mám pro tebe dárek.",330,0,0,TestArmbinder()
+330,0,0,,Dárek? Já si|žádný nezasloužím!,"Rozhodně zasloužíš, báječně jsem si to užila!|(Dává ti kožený poutací rukáv.)",340,0,-1,AddArmbinder()
+330,0,0,,Ale to je od tebe|moc milé!,"Potěšení je na mé straně, báječně jsem si to užila!|(Dává ti kožený poutací rukáv.)",340,1,0,AddArmbinder()
+330,0,0,,Jaký dárek?,"Báječně jsem si to užila, tohle je pro tebe!|(Dává ti kožený poutací rukáv.)",340,0,0,AddArmbinder()
+340,0,0,,Děkuji Sáro!,"Rádo se stalo!|Jsem si jistá, že ho využiješ líp, než já.",350,0,0,
+340,0,0,,Super!|Nechám si ho na tebe!,(Chichotá se.) To rozhodně doufám!,350,0,1,
+340,0,0,,Vypadá docela lacině.,"Kdepak, je to skvělá hračka.|Později ho vyzkoušej a uvidíš.",350,-1,0,
+350,0,0,,Uvidíme se později!|(Běž na další hodinu.),,350,0,0,EndChapter()

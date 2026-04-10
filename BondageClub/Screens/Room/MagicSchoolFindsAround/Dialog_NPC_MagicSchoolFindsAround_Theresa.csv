@@ -1,0 +1,38 @@
+PlayerGagged,,,"(She smiles as she sees you gagged) My my, it seems like you had some fun dear. Mhm! But I can't understand you like this",,
+TooRude,,,Seems like you're not as nice as I thought!,
+TooRudeRepeat,,,Seems like you don't even learn from your previous mistakes,
+0,,,"(As you stroll through the garden, a woman appears and waves at you)",,!TheresaQuestStarted()
+0,,,"Don't know what to do? oh you silly, go to Maid Quarters and offer your help with chores, help with 6 rescue missions and return to me",,TheresaQuestIsOngoing()
+0,,,"(On the place where the nun was, an angel now stands, looking at you)",,TheresaQuestCompleted()
+0,5,Let me try again,"Alright, let's see if you improved…~",,TheresaBeenRudeBefore()
+0,5,(Walk to the woman.),"Hello there dear, I am Theresa. So very nice to meet you!",,TheresaFirstMet()
+0,22,"I've helped someone!","Oh, I'm glad to hear that. But a little birdie tells me there's still REMAINING people to help!",,TheresaQuestIsOngoing()
+0,30,(You walk to the new girl.),"Oh welcome there cutie, you did what I asked?",,TheresaQuestCompleted()
+0,100,"Hello? Theresa?","Oh! Welcome back DialogPlayerName, how have you been~ I hope you're enjoying my gift~",,TheresaTimerUp()
+0,100,Where have you been?,,TheresaGiveBadWordPoint(""100""),TheresaTimerUp()
+0,,(Leave her.),,DialogLeave(),
+
+5,10,"Hello, nice to meet you too.","Hehe, you seem really sweet. I have a small favor to ask… and there might be something in it for you.",,
+5,10,Why do you look so strange?,"I do? I'm from... somewhere far away... but since we met here, can you help me with something?",TheresaGiveBadWordPoint(""5""),
+5,,"Nevermind, bye. (Leave her.)",,DialogLeave(),
+
+10,20,"Sure, what would the favor be?",Can you help six people for me? I got lost in here and my time ran out so would you be so kind?,TheresaStartQuest(),
+10,11,"Sounds suspicious, what do I get?","What is suspicious about helping others? And why should I spoil the fun! So… will you help me or not?",TheresaGiveBadWordPoint(""10""),
+11,20,Okay I will help you.,"Okay then come back after you helped six different people, I heard the maids are always searching for helping hands~",TheresaStartQuest(),
+11,12,"No, I only help when I know what is in it for me.",And I should spoil the mystery?,TheresaGiveBadWordPoint(""15""),
+12,20,So how can I help you?,"Okay then come back after you helped six different people, I heard the maids always search for helping hands~",TheresaStartQuest(""bad""),
+12,20,"Okay, Okay, what do you need?","Could you help six different people out, I heard the maids are always looking for some helping hands~",TheresaStartQuest(),
+
+20,21,On my way,"Thank you so much! I'll be waiting for you here.",
+21,22,"(You sigh) Okay, I guess I'll be back soon…","Thank you for your time!",
+22,0,(You leave),(Leave.),DialogLeave(),
+
+30,33,I like to help where I can.,"You did well! I am proud of you, let me reward you… (A bright light shines from above, bathing you in. You feel a warm power grow in you). You deserve this gift.",TheresaGiveGift(),
+30,33,Wait… Who are you?,"I am still Theresa. You did well! I am proud of you, (She smiles and you recognise that smile, its really Theresa!)",TheresaGiveGift(),
+33,34,What happened?,"You proven worthy to see my true form, but my time is short, please accept your gift ( A bright light shines upon you, you close your eyes enjoying the warmth gently enveloping you, it feels almost like a tender hug)"
+34,35,(Open your eyes),"(You look around but Theresa is nowhere to be seen, you are alone but her warmth is still with you. You have a feeling you will be seeing her again)",HideTheresa(),
+35,100,(Leave with your new gift.),,DialogLeave(),
+
+100,,,I may have another task for you [~More Coming Soon~],,
+
+LandingPage,DestinationPage,ButtonText,NpcAnswer,CommandToHappen(),PrerequisiteCheck()

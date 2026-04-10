@@ -1,0 +1,41 @@
+#login-register-button span,
+#login-login-button span,
+#login-password-reset-button span,
+#login-cheats-button span,
+#login-new-character-label span {
+  display: contents;
+}
+
+#login-register-button,
+#login-login-button,
+#login-password-reset-button,
+#login-cheats-button,
+#login-new-character-label,
+#LanguageDropdown {
+  height: min(6dvh, 3dvw);
+}
+
+#login-footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  align-items: center;
+  justify-content: end;
+}
+
+
+#login-login-button {
+  transform: translateX(-50%);
+  padding-inline: 0.5em;
+  min-width: min(20vh, 10vw);
+}
+
+.login-text {
+  text-align: center;
+  color: white;
+}
+
+#LanguageDropdown {
+  font-family: "Twemoji Country Flags", "Arial", sans-serif;
+	border: var(--border-width) solid black;
+}

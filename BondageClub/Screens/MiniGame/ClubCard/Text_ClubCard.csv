@@ -1,0 +1,728 @@
+Exit,Exit the game
+Level1,Apartment
+Level2,Cottage
+Level3,House
+Level4,Mansion
+Level5,Manor
+Fame,Fame:
+Money,Money:
+PlayCard,Play this card
+GameEnded,Game has ended.
+SelectOption,Select an option.
+InspectPile,Inspect the Streets.
+Draw,Draw and end your turn
+CannotDraw,End your turn
+SelectCard,Select this card
+SelectTier,Select tier NUMBER
+CancelPending,Don't play this card
+Bankrupt,Go bankrupt
+Concede,Concede the game
+Info,Info
+StopWatch,Stop watching
+OnlineConcede,PLAYERNAME conceded and left the game.
+OnlineStopWatch,PLAYERNAME stopped watching and left the game.
+OnlinePlayerDisconnected,SOURCEPLAYER has disconnected.
+SelectPrerequisite,Select target card.
+Yes,Yes
+No,No
+DeckNumber,Deck #
+Play,Play
+CanWinNewCard,Your opponent has this card you can win:
+WonNewCard,You've reached 100 Fame and won this card:
+NoValidDeckFound,PLAYERNAME's deck isn't valid.  Using the default deck instead.
+SelectDeck,Select the deck to play with.
+WaitingSelectDeck,Waiting for deck selection.
+UsingDeck,PLAYERNAME's deck is selected.
+ConfirmBankrupt,Go bankrupt and start a fresh new club?
+ConfirmConcede,Do you really want to concede this game?
+ConfirmExit,Do you want to stop watching this game?
+WentBankrupt,SOURCEPLAYER went bankrupt and started a new club.
+VictoryForPlayer,Congratulations!  You've reached 100 Fame and won the game.
+VictoryForAI,Your opponent reached 100 Fame and won the game.
+VictoryOnline,PLAYERNAME reached 100 Fame and won the game.
+VictoryForConcedePlayer,OPPONENTPLAYER conceded the game. You win.
+VictoryForConcede,OPPONENTPLAYER conceded the game. PLAYERNAME wins the game.
+Return,End the game
+OpponentPlaying,Your opponent is playing...
+WatchingGame,Watching the game...
+PlayACard,PLAYERNAME plays CARDNAME.
+PlayACardOpponentBoard,PLAYERNAME plays CARDNAME on the opponent's board.
+PlayAnotherCard,PLAYERNAME can play another card.  The turn continues.
+StartPlayer,You've been chosen to start the game.  Select a card to play or end your turn by drawing.
+StartOpponent,Your opponent has been chosen to start the game.  Please wait for her move.
+StartOnline,PLAYERNAME has been selected to start.  Both players must pick a deck.
+StartTurnLogChat,Turn TURNNUMBER - PLAYERNAME
+EndTurnPlayer,SOURCEPLAYER FAMEMONEY.
+EndDrawPlayer,SOURCEPLAYER draws a card.  FAMEMONEY.
+UpgradeToLevel2,Get Cottage (MONEY)
+UpgradeToLevel3,Get House (MONEY)
+UpgradeToLevel4,Get Mansion (MONEY)
+UpgradeToLevel5,Get Manor (MONEY)
+UpgradedToLevel2,PLAYERNAME upgraded to Cottage for MONEYAMOUNT Money.
+UpgradedToLevel3,PLAYERNAME upgraded to House for MONEYAMOUNT Money.
+UpgradedToLevel4,PLAYERNAME upgraded to Mansion for MONEYAMOUNT Money.
+UpgradedToLevel5,PLAYERNAME upgraded to Manor for MONEYAMOUNT Money.
+GainFame,SOURCEPLAYER gained AMOUNT Fame from CARDNAME.
+GainMoney,SOURCEPLAYER gained AMOUNT Money from CARDNAME.
+GainFameMoney,SOURCEPLAYER gained FAMEAMOUNT Fame and MONEYAMOUNT Money from CARDNAME.
+LoseFame,SOURCEPLAYER lost AMOUNT Fame.
+LoseMoney,SOURCEPLAYER lost AMOUNT Money.
+StealFame,SOURCEPLAYER stole AMOUNT Fame from OPPONENTPLAYER.
+StealMoney,SOURCEPLAYER stole AMOUNT Money from OPPONENTPLAYER.
+StealFameMoney,SOURCEPLAYER stole FAMEAMOUNT Fame and MONEYAMOUNT Money from OPPONENTPLAYER.
+MemberLeaveClub,CARDNAME leaves SOURCEPLAYER's club.
+EventRemoved,CARDNAME event is removed.
+EventExpired,CARDNAME event has expired.
+ChatHere,Chat here...
+GroupLiability,Liability
+GroupStaff,Staff
+GroupPolice,Police
+GroupCriminal,Criminal
+GroupFetishist,Fetishist
+GroupPornActress,Porn Actress
+GroupMaid,Maid
+GroupAsylumPatient,Asylum Patient
+GroupAsylumNurse,Asylum Nurse
+GroupDominant,Dominant
+GroupMistress,Mistress
+GroupABDLBaby,ABDL Baby
+GroupABDLMommy,ABDL Mommy
+GroupCollegeStudent,College Student
+GroupCollegeTeacher,College Teacher
+GroupPlayer,Online Player
+GroupShibari,Shibari
+GroupExhibitionist,Exhibitionist
+Title Kinky Neighbor,Kinky Neighbor
+Text Kinky Neighbor,+2 Money per turn if Cute Girl Next Door is present.
+Title Cute Girl Next Door,Cute Girl Next Door
+Text Cute Girl Next Door,<F>The neighborhood is getting better everyday.
+Title Voyeur,Voyeur
+Text Voyeur,"Gain +1 Money for each 2 exhibitionists visible (Max 3). Gains +2 fame if at least 10 exhibitionists are visible."
+Title Nudist,Nudist
+Text Nudist,<F>We prefer the term naturist.
+Title Party Animal,Party Animal
+Text Party Animal,<F>The best plans always begin by: Hold my beer.
+Title Auctioneer,Auctioneer
+Text Auctioneer,Double all bonuses from auctions.
+Title Uptown Girl,Uptown Girl
+Text Uptown Girl,<F>She's been living in her white bread world.
+Title Tourist,Tourist
+Text Tourist,<F>I'll need a vacation from my vacation.
+Title Diplomat,Diplomat
+Text Diplomat,<F>Business or leisure?  Pain and pleasure.
+Title Gambler,Gambler
+Text Gambler,"When she enters your club, discard a card at random then draw a card."
+Title Red Twin,Red Twin
+Text Red Twin,<F>We don't share minds but can share orgasms.
+Title Blue Twin,Blue Twin
+Text Blue Twin,Gain +1 Fame per turn if Red Twin is present.
+Title Rope Bunny,Rope Bunny
+Text Rope Bunny,+2 Money per turn if at least one Dominant is present.
+Title Shy Submissive,Shy Submissive
+Text Shy Submissive,Will leave your club at start of turn if there are more than 6 members.
+Title Rope Sensei,Rope Sensei
+Text Rope Sensei,<F>ロープを尊重する
+Title LARP Queen,LARP Queen
+Text LARP Queen,"<F>For my next quest, I need enchanted ropes, love potions and a cursed chastity belt."
+Title Local Influencer,Local Influencer
+Text Local Influencer,You lose 4 Money and draw a card when she enters your club.
+Title Wannabe Princess,Wannabe Princess
+Text Wannabe Princess,+2 Fame per turn if your building level is a Manor.
+Title Waitress,Waitress
+Text Waitress,+1 Money per turn if Party Animal is present.  +1 Money per turn if Tourist is present.
+Title Bouncer,Bouncer
+Text Bouncer,<F>Your ass will bounce on the street if you make me mad.
+Title Accountant,Accountant
+Text Accountant,+1 Money per turn at House level or better.  +1 Money per turn at Manor level.
+Title Secretary,Secretary
+Text Secretary,Your timed events will last one extra turn.
+Title Associate,Associate
+Text Associate,You can play one extra card per turn.
+Title Human Resource,Human Resource
+Text Human Resource,Draw an extra card each time you end your turn by drawing a card.
+Title Policewoman,Policewoman
+Text Policewoman,<F>I took the job for the free handcuffs.
+Title Pusher,Pusher
+Text Pusher,"Gains +1 Money per turn if Sidney present. Remove from your club at the end of turn if Police is present."
+Title Junkie,Junkie
+Text Junkie,"Gains +2 money per turn if Pusher present. Remove from your club at the end of turn if Police is present."
+Title Zealous Cop,Zealous Cop
+Text Zealous Cop,"<F>Rules are rules, and I'll make sure they will be followed."
+Title Gangster,Gangster
+Text Gangster,"+1 Money per other Criminal present (Max +5). Remove from your club at the end of turn if Police is present."
+Title Paroled Thief,Paroled Thief
+Text Paroled Thief,"Unless a police is present in your club, your opponent steals 1 money at the end of each of your turns."
+Title Police Cadet,Police Cadet
+Text Police Cadet,<F>Hey!  Give me back my keys!
+Title Stepmother,Stepmother
+Text Stepmother,"When a member with - Fame enters, Steal Fame equal to their + Money. Enters: Receive 1 Fame for each member present with - Fame."
+Title Sheriff,Sheriff
+Text Sheriff,Draw 2 cards when she enters your club.
+Title Maid Lover,Maid Lover
+Text Maid Lover,"Gain +1 Money per maid (Max 3). Gain +2 Fame and -2 Money if you have a tier 4 or higher maid in your club."
+Title Diaper Lover,Diaper Lover
+Text Diaper Lover,"Gain +1 money per ABDL baby in your club (Max 3). When an ABDL Baby enters while there are 3+ ABDL Babies already present, draw a card."
+Title Masochist,Masochist
+Text Masochist,"Gain +1 Fame and +1 Money if a Dominant is present. Receive 1 Money for each card you discard."
+Title Feet Worshiper,Feet Worshiper
+Text Feet Worshiper,+2 Money per turn if at least one Porn Actress or ABDL Mommy is present.
+Title Fin-Dom Simp,Fin-Dom Simp
+Text Fin-Dom Simp,"Gain +Money equal to the highest tier Dominant present. Enters: Gain 3 money."
+Title Fin-Dom Whale,Fin-Dom Whale
+Text Fin-Dom Whale,+2 Money per turn for each Mistress present.  Draw a card when she enters your club.
+Title Porn Addict,Porn Addict
+Text Porn Addict,+1 Money per turn for each Porn member present. (Max +2)
+Title Porn Amateur,Porn Amateur
+Text Porn Amateur,<F>I'll be the next Marylin Cumroe.
+Title Porn Movie Director,Porn Movie Director
+Text Porn Movie Director,"+1 Fame and +1 Money for each Porn Actress present. (Max 4)"
+Title Porn Lesbian,Porn Lesbian
+Text Porn Lesbian,Gets +1 Fame if a fetishist is present. Gets +1 money if another porn actress is present.
+Title Porn Veteran,Porn Veteran
+Text Porn Veteran,Enters: Gain 3 Fame and Money.
+Title Porn Star,Porn Star
+Text Porn Star,Enters: Gain 5 Fame and Money.
+Title Cam Girl,Cam Girl
+Text Cam Girl,Draw a card when she enters your club.
+Title Rookie Maid,Rookie Maid
+Text Rookie Maid,<F>I can't wait for the sorority initiation.
+Title Coat Check Maid,Coat Check Maid
+Text Coat Check Maid,<F>Do not lose your receipt ticket.
+Title Regular Maid,Regular Maid
+Text Regular Maid,<F>Should I refresh your drink Miss?
+Title French Maid,French Maid
+Text French Maid,<F>Pour un service impeccable et coquin.
+Title Head Maid,Head Maid
+Text Head Maid,+1 Fame per turn for each other Maid present. (max 6)
+Title Confused Maid,Confused Maid
+Text Confused Maid,<F>I've tried three dusters but this toilet is still clogged.
+Title Curious Patient,Curious Patient
+Text Curious Patient,<F>Why are the walls padded?
+Title Part-Time Patient,Part-Time Patient
+Text Part-Time Patient,Lose 1 fame and gain 1 Money when you take the draw action.
+Title Novice Nurse,Novice Nurse
+Text Novice Nurse,+1 Fame per turn for each Asylum Patient present. Max 3
+Title Commited Patient,Commited Patient
+Text Commited Patient,<F>My jacket is never tight enough.
+Title Veteran Nurse,Veteran Nurse
+Text Veteran Nurse,+2 Fame per turn for each Asylum Patient present. Max 6
+Title Permanent Patient,Permanent Patient
+Text Permanent Patient,<F>Monday exam is quite similar to therapy Tuesday.
+Title Doctor,Doctor
+Text Doctor,+3 Fame per turn for each Asylum Patient present. Max 12
+Title Picky Nurse,Picky Nurse
+Text Picky Nurse,Only enters if 2 Asylum Patient or more are present.  Leaves if there are less than 2 Asylum Patient.
+Title Amateur Rigger,Amateur Rigger
+Text Amateur Rigger,<F>Purple hands?  I'm sure it's normal.
+Title Domme,Domme
+Text Domme,<F>Your knees will be sore tonight.
+Title Madam,Madam
+Text Madam,<F>I will take care of your needs and your money.
+Title Mistress,Mistress
+Text Mistress,<F>This collar will remind you of my power.
+Title Dominatrix,Dominatrix
+Text Dominatrix,<F>Bring your credit card slave.
+Title Mistress Sophie,Mistress Sophie
+Text Mistress Sophie,<F>Votre douleur est mon plaisir.
+Title Scammer,Scammer
+Text Scammer,Your Timed events last 1 fewer turn.
+Title Pyramid Schemer,Pyramid Schemer
+Text Pyramid Schemer,"When a member enters your club, lose 1 Money per two lower tier members present."
+Title Ponzi Schemer,Ponzi Schemer
+Text Ponzi Schemer,"<F>Trust me, this police ankle bracelet is only a kink of mine."
+Title Party Pooper,Party Pooper
+Text Party Pooper,<F>Why is everyone so boring nowadays?
+Title College Dropout,College Dropout
+Text College Dropout,"Gets -2 fame if you have more fame than the opponent, and -1 fame if your club is tier 4 or higher."
+Title Union Leader,Union Leader
+Text Union Leader,"Gain +1 Fame for each member present. Gain -1 Fame for each member in your opponent's club. (Max +/- 5)"
+Title No-Fap Advocate,No-Fap Advocate
+Text No-Fap Advocate,"When you play a non-timed event, shuffle a random card from your hand into your deck to draw a card."
+Title Pandora Infiltrator,Pandora Infiltrator
+Text Pandora Infiltrator,"Randomly gets -1 Fame/Money when a non-liability member that shares a type enters (Max -3/-2). Enters: Gets the type(s) of a selected member."
+Prerequisite Pandora Infiltrator,"Select a member to copy their type(s)"
+Title Uncontrollable Sub,Uncontrollable Sub
+Text Uncontrollable Sub,"When you upgrade your club, set her Fame to -X. X equals the highest fame among members present."
+Title Baby Girl,Baby Girl
+Text Baby Girl,+1 Money per turn if at least one ABDL Mommy is present.
+Title Caring Mother,Caring Mother
+Text Caring Mother,<F>Mother do you think they'll try to break my balls.
+Title Diaper Baby,Diaper Baby
+Text Diaper Baby,+3 Money per turn if at least one Maid is present.
+Title Sugar Baby,Sugar Baby
+Text Sugar Baby,<F>This baby wants a diamond pacifier.
+Title Babysitter,Babysitter
+Text Babysitter,+2 Fame per turn for each ABDL Baby present. Max 4
+Title Soap Opera Mother,Soap Opera Mother
+Text Soap Opera Mother,+25 Fame when she enters your club if at least one ABDL Baby is present.
+Title Amanda,Amanda
+Text Amanda,<F>I never thought I would find a second home in this perverted place.
+Title Sarah,Sarah
+Text Sarah,"Gain +2 Fame if Mistress Sophie is present, +1 Fame if Amanda is present, and -1 Fame if Sidney is present."
+Title Sidney,Sidney
+Text Sidney,<F>Anyone that calls me Piggy will end up in a hogtie.
+Title Jennifer,Jennifer
+Text Jennifer,Select and remove one member from your club before she enters.
+Prerequisite Jennifer,Select a member from your club to remove before Jennifer enters.
+Title College Freshwoman,College Freshwoman
+Text College Freshwoman,+1 Fame per turn if Julia is present.  +1 Fame per turn if Yuki is present.
+Title College Nerd,College Nerd
+Text College Nerd,+1 Money per turn if Julia is present.  +1 Money per turn if Yuki is present.
+Title College Hidden Genius,Hidden Genius
+Text College Hidden Genius,+4 Fame per turn if Mildred is present.
+Title Substitute Teacher,Substitute Teacher
+Text Substitute Teacher,+1 Fame per turn for each College Student present. Max 4
+Title Julia,Julia
+Text Julia,<F>Seeing them learn and grow is magnifico.
+Title Yuki,Yuki
+Text Yuki,<F>You cannot learn with a closed mind or closed legs.
+Title Mildred,Mildred
+Text Mildred,"<F>In my class, silence is gold and will be enforced."
+Title Sam the Busty Cow,Sam the Busty Cow
+Text Sam the Busty Cow,<F>Got Milk?
+Title Suki,Suki
+Text Suki,Gain +1 Money if another Kemonomimi is present.
+Title Angela,Angela
+Text Angela,<F>Hmms nya~ Could I interest you in a lewd potion mew?~
+Title Scratch and Win,Scratch and Win
+Text Scratch and Win,+7 Money.
+Title Kinky Garage Sale,Kinky Garage Sale
+Text Kinky Garage Sale,+12 Money.
+Title Second Mortgage,Second Mortgage
+Text Second Mortgage,+20 Money.
+Title Foreign Investment,Foreign Investment
+Text Foreign Investment,+30 Money.
+Title Cat Burglar,Cat Burglar
+Text Cat Burglar,Steal 2 Fame and Money. Then steal 2 Fame and 2 Money unless your opponent has Police.
+Title Money Heist,Money Heist
+Text Money Heist,"Steal 6 Money. Then steal 2 Money if a Criminal is present. Then steal 4 Money if your opponent doesn't have Police."
+Title BDSM Ball,BDSM Ball
+Text BDSM Ball,"All Submissives and Dominants in your club get +1 Fame."
+Title Vampire Ball,Vampire Ball
+Text Vampire Ball,"Gain 2 Fame for each member that's not Dominant, Liability, Kemonomimi, Maid, Player, or Staff."
+Title Straitjacket Saturday,Straitjacket Saturday
+Text Straitjacket Saturday,Draw a random Ayslum Nurse. Gain 4 money for each Asylum Patient present.
+Title Charity Auction,Charity Auction
+Text Charity Auction,"Select and remove one member from your club, gain 1 Fame per building level."
+Prerequisite Charity Auction,Select a member from your club to remove for Fame.
+Title Slave Auction,Slave Auction
+Text Slave Auction,"Select and remove one member from your club, gain 1 Money per building level."
+Prerequisite Slave Auction,Select a member from your club to remove for Money.
+Title College Bash,College Bash
+Text College Bash,"Lose 1 Money and receive 2 Fame for each College Student present, 1 more Fame if Sidney is present."
+Title Ransomware,Ransomware
+Text Ransomware,"Opponent loses 4 Money per building tier. If your opponent has Amanda or Jennifer, they lose 2 instead."
+Title Shibari Evening,Shibari Evening
+Text Shibari Evening,+1 Fame for each Non-Dominant members in your club. +1 Extra Fame for each Shibari member.
+Title Moving Out of Town,Moving Out of Town
+Text Moving Out of Town,Remove any member from your opponent club.
+Prerequisite Moving Out of Town,Select a member from your opponent club to remove.
+Prerequisite Kidnapping,Select a member from your opponent's club to kidnap.
+Title Virtual Meeting,Virtual Meeting
+Text Virtual Meeting,Draw 2 cards
+Title Weekend Meeting,Weekend Meeting
+Text Weekend Meeting,Draw 3 cards
+Title Fancy Meeting,Fancy Meeting
+Text Fancy Meeting,Draw 5 cards
+Title Prank,Prank
+Text Prank,Your opponent discards 2 random cards.
+Title Sabotage,Sabotage
+Text Sabotage,"At the end of your opponent's next 3 turns: If the draw action was taken, they lose 8 fame, else they discard a random card."
+Title Nursery Night,Nursery Night
+Text Nursery Night,"+3 Money for each ABDL Baby, ABDL Mommy and Maid in your club."
+Title Bad Press,Bad Press
+Text Bad Press,"For 3 turns, your opponent gains no Fame at the end of turn.  Cancels opponent Clever Marketing."
+Effect Bad Press,No Fame is gained because of OPPONENTPLAYER Bad Press event.
+Title Clever Marketing,Clever Marketing
+Text Clever Marketing,"For 3 turns, you gain +50% more Fame at the end of turn, increase by +50% each turn. Cancels opponent Bad Press."
+Effect Clever Marketing,Fame gained is increased because of SOURCEPLAYER Clever Marketing event.
+Title Repay Loan,Repay Loan
+Text Repay Loan,"For 3 turns, your opponent gains no Money at the end of turn.  Cancels opponent Bank Loan."
+Effect Repay Loan,No Money is gained because of OPPONENTPLAYER Repay Loan event.
+Title Bank Loan,Bank Loan
+Text Bank Loan,"For 3 turns, you gain double Money at the end of turn.  Cancels opponent Repay Loan."
+Effect Bank Loan,Money gained is doubled because of SOURCEPLAYER Bank Loan event.
+Title Teamwork,Teamwork
+Text Teamwork,"For 4 turns, you draw an extra card each time you take draw a card action."
+Title Overtime,Overtime
+Text Overtime,"For 3 turns, you can play an extra card."
+Title Porn Convention,Porn Convention
+Text Porn Convention,"For 3 turns, all players gain 3 fame for each Porn Actress in their club at the end of turn (Max 12)."
+Title Kidnapping,Kidnapping
+Text Kidnapping,Remove any member from your opponent club.  You lose opponent building level^2 Money.
+Title Pandora Box,Pandora's Box
+Text Pandora Box,Discard your hand. Each player draws until they have at least 4 cards in hand. Each player draws a card.
+Effect Pandora Box,"SOURCEPLAYER opens Pandora's Box and discard their hand. All players draw until they have 4 cards, then draw a card."
+Title Toy Box,Toy Box
+Text Toy Box,Receive 3 Money and Draw a card.
+Title Restrain,Restrain
+Text Restrain,"For 2 turns, both players cannot use events and negate the effect of all events present."
+Title Detective,Detective
+Text Detective,"When your opponent takes the draw action, Receive 2 Money. If no Liability present, also receive 1 Fame."
+Title Launder,Launder
+Text Launder,"If a Criminal is present, spend all your Money. Receive 1 Fame for every 3 Money lost. If this card is in your streets, shuffle it to your deck."
+Title Big Baby,Big Baby
+Text Big Baby,"Enters: Opponent draws a card"
+Title Fussy Baby,Fussy Baby
+Text Fussy Baby,Returns to hand when the opponent plays an Event and you gain 4 fame.
+Effect Fussy Baby,Fussy Baby returned to SOURCEPLAYER's hand and gave 4 fame.
+Title Daycare Enthusiast,Daycare Enthusiast
+Text Daycare Enthusiast,Gain 3 fame when an ABDL Mommy enters your club. Gain 3 money when an ABDL Baby enters your club.
+Title Daycare Party,Daycare Party
+Text Daycare Party,Gain 4 Fame and draw a card for each ABDL Mommy present.
+Title Nanny,Nanny
+Text Nanny,"When an ABDL Baby enters your club, gain fame equal to your club level."
+Title Dommy Mommy,Dommy Mommy
+Text Dommy Mommy,+1 Fame per turn for each ABDL Baby present. Gain 1 Fame for each member present when she enters your club.
+Title Contract Caretaker,Contract Caretaker
+Text Contract Caretaker,"When an ABDL Baby enters your club, your opponent loses 4 Fame."
+Title Teacher's Aide,Teacher's Aide
+Text Teacher's Aide,<F>Aiding her teacher day and night
+Title Homeroom,Homeroom
+Text Homeroom,Can only be played if you control 3 or more College members. Both players cannot advance their club for 4 turns.
+Title Student Custodian,Student Custodian
+Text Student Custodian,"When teacher or staff enters, if their tier is higher than this member's Money, gets +1  Money "
+Title Recess,Recess
+Text Recess,Draw 2 cards. Gain 2 money for each ABDL Baby and College Student present.
+Title Med Student,Med Student
+Text Med Student,+1 Money per turn if an Asylum Patient is present. +1 Fame per turn if a College Teacher is present.
+Title First Bell,First Bell
+Text First Bell,"Draw a random college student from your deck. If it's your first turn or you control a teacher, play again."
+Effect First Bell Draw,SOURCEPLAYER draws 1 card from First Bell
+Effect First Bell No Draw,SOURCEPLAYER could not draw any cards from First Bell
+Title Debuter,Debuter
+Text Debuter,"Draw a random Event from your deck."
+Effect Debuter Draw,SOURCEPLAYER draws 1 random Event from Debuter
+Effect Debuter No Draw,SOURCEPLAYER could not draw any Events from Debuter
+Title Re-Run,Re-Run
+Text Re-Run,"Return a Random Video from your Streets to your hand, gain fame equal to it's tier, and take another action."
+Effect Re-Run,SOURCEPLAYER returned CARDNAME from their Streets to their hand and gained AMOUNT fame.
+Title Naughty Knotter,Naughty Knotter
+Text Naughty Knotter,"Enters: Play 2 random Knots from your streets."
+Title Gangbang Banger,Gangbang Banger
+Text Gangbang Banger,"Return all porn actresses from your club to your hand, then play all porn members in your hand."
+Effect Gangbang Banger,The porn actresses from SOURCEPLAYER’s club leave… and instantly strut right back in!
+Title Alvin,Alvin
+Text Alvin,"Summon a Ropeslave when playing Restrain, Shibari event or Kidnapping a Dominant or Mistress (max 3 in club)"
+Title Rope Slave,Rope Slave
+Text Rope Slave,Gain 1 Money when you play a Knot or Shibari event. 
+Effect Rope Slave,"SOURCEPLAYER gained AMOUNT money from Rope Slave."
+Title Quack Doctor,Quack Doctor
+Text Quack Doctor,"Start of your turn, for each Asylum Patient present, players lose 1 fame. (Max 4)"
+Effect Quack Doctor,"SOURCEPLAYER and OPPONENTPLAYER lost AMOUNT fame."
+Title Sophie,Sophie
+Text Sophie,"Enters: Select a non-Liability member from either club to double their fame and money."
+Effect Sophie,CARDNAME got their fame and money boosted by the lovely Sophie~
+Prerequisite Sophie,Select a member to enhance before Sophie enters.
+Title Hypnotherapist,Hypnotherapist
+Text Hypnotherapist,"When she enters your club, return all Tier 1 members to their owner's hands, then take another action."
+Effect Hypnotherapist,"All Tier 1 members have returned to their owners' hands."
+Title Help Button,Help Button
+Text Help Button,"Return a member from your club to its owners deck, a random Maid or Nurse of equal level joins your club from your deck."
+Effect Help Button No Draw,SOURCEPLAYER could not summon any cards from Help Button.
+Prerequisite Help Button,Select a member from your club to return to deck.
+Title Prodigious Patient,Prodigious Patient
+Text Prodigious Patient,"When she leaves your club, your opponent loses 15 fame and discards a random card. Leaves your club after 6 turns."
+Title Theatre Nurse,Theatre Nurse
+Text Theatre Nurse,"When an asylum patient enters your club, gain 3 money and draw a card."
+Title Knot Nut,Knot Nut
+Text Knot Nut,"<F>These ropes wont hold me forever... better add more."
+Title Quality Maid,Quality Maid
+Text Quality Maid,The costs for you to upgrade your club is reduced by 10.
+Title Public Spanking,Public Spanking
+Text Public Spanking,"For the next 3 turns, your opponent loses 4 fame plus the tier level of your highest tier Dominant present."
+Effect Public Spanking,SOURCEPLAYER lost AMOUNT Fame because of public spanking.
+Title Nawashi,Nawashi
+Text Nawashi,"When she enters your club, your opponent doesn't gain fame at the end of their next turn."
+Effect Nawashi,No Fame is gained because of OPPONENTPLAYER Nawashi.
+DiscardPile,Streets (discard pile)
+Close,Close
+Title Burlington Bowtie,Burlington Bowtie
+Text Burlington Bowtie,"Gain 4 fame. Gain 2 fame per Sensei present."
+Effect Burlington Bowtie,SOURCEPLAYER gained AMOUNT Fame from Burlington Bowtie.
+Title Square Knot,Square Knot
+Text Square Knot,"Your opponent loses 4 fame. If a Sensei is present, you gain 4 fame."
+Effect Square Knot,OPPONENTPLAYER lost AMOUNT Fame from Square Knot.
+Effect Square Knot Sensei,SOURCEPLAYER gained AMOUNT Fame from Square Knot
+Title Closed Hitch,Closed Hitch
+Text Closed Hitch,Draw a card.
+Effect Closed Hitch,SOURCEPLAYER draws a card from Closed Hitch.
+Title Struggler's Knot,Struggler's Knot
+Text Struggler's Knot,Take another action. 
+Title Quick Release Knot,Quick Release Knot
+Text Quick Release Knot,Gain money equal to the number of knots in your streets plus 4. Shuffle this and all knots from your streets into your deck. 
+Effect Quick Release Knot,SOURCEPLAYER gained AMOUNT Money from Quick Release Knot.
+Title Master Class,Master Class
+Text Master Class,"For the next 4 turns, if a Sensei is present, play a random Knot from your deck at the start of your turn."
+Title Tie Tight,Tie Tight
+Text Tie Tight,"Shuffle a member from your opponents club into their deck. Unless a Sensei is present, they draw a card."
+Prerequisite Tie Tight,Select a member from your opponent club to remove.
+Title Rope Auction,Rope Auction
+Text Rope Auction,Remove a member from your club to play 1 random Knot from your deck. 
+Prerequisite Rope Auction,Select a member from your club to remove.
+GroupSensei,Sensei
+GroupKnot,Knot
+Title Shibari Lover,Shibari Lover
+Text Shibari Lover,"When this card or another Shibari member enters your club, play a random Knot from your deck."
+Title Goddess of Ropes,Goddess of Ropes
+Text Goddess of Ropes,"When you play a Shibari card, play a random Knot from your deck." 
+Title Rope Slinger,Rope Slinger
+Text Rope Slinger,"When she enters your club, play all knots in your hand. When you upgrade your building, return this member to your hand."
+Title Fit To Be Tied,Fit To Be Tied
+Text Fit To Be Tied,"Play all Knots in your hand, deck, and streets and shuffle them into your deck."
+Title Living Art,Living Art
+Text Living Art,Gain 1 Fame when you play a Knot or Shibari Event. 
+Effect Living Art,"SOURCEPLAYER gained AMOUNT fame from Living Art."
+Title Attention Whore,Attention Whore
+Text Attention Whore,Select and remove one ongoing event before she enters your club.
+Prerequisite Attention Whore,Select an ongoing event to remove before Attention Whore enters.
+MemberSummoned,CARDNAME joins SOURCEPLAYER's club.
+GroupPet,Pet
+GroupOwner,Owner
+Title Bun Bun,Bun Bun
+Text Bun Bun,"Costs 1 money and gain 1 fame. +1 money if owner Present. +1 fame at building level 5."
+Title Naughty Kitty,Naughty Kitty
+Text Naughty Kitty,"When she enters the club, discard your hand and lose 3 money. For each card you draw, gain money equal to your building level."
+Title Jessica,Jessica
+Text Jessica,"Pets treat your building level as 2 higher. When you play a pet, draw a card and gain 1 fame."
+Title MerMaid,MerMaid
+Text MerMaid,"Enters: Lose 25 Money. Draw a card. If an Owner is present, take another action."
+Title Puppy,Puppy
+Text Puppy,"Gain +1 Money per 2 building tiers. Gain +1 Fame if an owner is present. Enters: Lose 5 Money."
+Title Protective Owner,Protective Owner
+Text Protective Owner,"Pets treat your building level as 1 higher. If you would discard a pet from your hand, shuffle it into your deck instead."
+Title Feline Fatale,Feline Fatale
+Text Feline Fatale,"Enters: Lose 13 money. Remove a member from your opponent's club that has a level equal or lower to an Owner present in your club."
+Prerequisite Feline Fatale,Select a member from your opponent club to remove.
+Title Wolf Girl,Wolf Girl
+Text Wolf Girl,"Enters: Lose 7 Money & opponent randomly discards a card. +1 Fame per 2 of your building levels. +1 Money if an owner is present."
+Title Pet toys,Pet toys
+Text Pet toys,"Gain 2 money per pet in your club and gain 2 Fame per owner in your club, then play again. "
+Title Pet Sitter,Pet Sitter
+Text Pet Sitter,"Gains +1 money for each pet in either club (Max 5). If your opponent has any Pets in their club, they gain 1 money each turn."
+Title Pet Rock,Pet Rock
+Text Pet Rock,<F>Just a rock...
+Title Tips,Tips
+Text Tips,"At the start of your next 5 turns, gain 1 money."
+Title Pet Trainer,Pet Trainer
+Text Pet Trainer,"When you play a pet you gain 2 fame. Gains +3 fame if show dog is present in your club."
+Title Show Dog,Show Dog
+Text Show Dog,"Enters: lose 15 money and reveal your hand."
+Title Miss Mouse,Miss Mouse
+Text Miss Mouse,"When a pet enters your club, opponent loses 1 Fame per 2 building tiers. Gain +1 Fame if an owner is present. Enters: Lose 1 Money."
+Title Rich Owner,Rich Owner
+Text Rich Owner,"Pets treat your building level as 1 higher. +1 Fame if a Maid is present. When a Pet enters, gain 1 Money per pet present (Max 5)"
+Title Tour Guide,Tour Guide
+Text Tour Guide,"When she enters your club, draw a card. Gains +3 money if tourist is present, gains +3 fame if diplomat is present."
+Title Moon,"Moon"
+Text Moon,"Cannot be targeted by other cards. Enters: Lose 16 money, select a member on board to add a copy to your hand."
+Prerequisite Moon,Choose a member to create an illusory copy of that card in your hand. 
+Title Sticky Fingers,Sticky Fingers
+Text Sticky Fingers,"Enters: Steal 2 Fame. When you steal with another effect, steal 1 Fame and Money."
+Title Earner,Earner
+Text Earner,"Gain +1 Money for each member in your streets. (Max +4)"
+Title Naughty Baby,Naughty Baby
+Text Naughty Baby,"Enters: Steal 4 money if no Police are present. Then steal 4 fame if no Police are present in opponent's club."
+Title Consigliere,Consigliere
+Text Consigliere,"At the end of your turn, spend 8 money to draw a card and gain 3 Fame."
+Title Con Artist,Con Artist
+Text Con Artist,"When you take the draw action, if no Police are in your opponent's club, steal 1 Fame."
+Title Inspector,Inspector 
+Text Inspector,"Unless your club level is higher than your opponent's, increase the cost for players to upgrade by 10." 
+Title Troublemaker,Troublemaker
+Text Troublemaker,Opponent loses 3 fame each time they upgrade unless they have a bouncer.
+Title Housekeeper,Housekeeper
+Text Housekeeper,"When a non-maid member enters your club, gain 1 Fame per member present that shares a type with it (Max 3)."
+Effect Housekeeper,SOURCEPLAYER gained AMOUNT Fame from CARDNAME.
+Title Maid Manager,Maid Manager
+Text Maid Manager,"Gains +1 Money for every 2 maids present. At club level 4 or higher, gains +1 Fame instead. (Max +4)"
+Title Throne Room Servant,Throne Room Servant
+Text Throne Room Servant,"Gain +2 Fame per tier 5 member in your club (Max +7)"
+Title Feather Duster,Feather Duster
+Text Feather Duster,"End any one event currently in play, if you control a maid, gain money equal to its tier and draw a card."
+Prerequisite Feather Duster,Select an ongoing event to end.
+Title Afterhours Service,Afterhours Service
+Text Afterhours Service,"For the next three turns, for each maid or staff in your club you lose 2 money and gain 2 fame (max 18)."
+Title Night Maid,Night Maid
+Text Night Maid,Gains +4 fame and +2 money as long as you have an active event.
+Title Tax Auditor,Tax Auditor
+Text Tax Auditor,"Enters: Select a level 3 or lower member in your opponent's club and set their Money to 1."
+Prerequisite Tax Auditor,Select a member from your opponent club to set its money to 1
+GroupKemonomimi,Kemonomimi
+Title Beat Cop,Beat Cop
+Text Beat Cop,"Cannot be targeted by other cards. Enters: Shuffle each player's streets into their deck."
+Title Knot Tester,Knot Tester
+Text Knot Tester,"Enters: Play a random Knot event from your deck."
+Title Insurance Agent,Insurance Agent
+Text Insurance Agent,"Gain 1 money for each card you draw. If you start your turn with no cards in hand, remove this member and draw 3 cards."
+GroupPorn,Porn
+GroupVideo,Video
+Title Talent Agent,Talent Agent
+Text Talent Agent,"Enters: Add two Porn Amateurs to your hand. Gains +1 Fame if you have 3 or more videos in your streets."
+Title Eden,Eden
+Text Eden,"Enters: Play again. Select a tier. Your opponent can't play cards of that tier next turn. Return to hand after 3 turns."
+Effect Eden,Eden prevents the opponent from playing tier AMOUNT.
+Title Adoption,Adoption
+Text Adoption,"Add a random pet from your deck or streets to your hand, if it's tier is equal to or lower than your building level, play again."
+Title Loving Owner,Loving Owner
+Text Loving Owner,"Pets treat your building level as 1 higher. Gains +1 Money if you control a Maid. Gains +2 fame if you control 6 or more pets."
+Title Cheeky Hamster,Cheeky Hamster
+Text Cheeky Hamster,"Gain +Fame equal to your building level. Enters: Lose 10 Money."
+Title Vanilla Classic,Vanilla Classic
+Text Vanilla Classic,"Choose a Porn Actress and return it to your hand. Then draw a card and take another action."
+Prerequisite Vanilla Classic,"Select a Porn Actress from your club."
+Title Guest Star,Guest Star
+Text Guest Star,"When you play a video, gain Fame and Money equal to its tier + number of Porn Actresses present (max 6)."
+Title Skye,Skye
+Text Skye,"Once per turn when a member enters your club, if it has a type not already present in your club you draw a card and lose 2 money."
+Title Vintage Maid,Vintage Maid
+Text Vintage Maid,"Cannot be targeted by other cards. Enters: Return a member of your choice from your streets to your hand."
+Title Fetish Flick,Fetish Flick
+Text Fetish Flick,"Return 2 random Porn actresses from your club to your hand, then take 4 actions."
+Title Ball Buster,Ball Buster
+Text Ball Buster,"Return two random porn actresses from your club to your hand. Your opponent cannot play events or liabilities for 2 turns."
+GroupTimedEvent,Timed Event
+GroupAuction,Auction
+Title Kira,Kira
+Text Kira,Can't leave. Gets +1 Fame per 2 members present (Max 8). Joins: Set the Fame & Money of a member in your club and those adjacent to 0/-2.
+Prerequisite Kira,"Select a member from your club."
+InfoPopupTitle, Info
+InfoFameTitle,"Fame"
+InfoFameDescription1,"Be the first to reach 100 Fame to win!"
+InfoFameDescription2,"Some cards generate Fame each turn (shown in square icon)."
+InfoFameDescription3,"Fame generation stops if your Money falls below 0."
+InfoMoneyTitle,"Money"
+InfoMoneyDescription1,"Some cards generate Money each turn (shown in circle icon)."
+InfoMoneyDescription2,"Can spend money to upgrade your club tier."
+InfoBuildingTiersTitle,"Club"
+InfoBuildingTiersDescription1,"Higher club tier unlock more space and lets you play better cards: ⤵️"
+InfoBuildingTiersDescription2,"T1: Apartment (free, 5🀆) → T2: Cottage (10💲, 7🀆) → "
+InfoBuildingTiersDescription3,"T3: House (20💲, 13🀆) → T4: Mansion (30💲, 20🀆) → T5: Manor (40💲, 40🀆)"
+InfoLiabilitiesTitle,"Liabilities"
+InfoLiabilitiesDescription1,"Played into opponent's club, take up space and cause negative effects."
+InfoStreetsTitle,"Streets"
+InfoStreetsDescription1,"Used cards that are no longer in play will go to the streets."
+Title Drunkard,Drunkard
+Text Drunkard,"For each card you draw, lose 1 Fame unless a Bouncer is present, and lose 1 Fame unless a Waitress is present."
+GroupSlave,Slave
+GroupSubmissive,Submissive
+Title Country Gal,Country Gal
+Text Country Gal,"<F>Every bounce it gets tighter… my grip on bull, duh!"
+Title Kneeling Sub,Kneeling Sub
+Text Kneeling Sub,"<F>I'm on my knees so much, that I needed kneepads"
+Title Humbled Harper,Humbled Harper
+Text Humbled Harper,"For each card your opponent draws, receive 1 Money, and if there are at least 6 members present receive 1 Fame."
+Title Miss N Spection,Miss N Spection
+Text Miss N Spection,"If you take the Draw action with no cards in hand, draw 2 additional cards. Enters: Discard a card of your choice, then draw a card."
+Prerequisite Miss N Spection,Select a card in your hand to discard.
+Title Bottom Bitch,Bottom Bitch
+Text Bottom Bitch,"Gain +1 fame for each other submissive present (max 8). Leaves at the end of your turn if no mistress present."
+Title Nadu Nyla,Nadu Nyla
+Text Nadu Nyla,Gain +2 Fame and +1 Money as long as you have an active event in your club.
+Title Surrender,Surrender
+Text Surrender,All Slaves in your club get +1 Fame.
+Title Hands Out,Hands Out
+Text Hands Out,"Select a card in your hand, then discard your hand and draw as many cards, save the selected card if a slave is present."
+Prerequisite Hands Out,Select a card in your hand.
+Title Carol,Carol
+Text Carol,"Enters: If another Nurse is present, add a random Patient from your Streets to your club, if there are none, add one from your deck."
+Title Rizom,Rizom
+Text Rizom,"Enters: Select a member from your club to get 1 Fame and Money, 1 more Fame if an ABDL Mom is present, 1 more Money if an Owner is present."
+Prerequisite Rizom,'Select a member from your club to enhance.'
+Effect Rizom,"CARDNAME got a massage from Rizom, their fame and money got boosted."
+Title Chirumi,Chirumi
+Text Chirumi,Gain +1 fame equal to your club tier. Leaves your club if your streets have more than 3 cards.
+Title Pack Member,Pack Member
+Text Pack Member,"Enters: Add a Pack member to your hand if you have fewer members in your club than the opponent."
+Title Brutus,Brutus
+Text Brutus,"<F>I usually use these cuffs outside of work."
+Title Yunari,Yunari
+Text Yunari,"If your streets have fewer cards than your opponent's, leaves your club at the end of your turn."
+Title Pack Leader,Pack Leader
+Text Pack Leader,"Gain +1 Fame for each Pack Member in your club (Max +5). Gain +2 Fame if a Pack Member is in your streets."
+Title Mama Bear,Mama Bear
+Text Mama Bear,"Enters: Receive 1 Fame per different group in your club, and 1 Money per ABDL Baby in your club."
+Title Instincts,Instincts
+Text Instincts,"Lose 12 fame, draw three cards. You cannot gain fame until a Kemonomimi is present."
+Title Pack Tactics,Pack Tactics
+Text Pack Tactics,"Add a Pack Member to your club. for the next 2 turns, opponent loses 1 Fame for each Pack Member in your club"
+Title Conservation Efforts,Conservation Efforts
+Text Conservation Efforts,"For 4 turns, If a Kemonomimi is Present, receive 2 Fame and Money for each card you draw."
+Title Artie, Artie
+Text Artie,"Gain +1 Fame per 2 building tiers. Enters: Lose 6 Money and draw a random Owner from your deck."
+Title Cute Bunny,Cute Bunny
+Text Cute Bunny,"Leaves if the number of Cute Bunny present is higher than your club's tier. Enters: Add Cute Bunny to your hand, your opponent receives 2 Fame."
+Title Ganguro Girl,Ganguro Girl
+Text Ganguro Girl,"At the end of your turn, the player with more non-Liability members loses 1 Fame."
+Title Collector,Collector
+Text Collector,"Gain +1 Fame if a Slave is present. Gain +1 Money per Kemonomimi present (max 2)."
+Title Sewer Rat,Sewer Rat
+Text Sewer Rat,"At the end of your turn, If there are at least 7 members in your streets, leaves your club and opponent loses 25 Fame."
+Title Hustler,Hustler
+Text Hustler,"When you steal with another effect, receive 1 Fame or 1 Money at random for each Criminal in your streets (Max 2 each)."
+Title Enforcer,Enforcer
+Text Enforcer,"Gain +1 fame per member in your streets (max 7). Enters: Discard 3 random members from your deck and receive Money equal to their tiers."
+Title Ball Gag,Ball Gag
+Text Ball Gag,"If a Mistress is present, select a member from either club to negate their effect, then lose Money equal to its tier^2."
+Prerequisite Ball Gag,Select a member to gag.
+Effect Ball Gag,CARDNAME got their effect negated.
+Title Akira,Akira
+Text Akira,Enters: Select a member from either club to Ball Gag.
+Prerequisite Akira,Select a member to negate their effect.
+Title Ari,Ari
+Text Ari,"Gain +1 Fame per two college students present (max = club tier)."
+Title Mei,Mei
+Text Mei,"Enters: Select a card from your deck to reveal and add to hand, receive 3 Money, doubled if its tier 5, else gets the submissive type."
+Prerequisite Mei,"Select a card to add to your hand"
+Title Cafe Maid,Cafe Maid
+Text Cafe Maid,"For each card you draw, receive 1 Money, if your club tier is 4 or higher, receive 1 Fame too."
+Title Jailbird,Jailbird
+Text Jailbird,"When you steal Fame, can steal even if the opponent have none."
+Title Riot,Riot
+Text Riot,"For 4 turns, steal 1 Fame per Criminal in your streets, and gain 2 Money per Criminal in your club."
+Title Tabled Tessa,Tabled Tessa
+Text Tabled Tessa,"Gains +1 Money and +1 Fame as long as your club level is lower than the opponent's."
+Title Stalker,Stalker
+Text Stalker,"If this card is in your hand and you play a revealed member, she enters your club."
+Title Lewd Photographer,Lewd Photographer
+Text Lewd Photographer,"When an exhibitionist enters your club, lose 1 Money and add Nude Photos into your opponent deck."
+Title Streaker,Streaker
+Text Streaker,"Enters: add a New Clothes to your opponent's deck. Returns to your hand after 4 turns and both players draw a card."
+Title Exotic Dancer,Exotic Dancer
+Text Exotic Dancer,"Gains +1 Fame if there are at least 16 members in your club, gains +1 Money if you have Procuress in your club."
+Title Flasher,Flasher
+Text Flasher,"Receive 1 Fame when a member enters your club. Enters: Add 2 Nude Photos to your opponent's deck."
+Title Window Shopper,Window Shopper
+Text Window Shopper,"Gain +4 Fame if there are at least 12 visible exhibitionists. When you play streaker, exotic dancer, or nudist, play again."
+Title Lingerie Model,Lingerie Model
+Text Lingerie Model,"Enters: Add 3 New Clothes to your opponent's deck."
+Title Procuress,Procuress
+Text Procuress,"For every 6 members present, lose 2 Money and add Exotic Dancer to your hand."
+Title Covert Canvas,Covert Canvas
+Text Covert Canvas,"Receive 1 Fame for each card a player draws. Enters: Both players draw 3 cards."
+Title Temptress,Temptress
+Text Temptress,"When your opponent draws a card, steal 1 fame. If their deck is empty, they lose 7 Fame at the end of their turn."
+Title Sexibitionist,Sexibitionist 
+Text Sexibitionist,"Enters: Add 3 Nude Photos to your opponent's deck, then both players draw 3 cards."
+Title New Clothes,New Clothes
+Text New Clothes,"When Drawn: Remove this card, draw a card, lose 3 Money and your opponent receive 3 Fame."
+Title Nude Photos,Nude Photos
+Text Nude Photos,"When Drawn: Remove this card, draw a card, lose 4 Fame and your opponent receive 2 Money."
+Title Walkies,Walkies
+Text Walkies,"Send a pet or an exhibitionist from your hand to your streets. Take 4 actions. You can only play pets or exhibitionists this turn."
+Prerequisite Walkies,Select a pet or an exhibitionist in your hand.
+Title Peek Performance,Peek Performance
+Text Peek Performance,"Both players draw 1 card, and 1 more per 3 visible exhibitionists."
+Title Unlucky Undresser,Unlucky Undresser
+Text Unlucky Undresser,"Enters: add New Clothes and 2 Nude Photos to your opponent's deck."
+Title Lumi,Lumi
+Text Lumi,"Active (Once per tier): Play again, Players reveal their hands, the player with higher sum of tiers receive Fame equal to their club tier*2."
+Title Public Advertisement,Public Advertisement
+Text Public Advertisement,"When a member enters your club receive 1 Money and opponent receives 2 Fame."
+Title Tifa,Tifa
+Text Tifa,"Active (Once per turn): Lose 3 Money, look at top card of your deck, Draw it or send it to streets and draw another card."
+Effect Tifa Discard,"SOURCEPLAYER send a card to streets and draw from Tifa"
+Effect Tifa Draw,"SOURCEPLAYER draw a card from Tifa"
+ActiveEffect,Activate Effect.
+DrawThisCard,Draw This Card.
+SendToStreets,Send To Streets.

@@ -1,0 +1,100 @@
+Room Name
+Название Комнаты
+Language
+Язык
+Description
+Описание
+Ban List
+бан-лист
+Whitelist
+Белый список
+Administrator List
+Список Администраторов
+Size (2-20)
+Размер (2-20)
+Member numbers separated by commas (ex: 123, ...)
+Номера членов, разделенные запятыми (Например: 123, ...)
+Use the above buttons to quickadd to the respective lists
+Используйте указанные выше кнопки для быстрого добавления в соответствующие списки
+Blacklist
+черный список
+Ghostlist
+список призраков
+Owner
+Хозяина
+Lovers
+Возлюбленных
+Friends
+Друзья
+Room settings can only be updated by administrators
+Параметры комнаты могут быть обновлены только администраторами
+(Click anywhere to return)
+(Нажмите в любом месте, чтобы вернуться)
+Background
+Фон
+Visibility
+Видимость
+Access
+Доступ
+Public
+Общественность
+Admin + Whitelist
+Администратор + белый список
+Admin
+Администратор
+Unlisted
+Без списка
+Import room code
+Импортировать код комнаты
+Please paste the room code. Importing room codes will overwrite existing settings. Are you sure?
+Вставьте код комнаты. Импорт кодов комнат перезапишет существующие настройки. Вы уверены?
+Failed to parse the passed room code (incomplete? invalid? outdated?)
+Не удалось разобрать переданный код комнаты (неполный? недействительный? устаревший?)
+Successfully imported room code
+Код комнаты успешно импортирован
+Export room code
+Экспортировать код комнаты
+Failed to copy room code to clipboard
+Не удалось скопировать код комнаты в буфер обмена
+Room code copied to clipboard
+Код комнаты скопирован в буфер обмена
+Create
+Создать
+Save
+Сохранить
+Exit
+Выход
+Cancel
+Отменить
+Updating the chat room...
+Обновление чата комнаты...
+This room name is already taken
+Это название комнаты уже занято
+Account error, please try to relog
+Ошибка учетной записи, пожалуйста, попробуйте перерегистрироватся
+Invalid chat room data detected
+Обнаружены недопустимые данные чата комнаты
+Room created, joining it...
+Комната создана, присоединяюсь к ней...
+Block Categories
+Блокировать категории
+No Game
+Нет игры
+LARP
+LARP
+Magic Battle
+Магическая битва
+GGTS
+GGTS
+English
+English
+French
+Français
+Spanish
+Española
+German
+Deutsch
+Chinese
+中国人
+Russian
+Русский

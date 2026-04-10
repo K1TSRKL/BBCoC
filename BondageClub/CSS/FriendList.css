@@ -1,0 +1,344 @@
+/* #region SUBSCREEN */
+#friend-list-subscreen {
+	--border-color: white;
+	--border-style: solid;
+	--button-size: min(7dvh, 3.5dvw);
+	--button-color: white;
+	--inactive-button-color: lightgray;
+	--image-color: white;
+	--text-color: white;
+	--row-height: min(8dvh, 4dvw);
+	--friend-list-height: calc(min(100dvh, 50dvw) - (var(--row-height) * 2) - (var(--small-gap) * 4));
+	--small-gap: min(0.4dvh, 0.2dvw);
+
+	box-sizing: border-box;
+	border: var(--border-width) var(--border-color) var(--border-style);
+	overflow: hidden;
+	padding: 0;
+}
+
+#friend-list-subscreen * {
+	box-sizing: border-box;
+}
+
+#friend-list-subscreen hr {
+	margin: 0 auto;
+	border: var(--border-width) var(--border-color) var(--border-style);
+}
+/* #endregion */
+
+/* #region NAV BAR */
+#friend-list-mode-title {
+	padding: var(--small-gap);
+	width: 20%;
+	text-align: center;
+	user-select: none;
+}
+
+#friend-list-search-input {
+	width: 20%;
+	height: min(4dvh, 2dvw);
+	font-size: min(3dvh, 1.5dvw);
+}
+
+#friend-list-nav-bar {
+	display: flex;
+	height: var(--row-height);
+	align-items: center;
+	color: var(--text-color);
+}
+
+#friend-list-buttons {
+	display: flex;
+	position: absolute;
+	right: var(--small-gap);
+	gap: var(--small-gap);
+}
+
+#friend-list-nav-hr {
+	width: 100%;
+}
+/* #endregion */
+
+/* #region HEADER */
+
+#friend-list-header {
+	user-select: none;
+}
+
+#friend-list-header .friend-list-link {
+	text-decoration: none;
+}
+
+#friend-list-header .friend-list-row:hover {
+	color: var(--text-color);
+}
+
+#friend-list-header-hr {
+	width: 80%;
+}
+/* #endregion */
+
+/* #region MODE SPECIFIC STYLES */
+#friend-list-subscreen .mode-specific-content.mode-specific-content {
+	display: none;
+}
+
+#friend-list-beep-dialog .mode-specific-content {
+	display: none;
+}
+
+#friend-list-subscreen[data-mode="OnlineFriends"] .fl-online-friends-content {
+	display: block;
+}
+
+#friend-list-subscreen[data-mode="Beeps"] .fl-beeps-content {
+	display: block;
+}
+
+#friend-list-subscreen[data-mode="AllFriends"] .fl-all-friends-content {
+	display: block;
+}
+
+#friend-list-beep-dialog[data-received] .fl-beep-received-content {
+	display: block;
+}
+
+#friend-list-beep-dialog:not([data-received]) .fl-beep-sent-content {
+	display: block;
+}
+
+.ChatRoomType {
+	display: flex;
+	justify-content: center;
+	gap: 0.15em;
+	user-select: none;
+}
+
+.friend-list-icon-container {
+	--tooltip-gap: 0.15em;
+
+	position: relative;
+	height: var(--row-height);
+	width: var(--row-height);
+	max-width: 86px;
+	max-height: 86px;
+	aspect-ratio: 1 / 1;
+}
+
+.friend-list-icon {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (hover: hover) {
+	@supports selector(:has(*)) {
+		.friend-list-icon-container:hover:not(:has(.button-tooltip:hover)) > .button-tooltip {
+			visibility: visible;
+		}
+	}
+
+	@supports not selector(:has(*)) {
+		.friend-list-icon-container:hover > .button-tooltip {
+			visibility: visible;
+		}
+	}
+}
+
+.friend-list-icon-small {
+	pointer-events: none;
+	height: var(--row-height);
+	width: var(--row-height);
+	max-width: 50px;
+	max-height: 50px;
+	margin-inline: 0.15em;
+	aspect-ratio: 1 / 1;
+}
+
+/* #endregion */
+
+/* #region FRIENDLIST */
+#friend-list {
+	--row-height: min(6dvh, 3dvw);
+
+	display: flex;
+	flex-direction: column;
+	height: var(--friend-list-height);
+	word-wrap: break-word;
+	padding: 0;
+}
+
+#friend-list-table {
+	position: relative;
+	left: var(--button-size);
+	width: calc(100% - var(--button-size));
+	height: calc(100% - var(--row-height));
+	display: grid;
+	grid-template-rows: min-content min-content auto;
+}
+
+#friend-list-table th {
+	font-weight: normal;
+}
+
+.friend-list-row {
+	color: var(--text-color);
+	min-height: var(--row-height);
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: unset;
+	margin: var(--small-gap) 0;
+}
+
+.friend-list-row > * {
+	vertical-align: middle;
+	text-justify: center;
+	padding: unset;
+}
+
+.friend-list-row:hover {
+	color: yellow;
+}
+
+.friend-list-column {
+	float: left;
+	width: 22%;
+	text-align: center;
+	text-wrap: nowrap;
+	white-space: preserve;
+}
+
+#friend-list-member-number,
+.MemberNumber {
+	width: 10%;
+}
+
+#friend-list-member-name,
+.MemberName {
+	width: 15%;
+}
+
+#friend-list-subscreen[data-mode="AllFriends"] .RelationType {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: var(--small-gap);
+}
+
+.RelationType {
+	user-select: none;
+}
+
+.friend-list-link {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.friend-list-link:disabled {
+	color: gray;
+	cursor: auto;
+	text-decoration: none;
+}
+
+.friend-list-link:hover {
+	color: cyan;
+}
+
+.friend-list-link:hover:disabled {
+	color: gray;
+}
+
+.highlight {
+	text-decoration: underline;
+	font-weight: 800;
+}
+/* #endregion */
+
+/* #region BUTTONS */
+#friend-list-button-refresh {
+	background-image: url("../Icons/Small/Reset.png");
+}
+
+#friend-list-button-auto-refresh {
+	background-image: url("../Icons/Wait.png");
+}
+
+#friend-list-button-prev {
+	background-image: url("../Icons/Small/Prev.png");
+}
+
+#friend-list-button-next {
+	background-image: url("../Icons/Small/Next.png");
+}
+
+#friend-list-button-exit {
+	background-image: url("../Icons/Small/Exit.png");
+}
+
+#friend-list-reset-sorting {
+	position: absolute;
+}
+
+#friend-list-reset-sorting {
+	background-image: url("../Icons/Small/Remove.png");
+}
+
+.button.inactive {
+	background-color: var(--inactive-button-color);
+}
+
+.button.inactive::before {
+	opacity: 0.3;
+}
+
+.friend-list-button {
+	height: var(--button-size);
+	width: var(--button-size);
+}
+
+/* #endregion */
+
+/* #region BEEP */
+#friend-list-beep-dialog {
+	--border-radius: 12px;
+
+	position: relative;
+	background-color: #ffffffaa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 0.5em;
+	border: var(--border-width) var(--border-color) var(--border-style);
+	padding: .5em;
+	box-sizing: border-box;
+	backdrop-filter: blur(5px);
+	border-radius: var(--border-radius);
+}
+
+#friend-list-beep-footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#friend-list-beep-textarea {
+	width: 30em;
+	height: 100%;
+	font: inherit;
+	border-radius: var(--border-radius);
+	padding: .5em;
+}
+
+#friend-list-beep-dialog button {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+/* #endregion */

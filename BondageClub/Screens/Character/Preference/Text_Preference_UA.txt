@@ -1,0 +1,750 @@
+- Preferences -
+- Preferences -
+- General Preferences -
+- General Preferences -
+- Multi Player Difficulty Preferences -
+- Multi Player Difficulty Preferences -
+- Restriction Preferences -
+- Restriction Preferences -
+- Chat Preferences -
+- Chat Preferences -
+- Audio Preferences -
+- Audio Preferences -
+- Arousal Meter & Sexual Activities Preferences -
+- Arousal Meter & Sexual Activities Preferences -
+- Security Preferences -
+- Security Preferences -
+- Item Preferences -
+- Item Preferences -
+- Graphical Preferences -
+- Graphical Preferences -
+- Online Preferences -
+- Online Preferences -
+- Immersion Preferences -
+- Immersion Preferences -
+- Controller Preferences -
+- Controller Preferences -
+- Notification Preferences -
+- Notification Preferences -
+- Gender Preferences -
+- Gender Preferences -
+- Script Permission Preferences -
+- Script Permission Preferences -
+- Extensions Preferences -
+- Extensions Preferences -
+General
+General
+Difficulty
+Difficulty
+Restriction
+Restriction
+Chat
+Chat
+Censored Words
+Censored Words
+Audio
+Audio
+Arousal
+Arousal
+Security
+Security
+Item Visibility
+Item Visibility
+Online
+Online
+Immersion
+Immersion
+Graphics
+Graphics
+Controller
+Controller
+Notifications
+Notifications
+Gender
+Gender
+Scripts
+Scripts
+Extensions
+Extensions
+The difficulty mode enforces BDSM restrictions in multi-player only.  Click for details.
+The difficulty mode enforces BDSM restrictions in multi-player only.  Click for details.
+Roleplay
+Roleplay
+Roleplay - This mode is fully open to customise your experience.
+Roleplay - This mode is fully open to customise your experience.
+It allows you to choose which restrictions or mechanisms to ignore.
+It allows you to choose which restrictions or mechanisms to ignore.
+You can select this mode any time, but you won't be able
+You can select this mode any time, but you won't be able
+to select the Hardcore or Extreme mode for seven days.
+to select the Hardcore or Extreme mode for seven days.
+
+
+Regular
+Regular
+Regular - This default mode enforces the basic rules and restrictions.
+Regular - This default mode enforces the basic rules and restrictions.
+It's made to restrict you and keep you safe at the same time.
+It's made to restrict you and keep you safe at the same time.
+Lots of options can be configured under this mode.
+Lots of options can be configured under this mode.
+Hardcore
+Hardcore
+Hardcore - This mode is geared for players wanting to be helpless.
+Hardcore - This mode is geared for players wanting to be helpless.
+No rescue maid will come, and no NPC will help you out.
+No rescue maid will come, and no NPC will help you out.
+No safeword can be used, you must find help from players.
+No safeword can be used, you must find help from players.
+You must be a member for at least seven days to select this mode.
+You must be a member for at least seven days to select this mode.
+You cannot select this if you've changed mode in the last seven days.
+You cannot select this if you've changed mode in the last seven days.
+Extreme
+Extreme
+Extreme - This mode is built for players wanting to be full slaves.
+Extreme - This mode is built for players wanting to be full slaves.
+No safeword can be used and you cannot leave your owner.
+No safeword can be used and you cannot leave your owner.
+All immersion settings are maxed, and you cannot block any item.
+All immersion settings are maxed, and you cannot block any item.
+Easy mode - Restrictions and game mechanisms
+Easy mode - Restrictions and game mechanisms
+can be ignored with toggles.  For pure roleplayers.
+can be ignored with toggles.  For pure roleplayers.
+Normal mode - Basic restrictions are enforced, 
+Normal mode - Basic restrictions are enforced,
+many options to protect you.  For most players.
+many options to protect you.  For most players.
+Hard mode - No rescue maids, no safeword and no 
+Hard mode - No rescue maids, no safeword and no
+help from any NPC.  For players that want trouble.
+help from any NPC.  For players that want trouble.
+Slavery mode - No maids, no safeword, no NPC help, 
+Slavery mode - No maids, no safeword, no NPC help,
+no blocked items, cannot leave owner.  Fully helpless.
+no blocked items, cannot leave owner.  Fully helpless.
+You're already playing on that difficulty mode.
+You're already playing on that difficulty mode.
+You need to wait NumberOfHours hours before you can activate this mode.
+You need to wait NumberOfHours hours before you can activate this mode.
+I accept the consequences and want to use this mode.
+I accept the consequences and want to use this mode.
+Go
+Go
+You can configure game restrictions to bypass in the multi-player environment.
+You can configure game restrictions to bypass in the multi-player environment.
+Players using the Roleplay difficulty can configure multi-player restrictions to bypass.
+Players using the Roleplay difficulty can configure multi-player restrictions to bypass.
+Bypass the struggling mini-game.
+Bypass the struggling mini-game.
+Cannot be slowed down from leaving a room.
+Cannot be slowed down from leaving a room.
+Skip punishment when calling maids from chat room.
+Skip punishment when calling maids from chat room.
+Don't garble online chat and whispers when gagged.
+Don't garble online chat and whispers when gagged.
+Character label color:
+Character label color:
+Item permission:
+Item permission:
+Everyone, no exceptions
+Everyone, no exceptions
+Everyone, except blacklist
+Everyone, except blacklist
+Owner, Lover, whitelist & Dominants
+Owner, Lover, whitelist & Dominants
+Owner, Lover and whitelist only
+Owner, Lover and whitelist only
+Owner and Lover only
+Owner and Lover only
+Owner only
+Owner only
+Put a valid hex #red-green-blue color
+Put a valid hex #red-green-blue color
+Color theme:
+Color theme:
+Light
+Light
+Dark
+Dark
+ Light 2
+Light 2
+Dark 2
+Dark 2
+Enter/Leave message style:
+Enter/Leave message style:
+Normal
+Normal
+Smaller
+Smaller
+Hidden
+Hidden
+Display member numbers:
+Display member numbers:
+Always
+Always
+Never
+Never
+On Mouseover
+On Mouseover
+Font size
+Font size
+Small
+Small
+Medium
+Medium
+Large
+Large
+Display timestamps
+Display timestamps
+Color names
+Color names
+Color actions
+Color actions
+Color emotes
+Color emotes
+Color Activities
+Color Activities
+Shrink all messages except dialogue
+Shrink all messages except dialogue
+Show sexual activities & orgasms
+Show sexual activities & orgasms
+Use : as alias for /me and *
+Use : as alias for /me and *
+Ban blacklist when creating a room
+Ban blacklist when creating a room
+Ban ghostlist when creating a room
+Ban ghostlist when creating a room
+Order rooms by number of friends
+Order rooms by number of friends
+Disable scripted assets on others
+Disable scripted assets on others
+Show all automatic messages
+Show all automatic messages
+Preserve whitespace in messages
+Preserve whitespace in messages
+Show help on first enter
+Show help on first enter
+Show beep notifications in chat
+Show beep notifications in chat
+Preserve chat logs between rooms
+Preserve chat logs between rooms
+Page 1/2
+Page 1/2
+Page 2/2
+Page 2/2
+Audio volume
+Audio volume
+Music volume
+Music volume
+Audio alarm for beeps
+Audio alarm for beeps
+Play item sounds in chatrooms
+Play item sounds in chatrooms
+Only play item sounds if you're involved
+Only play item sounds if you're involved
+Allow audio alerts for notifications
+Allow audio alerts for notifications
+Lock this menu while bound
+Lock this menu while bound
+Return to chatrooms on relog
+Return to chatrooms on relog
+Auto-remake rooms
+Auto-remake rooms
+Hide others' messages
+Hide others' messages
+All immersion settings are maxed out under the Extreme difficulty mode
+All immersion settings are maxed out under the Extreme difficulty mode
+Hide non-adjacent players while partially blind
+Hide non-adjacent players while partially blind
+Events while plugged or vibed
+Events while plugged or vibed
+Garble chat room names and descriptions while blind
+Garble chat room names and descriptions while blind
+Room customization:
+Room customization:
+Disabled by default
+Disabled by default
+Enabled by default
+Enabled by default
+Sensory deprivation setting
+Sensory deprivation setting
+Hide names
+Hide names
+Heavy
+Heavy
+Total
+Total
+Flash after blindness
+Flash after blindness
+Zoom chatrooms smoothly
+Zoom chatrooms smoothly
+Center players in chatrooms
+Center players in chatrooms
+Players can drag you to rooms when leashed
+Players can drag you to rooms when leashed
+Your owner can change or lock your nickname
+Your owner can change or lock your nickname
+Maids come automatically when restrained
+Maids come automatically when restrained
+Locks on you can't be picked
+Locks on you can't be picked
+Disable examining when blind
+Disable examining when blind
+Keep all restraints when relogging
+Keep all restraints when relogging
+Cannot enter single-player rooms when restrained
+Cannot enter single-player rooms when restrained
+Block advanced vibrator modes (edge, random, etc)
+Block advanced vibrator modes (edge, random, etc)
+Safewords and help from NPCs are disabled on Hardcore or Extreme
+Safewords and help from NPCs are disabled on Hardcore or Extreme
+Items can affect your facial expression
+Items can affect your facial expression
+Max
+Max
+High
+High
+Low
+Low
+Lower
+Lower
+Lowest
+Lowest
+Animation quality (reduce if inputs such as sliders are slow to respond)
+Animation quality (reduce if inputs such as sliders are slow to respond)
+Display all characters at maximum height
+Display all characters at maximum height
+Show AFK bubble if idle for 5 minutes
+Show AFK bubble if idle for 5 minutes
+Allow Safeword use (Cannot enable while bound)
+Allow Safeword use (Cannot enable while bound)
+(Click to confirm) Allow Safeword use (Cannot enable while bound)
+(Click to confirm) Allow Safeword use (Cannot enable while bound)
+Allow others to alter your whole appearance
+Allow others to alter your whole appearance
+Prevent others from changing cosplay items
+Prevent others from changing cosplay items
+Show status bubble
+Show status bubble
+Send your status
+Send your status
+Linking an email will allow password recovery
+Linking an email will allow password recovery
+Update Email
+Update Email
+Current email:
+Current email:
+New email:
+New email:
+No email saved, write here to add one
+No email saved, write here to add one
+An email is linked, write it here to update it
+An email is linked, write it here to update it
+Your email has been updated.
+Your email has been updated.
+Current email does not match
+Current email does not match
+Invalid characters
+Invalid characters
+Show other characters meter
+Show other characters meter
+Affect your facial expressions
+Affect your facial expressions
+Activation:
+Activation:
+Disable sexual activities
+Disable sexual activities
+Allow without a meter
+Allow without a meter
+Allow with a manual meter
+Allow with a manual meter
+Allow with a hybrid meter
+Allow with a hybrid meter
+Allow with a locked meter
+Allow with a locked meter
+Arousal meter visuals
+Arousal meter visuals
+Bare Meter
+Bare Meter
+Solid Glow
+Solid Glow
+Temporary Animation
+Temporary Animation
+Constant Animation
+Constant Animation
+Vibrator Screen Filters
+Vibrator Screen Filters
+None
+None
+Flickering Glow
+Flickering Glow
+Arousal Screen Filter
+Arousal Screen Filter
+Strong Gradient
+Strong Gradient
+Solid Color Filter
+Solid Color Filter
+Solid Filter at High Arousal
+Solid Filter at High Arousal
+Meter visibility:
+Meter visibility:
+Show arousal to everyone
+Show arousal to everyone
+Show if they have access
+Show if they have access
+Show to yourself only
+Show to yourself only
+Fetish preferences:
+Fetish preferences:
+Being restrained
+Being restrained
+Being gagged
+Being gagged
+Being blind
+Being blind
+Being deaf
+Being deaf
+Being chaste
+Being chaste
+Being naked
+Being naked
+Masochism
+Masochism
+Sadism
+Sadism
+Rope
+Rope
+Latex
+Latex
+Leather
+Leather
+Metal
+Metal
+Tape
+Tape
+Nylon
+Nylon
+Lingerie
+Lingerie
+Pony
+Pony
+ABDL
+ABDL
+Pet play
+Pet play
+Forniphilia (human furniture)
+Forniphilia (human furniture)
+Hate it
+Hate it
+Doesn't like it
+Doesn't like it
+Neutral on it
+Neutral on it
+Like it
+Like it
+Adore it
+Adore it
+Activity preferences:
+Activity preferences:
+Done on yourself:
+Done on yourself:
+Doing it to others:
+Doing it to others:
+Forbid/Block it
+Forbid/Block it
+Click on yourself to set your erogenous zones
+Click on yourself to set your erogenous zones
+Configure this zone to be erogenous or not
+Configure this zone to be erogenous or not
+Block all activities on this zone
+Block all activities on this zone
+Dislike this zone, it's a turn-off
+Dislike this zone, it's a turn-off
+This zone isn't special for you
+This zone isn't special for you
+Like this zone, it turns you on
+Like this zone, it turns you on
+Love this zone, it's a big turn-on
+Love this zone, it's a big turn-on
+This zone can give you an orgasm
+This zone can give you an orgasm
+Feet & Toes
+Feet & Toes
+Lower Legs
+Lower Legs
+Upper Legs
+Upper Legs
+Pussy & Vagina
+Pussy & Vagina
+Clitoris
+Clitoris
+Butt / Anal
+Butt / Anal
+Pelvis & Belly
+Pelvis & Belly
+Torso & Ribs
+Torso & Ribs
+Nipples
+Nipples
+Breast
+Breast
+Arms & Shoulders
+Arms & Shoulders
+Hands
+Hands
+Neck
+Neck
+Mouth & Lips
+Mouth & Lips
+Head & Hair
+Head & Hair
+Nose
+Nose
+Ears
+Ears
+Head
+Head
+Speech stuttering:
+Speech stuttering:
+Never stutter
+Never stutter
+When you're aroused
+When you're aroused
+When you're vibrated
+When you're vibrated
+Aroused & vibrated
+Aroused & vibrated
+Group:
+Group:
+Asset:
+Asset:
+Hide
+Hide
+Block
+Block
+This icon will appear beside a character that's wearing a hidden item
+This icon will appear beside a character that's wearing a hidden item
+Reset All
+Reset All
+This will reset all items to be visible. Click again to confirm and exit.
+This will reset all items to be visible. Click again to confirm and exit.
+All items are forced visible under the Extreme difficulty mode
+All items are forced visible under the Extreme difficulty mode
+Accept changes
+Accept changes
+Cancel changes
+Cancel changes
+Game Font
+Game Font
+Fallback fonts will be used if your chosen font is unsupported on your device.
+Fallback fonts will be used if your chosen font is unsupported on your device.
+Arial
+Arial
+Times New Roman
+Times New Roman
+Papyrus
+Papyrus
+Comic Sans
+Comic Sans
+Impact
+Impact
+Verdana
+Verdana
+Helvetica Neue
+Helvetica Neue
+Century Gothic
+Century Gothic
+Georgia
+Georgia
+Courier New
+Courier New
+Copperplate
+Copperplate
+Flip the room vertically when upside-down
+Flip the room vertically when upside-down
+Flash the screen for certain effects
+Flash the screen for certain effects
+Enable antialiasing (For this browser, if supported)
+Enable antialiasing (For this browser, if supported)
+Not running on WebGL, cannot edit rendering configurations.
+Not running on WebGL, cannot edit rendering configurations.
+Preferred power consumption mode (For this browser, if supported)
+Preferred power consumption mode (For this browser, if supported)
+Low consumption, slower rendering
+Low consumption, slower rendering
+Default
+Default
+High consumption, faster rendering
+High consumption, faster rendering
+Sensitivity
+Sensitivity
+Controller Active
+Controller Active
+Map Buttons
+Map Buttons
+Map Sticks
+Map Sticks
+Move left stick up
+Move left stick up
+Move left stick right
+Move left stick right
+Move right stick up
+Move right stick up
+Move right stick right
+Move right stick right
+Press A button
+Press A button
+Press B button
+Press B button
+Press X button
+Press X button
+Press Y button
+Press Y button
+Press left bumper
+Press left bumper
+Press right bumper
+Press right bumper
+Press left trigger
+Press left trigger
+Press right trigger
+Press right trigger
+Press Select button
+Press Select button
+Press Start button
+Press Start button
+Press left stick button
+Press left stick button
+Press right stick button
+Press right stick button
+Press Up on Dpad
+Press Up on Dpad
+Press Down on Dpad
+Press Down on Dpad
+Press Left on Dpad
+Press Left on Dpad
+Press Right on Dpad
+Press Right on Dpad
+Press Home button
+Press Home button
+Dead Zone
+Dead Zone
+Off
+Off
+(1) in title
+(1) in title
+Popup
+Popup
+(1) in icon
+(1) in icon
+Raise notifications for missed events:
+Raise notifications for missed events:
+: Play a sound for only
+: Play a sound for only
+the first occurrence of an event
+the first occurrence of an event
+Only:
+Only:
+Beeps
+Beeps
+Messages in chat rooms
+Messages in chat rooms
+Normal Messages
+Normal Messages
+Whispers
+Whispers
+Items/Activities
+Items/Activities
+Name Mentioned
+Name Mentioned
+Players entering chat rooms
+Players entering chat rooms
+Owner
+Owner
+Lovers
+Lovers
+Friends
+Friends
+Owned Subs
+Owned Subs
+Disconnect from the game
+Disconnect from the game
+Your turn in a LARP game
+Your turn in a LARP game
+Raise a test notification
+Raise a test notification
+Clear raised notifications
+Clear raised notifications
+Hello there!
+Hello there!
+Page
+Page
+Allow item tint effects
+Allow item tint effects
+Can only leave a map near an entry or exit
+Can only leave a map near an entry or exit
+Allow item blur effects (turn off if experiencing frame rate drops)
+Allow item blur effects (turn off if experiencing frame rate drops)
+Females
+Females
+Males
+Males
+Automatically enter the chatroom area for:
+Automatically enter the chatroom area for:
+Hide shop items exclusively for:
+Hide shop items exclusively for:
+Hide titles in settings for:
+Hide titles in settings for:
+Apply the censoring
+Apply the censoring
+Select the censorship to apply and the words to censor in both the chat and room labels.
+Select the censorship to apply and the words to censor in both the chat and room labels.
+Censorship:
+Censorship:
+Replace the word by ***
+Replace the word by ***
+Replace the phrase by ***
+Replace the phrase by ***
+Hide the phrase or room
+Hide the phrase or room
+Censored words:
+Censored words:
+Add
+Add
+WARNING!
+WARNING!
+Changing the settings on this page can allow people to modify your items and appearance using scripts in ways that are not possible in the core game. If you don't want this, or if you don't know what you're doing, don't touch these settings!
+Changing the settings on this page can allow people to modify your items and appearance using scripts in ways that are not possible in the core game. If you don't want this, or if you don't know what you're doing, don't touch these settings!
+I Accept
+I Accept
+Specify who can modify your worn items using scripts, and what they're allowed to do.
+Specify who can modify your worn items using scripts, and what they're allowed to do.
+To reduce issues and maintain a baseline level of visual coherence, the Bondage Club enforces a series of restrictions which prevents people from modifying your items in ways that might cause clipping or graphical issues.\nThis screen allows you to configure bypasses of those restrictions for certain people.\nWhile it enables more elaborate behaviors of items, be aware that it can cause severe visual glitches, including invisible items or characters, and that setting permissions to 'Public' gives everyone the ability to modify that feature, even trolls. Please use this with caution.\nUnwanted script effects can be removed at any time by disabling all permissions for that effect (including 'Self').\nTo find out more about the properties that you can assign permissions for and what each might do and the associated risks, click the '?' icon next to each one.
+To reduce issues and maintain a baseline level of visual coherence, the Bondage Club enforces a series of restrictions which prevents people from modifying your items in ways that might cause clipping or graphical issues.\nThis screen allows you to configure bypasses of those restrictions for certain people.\nWhile it enables more elaborate behaviors of items, be aware that it can cause severe visual glitches, including invisible items or characters, and that setting permissions to 'Public' gives everyone the ability to modify that feature, even trolls. Please use this with caution.\nUnwanted script effects can be removed at any time by disabling all permissions for that effect (including 'Self').\nTo find out more about the properties that you can assign permissions for and what each might do and the associated risks, click the '?' icon next to each one.
+Permits scripts to override the default item-hiding behaviour of Bondage Club. This can enhance your game by allowing item combinations that wouldn't normally be possible, or by allowing items to be hidden to achieve a particular look that doesn't necessarily reflect exactly what you're wearing. However, it can also be used to create severe visual glitches, including making items or even your whole character invisible. Use with caution!
+Permits scripts to override the default item-hiding behaviour of Bondage Club. This can enhance your game by allowing item combinations that wouldn't normally be possible, or by allowing items to be hidden to achieve a particular look that doesn't necessarily reflect exactly what you're wearing. However, it can also be used to create severe visual glitches, including making items or even your whole character invisible. Use with caution!
+Permits scripts to override the default item-blocking behaviour of Bondage Club. This is the functionality that prevents you from equipping items on others, or can prevent sexual activities on blocked zones. Allowing scripts to add custom blocking behaviour can allow for additional restriction, preventing players from removing worn items or adding new ones in a given slot, but can also result in items that you can't remove yourself without the help of a script (or by removing this permission).
+Permits scripts to override the default item-blocking behaviour of Bondage Club. This is the functionality that prevents you from equipping items on others, or can prevent sexual activities on blocked zones. Allowing scripts to add custom blocking behaviour can allow for additional restriction, preventing players from removing worn items or adding new ones in a given slot, but can also result in items that you can't remove yourself without the help of a script (or by removing this permission).
+Self
+Self
+Whitelist
+Whitelist
+Public
+Public
+FPS Limit
+FPS Limit
+Unfocused FPS limit
+Unfocused FPS limit
+Display FPS Counter
+Display FPS Counter
+Unlimited
+Unlimited
+10 FPS
+10 FPS
+15 FPS
+15 FPS
+30 FPS
+30 FPS
+60 FPS
+60 FPS

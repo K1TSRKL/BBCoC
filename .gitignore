@@ -1,0 +1,12 @@
+# IDEs
+.idea/
+.vscode/
+
+#system temp file
+.DS_Store
+
+node_modules
+web.config
+/BondageClub/Tools/Node/.imagemin-cache
+BondageClub/1 - prepare.bat
+BondageClub/2 - generate.bat

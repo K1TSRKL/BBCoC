@@ -1,0 +1,501 @@
+###_NPC
+Hun, speak clearer if you want to become a star.
+親愛的，想當明星就說清楚點。
+Well played hun.  Now move along, we have a movie to film.
+打得不錯，親愛的。現在走開吧，我們還要拍電影呢。
+Ah!  Once again my porn deck is best.  Do you want to try your luck again?
+啊！又一次，我的色情片牌組是最棒的。你想要再試一次嗎？
+Cut!  That's enough hun!  I told you to be sexy.
+暫停！夠了，親愛的！我告訴過你要性感。
+Cut!  Sorry hun, you don't have what it takes to be a star.
+暫停！對不起，親愛的，你不具備成為明星的條件。
+Cut!  Hun, you're too boring to be a porn star.
+暫停！親愛的，你當色情明星太無聊了。
+Cut!  That doesn't work hun.  You forgot to spice up your play.
+暫停！這根本不對，親愛的。你忘了給你的表演增添情趣。
+It's an honor to see you Mistress DialogPlayerName.  Are you here to review the scenario?
+很榮幸見到你，女主人DialogPlayerName。你是來回顧劇情的嗎？
+You're DialogPlayerName the kidnapper?  We could use someone like you in our next film.
+你是那位綁架者DialogPlayerName？我們可以在下一部電影中用上像你這樣的人。
+Hey maid DialogPlayerName, the studio could use some cleaning.  We also need some fresh coffee.
+嘿，女僕DialogPlayerName，工作室需要打掃一下。我們還需要一些新鮮的咖啡。
+Hey there, are you looking to become a star in the next movie?
+嘿，你想成為下一部電影的明星嗎？
+###_PLAYER
+Hi, I'm DialogPlayerName.
+嗨，我是DialogPlayerName。
+###_NPC
+Pleased to meet you hun, I'm DialogCharacterName.  I'm directing the next movie.
+很高興認識你，我是DialogCharacterName。我正在導演下一部電影。
+###_PLAYER
+Can you help me?
+你能幫助我嗎？
+###_NPC
+Go find a maid, I have a movie to shoot.
+去找女僕吧，我這裡要拍電影。
+###_PLAYER
+Are you looking for actresses?
+你在找女演員嗎？
+###_NPC
+All the time.  If you're not shy, we could hire you.  You could become the next bondage idol.
+每時每刻。如果你不害羞，我們可以雇用你。你可能會成為下一個束縛偶像。
+###_PLAYER
+Do actresses get paid?
+女演員有報酬嗎？
+###_NPC
+Of course, hun.  The better the performance, the better the salary.
+當然，親愛的。表現越好，薪水越高。
+###_PLAYER
+How long are the movies?
+電影有多長？
+###_NPC
+Most movies roll for around half an hour, we divide them in scenes of ten minutes.
+大多數電影播放大約半小時，我們將它們分成幾個十分鐘的場景。
+###_PLAYER
+How do you know if a movie is good?
+怎麼知道一部電影好不好？
+###_NPC
+We judge each ten minutes scene individually.  They must all be sexy and nonrepetitive for the movie to be sold.
+我們分別評判每一個十分鐘的場景。要想電影賣得好，這些場景都必須性感且不重複。
+###_PLAYER
+What are you filming?
+你在拍什麼？
+###_NPC
+The movie is called: "The Interview".  It's the story of a curious journalist that comes to the Bondage Club to interview a Mistress.  Are you interested?
+這部電影叫做：“採訪”。這是一個好奇的記者來到束縛俱樂部採訪女主人的故事。你感興趣嗎？
+The movie is called: "Open House".  It's the story of a divorced wife confronting her husband new girlfriend, which is trying to sell the family house. Are you interested?
+這部電影叫做：“房屋參觀”。這是一個離異的妻子面對試圖賣掉房子的丈夫新女友的故事。你感興趣嗎？
+###_PLAYER
+Do you play Club Card?
+你玩俱樂部卡牌嗎？
+###_NPC
+(She thinks aloud.)  Sure, we can play a few games before the next scene.
+（她出聲地思考。）當然，我們在下個場景開始前可以來幾局。
+###_PLAYER
+Take care.  (Leave her.)
+多保重。（離開她。）
+Can I tie you up if I win?
+如果我贏了，我可以綁住你嗎？
+###_NPC
+(She shakes her head no.)  Hun, I have a movie to prepare.  Let's play for honor only.
+（她搖搖頭，表示拒絕。）親愛的，我還要拍電影呢。我們普通玩玩吧。
+###_PLAYER
+(Play Club Card with her.)
+（和她玩俱樂部卡牌。）
+Let's talk about something else.
+我們聊聊其他的事情吧。
+###_NPC
+Yeah, we can play cards later.  We are making porn here, this is serious stuff.
+好的，我們可以稍後再玩卡牌。我們正在拍色情片呢，這是很重要的事情。
+###_PLAYER
+Tell me about the script.
+說說劇本吧。
+###_NPC
+The script is open hun, as long as it's sexy.  It starts with a journalist that comes in advance to interview a Mistress and finds herself waiting in a room full of toys.
+劇本是開放的，親愛的，只要性感就行。故事開始時，一名記者在對一位女主人的採訪中提前到來，發現自己在一個滿是玩具的房間裡等著。
+###_PLAYER
+What roles are available?
+有哪些角色？
+###_NPC
+There's a role for a journalist, a Mistress and a maid.  But you'll need to be a true Club Mistress or Maid for the last two.
+記者、女主人和女僕各有一個角色。但如果要成為最後兩個，你需要成為真正的俱樂部女主人或女僕。
+###_PLAYER
+Can actors improvise?
+演員可以即興創作嗎？
+###_NPC
+Oh yeah!  We give you a starting situation and you can roll with it.  Just make sure the movie is sexy and will sell well.
+哦，當然！我們給你一個開始的情況，你可以順其自然。只要確保這部電影很性感，這就會賣得很好。
+###_PLAYER
+I want to play in that movie.
+我想演那部電影。
+###_NPC
+Great!  Which role would you like to take?  The journalist, the maid or the Mistress?
+棒極了！你想扮演哪個角色？記者、女僕還是女主人？
+(She checks your locks.)  Sorry hun, get yourself unlocked first if you want to be a star.
+（她檢查你的鎖。）對不起，親愛的，如果你想成為明星，先把自己打開。
+###_PLAYER
+I'm not interested.
+我對此不感興趣。
+###_NPC
+Fine, make some room for the next movie star then.
+好吧，那就給下一位電影明星騰點地方吧。
+###_PLAYER
+I'll be the journalist.
+我會扮演記者。
+###_NPC
+The starring role!  You will do fine hun.
+是主演！你會做得很好。
+###_PLAYER
+I'll be the maid.
+我會扮演女僕。
+###_NPC
+I'm sure you can play that role maid DialogPlayerName.
+我相信你可以扮演好這個角色，女僕DialogPlayerName。
+Sorry, this role is for real maids only.
+抱歉，此角色僅限於真正的女僕。
+###_PLAYER
+I'll be the Mistress.
+我會扮演女主人。
+###_NPC
+Of course, Mistress DialogPlayerName.  This role will be perfect for you.
+當然，女主人DialogPlayerName。這個角色將非常適合你。
+Sorry, this role is for real Mistresses only.
+抱歉，此角色僅限於真正的女主人。
+###_PLAYER
+I'm not sure about this.
+我不確定這一點。
+What should I do?
+我應該怎麼辦？
+###_NPC
+You start the movie by entering a dungeon room with an X-Cross and a drawer full of latex clothes and cuffs, be curious!
+電影開始時，你會進入一個地牢房間，裡面有一個X字架和一個裝滿乳膠衣服和袖口的抽屜，好奇吧！
+###_PLAYER
+How does it start?
+這是如何開始的？
+There are other actresses?
+還有其他女演員嗎？
+###_NPC
+The maid will come in for the second scene and see what you've did to yourself.  She will play with you.
+女僕會進來拍第二場戲，看看你對自己做了什麼。她會和你一起玩。
+###_PLAYER
+And what's next?
+接下來是什麼？
+What about the Mistress?
+女主人呢？
+###_NPC
+The Mistress comes in third, finding both you and the maid.  This will be the hottest scene.
+女主人會在第三場，發現了你和女僕。這將是最色情的一幕。
+###_PLAYER
+And after that?
+在那之後？
+(Take a few notes.)
+（做一些筆記。）
+There are only three scenes?
+只有三個場景？
+###_NPC
+Correct.  We are filming an adult movie here, not Lord of the Cock Rings.  Are you ready?
+正確。我們在這裡拍攝成人電影，而不是雞環王。你準備好了嗎？
+###_PLAYER
+And that's it?
+就這些嗎？
+I'm ready to shoot.
+我準備開拍了。
+###_NPC
+This is wonderful hun, you'll become a star.  Go get changed and we'll start filming when you get back.
+這太棒了，親愛的，你會成為明星的。去換衣服，等你回來我們就開始拍攝。
+###_PLAYER
+I'll be the greatest journalist!
+我要成為最偉大的記者！
+I will try my best Miss Director.
+導演女士，我會努力的。
+I've changed my mind.
+我改變主意了。
+(Go change.)
+（去換衣服。）
+###_NPC
+You look fabulous.  Now enter the room and we'll start recording.  Remember to be curious and sexy my star!
+你看起來棒極了。現在進入房間，我們將開始錄製。記得要保持好奇，保持性感，我的明星！
+###_PLAYER
+(Start the movie.)
+（開始電影。）
+(Struggles happily.)
+（愉快地掙扎。）
+###_NPC
+(The crew releases you and help you to dress back up.  The full team celebrates with you.)
+（劇組放開你，幫你穿好衣服。整個團隊和你一起慶祝。）
+###_PLAYER
+(Give a thumbs up.)
+（豎起大拇指。）
+###_NPC
+(The crew helps you to dress back up.  The full team celebrates with you.)
+（工作人員幫助你穿回衣服。整個團隊與你一起慶祝。）
+###_PLAYER
+That was fun!
+蠻開心的！
+###_NPC
+I'm glad you had fun, keep on working like that and you might make big money someday.
+我很高興你享受這個過程，繼續這樣工作，總有一天你會賺大錢的。
+###_PLAYER
+I was so nervous.
+我很緊張。
+###_NPC
+You did really good hun, keep on working like that and you might make big money someday.
+你做得真好，繼續這樣工作，總有一天你會賺大錢的。
+###_PLAYER
+I will be a star!
+我要當明星！
+###_NPC
+Hun, you're not Pamela Anderson yet, but keep on working and you might make big money.
+親愛的，你還不是帕米拉·安德森，但繼續工作，你會賺大錢的。
+###_PLAYER
+Talking about money...
+談到錢的話……
+How much does it pay?
+這會付多少錢？
+No need for money.  I'd like that camera though.
+不需要錢。不過我想要那個相機。
+###_NPC
+The journalist camera?  It's yours then, you deserve it.  (She gives you the camera.)
+記者的相機？那它就是你的了，你應得的。（她給你相機。）
+###_PLAYER
+No need for money.  I'd like that gavel though.
+不需要錢。不過我想要那把木槌。
+###_NPC
+The wooden gavel from the trial?  Keep it, you deserve it.  (She gives you the gavel.)
+審判的木槌？拿走吧，你應得的。（她給你木槌。）
+###_PLAYER
+No need for money.  I'd like that long duster though.
+不需要錢。不過我想要那個長雞毛撣。
+###_NPC
+Of course, the duster is yours hun.  You kept it for the full play, you deserve it.  (She gives you the long duster.)
+當然，雞毛撣是你的了，親愛的。全程出演的你可以得到她，這是你應得的。 （她給了你長雞毛撣。）
+###_PLAYER
+No need for money.  I'd like that 'for sale' sign though.
+不需要錢。不過我想要那個“出售”的牌子。
+###_NPC
+Of course, the sign is yours hun.  You held on to it, you deserve it.  (She gives you the 'for sale' sign.)
+當然，標誌是你的了，親愛的。你一直拿著她，你應得的。（她給了你“出售”的牌子。）
+###_PLAYER
+Thanks a lot.
+多謝。
+###_NPC
+My pleasure.  We'll probably shoot another movie soon, come back later.
+這是我的榮幸。我們應該不久會拍另一部電影，稍後再回來吧。
+###_PLAYER
+I might do another movie.
+我可能會拍另一部電影。
+###_NPC
+Great!  We'll probably shoot another movie soon, come back later.
+太棒了！我們應該不久會拍另一部電影，稍後再回來吧。
+We are done filming for now.  Please come back later.
+我們的拍攝暫時完成了。請待會再過來。
+###_PLAYER
+(Leave her.)
+（離開她。）
+Tell me of the role.
+說說角色吧。
+###_NPC
+You enter on the third and last scene.  Your character is expecting to see a journalist but will find a club member playing with a maid.
+你進入第三個也是最後一個場景。你的角色本想會見到一名記者，但卻發現一名俱樂部成員正在和一名女傭玩耍。
+###_PLAYER
+What are they doing there?
+她們在那裡做什麼？
+###_NPC
+They are having fun in your reserved interview room.  You should teach them a lesson in front of the camera.
+他們在你預定的採訪房間裡玩得很開心。你應該在鏡頭前給他們上一課。
+###_PLAYER
+They are using my interview room?
+他們在用我的採訪房間？
+###_NPC
+Exactly!  They should not be in your interview room, so you need to teach them a lesson in front of the camera.
+正是！他們不應該在你的採訪房間裡，所以你需要在鏡頭前給他們上一課。
+###_PLAYER
+I discipline the club member?
+我要教訓這個俱樂部成員？
+###_NPC
+It's up to you Mistress DialogPlayerName.  Just make sure it's spicy and the camera can catch the action.
+這取決於你，女主人DialogPlayerName。只要確保足夠火辣，以及相機能捕捉到動作。
+###_PLAYER
+I discipline the maid?
+我要教訓這個女傭？
+I discipline both of them?
+我要教訓他們兩個？
+###_NPC
+That's it, the movie ends there.  Your character is only there for the final scene.  Just make sure it's hot and nonrepetitive.  Are you ready to shoot?
+就這樣，電影到此結束。你的角色只在最後一幕出現。只要確保這足夠色情且不重複。你準備好拍攝了嗎？
+###_PLAYER
+What goes on after the punishment?
+教訓後會發生什麼事？
+###_NPC
+Great!  You can use your regular Mistress clothes for the role.  (A maid helps you to change.)
+棒極了！你可以穿上常規的女主人服裝來扮演這個角色。（女僕幫你更衣。）
+This is perfectly fine.  We will try to find another Mistress then.
+這很好。到時候我們會設法再找一個女主人。
+You enter the set on the second scene, you were sent by a Mistress to clean a dungeon.  There will be a surprise when you enter.
+你在第二個場景進入場景，你被女主人派去打掃地牢。一進門就遇到了驚喜。
+###_PLAYER
+What surprise?
+什麼驚喜？
+###_NPC
+You will find a journalist, but you don't know about her.  She will be bound in skimpy clothes on the X-Cross.
+你會遇到一個記者，但你不了解她。她會在X架上，並且穿著輕薄的衣服。
+###_PLAYER
+I find the journalist?
+我遇到那個記者？
+###_NPC
+Yes, but you don't know that she's the journalist.  She will be bound in skimpy clothes on the X-Cross.
+是的，但你不知道她是記者。她會在X架上，並且穿著輕薄的衣服。
+###_PLAYER
+(Listen to her.)
+（聽她說。）
+I tease her?
+我逗弄她？
+###_NPC
+Do whatever is on your mind, but make sure the scene is hot.  The camera needs to love what you do for ten minutes.
+隨心所欲，但要確保場景足夠色情。你要讓相機愛上你這十分鐘的行為。
+###_PLAYER
+I masturbate her?
+我手淫她？
+###_NPC
+Of course!  Do whatever is on your mind, but make sure the scene is hot.  The camera needs to love what you do for ten minutes.
+當然！隨心所欲，但要確保場景足夠色情。你要讓相機愛上你這十分鐘的行為。
+###_PLAYER
+I tickle her?
+我撓她癢癢？
+###_NPC
+Sure!  Do whatever is on your mind, but make sure the scene is hot.  The camera needs to love what you do for ten minutes.
+當然可以！隨心所欲，但要確保場景足夠色情。你要讓相機愛上你這十分鐘的行為。
+###_PLAYER
+I release her?
+我放開她？
+###_NPC
+You can, but make sure whatever you do next is hot.  The camera needs to love what you do for ten minutes.
+你可以，但要確保你接下來做的一切足夠色情。你要讓相機愛上你這十分鐘的行為。
+###_PLAYER
+And after ten minutes?
+十分鐘後？
+###_NPC
+A Mistress will come in for the third scene, she will take control of the set.  Obey her or get in trouble, it's all good.
+一位女主人會在第三場戲進來，她會掌控這場布置。服從她，或招惹麻煩，這都可以。
+###_PLAYER
+What's the next scene?
+下一個場景是什麼？
+###_NPC
+Wonderful!  You can use the regular or skimpy maid outfit for that role, which one do you prefer?
+完美！你可以穿上常規或輕薄的女僕裝來扮演那個角色，你更喜歡哪一種？
+It's alright, but go clean somewhere else, we need to find another maid.
+沒關係，不過去別的地方打掃吧，我們需要再找個女僕。
+###_PLAYER
+I'll wear the regular outfit.
+我會穿常規的衣服。
+###_NPC
+(She yells at the crew and helps you to change.)  Alright team!   Time is money!  Let's get ready to shoot!
+（她朝工作人員喊叫，並幫你換衣服。）好了，大伙！時間就是金錢！我們準備好拍攝吧！
+###_PLAYER
+I'll wear the skimpy outfit.
+我會穿那件輕薄的衣服。
+###_NPC
+The script is open hun, but it must be spicy.  It starts with the divorced wife entering the house while the new girlfriend is preparing the open tour.
+劇本是開放的，親愛的，但一定要火辣。在開始時，離婚的妻子進屋，而新女友正在準備公開展示。
+You can only be the divorced wife, it's the main role that drives the whole movie.  The star role!
+你只能是離婚的妻子，這是驅動整部電影的主要角色。明星角色！
+Great!  Do you think you have what it takes to play the divorced wife?
+太棒了！你認為你有能力扮演離婚的妻子嗎？
+###_PLAYER
+Sure, I'll be the divorced wife.
+當然，我會成為那個離婚的妻子。
+###_NPC
+As the ex-wife, you must be angry and spicy DialogPlayerName.  You will trigger all the sexy trouble.
+作為前妻，你肯定又生氣，又火辣，DialogPlayerName。你會引發所有性感的麻煩。
+You start the movie by entering the house early, before the open house hours.  The new girlfriend will already be there preparing the house.
+電影開始時，你在看房時間到來前提前進入房子。而新女友已經在那裡準備房屋參觀了。
+###_PLAYER
+What do I do with her?
+我該怎麼對她？
+###_NPC
+You confront the new girlfriend, you can tell her that this house belongs to you, or that she stole your husband, or that she's dating for money.
+你和新女友對質，你可以告訴她這房子是你的，或者說她偷了你的丈夫，或者她是為了錢約會。
+###_PLAYER
+Do I tie her up?
+我要把她綁起來嗎？
+###_NPC
+Of course hun.  It's a bondage movie.  You can fight with her and restrain her.  Or get restrained yourself.
+當然，親愛的。這是一部束縛電影。你可以和她戰鬥，束縛她。或者束縛一下自己。
+###_PLAYER
+This isn't very spicy.
+這不是很火辣。
+###_NPC
+It's a bondage movie hun, once you've confronted her, you can fight with her and restrain her.  Or get restrained yourself.
+這是一部束縛電影，當和她對峙時，你可以和她打架，束縛她。或者束縛一下自己。
+###_PLAYER
+This is aggressive.
+這很有攻擊性。
+###_NPC
+It's all an act, you're the angry ex!  Once you've confronted her, you can fight with her and restrain her.  Or get restrained yourself.
+這一切都是演戲，記住你是憤怒的前任！當和她對峙時，你可以和她打架，束縛她。或者束縛一下自己。
+###_PLAYER
+And once she's tied up?
+如果她被綁起來了？
+###_NPC
+Spank her, fuck her, tickle her, humiliate her!  The camera will love it.  The client will come after that scene.
+打她、操她、撓她、羞辱她！相機會喜歡這個。客戶將在那個場景之後出現。
+###_PLAYER
+And we have sex?
+我們發生性關係？
+###_NPC
+Of course hun.  Spank her, fuck her, tickle her, humiliate her!  The camera will love it.  The client will come after that scene.
+當然是，親愛的。打她、操她、撓她、羞辱她！相機會喜歡這個。客戶將在那個場景之後出現。
+###_PLAYER
+What happens with the client?
+客戶會發生什麼事？
+###_NPC
+Do a threesome, tie her up, get tied up, be creative and sexy!  This final act must be hot.  Are you ready to be a star?
+來一場三人遊戲，把她綁起來，被綁起來，保持創意和性感！最後一幕一定很火爆。你準備好成為明星了嗎？
+###_PLAYER
+I can tie the customer?
+我能綁客戶嗎？
+###_NPC
+Sure!  Do a threesome, tie her up, get tied up, be creative and sexy!  This final act must be hot.  Are you ready to be a star?
+當然！來一場三人遊戲，把她綁起來，被綁起來，保持創意和性感！最後一幕一定很火爆。你準備好成為明星了嗎？
+You'll be a porn star in no time.  Go get changed and we'll start filming when you get back.
+你會立即成為色情明星。去換衣服，等你回來我們就開始拍攝。
+###_PLAYER
+I'm ready to give her hell!
+我準備好讓她下地獄了！
+###_NPC
+You'll be a porn Domme in no time.  Go get changed and we'll start filming when you get back.
+你會立即成為色情支配者。去換衣服，等你回來我們就開始拍攝。
+You'll be a porn slut in no time.  Go get changed and we'll start filming when you get back.
+你很快就會成為色情蕩婦。 去換衣服，等你回來我們就開始拍攝。
+Totally fashion!  Now enter the room and we'll start recording.  Remember to be angry and sexy my star!
+完全時尚！現在進入房間，我們將開始錄製。記得要生氣又性感，我的明星！
+###_PLAYER
+(Change again.)
+（再換一次。）
+###_NPC
+A true movie star needs the best clothes.  Take your time to find your perfect look hun.
+真正的電影明星需要最好的衣服。花點時間找到你的完美造型。
+(She checks her purse and gives you $SALARYAMOUNT.)  Here's your salary hun.  You deserve it.
+（她檢查了她的錢包並給了你 $SALARYAMOUNT。）這是你的薪水，親愛的。你應得的。
+###_PLAYER
+What?  You're stopping the movie?
+什麼？你要停止電影？
+###_NPC
+That movie wasn't going anywhere.  We can't produce a boring film.  Dress back up.
+這電影根本行不通。我們不能製作無聊的電影。穿好衣服吧。
+###_PLAYER
+Wait!  It was about to get hot.
+等一下！馬上就要變得火熱了。
+###_NPC
+You're cold as ice.  We can't produce a boring film.  Dress back up.
+你冷得像冰。我們不能製作無聊的電影。穿好衣服吧。
+###_PLAYER
+(Sigh and bow your head.)
+（嘆氣，低下頭。）
+###_NPC
+That performance was horrible.  We can't produce a boring film.  Dress back up.
+這表演太可怕了。我們不能製作無聊的電影。穿好衣服吧。
+###_PLAYER
+I'm so sorry, can I try again?
+很抱歉，我可以再試一次嗎？
+###_NPC
+Don't cry girl, you can try again if you have the guts.  We will prepare another shoot.
+女孩，別哭，你有勇氣的話，可以再試一次。我們將準備另一次拍攝。
+###_PLAYER
+Can I have another chance?
+我還能有機會嗎？
+###_NPC
+Sure, you can if you have the guts.  We will prepare another shoot.
+當然可以，只要你有勇氣。我們將準備另一次拍攝。
+###_PLAYER
+This is bullshit!
+這是胡說！
+###_NPC
+No need to get angry, you can try again if you have the guts.  We will prepare another shoot.
+不用生氣，你有勇氣的話，可以再試一次。我們將準備另一次拍攝。
+###_PLAYER
+I guess I'm not going to Hollywood.
+我想我去不了好萊塢了。
+###_NPC
+Probably not, but you can try again if you have the guts.  We will prepare another shoot.
+可能不會，但如果你有勇氣的話，可以再試一次。我們將準備另一次拍攝。

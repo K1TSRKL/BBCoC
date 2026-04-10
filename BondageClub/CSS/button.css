@@ -1,0 +1,403 @@
+/* Mixin for disabling any and all browser-defaulted button styling */
+.blank-button {
+	padding: 0;
+	border: none;
+	outline: none;
+	font: inherit;
+	color: inherit;
+	background: none;
+}
+
+.button {
+	/* Default background color */
+	--button-color: white;
+	/* Background color for disabled buttons */
+	--disabled-color: grey;
+	/* Background color for hovered buttons */
+	--hover-color: cyan;
+	/* Background color for buttons that are active (_e.g._ currently clicked upon with the mouse) */
+	--active-color: var(--hover-color);
+	/* Background color for toggle buttons ("checkboxes") that are currently checked per their `[aria-checked="true"]` attribute */
+	--checked-color: var(--hover-color);
+	/* The gap between the button and its tooltip (`.button-tooltip`) */
+	--tooltip-gap: var(--half-gap);
+	/* The size of the icons within a button's icon grid (`.button-icon-grid`) */
+	--icon-size: min(50px, 5vh, 2.5vw);
+	/* The size of the inner border that appears whenever a button is clicked upon or toggled to its `checked` state */
+	--inner-border-width: calc(2 * var(--border-width));
+
+	cursor: pointer;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	mask-size: contain;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+@supports (background-color: color-mix(in srgb, black 50%, transparent)) {
+	.button {
+		--checked-color: color-mix(in srgb, var(--button-color) 66%, var(--hover-color) 34%);
+	}
+}
+
+.button-horizontal {
+	display: grid;
+	overflow: hidden;
+	align-items: center;
+	justify-items: center;
+	column-gap: 0.3em;
+	grid-template-rows: auto;
+	grid-template-columns: min-content auto;
+	grid-template-areas: "image label"; /* fallback for browsers that lack `:has()` support */
+}
+
+.button:has(.button-label-right) {
+	grid-template-areas: "image label";
+}
+
+.button:has(.button-label-left) {
+	grid-template-areas: "label image";
+}
+
+.button-horizontal .button-image {
+	position: static;
+	transform: unset;
+	width: 96%;
+	height: 96%;
+	max-height: 221px;
+	max-width: 221px;
+}
+
+/* Delegate the background/border styling to a separate class in order to ease their removal when a greater degree of element styling is desired */
+.button-styling {
+	background-color: var(--button-color);
+	border: var(--border-width) solid black;
+}
+
+.button-tooltip {
+	pointer-events: none;
+	cursor: auto;
+	background-color: #FFFF88;
+	color: black;
+	border: var(--border-width) solid black;
+	box-shadow: var(--inner-border-width) var(--inner-border-width) min(2vh, 1vw) 0 rgb(0 0 0 / 50%);
+	box-sizing: border-box;
+	padding: 0.3em 0.6em 0.3em 0.6em;
+	position: absolute;
+	text-align: center;
+	visibility: hidden;
+	width: fit-content;
+	text-wrap: nowrap;
+	z-index: 1;
+}
+
+.button-tooltip-justify {
+	text-align: justify;
+	text-wrap: wrap;
+	text-indent: 1em hanging each-line;
+}
+
+.button-tooltip-justify > * {
+	display: block;
+}
+
+.button-tooltip-craft,
+.button-tooltip-craft ul {
+	list-style-type: none;
+	padding: unset;
+	margin: unset;
+	padding-left: 1em;
+}
+
+.button-image {
+	grid-area: image;
+	position: absolute;
+	pointer-events: none;
+	top: 2%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: min(221px, 96%);
+	max-height: min(221px, 96%);
+	aspect-ratio: 1 /1;
+}
+
+.button-image[role="img"] {
+	background-position: center;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: contain;
+	mask-position: center;
+	mask-size: contain;
+	mask-repeat: no-repeat;
+}
+
+.button-image[data-hidden] {
+	display: none;
+	opacity: 20%;
+}
+
+.button[data-hidden] > .button-image[data-hidden] {
+	display: inline;
+}
+
+.button[data-hidden] > .button-image:not([data-hidden]) {
+	display: none;
+}
+
+.button[data-vibrating] > .button-image:not([data-hidden]) {
+	  animation: button-shake calc(1s / 6);
+	  animation-iteration-count: infinite;
+}
+
+@keyframes button-shake {
+	0% { transform: translate(-49.666%, 0.333%); }
+	10% { transform: translate(-50.333%, -0.666%); }
+	20% { transform: translate(-51%, 0%); }
+	30% { transform: translate(-49%, 0.666%); }
+	40% { transform: translate(-49.666%, -0.333%); }
+	50% { transform: translate(-50.333%, 0.666%); }
+	60% { transform: translate(-51%, 0.333%); }
+	70% { transform: translate(-49%, 0.333%); }
+	80% { transform: translate(-50.333%, -0.333%); }
+	90% { transform: translate(-49.666%, 0.666%); }
+	100% { transform: translate(-49.666%, -0.666%); }
+}
+
+.button-label {
+	grid-area: label;
+	position: absolute;
+	left: 2%;
+	width: 96%;
+	max-height: 98%;
+	pointer-events: none;
+	cursor: inherit;
+	overflow: hidden;
+}
+
+.button-image ~ .button-label {
+	font-size: 0.65em;
+}
+
+.button-styling > .button-label {
+	background-color: inherit;
+}
+
+.button-icon-grid {
+	display: grid;
+	position: absolute;
+	pointer-events: none;
+	top: var(--inner-border-width);
+	left: var(--inner-border-width);
+	grid-template-rows: repeat(4, var(--icon-size));
+	gap: calc(var(--icon-size) / 8);
+}
+
+.button-icon {
+	width: var(--icon-size);
+	height: var(--icon-size);
+}
+
+.button-icon-tooltip-ul {
+	text-align: left;
+	margin: 0;
+	padding-left: 0.5em;
+}
+
+.button-icon-tooltip-li {
+	display: flex;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 1.5em;
+}
+
+.button-tooltip-left {
+	top: 50%;
+	transform: translateY(-50%);
+	right: calc(100% + var(--tooltip-gap));
+}
+
+.button-tooltip-right {
+	top: 50%;
+	transform: translateY(-50%);
+	left: calc(100% + var(--tooltip-gap));
+}
+
+.button-tooltip-top {
+	bottom: calc(100% + var(--tooltip-gap));
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.button-tooltip-bottom {
+	top: calc(100% + var(--tooltip-gap));
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.button-label-top {
+	top: 1%;
+}
+
+.button-label-center {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.button-label-left,
+.button-label-right {
+	position: static;
+	width: unset;
+	left: unset;
+}
+
+.button-label-bottom {
+	bottom: 1%;
+}
+
+/* selectors */
+
+.button-styling[aria-checked="true"] {
+	background-color: var(--checked-color);
+}
+
+.button-styling[aria-checked="true"]::before,
+.button-styling:active::before,
+.button-styling[data-active]::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: var(--inner-border-width) inset black;
+}
+
+.button-styling:disabled::before,
+.button-styling[aria-disabled="true"]::before {
+	border: unset;
+}
+
+.button-styling[aria-checked="true"]::before {
+	border: var(--inner-border-width) inset black;
+}
+
+.button-styling:active,
+.button-styling[data-active] {
+	background-color: var(--active-color);
+}
+
+/* Keep hover-related styling on mobile disabled as it has a tendency to stick even after the click has ended */
+@media (hover: hover) {
+	.button-styling:hover {
+		background-color: var(--hover-color);
+	}
+
+	.button:hover > .button-tooltip,
+	.button:focus > .button-tooltip {
+		visibility: visible;
+	}
+}
+
+@media (hover: none) {
+	.button:focus[data-show-tooltip] > .button-tooltip {
+		visibility: visible;
+	}
+}
+
+/* Only show a focus outline when the element is explicitly focused (i.e. via tab-selection) */
+@supports selector(:focus-visible) {
+	.button:focus-visible {
+		outline: 2px solid rgb(0, 96, 223);
+		box-shadow: 0 0 0 3px white;
+		border-radius: 1px;
+	}
+}
+
+@supports not selector(:focus-visible) {
+	.button:focus {
+		outline: 2px solid rgb(0, 96, 223);
+		box-shadow: 0 0 0 3px white;
+		border-radius: 1px;
+	}
+}
+
+.button:disabled,
+.button[aria-disabled="true"],
+*[role="radiogroup"][aria-required="true"] .button[role="radio"][aria-checked="true"],
+*[role="menubar"][aria-required="true"] .button[role="menuitemradio"][aria-checked="true"],
+*[role="menu"][aria-required="true"] .button[role="menuitemradio"][aria-checked="true"] {
+	cursor: auto;
+}
+
+.button-styling:disabled,
+.button-styling[aria-disabled="true"] {
+	background-color: var(--disabled-color) !important;
+}
+
+*[role="menubar"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"],
+*[role="menu"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"],
+*[role="radiogroup"][aria-required="true"] .button-styling[role="radio"][aria-checked="true"] {
+	background-color: var(--disabled-color) !important;
+}
+
+*[role="menubar"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"] > .button-label,
+*[role="menu"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"] > .button-label,
+*[role="radiogroup"][aria-required="true"] .button-styling[role="radio"][aria-checked="true"] > .button-label {
+	background-color: var(--disabled-color) !important;
+}
+
+.button-tooltip:empty,
+.button-label:empty {
+	display: none !important;
+}
+
+@supports (height: 100dvh) {
+	.button {
+		--icon-size: min(50px, 5dvh, 2.5dvw);
+	}
+}
+
+@supports (background-color: color-mix(in srgb, black 50%, transparent)) {
+	.button-styling > .button-label {
+		background-color: color-mix(in srgb, var(--button-color) 50%, transparent);
+	}
+
+	.button-styling[aria-checked="true"] > .button-label {
+		background-color: color-mix(in srgb, var(--checked-color) 50%, transparent);
+	}
+
+	.button-styling:active > .button-label,
+	.button-styling[data-active] > .button-label {
+		background-color: color-mix(in srgb, var(--active-color) 50%, transparent);
+	}
+
+	@media (hover: hover) {
+		.button-styling:hover:not(:has(.button-tooltip:hover)) > .button-label {
+			background-color: color-mix(in srgb, var(--hover-color) 50%, transparent);
+		}
+	}
+
+	.button-styling:disabled > .button-label,
+	.button-styling[aria-disabled="true"] > .button-label {
+		background-color: color-mix(in srgb, var(--disabled-color) 50%, transparent) !important;
+	}
+
+	*[role="menubar"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"],
+	*[role="menu"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"],
+	*[role="radiogroup"][aria-required="true"] .button-styling[role="radio"][aria-checked="true"] {
+		background-color: color-mix(in srgb, var(--disabled-color) 34%, var(--checked-color) 66%) !important;
+	}
+
+	*[role="menubar"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"] > .button-label,
+	*[role="menu"][aria-required="true"] .button-styling[role="menuitemradio"][aria-checked="true"] > .button-label,
+	*[role="radiogroup"][aria-required="true"] .button-styling[role="radio"][aria-checked="true"] > .button-label {
+		background-color: color-mix(
+			in srgb,
+			color-mix(in srgb, var(--disabled-color) 34%, var(--checked-color) 66%),
+			transparent
+		) !important;
+	}
+}

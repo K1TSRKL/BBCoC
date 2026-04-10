@@ -1,0 +1,30 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,新的开始,,0,0,0,"LoadChapter(""C001_BeforeClass"")"
+0,0,0,,继续学业,,0,0,0,LoadScreen()
+0,0,0,,选择章节,你想从哪一章开始？|如果你没有玩过这个游戏，请从第一章开始。,10,0,0,
+0,0,0,,选择语言,,30,0,0,
+0,0,0,,制作组,非常感谢每一位对本游戏有所贡献的人。,0,0,0,RollCredits()
+10,0,0,,第 1 章|课前时间,,10,0,0,"LoadChapter(""C001_BeforeClass"")"
+10,0,0,,第 2 章|第一课,,10,0,0,"LoadChapter(""C002_FirstClass"")"
+10,0,0,,第 3 章|晨间拘留,,10,0,0,"LoadChapter(""C003_MorningDetention"")"
+10,0,0,,第 4 章|艺术课,,10,0,0,"LoadChapter(""C004_ArtClass"")"
+10,0,0,,第 5 章|体育课,,10,0,0,"LoadChapter(""C005_GymClass"")"
+10,0,0,,第 6 章|禁闭,,10,0,0,"LoadChapter(""C006_Isolation"")"
+10,0,0,,第 7 章|午餐时间,,10,0,0,"LoadChapter(""C007_LunchBreak"")"
+10,0,0,,第 8 章|戏剧课,,10,0,0,"LoadChapter(""C008_DramaClass"")"
+10,0,0,,下一页,你想从哪一章开始？|如果你没有玩过这个游戏，请从第一章开始。,20,0,0,
+10,0,0,,主菜单,欢迎来到束缚学院。|希望各位绅士玩得开心，不断找到新惊喜。,0,0,0,
+20,0,0,,第 9 章|图书馆,,20,0,0,"LoadChapter(""C009_Library"")"
+20,0,0,,第 10 章|报复,,20,0,0,"LoadChapter(""C010_Revenge"")"
+20,0,0,,第 11 章|文学课,,20,0,0,"LoadChapter(""C011_LiteratureClass"")"
+20,0,0,,第 12 章|放学后,,20,0,0,"LoadChapter(""C012_AfterClass"")"
+20,0,0,,第 101 章|紧缚俱乐部 by wildsj,,20,0,0,"LoadChapter(""C101_KinbakuClub"")"
+20,0,0,,上一页,你想从哪一章开始？|如果你没有玩过这个游戏，请从第一章开始。,10,0,0,
+20,0,0,,主菜单,欢迎来到束缚学院。|希望各位绅士玩得开心，不断找到新惊喜。,0,0,0,
+30,0,0,,English,,0,0,0,"SetLanguage(""EN"")"
+30,0,0,,French (Chapter 1 to 9)|Made by gottspende,,0,0,0,"SetLanguage(""FR"")"
+30,0,0,,"Chinese (Ch.1 to 13)|Dwscdv3, Es & asdcvbgf",,0,0,0,"SetLanguage(""CN"")"
+30,0,0,,Spanish (Chapter 1 to 3)|By Rafael R & tree13003,,0,0,0,"SetLanguage(""ES"")"
+30,0,0,,"German (Chapter 1 to 13)|adokilume, Knife, fleisch11",,0,0,0,"SetLanguage(""DE"")"
+30,0,0,,"Russian (Chapter 1)|Fluend",,0,0,0,"SetLanguage(""RU"")"
+30,0,0,,Czech (Chapter 1 to 7)|Miisha,,0,0,0,"SetLanguage(""CS"")"

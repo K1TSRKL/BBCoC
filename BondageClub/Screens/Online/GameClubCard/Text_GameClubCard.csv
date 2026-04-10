@@ -1,0 +1,13 @@
+Title,Online Club Card Configuration
+SelectPlayerSlot,Your player slot:
+PlayerSlot0,Not playing
+PlayerSlot1,First player
+PlayerSlot2,Second player
+StartCondition,A room administrator can start the game when two players are selected.
+RunningGame,"The Club Card game is running, you cannot change settings."
+StartGame,Start the game
+JoinGame,Join the game
+CannotJoinDetails,"Cannot join the game, the room administrator isn't in it."
+ResetGame,Reset Game
+IsAnimation,Club Card Animation
+AutoSpectate,Auto Spectate

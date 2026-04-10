@@ -1,0 +1,813 @@
+###_NPC
+(She looks at your gag and giggles.)
+（她看著你的口塞，呵呵笑著。）
+(A girl is restrained in the room you're supposed to clean.)  Excuse me maid?  I think I'm stuck.
+（一個女孩被束縛在你要去打掃的房間裡。）對不起，女僕？我想我被困住了。
+###_PLAYER
+Who are you?
+你是誰？
+###_NPC
+I'm not from the club, I'm a journalist.  I came here for an interview.
+我不是來自俱樂部，我是一名記者。我是來這裡採訪的。
+###_PLAYER
+Are you a slave?
+你是奴隸嗎？
+###_NPC
+No!  I'm not from the club, I'm a journalist.  I came here for an interview.
+不！我不是來自俱樂部，我是一名記者。我是來這裡採訪的。
+###_PLAYER
+Are you ticklish?  (Tickle her.)
+你怕癢嗎？（給她搔搔癢。）
+###_NPC
+Eeeaaahhhahah!  Wait!  There's a mistake!  I'm a journalist, I came here for an interview.
+欸欸欸欸！等等！不對！我是一名記者，我是來這裡採訪的。
+###_PLAYER
+(Dust her with the gag.)
+（用口塞給她除塵。）
+###_NPC
+(She struggles against the cross and laughs.)  What are you doing?  I'm a journalist, I came here for an interview.
+（她在X字架上掙扎並笑著）你在做什麼啊？我是一名記者，我是來這裡採訪的。
+###_PLAYER
+(Check the room.)
+（檢查房間。）
+Why are you restrained?
+你為什麼被綁起來了？
+###_NPC
+I came in advance, and found these items, and this cross, and well...
+我提前來了，找到了這些東西，還有這個X字架，嗯……
+###_PLAYER
+That's not very credible.
+這不太可信。
+###_NPC
+It's true!  I came in advance, and found these items, and this cross, and well...
+這是真的！我提前來了，找到了這些東西，還有這個X字架，嗯……
+###_PLAYER
+(Listen to her story.)
+（聽聽她的故事。）
+You trapped yourself?
+你把自己困住了？
+###_NPC
+(She blushes.)  Yes, this is so silly.  Can you help me out?
+（她臉紅起來。）是的，這好蠢哦。你能幫我嗎？
+###_PLAYER
+That's very funny.
+這很有趣。
+###_NPC
+No!  This is not funny!  (She blushes.)  Can you help me out?
+不！這不有趣！（她臉紅起來。）你能幫幫我嗎？
+###_PLAYER
+(Giggle in your gag.)
+（在你的口塞裡呵呵笑。）
+###_NPC
+This is not funny!  (She blushes.)  Can you help me out?
+這不好笑！（她臉紅起來。）你能幫幫我嗎？
+Please!  Will you help me out?
+求你了！你會幫我嗎？
+###_PLAYER
+(Play with her.)
+（玩弄她。）
+###_NPC
+(You move close to her.)  What are you doing?  Why aren't you releasing me?
+（你靠近她。）你在做什麼？你為什麼不放開我？
+###_PLAYER
+(Release her.)
+（放開她。）
+###_NPC
+What are you doing?  Why aren't you releasing me?
+你在幹什麼？ 你為什麼不釋放我？
+###_PLAYER
+(Tickle her.)
+（給她搔搔癢。）
+###_NPC
+(You tickle her without mercy.)  Haaaaaaeeehahaha!  Stop that!  You need to release me!
+（你毫不留情地撓她癢癢。）哈哈哈哈！不要那麼做！你要放開我！
+###_PLAYER
+(Caress her.)
+（撫摸她。）
+###_NPC
+(She moans a little as you caress her slowly.)  Oh!  What kind of maid are you?
+（當你慢慢地愛撫她時，她發出了一點呻吟。）哦！你這是哪種女僕？
+###_PLAYER
+(Spank her.)
+（打她屁股。）
+###_NPC
+(You spank her swiftly.)  Ow!  That hurts!  You're not helping much you know.
+（你迅速打了她屁股一下。） 噢！好痛！好吧，你幫不了什麼忙。
+###_PLAYER
+(Masturbate her.)
+（手淫她。）
+###_NPC
+(She moans loudly and trembles.)  Aaaahh!  Slow down little maid, I have an interview to do.
+（她大聲呻吟，渾身發抖。）啊啊啊！慢點小女僕，我有一個採訪要做。
+(She struggles against the cross and laughs.)  Eeeeyyaaahahahah!
+（她在十字架上掙扎並大笑。）咦咿咿咿咿呀啊哈哈哈哈！
+###_PLAYER
+(Tickle her with the feather duster.)
+（用羽毛撣子給她搔搔癢。）
+###_NPC
+(You dust her slowly as she laughs on the cross.)  Hhheeooooaahaha!  Stop it!
+（你慢慢清掃她身上的灰塵，她在X字架上大笑）嘿嘻嘻吼哦哦哦啊啊啊！停下來！
+###_PLAYER
+(Caress her with the long duster.)
+（用長長的撣子撫摸她。）
+###_NPC
+(You dust her slowly as she moans a little.)  Heeeeeeey!  I'm not dusty!
+（你慢慢清掃她身上的灰塵，她稍稍呻吟。）嘿嘿嘿欸欸欸！我身上沒有灰！
+###_PLAYER
+(Use the toothbrush on her.)
+（對她使用牙刷。）
+###_NPC
+(You tickle her with the toothbrush as she thrashes on the cross.)  Hey!  This is not how you use a toothbrush.
+（你用牙刷撓她癢癢，她在十字架上掙扎。）嘿！這不是使用牙刷的方式。
+###_PLAYER
+(Masturbate her with the wand.)
+（用振動棒撫慰她。）
+###_NPC
+(She screams of pleasure as you masturbate her.)  Oh yes!  Yes!  Can I cum?  Please!
+（你撫慰她，她由於快感而尖叫。）哦，好！好的！我可以高潮嗎？求你了！
+(She yells loudly and gets another quick orgasm.)  Aaaaaaaaaah!  Enough!  This is too much!
+（她大聲喊叫，很快又達到了高潮。）啊啊啊啊啊！夠了夠了！這太多了！
+###_PLAYER
+Do you deserve it?
+你想要嗎？
+###_NPC
+(She nods rapidly.)  Oh yes!  I need it!  Please, please, please.
+（她很快點頭。）哦，是的！我需要！拜託，拜託，拜託你。
+###_PLAYER
+(Give her an orgasm.)
+（給她一次高潮。）
+###_NPC
+(She trembles madly as you give her a strong orgasm on the cross.)  Aaaaaah!  Yes!  You're the best maid ever.  I owe you one.
+（當你在十字架上給她強烈的高潮時，她瘋狂地顫抖。）啊啊啊！太好了！你是有史以來最好的女僕。我欠你一次。
+###_PLAYER
+(Deny her orgasm.)
+（毀掉她的性高潮。）
+###_NPC
+(She pouts and struggles against the cross.)  So unfair!  Let me go then!
+（她撅起嘴，在十字架上掙扎。）太不公平了！不如放開我吧！
+Thanks for helping me out.  Right on time for the interview.
+謝謝你的協助。正好趕上採訪。
+###_PLAYER
+That's what maids are for.
+這就是女僕的用途。
+###_NPC
+You're very sweet you know?  Are you a submissive?
+你知道嗎，你很可愛哦？你是順從者嗎？
+###_PLAYER
+My pleasure Miss.
+我的榮幸，女士。
+Yes, I'm a sub.
+是的，我是順從者。
+###_NPC
+This is nice, and you love to be controlled?  I could dominate you.
+這很好，你喜歡被控制？我可以支配你。
+###_PLAYER
+I'm a switch, both sub and Domme.
+我是轉換者，同時是順從者和支配者。
+###_NPC
+You look more submissive to me.  Do you enjoy being controlled?  I could dominate you.
+對我來說，你看起來更像是順從者。你喜歡被控制嗎？我可以支配你。
+###_PLAYER
+I'm a Dominant actually.
+實際上，我是一個支配者。
+###_NPC
+You don't look very Dominant.  Are you sure you don't enjoy being controlled?  I could dominate you.
+你看起來並不是很像支配者。你確定你不喜歡被控制嗎？我可以支配你。
+Would you like to be controlled?  I could dominate you.
+你願意被控制嗎？我可以支配你。
+###_PLAYER
+Yes, you can control me Miss.
+是的，你可以控制我，女士。
+###_NPC
+(She giggles.)  This is great!  Give me your hands, I will use the cuffs on you.
+（她呵呵地笑起來。）太棒了！把你的手給我，我會用手銬銬住你。
+###_PLAYER
+I need to work.  (Check the room.)
+我需要工作。（檢查房間。）
+Very well.  (Give your hands.)
+好的吧。（伸出你的手。）
+###_NPC
+(She grabs your arms and snaps some cuffs on you.)  Is it too tight?
+（她抓住你的手臂，給你戴上一些手銬。）這有過緊嗎？
+###_PLAYER
+Hold on.  (Take a step back.)
+稍等。（退後一步。）
+###_NPC
+(She takes two steps forward, grab your arms and snaps some cuffs on you.)  Is it too tight?
+（她向前走了兩步，抓住你的手臂，給你扣上一些手銬。）這有過緊嗎？
+###_PLAYER
+It's fine Miss.
+還好，女士。
+###_NPC
+Very good.  And how flexible are you little maid?
+非常好。小女僕，你有多柔軟呢？
+###_PLAYER
+I've seen worse.
+我見過更糟的。
+###_NPC
+Alright.  How flexible are you little maid?
+好吧。小女僕，你有多柔軟呢？
+###_PLAYER
+It's a little tight.
+有點緊。
+###_NPC
+(She checks on the cuffs for safety.)  How flexible are you little maid?
+（為了安全起見，她檢查了銬子。）小女僕，你有多柔軟呢？
+###_PLAYER
+I'm pretty flexible.
+我非常柔軟。
+###_NPC
+This is great, because I have a wicked position in mind.  (She straps the cuffs, so your elbows are touching behind your back.)
+這很好，因為我想到了很壞的姿勢。（她繫好袖口，所以你的手肘在背後接觸。）
+###_PLAYER
+I'm not very flexible.
+我不是很柔弱。
+###_NPC
+I won't go too hard on you then.  (She straps the cuffs behind your back in a box tie position.)
+那我就不對你太苛刻了。（她將手銬繫在你的背後，做出箱縛的姿勢。）
+###_PLAYER
+You know the cuffs Miss.
+你知道手銬嗎，女士。
+###_NPC
+(She smirks.)  I'm not a member, but this is fun.  Let's not forget the legs.
+（她得意地笑。）我不是俱樂部會員，但這很有趣。別忘了腿。
+###_PLAYER
+That's very secure.
+這真結實。
+(Struggle for fun.)
+（玩鬧似地掙扎幾下。）
+###_NPC
+(The camera follows you as you struggle.)  Let's not forget the legs.
+（你掙扎的時候，攝影機跟著你。）別忘了腿。
+###_PLAYER
+I have a room to clean.
+我有一個房間要打掃。
+###_NPC
+That's true!  Don't worry, you will be able to clean.  (She snaps your leg cuffs together.)
+這是真的！別擔心，你會能打掃的。（她把你的腿銬扣在一起。）
+###_PLAYER
+Of course.  (Close your legs.)
+當然。（合上你的腿。）
+###_NPC
+Don't worry for your job, you will be able to clean.  (She snaps your leg cuffs together.)
+不用擔心你的工作，你會能打掃的。（她把你的腿銬扣在一起。）
+###_PLAYER
+How can I clean like that?
+我這樣怎麼能打掃呢？
+###_NPC
+You worry too much.  (She searches around and finds a duster gag to use on you.)  Time to clean!
+你擔心太多了。（她四處尋找，找來了一個撣子口塞給你用上。）是時候打掃了！
+###_PLAYER
+You're not making my job easier.
+你完全沒有讓我的工作輕鬆。
+I will need a duster gag.
+我需要一個撣子口塞。
+###_NPC
+Great idea!  (She searches around and finds a duster gag to use on you.)  Time to clean!
+好想法！（她四處尋找，找來了一個撣子口塞給你用上。）是時候打掃了！
+Get cleaning little bound maid.
+開始打掃吧，綁好的小女僕。
+###_PLAYER
+(Clean the furniture.)
+（清潔家具。）
+###_NPC
+(You hop around the room and clean the furniture with your duster gag, doing publicity for the club.)
+（你在房間裡跳來跳去，用抹布清潔家具，為俱樂部做宣傳。）
+###_PLAYER
+(Clean the torture items.)
+（清理刑具。）
+###_NPC
+(You go to the torture item wall and dust the whips and crops as the camera zooms on the items.)
+（你走到刑具牆邊，鏡頭拉近這些物品，你為給鞭子和硬鞭除塵。）
+###_PLAYER
+(Clean the journalist.)
+（清潔記者。）
+###_NPC
+(She giggles as you dust her.  She takes a few pictures of you in your bondage.)
+（當你給她撣灰塵時，她呵呵地笑了起來。她拍了幾張你被束縛的照片。）
+###_PLAYER
+(Struggle for the camera.)
+（朝著鏡頭掙扎。）
+###_NPC
+(You struggle sensually for the camera and moan loudly for the viewers.)
+（你朝著鏡頭充滿情慾地掙扎，為觀眾大聲呻吟。）
+Can you please release me or ask her to help me?  I have an interview to do.
+你能放開我或者讓她幫我嗎？我有一個採訪要做。
+###_PLAYER
+(Clean her.)
+（清潔她。）
+###_NPC
+(You clean her sensually as the Mistress smirks.)
+（你充滿情慾地清潔她，女主人得意地笑起來。）
+(The Mistress gets in front of you and instructs you to clean first.)
+（女主人走到你面前，讓你先打掃。）
+Thanks for helping.  (She winks at you.)  Right on time for the interview.  Finish your cleaning so we can start.
+感謝你的幫助。（她向你擠擠眼。）正好是採訪的時候。完成清潔工作，我們就可以開始了。
+This is intense, you maids don't have it easy in the club.
+這很激烈，你們女僕在俱樂部裡可不容易。
+###_PLAYER
+Can you help me?
+你能幫助我嗎？
+###_NPC
+I'm not allowed, but I can probably tickle you.  (She tickles your tummy and laughs with you.)
+我不被允許這樣做，但我可能可以撓撓你。（她撓你的肚子，和你一起笑起來。）
+###_PLAYER
+(Rub against her leg.)
+（摩擦她的腿。）
+###_NPC
+(She smiles at you and caresses you slowly.)  I wish I had time for you, but I have an interview to do.
+（她對你微笑，慢慢地撫摸你。）我希望我有時間陪你，但我有一個採訪要做。
+(She smiles at you and caresses you slowly.)  Would you like to cum?  I owe you one.
+（她對你微笑，慢慢地附魔你。）你想高潮嗎？我欠你一次。
+###_PLAYER
+Oh yes!  Please.
+哦是的！求你。
+###_NPC
+My pleasure!   (She masturbates you skillfully as the Mistress smirks, giving you an orgasm in front of the camera.)
+我的榮幸！（她熟練地撫慰你，讓你在鏡頭前達到高潮，女主人得意地笑著。）
+###_PLAYER
+No, I'm good.
+不，我很好。
+###_NPC
+Too bad, you lost your chance maid.  (She giggles.)
+太糟糕了，你失去了機會哦，女僕。（她呵呵地笑起來。）
+###_PLAYER
+Wow!  Thanks.
+哇！謝謝。
+###_NPC
+You deserved that orgasm, I owed it to you.  Now I have an interview to do.
+你應得的高潮，我欠你的。現在我有一個採訪要做。
+###_PLAYER
+That was pretty nice.
+那真是太好了。
+(Try to catch your breath.)
+（試著屏住呼吸。）
+###_NPC
+Thanks for bringing some drinks.  Can you help me to drink it?  (She laughs.)
+謝謝你帶來一些飲料。你能幫助我喝嗎？（她笑起來。）
+###_PLAYER
+(Help her to drink.)
+（幫她喝水。）
+###_NPC
+(You slowly help her to drink as the camera zooms on her mouth and naked body.)
+（你慢慢地幫她喝水，鏡頭拉近她的嘴巴和赤裸的身體。）
+###_PLAYER
+(Dust her.)
+（清掃她身上的灰塵。）
+###_NPC
+(You dust her as she struggles and laughs madly.)  You're not helping the interview!
+（你清掃她身上的灰塵，她瘋狂地掙扎和大笑。）你沒有幫助我進行採訪！
+(She laughs out loud while trying to ask questions.)  Eeeeeyaahaha!  This is not funny!
+（她在試圖提問時大笑起來。）咦咿咿呀啊哈哈哈哈！這不好玩！
+(She jumps from the pain as you spank her mid-interview.)  Ow!  What kind of maid are you?
+（當你在採訪中打她時，她痛得跳了起來。） 噢！你這算哪種女僕？
+(She tries to ask questions but moans loudly and blushes.)  Oooooooh!  Aaah, ah, another question?
+（她想問問題，但大聲呻吟並臉紅起來。）噢噢噢噢！ 啊啊啊，還有一個問題？
+(A club member is restrained in your room.  She struggles in her cuffs.)  Hello there, I think I got in trouble.
+（一名俱樂部成員在你的房間裡被束縛住了。她在手銬中掙扎。）你好，我想我遇到了麻煩。
+(A club member restrained a maid in your room.)  Hello there.  As you can see, this maid seems to enjoy trouble.
+（一名俱樂部成員在你的房間裡束縛住了一名女僕。）你好。如你所見，這位女僕似乎很享受遭遇的麻煩。
+###_PLAYER
+What's going on here?
+這裡發生了什麼事？
+###_NPC
+To make a long story short: I was exploring this dungeon, a maid came in, she locked these cuffs on me, and here I am now.
+長話短說：我正在探索這個地牢，一個女僕走進來，她把這些手銬鎖在我身上，然後我就這樣了。
+To make a long story short: I was exploring this dungeon, a maid came in wanting to be cuffed, so I locked her up.
+長話短說：我在探索這個地牢時，一個女僕走進來，並想要戴上手銬，所以我把她鎖起來了。
+###_PLAYER
+Why did you restrain her?
+你為什麼要束縛她？
+I've reserved this room.
+我已經預訂了這個房間。
+###_NPC
+(She nods.)  You must be the Mistress I came to interview then.  I'm the journalist, sorry for the confusion.
+（她點點頭。）那麼，你一定是我要採訪的女主人了。我是記者，很抱歉造成困擾。
+###_PLAYER
+You're in my dungeon.
+你在我的地牢裡。
+###_NPC
+(She gulps.)  Sorry for the confusion, I'm a journalist.  Are you here for the interview?
+（她嚥了一口唾沫。）抱歉造成困擾，我是一名記者。你是來採訪的嗎？
+###_PLAYER
+And why are you here?
+你為什麼在這裡？
+###_NPC
+I'm a journalist, I came here to work.  Are you here for the interview?
+我是一名記者，我來這裡工作。你是來接受採訪的嗎？
+Are you here for the interview?
+你是來接受採訪的嗎？
+###_PLAYER
+Who do you work for?
+你為誰工作？
+###_NPC
+I work for City News.  I'm here to prepare an article on your BDSM club.
+我為《城市新聞》工作。我來這裡是為了準備一篇關於你們的BDSM俱樂部的文章。
+###_PLAYER
+A journalist in these clothes?
+穿著，這樣衣服的記者？
+###_NPC
+(She blushes.)  I know it sounds strange, but I work for City News.  I will prepare an article on your BDSM club.
+（她臉紅起來。）我知道這聽起來很奇怪，但我為《城市新聞》工作。我會準備一篇關於你們的BDSM俱樂部的文章。
+###_PLAYER
+I don't believe you.
+我不相信你。
+###_NPC
+(She seems nervous.)  I swear it's true!  I work for City News.  I will prepare an article on your BDSM club.
+（她似乎很緊張。）我發誓這是真的！我為《城市新聞》工作。我會準備一篇關於你們的BDSM俱樂部的文章。
+###_PLAYER
+So, you're a kinky journalist?
+那麼，你是一個好色的記者？
+###_NPC
+(She bows her head.)  I...  I guess that's why they sent me.  Can we do the interview?
+（她低下頭。）我……我想這就是他們派我來的原因。我們可以開始採訪嗎？
+###_PLAYER
+You will get more than an article.
+你得到的不僅僅是一篇文章。
+###_NPC
+(She seems nervous.)  What do you mean?  Can we do the interview?
+（她似乎很緊張。）你什麼意思？我們可以開始採訪嗎？
+###_PLAYER
+(Pinch her cheek.)  You're in trouble.
+（捏她的臉頰。）你有麻煩了。
+###_NPC
+(She cringes as you pinch her cheek hard.)  What do you mean?  Can we do the interview?
+（你用力捏她的臉頰，她畏縮起來。）你是什麼意思？我們可以開始採訪嗎？
+Can we do the interview?
+我們可以開始採訪嗎？
+###_PLAYER
+I must punish first.
+我必須先懲罰。
+###_NPC
+(She seems very nervous.)  You can't punish me, I'm not a club member.  This is unfair!
+（她看起來很緊張。）你不能懲罰我，我不是俱樂部會員。這不公平！
+###_PLAYER
+Rules have been broken girl.
+規則被打破了，女孩。
+###_NPC
+(She seems very nervous.)  I'm not a member, I didn't know the rules.  This is unfair!
+（她看起來很緊張。）我不是會員，我不知道規則。這不公平！
+###_PLAYER
+You want it fair?
+你想要公平嗎？
+###_NPC
+Yes!  I want a fair trial.  I'm innocent.
+是的！我要公平的審判。我是無辜的。
+###_PLAYER
+Justice is relative here.
+正義在這裡是相對的。
+###_NPC
+Nonsense!  I want a fair trial.  I'm innocent.
+沒道理！我要公平的審判。我是無辜的。
+I want a fair trial!  I'm innocent.
+我要公平的審判！我是無辜的。
+###_PLAYER
+Let's do a trial.  (Go get a gavel.)
+讓我們來一場審判吧。（去拿木槌。）
+There won't be any trial.
+不會有任何審判。
+###_NPC
+(She seems furious.)  This is so unfair!  Do what you want, but my article won't be flattering.
+（她似乎很生氣。）這太不公平了！做你想做的吧，但我的文章不會拍馬屁。
+You can accuse and judge at the same time?
+你可以同時控告和做判決嗎？
+###_PLAYER
+The BDSM court is in session!
+BDSM法庭開庭了！
+###_NPC
+Oh my!  This is for real?  What would I do?
+天啊！真的嗎？我該怎麼辦？
+###_PLAYER
+Yes.  And I will be a fair judge.
+是的。我會是一個公正的法官。
+###_NPC
+We'll see about that.  What would I do?
+我們會知道的。我會做什麼呢？
+###_PLAYER
+You will be restrained for your hearing.
+在你的聽證會上，你會被束縛。
+###_NPC
+What?  This is the regular procedure?  (She complaints as you use restraints on her.)
+什麼？這是常規程序嗎？（你對她使用束縛時，她抱怨起來。）
+###_PLAYER
+I'm ready to hear your testimony.
+我準備好聽你的證詞了。
+###_NPC
+(She describes the previous scenes to you and the camera.)
+（她向你和相機描述之前的場景。）
+###_PLAYER
+Tell me your side of the story.
+告訴我你的故事。
+Do you have anything else to add?
+你還有什麼要補充的嗎？
+###_NPC
+I don't, that was my full story.  Can you see that I'm innocent?
+我不知道，那是我全部的故事了。你能判斷我是無辜的嗎？
+###_PLAYER
+(Masturbate as she speaks.)
+（在她說話時自慰。）
+###_NPC
+(You masturbate a little as she completes her speech.)  That's my story.  Can you see that I'm innocent?
+（她完成陳述的期間你稍稍自慰手淫。）這就是我的故事。你能看出我是無辜的嗎？
+###_PLAYER
+I've heard enough.
+我聽夠了。
+###_NPC
+Alright.  Can you see that I'm innocent?
+好吧。你能判斷我是無辜的嗎？
+Can you see that I'm innocent?
+你能判斷我是無辜的嗎？
+###_PLAYER
+You are guilty.  (Knock the gavel.)
+你有罪。（敲木槌。）
+###_NPC
+(She takes a deep breath.)  Fine!  Do what you want.  I can't believe I'm getting punished.
+（她深吸一口氣。）好吧！做你想做的吧。我不敢相信我竟然會受到懲罰。
+###_PLAYER
+You are innocent.  (Knock the gavel.)
+你是無辜的。（敲木槌。）
+###_NPC
+The law seems to work around here.  Should we do the interview then?
+法律似乎在這裡還有用。那我們應該繼續面試了嗎？
+###_PLAYER
+Yes, let's begin the interview.
+是的，讓我們開始採訪吧。
+###_NPC
+(She nods.)  Very good, I have many questions on the Bondage Club.
+（她點點頭。）很好，我有很多關於束縛俱樂部的問題。
+###_PLAYER
+What would you like to know?
+你想知道什麼？
+###_NPC
+I have a list of questions on the Bondage Club.
+我有一份關於束縛俱樂部的問題清單。
+I have more questions for you Miss.
+女士，我還有更多問題要問你。
+###_PLAYER
+(Answer her questions.)
+（回答她的問題。）
+###_NPC
+(She has many questions on the Bondage Club for you.  The camera zooms in for the spicy ones.)
+（她有很多關於束縛俱樂部的問題要問你。在那些比較情色的問題中，鏡頭拉近。）
+###_PLAYER
+(Restrain her as she asks questions.)
+（在她問問題時束縛住她。）
+###_NPC
+(You restrain her as she asks a few questions on the Bondage Club.)
+（在她在詢問幾個關於束縛俱樂部的問題時，你束縛住她。）
+###_PLAYER
+(Release her as she asks questions.)
+（在她提問時放開她。）
+###_NPC
+(You release her as she asks a few questions on the Bondage Club.)
+（在她在詢問幾個關於束縛俱樂部的問題時，你放開了她。）
+###_PLAYER
+(Flirt with her.)
+（和她調情。）
+###_NPC
+(You answer some questions but focus more on flirting with her as she blushes.)
+（你回答了一些問題，但更多的是與她調情，使得她面紅耳赤。）
+###_PLAYER
+My club, my rules.  You will be punished.
+我的俱樂部，我制定規則。你會受到懲罰的。
+###_NPC
+(She seems very angry.)  I can't believe I'm getting punished.
+（她似乎很生氣。）我不敢相信我要受到懲罰。
+###_PLAYER
+You're making it worse for yourself.
+你這只會讓自己受到更糟的。
+###_NPC
+I can't believe I'm getting punished.
+我不敢相信我要受到懲罰。
+###_PLAYER
+(Restrain her.)
+（束縛住她。）
+###_NPC
+(You pick up new restraints for her as the camera follows the rigging.)  Don't make it too tight.
+（你為她拿起新的束縛，相機跟隨這束縛物品。）不要綁太緊啊。
+###_PLAYER
+(Gag her.)
+（堵住她的嘴。）
+###_NPC
+(She shakes her head no, as you pick up a gag for her mouth.)
+（你給她戴上口塞，她搖頭表示拒絕。）
+###_PLAYER
+(Strap her on the cross.)
+（把她綁在X字架上。）
+###_NPC
+(You push her against the big cross and strap her tight on it.)  This is beyond unfair.
+（你把她推到X字架上，並把她綁緊。）這太不公平了。
+(She seems grateful as you release her from her restraints.)  Thanks...  I guess.
+（你鬆開她的束縛，她似乎很感激。）謝謝……我猜。
+(You spank her pretty hard as she whimpers from the pain.)  This is so humiliating.
+（你狠狠地打了她一巴掌，她痛得嗚咽。）這太丟臉了。
+###_PLAYER
+(Slap her.)
+（打她耳光。）
+###_NPC
+(You slap her on the face a few times as she makes angry eyes at you.)
+（你扇了她幾耳光，她憤怒地盯著你。）
+###_PLAYER
+(Hit her with the gavel.)
+（用木槌敲打她。）
+###_NPC
+(You hit her body a few times with the gavel as she grumbles.)  What kind of justice was that?
+（你用木槌敲了她幾下身體，她咕噥著）這算什麼正義？
+###_PLAYER
+What are you doing?
+你在幹什麼？
+###_NPC
+Isn't it obvious?  (They strap your arms and smile at each other.)  
+這不是很明顯嗎？（她們綁住你的手臂，互相微笑。）
+###_PLAYER
+Let me go!
+讓我走！
+###_NPC
+You're not going anywhere.  (They strap your arms and smile at each other.)
+你哪裡也不會走。（她們綁住你的手臂，互相微笑。）
+###_PLAYER
+(Try to fight them.)
+（嘗試與他們戰鬥。）
+###_NPC
+(You try to resist but they strap your arms and smile at each other.)
+（你試圖反抗，但他們綁住你的手臂，互相微笑。）
+###_PLAYER
+You two are in big trouble.
+你們兩個有大麻煩了。
+###_NPC
+I think you're the one getting in trouble.  (They strap your legs tight.)  Now we will have justice.
+我認為你才是惹麻煩的人。（她們綁緊你的腿。）現在我們要伸張正義了。
+###_PLAYER
+Release me right now.
+馬上放開我。
+###_NPC
+Don't make me laugh.  (They strap your legs tight.)  Now we will have justice.
+別逗我笑。（她們綁緊你的腿。）現在我們要伸張正義了。
+(She laughs out loud.)  Ah!  Look at you now.  It's now time for real justice.
+（她放聲大笑。）啊！現在看看你。現在是伸張正義的時候了。
+###_PLAYER
+Justice?  What do you mean?
+正義？你是什​​麼意思？
+###_NPC
+Since you did not want to do a trial, we will put you on trial.  (She winks at the maid.)
+由於你不想進行審判，我們將對你進行審判。（她對女僕使眼色。）
+###_PLAYER
+I make the rules here.
+這裡，我制定規則。
+###_NPC
+You don't anymore.  Since you did not want to do a trial, we will put you on trial.  (She winks at the maid.)
+你不會了。由於你不想進行審判，我們將對你進行審判。（她對女僕使眼色。）
+###_PLAYER
+(Make an intimidating look.)
+（做出嚇人的樣子。）
+###_NPC
+(She takes a step back.)  Since you did not want to do a trial, we will put you on trial.  (She winks at the maid.)
+（她後退了一步。）既然你不想做審判，我們就讓你接受審判。（她對女僕使眼色。）
+Oh yes there will be one.  You are accused of unfair punishment, how do you plead?
+哦，是的，會有一次。你受到指控，並會受到不公正的處罰，你如何申辯？
+###_PLAYER
+Forget it girl.
+算了吧，女孩。
+###_NPC
+(She takes a more serious tone.)  You are accused of unfair punishment, how do you plead?
+（她的語氣更嚴肅了。）你受到指控，並會受到不公正的處罰，你如何辯護？
+###_PLAYER
+(Struggle in your restraints.)
+（在束縛中掙扎。）
+###_NPC
+(The camera zooms on your struggles as she laughs.)  You are accused of unfair punishment, how do you plead?
+（你掙扎的時候，鏡頭拉近，而她笑起來。）你受到指控，並會受到不公正的處罰，你如何辯護？
+You are accused of unfair punishment, how do you plead?
+你受到指控，並會受到不公正的處罰，你如何申辯？
+###_PLAYER
+I plead innocent.
+我申辯無罪。
+###_NPC
+Present your arguments then, we will hear your case.
+然後提出你的論述，我們會聽取你的實情。
+###_PLAYER
+I plead guilty.
+我認罪。
+###_NPC
+Very good.  And since we are fair judges, we will allow to pick who will choose your sentence.
+非常好。由於我們是公正的法官，我們將允許你選擇誰來決定你的判決。
+###_PLAYER
+This is a joke.
+這是個玩笑。
+###_NPC
+Nobody is laughing.  Present your arguments, we will hear your case.
+沒有人在笑。提出你的論述，我們會聽取你的實情。
+###_PLAYER
+(Stay silent and defiant.)
+（保持沉默和抵抗。）
+###_NPC
+Present your arguments, we will hear your case.
+提出你的論述，我們會聽取你的實情。
+###_PLAYER
+(Try to make a convincing case.)
+（嘗試提出一個令人信服的實情。）
+###_NPC
+You make an interesting case.  Me and the maid will deliberate and get back to you.  (They start to chat.)
+你提出了一個有趣的實情。我和女僕會商量後再給你答覆。（她們開始聊天。）
+###_PLAYER
+(Plead a little.)
+（稍稍懇求。）
+###_NPC
+That's not very convincing.  Me and the maid will deliberate and get back to you.  (They start to chat.)
+這不是很有說服力。我和女僕會商量後再給你答覆。（她們開始聊天。）
+###_PLAYER
+Fuck you girl!
+去你媽的女孩！
+###_NPC
+That's your argument?  Me and the maid will deliberate and get back to you.  (They start to chat.)
+那是你的論述？我和女僕會商量後再給你答覆。（她們開始聊天。）
+###_PLAYER
+Common!  End this farce already.
+夠了！結束這場鬧劇吧。
+###_NPC
+(They talk some more and get back to you.)  You are found guilty, but since we are fair, we will allow you to pick who will choose your sentence.
+（她們又談了一些然後回覆你。）你被判有罪，但由於我們是公平的，我們將允許你選擇誰來決定你的判決。
+###_PLAYER
+Get me out girls.
+放我走，女孩。
+I don't have time for this.
+我沒有時間做這個。
+(Stay silent and wait.)
+（保持沉默並等待。）
+###_NPC
+You are found guilty.  We will allow you to pick who will choose your sentence.
+你被判有罪。我們將允許你選擇誰來決定你的判決。
+###_PLAYER
+There won't be any sentence.
+不會有任何判決。
+###_NPC
+That's where you're wrong.  Justice as spoken.  Should I pick the sentence?  I won't pull any punches.
+這就是你錯的地方。正義如述。我可以決定判決嗎？我不會手下留情。
+###_PLAYER
+Fine.  You pick the sentence.
+好吧。你來決定判決。
+###_NPC
+Very well...  Your sentence will be to do the interview bound and naked.  And we will publish pictures.
+很好……你的判決將是赤身裸體，五花大綁地進行採訪。並且我們將發布圖片。
+###_PLAYER
+Let me think about it.  (Leave her.)
+讓我想想。（離開她。）
+You can't do that!
+你不能那樣做！
+###_NPC
+We can and we will.  It's time to get your dressed up for your interview.  I have lots of questions.
+我們可以而且我們會的。是時候為採訪給你打扮一番了。我有很多問題。
+###_PLAYER
+Wait!  Can we negotiate?
+等一下！我們可以談判嗎？
+###_NPC
+It's too late for that.  It's time to get your dressed up for your interview.  I have lots of questions.
+為時已晚。是時候為採訪給你打扮一番了。我有很多問題。
+###_PLAYER
+Fine, do what you want.
+好吧，做你想做的。
+###_NPC
+(She nods happily.)  It's time to get your dressed up for your interview.  I have lots of questions.
+（她高興地點點頭。）是時候為採訪給你打扮一番了。我有很多問題。
+###_PLAYER
+Don't you dare!
+你敢！
+###_NPC
+(They strip you naked and restrain you once again.  The journalist dresses back up.)  It will be a great interview.
+（她們把你脫光，再一次束縛你。記者重新穿好衣服。）這將是一次很棒的採訪。
+###_PLAYER
+Make it quick.
+快一點。
+(Try to resist.)
+（試著反抗。）
+(Answer regular questions.)
+（回答常規問題。）
+###_NPC
+(You answer many of her questions and inform the viewers about the club.)
+（你回答了她的許多問題，並向觀眾介紹了俱樂部。）
+###_PLAYER
+(Answer spicy questions.)
+（回答色情的問題。）
+###_NPC
+(She blushes a lot as you answer the spiciest questions about the club.)
+（在你回答有關俱樂部的最色情的問題時，她臉紅得厲害。）
+###_PLAYER
+(Do publicity for the club.)
+（為俱樂部做宣傳。）
+###_NPC
+(You do some good publicity for the club as the director gives you a thumbs up.)
+（你為俱樂部做了一些很好的宣傳，導演給你豎起了大拇指。）
+(You struggle in your restraints as she takes notes and the camera zooms on you.)
+（她做筆記時，你在束縛中掙扎，鏡頭對準了你。）
+###_PLAYER
+(Try to avoid her camera.)
+（盡量避開她的相機。）
+###_NPC
+(You try to find cover and avoid her camera as she snaps many pictures.)
+（你試圖找到遮蓋並避開她的相機，因為她拍了很多照片。）
+###_PLAYER
+(Make sexy poses.)
+（做出性感的姿勢。）
+###_NPC
+(You make sexy poses in your restraints as she smiles and takes pictures.)
+（你在束縛中擺出性感的姿勢，她微笑並拍照。）

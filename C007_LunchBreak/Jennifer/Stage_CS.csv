@@ -1,0 +1,203 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,EggRemarkAvail,"To vajíčko ti ukazuje,|kde je tvoje místo.",Moje místo? (Dívá se dolů.)|To… to od tebe není moc hezké.,0,-1,1,EggRemark()
+0,0,0,EggRemarkAvail,Promiň za to vajíčko.|Doma si ho vyndáš.,To je asi v pohodě.|Už o tom nebudeme mluvit.,0,1,-1,EggRemark()
+0,0,0,,Chystáš se hrát tenis?,Ano! Chceš si zahrát se mnou?,10,0,0,
+0,0,0,,Proč jsi|takhle oblečená?,Chystám se zahrát si tenis.|Chtěla by sis zahrát se mnou?,10,0,0,
+0,0,0,,V té sukýnce|vypadáš roztomile.,Díky moc! Jdu si zahrát tenis.|Nechceš si jít zahrát se mnou?,10,1,0,
+0,0,0,,V té sukni|vypadáš směšně.,Vyšla z módy? Chystám se na tenis.|Nechceš si zahrát se mnou?,10,-1,0,
+0,0,0,,Ta sukýnka ti|dělá úžasný zadek.,(Podívá se na svou sukni a začervená se.)|Nechtěla bys si se mnou zahrát tenis?,10,0,1,
+10,4,0,,"Můžeme si zahrát, pokud|vítěz dostane odměnu.",Odměnu? Co máš na mysli?,20,0,0,
+10,0,4,,"Jdu do toho, děvče!|Ale trochu to okořeníme!",Okořeníme? Jak to myslíš?,20,0,0,
+10,0,0,NoOption,"Mohli bychom si zahrát|tenis, jestli chceš.",Tak jo. Ale dnes s tebou hrát nemůžu.|Chtěla by sis zkusit zahrát zítra?,15,0,0,
+10,0,0,NoOption,Určitě! Pojďme na to.|Bude to psina.,Super! Ale dnes s tebou hrát nemůžu.|Chtěla by sis zkusit zahrát zítra?,15,1,0,
+10,0,0,,"Já teď hrát nemůžu,|ale užij si to.","Užiju, díky!|(Odchází hrát tenis.)",90,0,0,EndLunch()
+10,0,0,,"Promiň děvče, ale|tenis je hra pro děcka.",Dobře slečno. Užijte si oběd!|(Dívá se dolů a odchází na tenis.),90,-1,1,EndLunch()
+10,0,0,,"Ráda bych, ale|v tenisu jsem hrozná.",S takovýmhle přístupem nikdy dobrá nebudeš.|(Bere si své věci a odchází na tenis.),90,0,-1,EndLunch()
+15,0,0,,"Tak jo,|zítra si zahrajem.",Dohodnuto! Užij si oběd.|(Balí si své věci a odchází hrát tenis.),90,0,0,EndLunch()
+15,0,0,,Ne! Já chci hrát teď!,"Tak tedy nic, užij si oběd.|(Balí si své věci a odchází hrát tenis.)",90,-1,0,EndLunch()
+20,0,0,,Poražený bude během|oběda vítězův otrok.,"Otrok? Jako, že poražený zaplatí oběd?",30,0,1,
+20,0,0,,Poražený se vítězi během|oběda ve všem podřídí.,"Podřídí? Jako, že poražený zaplatí oběd?",30,0,0,
+20,0,0,,"Když o tom tak přemýšlím,|já vlastně hrát nechci.","No dobrá, uvidíme se později.|(Balí se a odchází hrát tenis.)",90,0,0,EndLunch()
+30,0,0,HasSeduction,Půvabná Jennifer!|Ta žádné výzvě neodolá.,(Červená se a dívá se do podlahy.)|Je to tak. Jsi připravená hrát?,40,1,1,
+30,0,0,,"Ano, kdo prohraje,|bude platit a poslouchat.","Máš zvláštní způsob, jak formulovat sázku,|ale jdu do toho! Můžeme jít?",40,0,0,
+30,0,0,,Nenuť mě se opakovat!|Jdeš do toho nebo ne?,(Mračí se na tebe a dostává soutěživou náladu.)|Tak dobrá! Jsi připravená hrát?,40,-1,0,
+30,0,0,,"Když o tom tak přemýšlím,|já vlastně hrát nechci.","No dobrá, uvidíme se později.|(Balí se a odchází hrát tenis.)",90,0,0,EndLunch()
+40,0,0,,Pojď na mě zlehka.|(Běž hrát tenis.),,100,0,0,"PlayTennis(""Easy"")"
+40,0,0,,Zahrajeme si pro zábavu.|(Běž hrát tenis.),,100,0,0,"PlayTennis(""Normal"")"
+40,0,0,,Rozdrtím tě!|(Běž hrát tenis.),,100,0,0,"PlayTennis(""Hard"")"
+40,0,0,,"Když o tom tak přemýšlím,|já hrát nechci.","No dobrá, uvidíme se později.|(Balí se a odchází hrát tenis.)",90,0,0,EndLunch()
+100,0,0,TennisVictory,Pamatuješ naši sázku?|Teď mě budeš poslouchat.,"Pořád si nejsem jistá co tím myslíš.|Ale ano, budu tě poslouchat a oběd zaplatím.",110,0,1,
+100,0,0,TennisVictory,"Když je něco v sázce,|hraju líp.","Pořád si nejsem jistá, co máš na mysli.| Ale jistě, oběd ti zaplatím.",110,0,0,
+100,0,0,TennisVictory,Hrála jsi dobře.|Prostě jsem měla štěstí.,Díky! Budu víc trénovat a zlepším se.|Ale teď si užij svůj oběd zdarma!,110,1,0,
+100,0,0,!TennisVictory,Ty máš kšiltovku.|A mně svítilo do obličeje.,Přestaň se vymlouvat! Vyhrála jsem|naprosto fér. Hru i sázku.,105,-1,0,
+100,0,0,!TennisVictory,Jsi na mě příliš dobrá.,Hlavu vzhůru a začni trénovat!|Příště třeba sázku vyhraješ.,105,0,-1,
+100,0,0,!TennisVictory,Byl to prima zápas.,Jo! Musíme si brzy zase zahrát.|Příště třeba sázku vyhraješ.,105,0,0,
+105,0,0,,"Ano, slečno. A budu|na obědě poslouchat.",Poslouchat mě? Zníš tak submisivně.|Ale oběd zdarma si užiju!,110,0,-1,
+105,0,0,,Pamatuješ si|podmínky sázky?,"(Směje se.) Ano, budeš mě na obědě poslouchat.|A já si určitě užiju oběd zdarma.",110,0,0,
+105,0,0,,Až do konce oběda|budu tvůj otrok.,Můj otrok? To zní tak divně.|Ale oběd zdarma si užiju.,110,-1,-1,
+110,0,0,,Co si daš?,"Ještě nevím, něco zdravého.|Taky dodržuješ zdravou životosprávu?",113,0,0,
+110,0,0,,Co si mám dát?,Dej si salát nebo veganské jídlo.|Dodržuješ zdravou životosprávu?,113,0,0,
+110,0,0,,To jsi vybrala|pěkné místo.,Moc často sem nechodím.|Málokdy chodím jíst s přáteli.,116,0,0,
+110,0,0,,Tahle restaurace|vypadá dobře.,Moc často sem nechodím.|Málokdy chodím jíst s přáteli.,116,0,0,
+113,0,0,,Zdravá strava?|To je k ničemu.,Špatně! Zdravá strava je velmi důležitá.|A jakou vlastně plánuješ kariéru?,120,0,0,BadMatch()
+113,0,0,,Jsem na pivní|a dortové dietě.,"Měla by ses víc zamyslet nad tím, co jíš.|A jakou vlastně plánuješ kariéru?",120,0,0,BadMatch()
+113,0,0,,Balancuju mezi|dobrým a špatným jídlem.,"Dokud jsi mladá, tak to asi jde.|A jakou vlastně plánuješ kariéru?",120,0,0,
+113,0,0,,Čas od času|se snažím jíst zdravě.,"Dokud jsi mladá, tak to asi jde.|A jakou vlastně plánuješ kariéru?",120,0,0,
+113,0,0,,Snažím se jíst|přísně vegansky.,To je velmi dobrý závazek.|A jakou vlastně plánuješ kariéru?,120,0,0,GoodMatch()
+113,0,0,,Počítám si kalorie|všeho co jím.,"Je s tím spousta práce, ale vyplatí se to.|A jakou vlastně plánuješ kariéru?",120,0,0,GoodMatch()
+116,0,0,,"No, dneska sis|jednu přítelkyni našla!",(Usmívá se.) To je od tebe moc milé.|A jakou vlastně plánuješ kariéru?,120,1,0,GoodMatch()
+116,0,0,,Pojďme tedy|chodit ven častěji.,Rozhodně! To by se mi líbilo.|A jakou vlastně plánuješ kariéru?,120,0,0,GoodMatch()
+116,0,0,,"Čím to je,|že nemáš hodně přátel?","Já nevím, asi jsem příliš plachá.|A jakou vlastně plánuješ kariéru?",120,0,0,
+116,0,0,,Tak to budeš|potřebovat víc přátel.,"Já nevím, myslím že přátele nepotřebuju.|A jakou vlastně plánuješ kariéru?",120,0,0,
+116,0,0,,Takže tě ve škole|nemají rádi?,"Řekněme, že nemám moc přátel.|A jakou vlastně plánuješ kariéru?",120,0,0,BadMatch()
+116,0,0,,"To zní jako, že|jsi lůzr bez přátel.",Nebuď tak zlá! Já nejsem lůzr.|A jakou vlastně plánuješ kariéru?,120,-1,0,BadMatch()
+120,0,0,,Muzikantka.,Dobře. A jaký máš oblíbený předmět?,130,0,0,
+120,0,0,,Doktorka.,Mohla bys léčit sportovní zranění.|Jaký je tvůj oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Atletka.,To je skvělé! Běž za svými sny!|A jaký máš oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Učitelka.,"Já taky přemýšlím, že bych učila tělocvik.|A jaký máš oblíbený předmět?",130,0,0,GoodMatch()
+120,0,0,,Herečka.,Dobře. A jaký máš oblíbený předmět?,130,0,0,
+120,0,0,,Domina.,"Copak nevíš, jak je sexuální byznys|nebezpečný? Jaký máš oblíbený předmět?",130,0,0,BadMatch()
+120,0,0,,Architektka.,Dobře. A jaký máš oblíbený předmět?,130,0,0,
+120,0,0,,Farmářka.,Přináší to jídlo na náš stůl.|A jaký máš oblíbený předmět?,130,0,0,GoodMatch()
+120,0,0,,Programátorka.,To chceš zírat do obrazovky celý den?|A jaký máš oblíbený předmět?,130,0,0,BadMatch()
+120,0,0,,"Ještě nevím,",Hledání té správné kariéry není jednoduché.|A jaký máš oblíbený předmět?,130,0,0,
+130,0,0,,Matematika.,"Musím přiznat, že matika není má silná stránka.|A co děláš mimo školu?",140,0,0,BadMatch()
+130,0,0,,Hudebka.,To je pěkné.|A co děláš mimo školu?,140,0,0,
+130,0,0,,Čeština.,Čeština mi taky docela jde.|A co děláš mimo školu?,140,0,0,GoodMatch()
+130,0,0,,Tělocvik.,"Není nic lepšího, než tělocvik!|A co děláš mimo školu?",140,0,0,GoodMatch()
+130,0,0,,Chemie.,To je pěkné.|A co děláš mimo školu?,140,0,0,
+130,0,0,,Francouzština.,To je pěkné.|A co děláš mimo školu?,140,0,0,
+130,0,0,,Výtvarka.,"Říkala jsem si, že ses dnes na Juliině|hodině bavila. A co děláš mimo školu?",140,0,0,GoodMatch()
+130,0,0,,Dějepis.,Super! Já studuju historii olympijských her.|A co děláš mimo školu?,140,0,0,GoodMatch()
+130,0,0,,Divadelní kroužek.,Na herectví jsem příliš plachá.|A co děláš mimo školu?,140,0,0,BadMatch()
+130,0,0,,Já nevím.,Tomu se mi nechce věřit.|A co děláš mimo školu?,140,0,0,BadMatch()
+140,0,0,,Basketbal.,Super! Měla by ses přidat do našeho školního týmu.|(Přerušuje vás servírka a ptá se na Vaši objednávku.),150,0,0,GoodMatch()
+140,0,0,,Rockovou muziku.,Moje spolubydlící si ji pouští až příliš nahlas.|(Přerušuje vás servírka a ptá se na Vaši objednávku.),150,0,0,BadMatch()
+140,0,0,,Počítačové hry.,"Myslím, že třeba Nintendo Wii je docela prima.|(Přerušuje vás servírka a ptá se na Vaši objednávku.)",150,0,0,
+140,0,0,,Roztleskávačku.,Hezky! Měla by ses přidat do našeho školního týmu.|(Přerušuje vás servírka a ptá se na Vaši objednávku.),150,0,0,GoodMatch()
+140,0,0,,Chodím na párty.,Hlasitá muzika a pivo pro tebe nejsou dobré.|(Přerušuje vás servírka a ptá se na Vaši objednávku.),150,0,0,BadMatch()
+140,0,0,,Hry na hrdiny.,"Věř tomu nebo ne, já jsem taky chodila na LARPy.|(Přerušuje vás servírka a ptá se na Vaši objednávku.)",150,0,0,GoodMatch()
+140,0,0,,Opíjím se.,"Nadměrné pití, to je pohroma pro tvoje zdraví!|(Přerušuje vás servírka a ptá se na Vaši objednávku.)",150,0,0,BadMatch()
+140,0,0,,Klasickou muziku.,"Věřím, že to může být docela uvolňující.|(Přerušuje vás servírka a ptá se na Vaši objednávku.)",150,0,0,
+140,0,0,,Miluju se.,"(Červená se.) Řekla bych, že je to asi zdravé.|(Přerušuje vás servírka a ptá se na Vaši objednávku.)",150,0,0,GoodMatch()
+140,0,0,,Nemám žádné koníčky.,"Koukni na školní nástěnku, třeba si něco najdeš.|(Přerušuje vás servírka a ptá se na Vaši objednávku.)",150,0,0,
+150,0,0,,"Salát, prosím.",Velmi zdravá volba.|(Objednává si to samé.),160,0,0,GoodMatch()
+150,0,0,,"Steak, prosím.","Řekla bych, že po zápasu si nějaké ty proteiny|dopřát můžeš. (Objednává si malý salát.)",160,0,0,
+150,0,0,,"Polévku, prosím.",Velmi zdravá volba!|(Objednává si to samé.),160,0,0,GoodMatch()
+150,0,0,,"Hamburger, prosím.","Řekla bych, že po zápasu si nějaké ty proteiny|dopřát můžeš. (Objednává si malý salát.)",160,0,0,
+150,0,0,,"Talíř nachos, prosím.","Řekla bych, že po zápasu si nějaké ty proteiny|dopřát můžeš. (Objednává si malý salát.)",160,0,0,
+150,0,0,,"Jenom cheesecake,|prosím.",To je pořádně nezdravé!|(Objednává si malý salát.),160,0,0,BadMatch()
+150,0,0,,"Polévku a salát, prosím.",Velmi zdravá volba!|(Objednává si to samé.),160,0,0,GoodMatch()
+150,0,0,,"Chilli hot dog, prosím.",To je pořádně nezdravé!|(Objednává si malý salát.),160,0,0,BadMatch()
+150,0,0,,"Fettuccine Alfredo,|prosím.","Řekla bych, že po zápasu si nějaké ty proteiny|dopřát můžeš. (Objednává si malý salát.)",160,0,0,
+150,0,0,,"Jen vodu, prosím.",Ty se teda umíš ovládat!|(Objednává si malý salát.),160,0,0,GoodMatch()
+160,0,0,TennisVictory,Dobrou chuť.,(Obě si dáte svůj oběd a Jennifer zaplatí účet.),170,0,0,EatLunch()
+160,0,0,TennisVictory,Bon appetite!,(Obě si dáte svůj oběd a Jennifer zaplatí účet.),170,0,0,EatLunch()
+160,0,0,TennisVictory,Díky za jídlo zdarma!,(Obě si dáte svůj oběd a Jennifer zaplatí účet.),170,0,0,EatLunch()
+160,0,0,TennisVictory,"Zvykej si platit za|moje jídlo, holčičko!",(Obě si dáte svůj oběd a Jennifer zaplatí účet.),170,0,1,EatLunch()
+160,0,0,!TennisVictory,Dobrou chuť.,(Obě si dáte svůj oběd a ty zaplatíš účet.),180,0,0,EatLunch()
+160,0,0,!TennisVictory,Bon appetite!,(Obě si dáte svůj oběd a ty zaplatíš účet.),180,0,0,EatLunch()
+160,0,0,!TennisVictory,Užij si své|jídlo zdarma!,(Obě si dáte svůj oběd a ty zaplatíš účet.),180,0,0,EatLunch()
+160,0,0,!TennisVictory,"Bylo mi ctí dopřát|vám toto jídlo, slečno.",(Obě si dáte svůj oběd a ty zaplatíš účet.),180,0,-1,EatLunch()
+170,0,0,,"Slíbilas poslouchat, než|skončí obědová pauza.",Byla to jen bláznivá sázka.|Pojďme zpátky do školy.,175,0,0,TestObey()
+170,0,0,,Ještě pár minut|jsi moje otrokyně.,"(Mračí se na tebe.) Byla to jen hloupá sázka.|Pojďme zpátky do školy, tohle je fakt divné.",175,-1,0,TestObey()
+170,0,0,,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()
+175,0,0,AllowObey,Věř mi a pojď se mnou.,"(Přikývne a usmívá se.) Dobře, věřím ti!|(Vracíte se spolu na tenisový kurt.)",200,1,0,EnterTennis()
+175,0,0,AllowObey,"Pojď se mnou, holčičko.","(Chichotá se.) Dobře, ale nádobí nemyju!|(Vracíte se spolu na tenisový kurt.)",200,0,0,EnterTennis()
+175,0,0,,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()
+180,0,0,,"Než skončí oběd,|musím tě poslouchat.","Neblázni. Zaplatila jsi, a sázka skončila.|Pojďme zpátky.",185,0,0,TestObey()
+180,0,0,,"Až do konce pauzy|jsem pořád tvůj otrok.","Tohle je divné. Zaplatila jsi, a sázka|skončila. Pojďme zpátky.",185,-1,0,TestObey()
+180,0,0,,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()
+185,0,0,AllowObey,"Dobře, půjdu s tebou.",(Bere tě za ruku a vracíte se|spolu na tenisový kurt.),300,1,0,EnterTennis()
+185,0,0,AllowObey,Kam s tebou mám jít?,(Popadne tě za ruku a vracíte se|spolu na tenisový kurt.),300,0,0,EnterTennis()
+185,0,0,!AllowObey,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()
+200,0,0,,"Pamatuj, teď|jsi moje otrokyně.","Neříkej mi otrokyně, to zní tak ošklivě!|Ale jinak je to v pohodě, klidně mi poroučej.",220,-1,0,
+200,0,0,,"Musíš mě poslechnout|ve všem, co řeknu.","(Přikývne.) Dobrá, ale mám určité hranice.",220,0,0,
+200,8,0,,Můžu dostat pusu?ADD_MINUTES:1,(Červená se a usmívá.) Určitě!|(Vzájemně se chytnete a láskyplně políbíte.),210,1,0,Kiss()
+200,0,8,,(Popadni ji a svleč ji.)ADD_MINUTES:1,"(Nezmůže se ani na slovo, zatímco ji popadneš|a přinutíš ji se svléct.)",240,-1,1,
+210,0,0,,(Znovu ji polib.)ADD_MINUTES:1,(Znovu se na tenisovém kurtu líbáte|a lehce přitom sténáte.),210,0,0,
+210,0,0,,Miluju tě.|Ale neuspěchejme to.,"Ty… Ty mě miluješ? Pojďme tedy hezky zvolna.|(Odvrátí pohled, zmatená a nervózní.)",215,1,0,BonusDone()
+210,0,0,,"Pamatuj, teď|jsi moje otrokyně.","Neříkej mi otrokyně, to zní tak ošklivě.|Ale jinak je to v pohodě, klidně mi poroučej.",220,-1,0,
+210,0,0,,"Musíš mě poslechnout|ve všem, co řeknu.","(Přikývne.) Dobrá, ale mám určité hranice.",220,0,0,
+210,0,8,,(Popadni ji a svleč ji.)ADD_MINUTES:1,"(Nezmůže se na slovo, zatímco ji popadneš|a přinutíš ji se svléct.)",240,-1,1,
+215,0,0,,"Pojďme zpátky, zlatíčko.|(Vraťte se do školy.)",,0,1,0,EndChapter()
+220,0,0,,Dej si kolečko.ADD_MINUTES:1,"Ano, trenérko! (Běží okolo kurtu.)",220,0,0,Exercise()
+220,0,0,,Udělej pět kliků.ADD_MINUTES:1,"Ano, trenérko! (Udělá pět kliků.)",220,0,0,Exercise()
+220,0,0,,"Dobře, teď se|vysvleč do prádla.",Vysvléct? Ale za chvíli tady budou lidi!,230,-1,0,
+220,0,0,,"Sundej si tu směšnou|sukýnku, holčičko.",Sundat si sukni? Tady?|Ale za chvíli tady budou lidi!,230,-1,1,
+220,0,8,,(Popadni ji a svleč ji.)ADD_MINUTES:1,"(Nezmůže se ani na slovo, zatímco ji popadneš|a přinutíš ji se svléct.)",240,-1,1,
+230,0,0,,Nikdo tu není.|To zvládneš!,"Tak dobře. Ale jestli někdo přijde,|zase si to vezmu. (Svléká se.)",240,0,0,
+230,0,0,,"Neslyšelas, co|jsem ti řekla?","Tak dobře. Ale jestli někdo přijde,|zase si to vezmu. (Svléká se.)",240,0,1,
+230,0,8,,(Popadni ji a svleč ji.)ADD_MINUTES:1,"(Nezmůže se ani na slovo, zatímco ji popadneš|a přinutíš ji se svléct.)",240,-1,1,
+230,0,0,,Jenom žertuju. Pojďme.|(Vraťte se do školy),,0,1,0,EndChapter()
+240,0,0,OrgasmCommentAvail,"Doufám, že sis užila|svou cestu do ráje.",(Dívá se na tebe a pomalu přikývne.),240,1,0,OrgasmComment()
+240,0,0,OrgasmCommentAvail,Příště o to|budeš prosit.,"(Mračí se na tebe,|ale pomalu skloní svou hlavu k zemi.)",240,-1,1,OrgasmComment()
+240,0,0,NeverHurtAvail,"Věř mi, Jennifer.|Nikdy ti neublížím!",(Zhluboka se nadeche a pomalu přikývne.),240,0,0,NeverHurtComment()
+240,0,0,,(Polechtej ji.)ADD_MINUTES:1,"Lechtáš ji, ale ona se příliš nesměje|a nevypadá že by se jí to moc líbilo.)",240,0,0,Tickle()
+240,0,0,,(Naplácej ji.)ADD_MINUTES:1,"(Zkoušíš ji naplácat, ale ona tě rychle odstrkuje.)",240,0,0,Spank()
+240,0,0,,(Dráždí ji rukou.)ADD_MINUTES:1,"Snažíš se ji masturbovat,|ale ona tvou ruku odstrkuje.",240,0,0,Masturbate()
+240,0,0,IsRoped,(Rozvaž ji.)ADD_MINUTES:1,(Rozvazuješ uzly na provaze|a uvolňuješ ji od tenisové sítě.),240,0,0,Untie()
+240,0,0,IsGagged,(Sundej jí roubík.)ADD_MINUTES:1,"(Pomalu jí sundáváš roubík.)|Děkuju, to bylo trošku trapné.",240,0,0,Ungag()
+240,0,0,IsBoundAndGagged,"Napálila jsem tě, čubko!|(Zanech ji spoutanou.)",,240,0,0,EvilEnd()
+240,0,0,,To by stačilo.|(Zase ji obleč.),"(Pouštíš ji, a ona se znovu obléká.)|Uf, jsem tak ráda, že nikdo nešel kolem.",250,0,0,DressHerBack()
+250,0,0,,Líbilo se ti to?,"Musím se přiznat, že mám smíšené pocity.|Neměli bychom se už vrátit do školy?",260,0,0,
+250,0,0,,Příště to bude|ještě víc ponižující!,A jéje! Takové věci neříkej!|Neměli bychom už vyrazit zpátky do školy?,260,-1,1,
+250,0,0,,Byla jsi odvážná.|Jsem na tebe pyšná!,"Tak děkuji, to jsem asi byla.|Neměli bychom se už vrátit do školy?",260,1,0,
+250,0,0,,Nezopakujeme si|to někdy?,Tak tím si opravdu nejsem jistá.|Neměli bychom se už vrátit do školy?,260,0,0,
+250,0,0,,Příště zase|svážeš ty mě?,"(Chichotá se.) Jistě, proč ne?|Neměli bychom se už vrátit do školy?",260,0,-1,
+250,0,0,,Zvykej si být svázaná.|Bude se to opakovat!,"Ó, jen doufám, že ne takhle na veřejnosti.|Neměli bychom už vyrazit zpátky do školy?",260,0,1,
+260,8,0,,Poslední polibek?ADD_MINUTES:1,(Popadnete se navzájem v láskyplném obětí|a vášnivě se líbáte.),270,1,0,BonusDone()
+260,0,0,,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()
+270,0,0,,(Znovu ji polib.)ADD_MINUTES:1,(Obě zavíráte oči a pokračujete v líbání.),270,0,0,
+270,0,0,,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()
+300,0,0,,Co tady děláme?,Teď jsem tvůj šéf a trenér.|Trochu tě dostanu do formy!,310,0,0,
+300,0,0,,Ty chceš ještě|hrát tenis?,"Ne, ale, jako tvůj šéf a trenér|tě dostanu do formy!",310,0,0,
+300,0,0,,Já po obědě|nemůžu hrát.,Neboj. Jak tvůj šéf a trenér|tě dostanu do formy!,310,0,-1,
+310,0,0,,Dostaneš mě do formy?|Co tím máš na mysli?,"To znamená, že budeš cvičit.|Dolů na zem a udělej deset kliků!",320,0,0,
+310,0,0,,Trochu cvičení?|To zní jako dobrý nápad!,Rozhodně! Bude to velmi zdravé.|Dolů na zem a udělej deset kliků.,320,1,0,
+310,0,0,,Já už ale dobrou|formu mám!,"Víš, že máš docela velké ego?|Dolů na zem a udělej deset kliků.",320,-1,0,
+320,0,0,,"Ano, trenérko!|(Dělej kliky.)","(Skláníš se k zemi a začínáš dělat kliky,|zatímco ona ti je počítá.)",330,1,-1,
+320,0,0,,"Shit, tak jo.|(Dělej kliky.)","(Skláníš se k zemi a začínáš dělat kliky,|zatímco ona ti je počítá.)",330,-1,0,
+320,0,0,,"Na to zapomeň,|kliky nedělám!",Tak to budeš muset být za svou lenost potrestána!,400,-1,0,
+330,0,0,,(Udělej normální klik.),,330,0,0,PushUp(2)
+330,0,0,,(Udělej slabý klik.),,330,0,0,PushUp(1)
+330,0,0,,(Udělej silný klik.),,330,0,0,PushUp(3)
+330,0,0,,(Předstírej klik.),,330,0,0,PushUp(0)
+330,0,0,,To stačí!|(Přestaň klikovat.),"Jelikož si neposlechla svou trenérku,|zasloužíš si být potrestána.",400,-1,0,
+340,0,0,,Děkuji trenérko!,"S potěšením! Tak co, líbilo se ti,|mít mě za trenérku? Vrátíme se?",350,0,-1,
+340,0,0,,(Nic neříkej|a popadej dech.),"Tak co, líbilo se ti, mít mě za trenérku? Vrátíme se?",350,0,0,
+340,0,0,,To bylo prima!,"Rozhodně! Tak co, líbilo se ti, mít mě|za trenérku? Neměli bychom se už vrátit?",350,1,0,
+340,0,0,,Ty bys taky měla|udělat pár kliků.,"Máš pravdu, ale ne teď. Tak co, líbilo se ti,|mít mě za trenérku? Vrátíme se?",350,0,1,
+350,0,0,,"Bylo to prima, ale pojďme|zpátky. (Zpět do školy.)",,0,0,0,EndChapter()
+350,0,0,,"V té sázce šlo ale|o víc, než jen o kliky.",Takže ty ses nebavila? Co se ti nelíbí?,360,0,0,
+360,0,0,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+360,0,0,,S otrokyní toho můžeš|dělat mnohem víc!,Takže ty si říkáš o problémy?|Ty chceš být potrestána!,400,-1,0,
+400,0,0,,Jak mě potrestáš?,Já… Já tě… Já nevím!|Ještě nikdy jsem nikoho netrestala.,410,0,0,
+400,0,0,,Potrestat mě?|Co máš na mysli?,Já… Já tě… Já nevím!|Ještě nikdy jsem nikoho netrestala.,410,0,0,
+400,0,0,,"Ó ano! Prosím,|potrestej mě trenérko!","Já… Já nevím, co mám dělat!|Nikdy předtím jsem nikoho netrestala.",410,0,-1,
+410,0,0,,Nikdy si nad nikým|nedominovala?,"Dominovala? Ne, jak to mám dělat?",420,0,0,
+410,0,0,,"Víš to, že jako|domina jsi mizerná?",Co je to domina? Jak to mám dělat?,420,0,0,
+410,0,1,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+420,0,0,,"Přikaž mi|se svléct, kruci!","Ano, slečno! Já… Chci říct…|Okamžitě se svleč!",430,0,1,
+420,0,0,,V prvním kroku mě| musíš svléct.,Svléct tě? No jasně.|Okamžitě se svleč!,430,0,0,
+420,0,1,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+430,0,0,,(Povzdechni si|a svleč se.)ADD_MINUTES:1,(Povzdechneš si a neochotně se svlečeš.)|Dobře! A teď se já… Ty budeš…,440,-1,0,Strip()
+430,0,0,,(Hravě se svlékej.)ADD_MINUTES:1,(Trochu tančíš a přitom se svlékáš.)|Dobře! A teď se já… Ty budeš…,440,0,0,Strip()
+430,0,1,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+440,0,0,,Třeba bolest je|dobrá forma trestu.,No jasně! Teď se předkloníš!|(Protočí v dlani raketu a dívá se na tvůj zadek.),450,0,0,
+440,0,0,,Buď sakra dominantní!|Potrestej mě!,Tak dost! Musíš se předklonit!|(Protočí v dlani raketu a dívá se na tvůj zadek.),450,-1,1,
+440,0,0,,"Vím, že jsi silná!|Jak mě potrestáš?",Ano! Jsem silná! Teď se předkloň!|(Protočí v dlani raketu a dívá se na tvůj zadek.),450,1,0,
+440,0,1,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+450,0,0,,(Skloň hlavu|a předkloň se.),"Zhluboka se nadechni, tohle by mohlo bolet!|(Zvedá raketu, připravená tě uhodit.)",460,0,-1,
+450,0,0,,Zlepšuješ se!|(Předkloň se.),"Zhluboka se nadechni, tohle by mohlo bolet!|(Zvedá raketu, připravená tě uhodit.)",460,0,0,
+450,0,1,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+460,0,0,,(Zavři oči.)ADD_MINUTES:1,(Zavíráš oči a ona ti raketou uštědří pořádnou ránu.),460,0,0,RacketHit(2)
+460,0,0,,(Nastav jí zadek.)ADD_MINUTES:1,(Nastavíš se k úderu a ona|pošle na tvůj zadek pěkný plácanec.),460,0,0,RacketHit(3)
+460,0,0,,(Pokus se jí uhnout.)ADD_MINUTES:1,"(Na poslední chvíli se pohneš,|ale stejně tě trochu nešikovně udeří.)",460,0,0,RacketHit(1)
+460,0,0,HasRestrainsAvail,Počkej! Koukni se|mi do tašky.ADD_MINUTES:1,(Dívá se ti do tašky a nachází|tam něco ke tvému spoutání.),460,0,0,CheckBag()
+460,0,1,,"Zapomeň na to, pojďme|už. (Zpět do školy.)",,0,0,0,EndChapter()
+470,0,0,,"Ano, to bylo fér!",Tak jo! Obleč se a půjdeme.|(Posbíráš si své svršky a zase se oblékáš.),480,0,0,DressBack()
+470,0,0,,Dobrá domina z|tebe nikdy nebude!,"Hm, to je blbý! Obleč se a půjdeme.|(Posbíráš si své svršky a zase se oblékáš.)",480,-1,0,DressBack()
+470,0,0,,Máš v sobě|velký potenciál!,No teda! Obleč se a půjdeme.|(Posbíráš si své svršky a zase se oblékáš.),480,1,0,DressBack()
+470,0,0,,To bylo|prima potrestání!,Tak jo! Obleč se a půjdeme.|(Posbíráš si své svršky a zase se oblékáš.),480,0,0,DressBack()
+480,0,0,,Pojďme zpátky.|(Vrať se do školy.),,0,0,0,EndChapter()

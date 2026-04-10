@@ -1,0 +1,65 @@
+RoomName,Room Name
+RoomLanguage,Language
+RoomDescription,Description
+InputDescriptionPlaceholder,Description of the room
+RoomBanList,Ban List
+RoomAdminList,Administrator List
+RoomWhitelist,Whitelist
+RoomSize,Size (2-20)
+MemberNumbersFormatPlaceholder,"Member numbers separated by commas (ex: 123, ...)"
+QuickaddExplanation,Use the above buttons to quickadd to the respective lists
+QuickaddAdminHeader,Quick Add
+QuickaddAdminOwner,Owner
+QuickaddAdminLovers,Lovers
+QuickaddWhitelistHeader,Quick Add
+QuickaddWhitelistOwner,Owner
+QuickaddWhitelistLovers,Lovers
+QuickaddWhitelistFriends,Friends
+QuickaddWhitelistWhitelist,Whitelist
+QuickaddBanHeader,Quick Ban
+QuickaddBanBlacklist,Blacklist
+QuickaddBanGhostlist,Ghostlist
+AdminOnly,Room settings can only be updated by administrators
+Background,Background
+VisibilityModeHeader,Visibility
+VisibilityModePUBLIC,Public
+VisibilityModeADMIN_WHITELIST,Admin + Whitelist
+VisibilityModeADMIN,Admin
+VisibilityModeUNLISTED,Unlisted
+AccessModeHeader,Access
+AccessModePUBLIC,Public
+AccessModeADMIN_WHITELIST,Admin + Whitelist
+AccessModeADMIN,Admin
+UploadTooltip,Import room code
+UploadPrompt,Please paste the room code. Importing room codes will overwrite existing settings. Are you sure?
+UploadInvalidCode,Failed to parse the passed room code (incomplete? invalid? outdated?)
+UploadSuccess,Successfully imported room code
+DownloadTooltip,Export room code
+DownloadFailed,Failed to copy room code to clipboard
+DownloadSuccess,Room code copied to clipboard
+Create,Create
+Save,Save
+Exit,Exit
+Cancel,Cancel
+CreatingRoom,Creating the chat room…
+UpdatingRoom,Updating the chat room...
+ResponseRoomAlreadyExist,This room name is already taken
+ResponseAccountError,"Account error, please try to relog"
+ResponseInvalidRoomData,Invalid chat room data detected
+ResponseChatRoomCreated,"Room created, joining it..."
+BlockCategory,Block Categories
+RoomCustomization,Customization
+ReturnMenu,(Click anywhere to return)
+MapNever,Don't use maps
+MapNeverTooltip,Never use the map exploration
+MapHybrid,Allow on and off
+MapHybridTooltip,"Hybrid map, can go on and off"
+MapAlways,Only use maps
+MapAlwaysTooltip,"Only use the map, no regular chat"
+Game,No Game
+GameClubCard,Club Card
+GameLARP,LARP
+GameMagicBattle,Magic Battle
+GameGGTS,GGTS
+GamePrison,Pandora
+LanguageES,Spanish

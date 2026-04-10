@@ -1,0 +1,8 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,(检查那条内裤)ADD_MINUTES:1,"这个标签尺寸是XXXL，对你来说太大了|根本穿不了。但它足够大，足以填满最宽的嘴巴。",0,0,0,
+0,0,0,Common_PlayerNotRestrained,(塞进嘴里)ADD_MINUTES:1,"你把内裤揉成一团，然后塞进嘴里|尽量让它满满当当的。",10,0,0,SelfGag()
+10,0,0,HasLoosePantieGag,(查看内裤)ADD_MINUTES:1,"这个标签尺寸是XXXL，对你来说太大了|根本穿不了。但它足够大，足以填满最宽的嘴巴。",10,0,0,ShowImage()
+10,0,0,,(咬住内裤)ADD_MINUTES:1,你咬着那团内裤|它逐渐被你自己的唾液浸湿。,10,0,0,
+10,0,0,,(吮吸着内裤)ADD_MINUTES:1,"你吸吮着内裤团，细细品味味道|同时疑惑它究竟干不干净",10,0,0,
+10,0,0,!HasOtherGag,(把内裤吐出来)ADD_MINUTES:1,你把嘴里含着的湿透的内裤团吐了出来|现在你可以再次开口说话了。,0,0,0,SelfUngag()
+10,0,0,HasOtherGag,(把内裤吐出来)ADD_MINUTES:1,"你试着把内裤吐出来，但另一个口塞物|让它们卡住了。首先你需要把它移除掉。",10,0,0,

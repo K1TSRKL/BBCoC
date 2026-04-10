@@ -1,0 +1,172 @@
+Select your displayed name and title
+Оберіть Ваші відображувані ім'я та титул
+Current title: TITLE
+Поточний титул: TITLE
+Nickname (letters and spaces)
+Псевдонім
+Nickname locked by your owner
+Псевдонім заблоковано Вашим власником
+Nickname is too long (max. 20 characters)
+Псевдонім занадто довгий (макс. 20 знаків)
+Nickname contains invalid characters
+Псевдонім містить недопустимі знаки
+None
+Жодного
+Mistress
+Господиня
+Master
+Господар
+Club Slave
+Клубний раб
+Head Maid
+Головна покоївка
+Maid
+Покоївка
+Bondage Maid
+Бондаж покоївка
+Master Kidnapper
+Майстер-викрадач
+Kidnapper
+Викрадач
+Patient
+Пацієнт
+Permanent Patient
+Постійний пацієнт
+Escaped Patient
+Пацієнт-утікач
+Nurse
+Медсестра
+Doctor
+Лікар
+Lady Luck
+Пані Удача
+Lord Fortune
+Пан Фортуна
+Patron
+Меценат
+College Student
+Студент коледжу
+Nawashi
+Наваші
+Houdini
+Гудіні
+Foal
+Лоша
+Farm Horse
+Фермерський кінь
+Cold Blood Horse
+Холоднокровний кінь
+Warm Blood Horse
+Теплокровний кінь
+Hot Blood Horse
+Гарячокровний кінь
+Wild Mustang
+Дикий мустанг
+Shining Unicorn
+Сяючий єдиноріг
+Flying Pegasus
+Летючий пегас
+Majestic Alicorn
+Величний Алікорн
+Mole
+Кріт
+Infiltrator
+Інфільтратор
+Agent
+Агент
+Operative
+Сищик
+Superspy
+Супершпигун
+Wizard
+Чаклун
+Magus
+Волхв
+Magician
+Чарівник
+Sorcerer
+Чарівник
+Sage
+Мудрець
+Oracle
+Оракул
+Witch
+Відьма
+Warlock
+Чорнокнижник
+Little One
+Крихітка
+Baby
+Маля
+Diaper Lover
+Любитель підгузків
+Bondage Baby
+Бондаж-дитина
+Duchess
+Герцогиня
+Duke
+Герцог
+Switch
+Світч
+Princess
+Принцеса
+Prince
+Принц
+Missy
+Міссі
+Sissy
+Сіссі
+Tomboy
+Томбой
+Femboy
+Фембой
+Pet
+Домашня тваринка
+Brat
+Шибеник
+Kitten
+Кошеня
+Puppy
+Цуценя
+Foxy
+Лисеня
+Bunny
+Кроленя
+Doll
+Лялька
+Demon
+Демон
+Angel
+Ангел
+Alien
+Прибулець
+Succubus
+Суккуб
+Incubus
+Інкуб
+Good Girl
+Гарна дівчинка
+Good Slave Girl
+Гарна дівчинка-рабиня
+Good Boy
+Гарний хлопчик
+Good Slave Boy
+Гарний хлопчик-раб
+Good Slave
+Гарний раб
+Drone
+Дрон
+Mistree
+Містрі
+Good One
+Хороший
+Liege
+Сеньйор
+Concubus
+Конкуб
+Majesty
+Величність
+Captain
+Капітан
+Admiral
+Адмірал

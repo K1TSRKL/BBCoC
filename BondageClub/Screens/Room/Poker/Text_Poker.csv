@@ -1,0 +1,35 @@
+IntroTitle,Select your options & opponents below or challenge a new girl to unlock her.
+Exit,Return to the main hall
+Challenge,Challenge a new girl
+Custom,Start a custom game
+ShowPlayer,View yourself
+RulesTexasHoldem,Texas Hold'em
+RulesTwoCards,Two Cards
+VisitArtist,Visit the artist
+FamilyNone,None
+FamilyFriend,Private Friends
+FamilyIllustration,Illustrations
+FamilyModel,Real Models
+Chip,Chip
+Deal,Deal
+Bet,Bet
+Raise,Raise
+Fold,Fold
+Watch,Watch
+Win,won
+WinGame,won the game!
+WinChallenge,You won $MoneyAmount and unlocked OpponentName.  You can challenge another girl.
+EndGame,Finish this game
+Ante,Ante:
+SplitPot,Split pot
+Pot,Pot:
+HandHighestCards,High card
+HandOnePair,One pair
+HandTwoPairs,Two pairs
+HandThreeOfAKind,Three of a kind
+HandStraight,Straight
+HandFlush,Flush
+HandFullHouse,Full house
+HandFourOfAKind,Four of a kind
+HandStraightFlush,Straight flush
+HandRoyalFlush,Royal flush

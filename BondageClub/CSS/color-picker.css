@@ -1,0 +1,300 @@
+.color-picker {
+	--hue: 0;
+
+	display: grid;
+	margin: unset;
+	padding: unset;
+	padding-top: 2px;
+	padding-left: min(2.5vh, 1.25vw);
+	border: unset;
+	outline: unset;
+	gap: var(--gap);
+	grid-template:
+		"hue hue" min-content
+		"opacity opacity" min-content
+		"tint output" min-content
+		"tint menu" min-content
+		"tint menuitem-save" min-content
+		"tint . " auto / auto min-content;
+}
+
+.color-picker label > span {
+	color: white;
+	padding-bottom: 3px;
+}
+
+.color-picker label > * {
+	display: block;
+}
+
+.color-picker output {
+	display: inline;
+}
+
+.color-picker output > * {
+	display: inline;
+}
+
+.color-picker input[type="range"] {
+	padding: unset;
+	margin: unset;
+}
+
+.color-picker bc-tint-input {
+	aspect-ratio: unset;
+	width: 100%;
+	height: unset;
+}
+
+.color-picker > *:nth-child(1) {
+	grid-area: hue;
+}
+
+.color-picker > *:nth-child(2) {
+	grid-area: opacity;
+}
+
+.color-picker > *:nth-child(3) {
+	grid-area: tint;
+}
+
+.color-picker > *:nth-child(4) {
+	grid-area: output;
+}
+
+.color-picker > *:nth-child(4) input {
+	height: 1.5em;
+	width: 7em;
+	min-width: calc(2 * var(--gap) + 3 * var(--menu-button-size));
+}
+
+.color-picker > *:nth-child(5) {
+	grid-area: menu;
+}
+
+.color-picker > *:nth-child(5) > * {
+	width: 100%;
+}
+
+.color-picker > *:nth-child(5) .color-picker-dropdown {
+	height: 1.5em;
+	display: grid;
+	grid-template-columns: min-content auto;
+}
+
+.color-picker-dropdown > [role="combobox"] {
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.color-picker-dropdown > [role="combobox"]::after {
+	content: "▼";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.color-picker-dropdown > [role="combobox"][aria-expanded="true"]::after {
+	content: "◀";
+}
+
+.color-picker-dropdown > output {
+	height: 1.5em;
+	width: 100%;
+	background-color: white;
+	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+	color: black;
+	text-wrap: nowrap;
+	border: black solid var(--border-width);
+	border-left: unset;
+	padding-left: 0.15em;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	font-family: monospace;
+}
+
+.color-picker-dropdown > [role="menu"] {
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	width: calc(100% - 3 * var(--gap) - 3 * var(--menu-button-size) - var(--scrollbar-gutter));
+	top: 50%;
+	transform: translateY(-50%);
+	height: 100vh;
+	height: 100dvh;
+	left: 0;
+	border: solid black var(--border-width);
+	box-sizing: border-box;
+	padding-block: 3px;
+}
+
+.color-picker-dropdown > [role="menu"] fieldset[name="saved-colors-group"] {
+	position: relative;
+	box-sizing: border-box;
+	padding: 3px;
+	height: 100%;
+}
+
+.color-picker-dropdown > [role="menu"] hr {
+	margin-block: 3px;
+}
+
+.color-picker-dropdown > [role="menu"] label {
+	padding-inline: var(--half-gap);
+}
+
+.color-picker-dropdown > [role="menu"] label > span {
+	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+	color: black;
+	text-wrap: nowrap;
+	font-family: monospace;
+}
+
+@media (hover: none) {
+	/* For mobile devices (which do not support <option> background colors) always just use "black" as text color */
+	.color-picker > *:nth-child(5) select {
+		color: black !important;
+	}
+}
+
+.color-picker > *:nth-child(6) {
+	height: 1.5em;
+	grid-area: menuitem-save;
+}
+
+.hue-input {
+	appearance: none;
+	width: 100%;
+	height: min(4vh, 2vw);
+	background-image:
+		linear-gradient(
+			90deg,
+			rgb(255, 0, 0),
+			rgb(255, 255, 0),
+			rgb(0, 255, 0),
+			rgb(0, 255, 255),
+			rgb(0, 0, 255),
+			rgb(255, 0, 255),
+			rgb(255, 0, 0)
+		);
+}
+
+.opacity-background {
+	width: 100%;
+	height: min(4vh, 2vw);
+	background-image:
+		conic-gradient(
+			gray 90deg,
+			white 90deg 180deg,
+			gray 180deg 270deg,
+			white 270deg
+		);
+	background-repeat: repeat;
+	background-size: min(2vh, 1vw) min(2vh, 1vw);
+}
+
+.opacity-color-background {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		90deg,
+		hsl(var(--hue), 100%, 50%, 20%),
+		hsl(var(--hue), 100%, 50%, 90%),
+		hsl(var(--hue), 100%, 50%)
+	);
+}
+
+.opacity-input {
+	position: absolute;
+	appearance: none;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	min-width: min(2vh, 1vw);
+	height: min(4vh, 2vw);
+	background: unset;
+}
+
+/*
+The webkit and moz blocks are identical, but chrome fails to parse the styling if you
+combine them (presumably due to considering the moz pseudo element invalid)
+*/
+.hue-input::-moz-range-thumb,
+.opacity-input::-moz-range-thumb {
+	appearance: none;
+	width: min(2vh, 1vw);
+	height: min(4vh, 2vw);
+	border: black 2px solid;
+	box-shadow:
+		0 0 0 3px white,
+		0 0 0 5px black;
+	border-radius: unset;
+	cursor: pointer;
+	background: unset;
+}
+
+.hue-input::-webkit-slider-thumb,
+.opacity-input::-webkit-slider-thumb {
+	appearance: none;
+	width: min(2vh, 1vw);
+	height: min(4vh, 2vw);
+	border: black 2px solid;
+	box-shadow:
+		0 0 0 3px white,
+		0 0 0 5px black;
+	border-radius: unset;
+	cursor: pointer;
+	background: unset;
+}
+
+.hue-input:disabled::-moz-range-thumb,
+.opacity-input:disabled::-moz-range-thumb {
+	box-shadow:
+		0 0 0 3px gray,
+		0 0 0 5px black;
+	cursor: auto;
+}
+
+.hue-input:disabled::-webkit-slider-thumb,
+.opacity-input:disabled::-webkit-slider-thumb {
+	box-shadow:
+		0 0 0 3px gray,
+		0 0 0 5px black;
+	cursor: auto;
+}
+
+@supports (height: 100dvh) {
+	.hue-input::-moz-range-thumb,
+	.opacity-input::-moz-range-thumb {
+		width: min(2dvh, 1dvw);
+		height: min(4dvh, 2dvw);
+	}
+
+	.hue-input::-webkit-slider-thumb,
+	.opacity-input::-webkit-slider-thumb {
+		width: min(2dvh, 1dvw);
+		height: min(4dvh, 2dvw);
+	}
+
+	.hue-input {
+		height: min(4dvh, 2dvw);
+	}
+
+	.opacity-background {
+		height: min(4dvh, 2dvw);
+		background-size: min(2dvh, 1dvw) min(2dvh, 1dvw);
+	}
+
+	.hue-input,
+	.opacity-input {
+		height: min(4dvh, 2dvw);
+		min-width: min(2dvh, 1dvw);
+	}
+
+	.color-picker {
+		padding-left: min(2.5dvh, 1.25dvw);
+	}
+}

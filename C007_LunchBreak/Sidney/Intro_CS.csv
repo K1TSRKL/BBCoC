@@ -1,0 +1,55 @@
+Stage,LoveReq,SubReq,VarReq,IntroText,Image
+0,0,0,,"Co chceš, COMMON_PLAYERNAME?|Na žvanění nemám čas.",SidneyIntro.jpg
+0,5,0,,COMMON_PLAYERNAME! Můžeš mi pomoct?,SidneyIntroHappy.jpg
+0,0,5,,"Zdravím vás, slečno COMMON_PLAYERNAME!|Můžu vás obtěžovat prosbou o pomoc?",SidneyIntroSubbie.jpg
+0,0,0,HelpedEscape,Hej! Ty jsi mi ráno pomohla utéct!|Můžeš mi pomoct ještě jednou?,SidneyIntroHappy.jpg
+0,0,0,HasEgg,"Nemůžu vyndat ten tvůj zpíčený vibrátor!|Ale to vyřešíme později, teď mám větší problém.",SidneyIntro.jpg
+10,0,0,,"Nemůžu najít svoji zasranou peněženku|a mám hlad, jako prase!",SidneyIntro.jpg
+10,5,0,,"Nemůžu najít svoji zasranou peněženku|a mám hlad, jako prase!",SidneyIntroHappy.jpg
+10,0,5,,Nemůžu najít svoji peněženku|a mám ohromný hlad!,SidneyIntroSubbie.jpg
+20,0,0,,Můžeš mi dát nějaký prachy?|Ztratila jsem svoji zasranou peněženku.,SidneyIntro.jpg
+20,5,0,,"Mám kurevskej hlad, kámoško!|Nemůžeš mi půjčit nějaký prachy?",SidneyIntroHappy.jpg
+20,0,5,,"Nemám tušení, kde je moje peněženka, slečno!|Nemohla byste mi půjčit nějaké peníze, prosím?",SidneyIntroSubbie.jpg
+30,0,0,,Už vyrážíme? Mám strašný hlad!,SidneyIntro.jpg
+30,5,0,,Už vyrážíme? Mám strašný hlad!,SidneyIntroHappy.jpg
+30,0,5,,Už vyrážíme? Mám strašný hlad!,SidneyIntroSubbie.jpg
+90,0,0,,(Sidney je pryč.),SidneyGone.jpg
+100,0,0,,Co kurva chceš? Já se s tebou nechci vybavovat!,SidneyIntroGrumpy.jpg
+110,0,0,,Ztratila jsem svoji zasranou peněženku|a mám hlad jako prase!,SidneyIntroGrumpy.jpg
+120,0,0,,,SidneyIntroGrumpy.jpg
+130,0,0,,,SidneyPlayerBasement.jpg
+140,0,0,,,SidneyPlayerBasement.jpg
+150,0,0,,,SidneyPlayerPillory.jpg
+160,0,0,,,PlayerPillory.jpg
+170,0,0,,,SidneyPlayerPillory.jpg
+180,0,0,,,SidneyPlayerBasement.jpg
+200,0,0,,,SidneyPlayerLunch0.jpg
+210,0,0,,,SidneyPlayerLunch0.jpg
+220,0,0,,,SidneyPlayerLunch0.jpg
+230,0,0,,,SidneyPlayerLunch0.jpg
+240,0,0,,,SidneyPlayerLunch0.jpg
+250,0,0,,,SidneyPlayerLunch0.jpg
+260,0,0,,,SidneyPlayerLunch0.jpg
+270,0,0,,,SidneyPlayerLunch0.jpg
+280,0,0,,,SidneyPlayerLunch0.jpg
+290,0,0,,,SidneyPlayerLunch0.jpg
+300,0,0,,,SidneySmoke.jpg
+310,0,0,,,PlayerSmoke.jpg
+320,0,0,,,SidneySmoke.jpg
+330,0,0,,,SidneyPlayerSmokeSit.jpg
+340,0,0,,,SidneySit.jpg
+350,0,0,,,SidneySit.jpg
+400,0,0,,,SidneyPlayerSmokeSit.jpg
+410,0,0,,,AmandaSurrounded.jpg
+420,0,0,,,AmandaGrabed.jpg
+430,0,0,,,AmandaStripped.jpg
+440,0,0,,,AmandaBeated.jpg
+450,0,0,,,AmandaBound.jpg
+490,0,0,,,AmandaGone.jpg
+500,0,0,,,SidneyPlayerSmokeSit.jpg
+510,0,0,,,SarahSurrounded.jpg
+520,0,0,,,SarahGrabed.jpg
+530,0,0,,,SarahStripped.jpg
+540,0,0,,,SarahBeated.jpg
+550,0,0,,,SarahBound.jpg
+590,0,0,,,SarahGone.jpg

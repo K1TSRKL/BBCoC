@@ -1,0 +1,120 @@
+.screen {
+	width: 100%;
+	height: 100%;
+	user-select: none;
+	box-sizing: border-box;
+	display: grid;
+	grid-template:
+		"header" min-content
+		"hgroup" min-content
+		"main" auto / auto;
+}
+
+.screen-main-container {
+	grid-area: main;
+	overflow: hidden;
+	display: grid;
+	grid-template: "left main right" auto / min-content auto min-content;
+}
+
+.screen-aside-l {
+	grid-area: left;
+}
+
+.screen-aside-r {
+	grid-area: right;
+}
+
+.screen-main {
+	grid-area: main;
+}
+
+.screen-main:empty,
+.screen-aside-l:empty,
+.screen-aside-r:empty {
+	display: none;
+}
+
+.screen-main,
+.screen-aside-l,
+.screen-aside-r {
+	overflow: hidden;
+	padding: 3px;
+}
+
+.screen .scroll-box,
+.screen > .screen-header,
+.screen > .screen-hgroup {
+	padding-right: var(--scrollbar-gutter);
+}
+
+.screen .scroll-box {
+	overflow-y: auto;
+}
+
+.screen-header {
+	grid-area: header;
+	min-height: var(--menu-button-size);
+}
+
+.screen-header [role="menubar"] {
+	display: grid;
+	direction: rtl;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(auto-fit, var(--menu-button-size));
+	gap: var(--gap);
+}
+
+.screen-header [role="menuitem"],
+.screen-header [role="menuitemcheckbox"],
+.screen-header [role="menuitemradio"] {
+	--tooltip-gap: var(--gap);
+
+	height: var(--menu-button-size);
+	width: var(--menu-button-size);
+}
+
+.screen-header [role="menuitem"] .button-image,
+.screen-header [role="menuitemcheckbox"] .button-image,
+.screen-header [role="menuitemradio"] .button-image {
+	max-height: 86px;
+	max-width: 86px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.screen-hgroup {
+	grid-area: hgroup;
+	display: inline;
+	align-content: center;
+	color: white;
+	min-height: max(var(--menu-button-size), 1.15em); /* >=1 line */
+	max-height: 4.6em; /* 4 lines */
+}
+
+.screen-hgroup h1,
+.screen-hgroup [role='status'] {
+	font-size: 1em;
+	font-weight: normal;
+	margin: unset;
+	padding: unset;
+	text-align: center;
+}
+
+.screen-hgroup-in-header.screen {
+	grid-template:
+		"header" min-content
+		"main" auto / auto;
+}
+
+.screen-hgroup-in-header .screen-hgroup {
+	grid-area: unset;
+}
+
+.screen-hgroup-in-header .screen-header {
+	direction: rtl;
+	display: grid;
+	gap: var(--gap);
+	grid-template-columns: min-content auto;
+}

@@ -1,0 +1,168 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,Co se děje?,"Nemůžu najít svoji zasranou peněženku|a mám hlad, jako prase!",10,0,0,
+0,0,0,,Uklidni se!,"Uklidnit se? Nevidíš, že mám hlad,|a že nemůžu najít svoji peněženku?",10,-1,0,
+0,0,0,,"Co máš|za problém, děvče?","Já se snad zblázním! Nemůžu najít|svoji peněženku a mám hlad, jako prase!",10,0,1,
+0,0,0,,Možná bych ti|mohla zkusit pomoct.,Pomoz mi hledat! Ztratila jsem|svoji peněženku a mám zasranej hlad!,10,0,-1,
+10,0,0,,Kde jsi tu peněženku|naposledy viděla?,"Já nevím! Když mám hlad, nedokážu přemýšlet!|Nemohla bys mi dát nějaký prachy?",20,0,0,
+10,0,0,,Na téhle škole|jsou nějací zloději?,"Byli by blázni, kdyby chtěli okrást mě.|A teď, nemohla bys mi dát nějaký prachy?",20,0,0,
+10,0,5,,"Přestaň se trápit, děvče!|Oběd ti zaplatím.","Slečno! Opravdu? No to je fakt skvělý.|Já můžu kdykoliv! Vyrazíme hned?",30,0,1,
+10,5,0,,"Pojď se mnou, kámoško!|Já ti oběd zaplatím.","Fakt? To je kurva boží!|Já jsem připravená, půjdeme hned?",30,1,0,
+10,0,0,,Jednou to|bez jídla přežiješ!,"Naser si, krávo!|(Odchází pryč.)",90,-1,0,EndLunch()
+10,0,0,,S peněženkou tady|běžela nějaká bloncka.,(Rozběhne se do chodby jako býk.)| SÁÁÁÁÁÁÁÁÁROOOOOOOO!!!,90,1,0,EndLunch()
+20,0,0,,Běž žebrat někam jinam!,"Naser si, krávo!|(Odchází pryč.)",90,-1,1,EndLunch()
+20,0,0,,"Promiň, ale jsem švorc.","Kurva, kurva, kurva!|(Odchází pryč.)",90,0,0,EndLunch()
+20,0,0,,Na vezmi si!|(Dej Sidney peníze.),"Díky, sráči!|(Popadne tvé peníze a uteče.)",90,1,-1,EndLunch()
+20,0,5,,"Přestaň se trápit, děvče!|Oběd ti zaplatím.","Slečno! Opravdu? No to je fakt skvělý.|Já můžu kdykoliv! Vyrazíme hned?",30,0,1,
+20,5,0,,"Pojď se mnou, kámoško!|Já ti oběd zaplatím.","Fakt? To je kurva boží!|Já jsem připravená, půjdeme hned?",30,1,0,
+30,0,0,,"Pojď, vyrazíme!|(Najez se se Sidney.)","Docela rychle dojdete do nedaleké restaurace.|Sidney hned vybírá stůl, vypadá opravdu hladově.",200,0,0,StartLunch()
+100,0,0,,Co se děje?,"Nemůžu najít svoji zasranou peněženku|a mám hlad, jako prase!",110,0,0,
+100,0,0,,"Co máš|za problém, děvče?","Já se snad zblázním! Nemůžu najít|svoji peněženku a mám hlad, jako prase!",110,0,1,
+100,0,0,,Můžu ti pomoct?,"Ne, nemůžeš! Ztratila jsem svoji|zasranou peněženku a mám hlad, jako prase!",110,0,-1,
+110,0,0,,Možná bych ti ji|mohla pomoct najít.,"Ne, kurva! Já nechci nic hledat!|Já chci jíst! Naval mi nějaký prachy!",120,0,-1,NoLeave()
+110,0,0,,Máš dost času ji najít.,Zmlkni! Já chci jíst teď!|Naval mi nějaký prachy!,120,0,0,NoLeave()
+110,0,0,,"No, tak to budeš muset|oběd jednou vynechat!","Seru na tebe, žádný oběd vynechávat nebudu!|Naval mi nějaký prachy!",120,-1,0,NoLeave()
+110,0,0,,To přežiješ ze svých|tukových zásob.,"Řekni to ještě jednou a zlámu ti všechny kosti v těle!|A teď naval nějaký prachy, než tě zabiju!",120,-2,1,NoLeave()
+110,0,0,,S peněženkou tady|běžela nějaká bloncka.,(Rozběhne se do chodby jako býk.)| SÁÁÁÁÁÁÁÁÁROOOOOOOO!!!,90,1,0,EndLunch()
+110,0,0,,Tak si nějaký prachy vem.|(Dej Sidney peníze.),"Díky, sráči!|(Popadne tvé peníze a uteče.)",90,1,-1,EndLunch()
+120,0,0,,"Na, to je dárek!|(Dej Sidney peníze.)","Díky, sráči!|(Popadne tvé peníze a uteče.)",90,1,-1,EndLunch()
+120,0,0,,Zítra mi to vrátíš!|(Dej Sidney peníze.),Tak jo. (Popadne tvé peníze a uteče.),90,1,0,EndLunch()
+120,0,0,,"Já ale žádné|peníze nemám.",Ty malá zasraná lhářko! Půjdeš se mnou!|(Popadne tě za paži a táhne tě do sklepa.),130,-1,0,
+120,0,0,,Nic ti nedám!,Ty zasraná čubko! Půjdeš se mnou!|(Popadne tě za paži a táhne tě do sklepa.),130,-1,1,
+130,0,0,,Au! to bolí!,A za chvíli tě to bude bolet mnohem víc!|Tohle je tvoje poslední šance. Plať nebo trp!,140,0,-1,
+130,0,0,,Kde to jsme?,"Na místě, co znám, ale ty ho znát nechceš.|Tak, teď máš poslední šanci. Plať nebo trp!",140,0,0,
+130,0,0,,Ty zasraná svině!,(Zírá na tebe rozzuřenýma očima.)|Teď máš poslední šanci. Plať nebo trp!,140,-1,0,
+130,0,0,,"Ok, ok, tady je máš!|(Dej Sidney peníze.)",No konečně! (Popadne tvé peníze a uteče.),90,0,0,EndLunch()
+140,0,0,,Tady máš ty své prachy!|(Dej Sidney peníze.),Sráči! (Popadne tvé peníze a uteče.),90,0,0,EndLunch()
+140,0,0,,Nic ti dávat nebudu!,Tak si trp! (Chytne tě a táhne tě|k nějakému dřevěnému pranýři.),150,-1,-1,Pillory()
+150,0,0,,Co to má být?!|To přece nemůžeš.,"Užij si svůj oběd, čubko, vrátím se později.|(Bere si tvou peněženku a utíká pryč.)",160,0,0,
+150,0,0,,Za tohle mi zaplatíš!,"Ty mi platíš právě teď, vrátím se později.|(Bere si tvou peněženku a utíká pryč.)",160,0,1,
+150,0,0,,"Promiň, Sidney!|Mohla bys mě pustit?","Příliš pozdě, čubko! Vrátím se později.|(Bere si tvou peněženku a utíká pryč.)",160,0,-1,
+160,0,0,,(Trpělivě čekej.),"(Čekáš a čekáš, v žaludku ti kručí,|ale po Sidney není ani stopy.)",160,0,0,PilloryWait()
+160,0,0,,POMOC!|SLYŠÍTE MĚ NĚKDO?,"(Křičíš o pomoc, ale nikdo nepřichází.)",160,0,0,PilloryWait()
+160,0,0,,(Pokus se zařízení|rozbít.),"(Zkoušíš pranýř rozbít, ale ten se ani nehne.)",160,0,0,PilloryWait()
+160,0,0,,(Pokus se vysmeknout|ruce.),"(Snažíš se ruce protáhnout ven,|ale otvory jsou příliš úzké.)",160,0,0,PilloryWait()
+170,0,0,,Budu poslouchat.|(Skloň hlavu.),Skvěle! A teď mi zmiz z očí!|(Sbíráš si svou peněženku a ostatní věci.),180,0,-1,PilloryFree()
+170,0,0,,To je vydírání!,"Správně, čubičko. A teď zmiz!|(Sbíráš svou peněženku a ostatní věci.)",180,0,0,PilloryFree()
+170,0,0,,Jednou mi|za to zaplatíš!,To se ještě uvidí. A teď zmiz!|(Sbíráš svou peněženku a ostatní věci.),180,0,1,PilloryFree()
+180,0,0,,(Ukonči polední pauzu.),,180,0,0,EndChapter()
+200,0,0,,To jsi našla pěkné místo.,"Moje pitomé spolubydlící tady věčně vysedávaj,|tak sem moc často nechodím.",210,0,0,
+200,0,0,,Tahle restaurace|vypadá dobře.,"Moje pitomé spolubydlící tady věčně vysedávaj,|tak sem moc často nechodím.",210,0,0,
+200,0,0,,Co si mám dát?,To je mi fuk! (Rozhlíží se.)|Nejsou tady moje pitomé spolubydlící?,210,0,0,
+200,0,0,,Co si dáš?,"Maso, kurva! (Rozhlíží se.)|Nejsou tady moje pitomé spolubydlící?",210,0,0,
+210,0,0,,Ty máš spolubydlící?|To máš fakt kliku.,To teda kurva nemám! Je to peklo.|Jednou mi za to zaplatí!,220,0,0,BadMatch()
+210,0,0,,Ty máš spolubydlící?|To může být nepříjemné.,"Jo, jsou jako osina v prdeli.|Jednou mi za to zaplatí!",220,0,0,GoodMatch()
+210,0,0,,Kéž bych tak|měla spolubydlící.,Nechceš ty moje? Jsou jak osina v prdeli.|Jednou mi za to zaplatí!,220,0,0,
+220,0,0,,Nepotřebuješ s tou|pomstou pomoct?,"To je skvělý nápad! Po škole to proberem.|Něco mi o sobě řekni, co chceš v životě dělat?",230,1,0,GoodMatch()
+220,0,0,,Měla by ses|s nima zkusit udobřit!,"Udobřit? Ne, kurva! Radši změníme téma.|Něco mi o sobě řekni, co chceš v životě dělat?",230,-1,0,BadMatch()
+220,0,0,,Jednou tu svou|pomstu dostaneš.,"Jo! A ten den už se blíží.|Něco mi o sobě řekni, co chceš v životě dělat?",230,0,0,GoodMatch()
+230,0,0,,Muzikantku.,"Skončíš chudá, jak kostelní myš.|A co je tvůj oblíbený předmět?",240,0,0,BadMatch()
+230,0,0,,Doktorku.,Pěkný! To budeš vydělávat dobrý prachy.|A co je tvůj oblíbený předmět?,240,0,0,GoodMatch()
+230,0,0,,Atletku.,"Skončíš chudá, jak kostelní myš.|A co je tvůj oblíbený předmět?",240,0,0,BadMatch()
+230,0,0,,Učitelku.,"To není špatný, tam bude práce vždycky.|A co je tvůj oblíbený předmět?",240,0,0,
+230,0,0,,Herečku.,"Skončíš chudá, jak kostelní myš.|A co je tvůj oblíbený předmět?",240,0,0,BadMatch()
+230,0,0,,Dominu.,Ha! Touhle blbou odpovědí jsi mě fakt dostala!|A co je tvůj oblíbený předmět?,240,0,0,
+230,0,0,,Architektku.,"Dobrá volba, taky jsem o tom uvažovala.|A co je tvůj oblíbený předmět?",240,0,0,GoodMatch()
+230,0,0,,Farmářku.,Super! Můj táta je farmář.|A co je tvůj oblíbený předmět?,240,0,0,GoodMatch()
+230,0,0,,Programátorku.,"To není špatný, tam bude práce vždycky.|A co je tvůj oblíbený předmět?",240,0,0,
+230,0,0,,Ještě nevím.,"To samý, taky si ještě nejsem jistá.|Co je tvůj oblíbený předmět?",240,0,0,GoodMatch()
+240,0,0,,Matika.,"Je to nuda, ale asi ti to může pomoct.|A co děláš mimo školu?",250,0,0,
+240,0,0,,Hudebka.,To je tak nebetyčně zbytečný předmět!|Co děláš mimo školu?,250,0,0,BadMatch()
+240,0,0,,Čeština.,"Zpíčená čeština, ta mi kurevsky nejde!|A co děláš mimo školu?",250,0,0,BadMatch()
+240,0,0,,Tělocvik.,"Asi to není tak nudný předmět, jako ty ostatní.|A co děláš mimo školu?",250,0,0,
+240,0,0,,Chemie.,Super! Dokážeš mi vyrobit bombu?|A co děláš mimo školu?,250,0,0,GoodMatch()
+240,0,0,,Francouzština.,"Je to nuda, ale asi ti to může pomoct.|A co děláš mimo školu?",250,0,0,
+240,0,0,,Výtvarka.,To je tak nebetyčně zbytečný předmět!|Co děláš mimo školu?,250,0,0,BadMatch()
+240,0,0,,Dějepis.,"Jo, dějiny válek jsou docela zábava.|A co děláš mimo školu?",250,0,0,GoodMatch()
+240,0,0,,Divadelní kroužek.,To je tak nebetyčně zbytečný předmět!|Co děláš mimo školu?,250,0,0,
+240,0,0,,Já nevím.,Jo… Srát na tyhlety předměty.|Co děláš mimo školu?,250,0,0,GoodMatch()
+250,0,0,,Basketball.,"No, asi jsou i horší koníčky.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,
+250,0,0,,Rockovou muziku.,"Já mám radši metal, ale rock je taky fajn.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,GoodMatch()
+250,0,0,,Počítačové hry.,"No, asi jsou i horší koníčky.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,
+250,0,0,,Roztleskávačku.,"To je pěkně pitomý a nudný koníček.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,
+250,0,0,,Chodím na párty.,"Party na téhle škole jsou pěkně slabé.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,
+250,0,0,,Hry na hrdiny.,"To je pěkně pitomý a nudný koníček.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,BadMatch()
+250,0,0,,Opíjím se.,"To je fajn, potřebuju se brzo zkalit.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,GoodMatch()
+250,0,0,,Klasickou muziku.,"To je pěkně pitomý a nudný koníček.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,BadMatch()
+250,0,0,,Šukám.,"Tak to je tvůj zasranej kluk asi štastnej.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,
+250,0,0,,Nemám žádné koníčky.,"V pohodě. Ten můj, je zhulit se na celou noc.|(Přerušuje vás servírka, co přišla pro objednávku.)",260,0,0,GoodMatch()
+260,0,0,,"Salát, prosím.",To jsi nějaký zkurvený králík?|(Objednává si velký steak.),270,-1,0,BadMatch()
+260,0,0,,"Steak, prosím.",Nejlepší nápad celýho dne!|(Objednává si taky steak.),270,1,0,GoodMatch()
+260,0,0,,"Polévku, prosím.",To není moc velký jídlo.|(Objednává si velký steak.),270,0,0,
+260,0,0,,"Hamburger, please.",Docela dobrá volba.|(Objednává si velký steak.),270,0,0,GoodMatch()
+260,0,0,,"Talíř nachos, prosím.",To není moc velký jídlo.|(Objednává si velký steak.),270,0,0,
+260,0,0,,"Jenom cheesecake,|prosím.",To není moc velký jídlo.|(Objednává si velký steak.),270,0,0,
+260,0,0,,"Polévku a salát, prosím.",To jsi nějaký zkurvený králík?|(Objednává si velký steak.),270,0,0,BadMatch()
+260,0,0,,"Hot dog s chilli, prosím.",Docela dobrá volba.|(Objednává si velký steak.),270,0,0,GoodMatch()
+260,0,0,,"Fettuccine alfredo,|prosím.",Docela dobrá volba.|(Objednává si velký steak.),270,0,0,GoodMatch()
+260,0,0,,"Jenom vodu, prosím.",Ale hovno! Ty jíst nebudeš?|(Objednává si velký steak.),270,-1,0,BadMatch()
+270,0,0,,Dobrou chuť!|(Počkej na své jídlo.),Si piš! (Obě jíte své jídlo.|Několikrát si odříhne a vypadá spokojeně.),280,0,0,EatMeal()
+270,0,0,,Bon appetite!|(Počkej na své jídlo.),Si piš! (Obě jíte své jídlo.|Několikrát si odříhne a vypadá spokojeně.),280,0,0,EatMeal()
+270,0,0,,Pospěšte si servírko!|(Počkej na své jídlo.),To je dobrý! (Obě jíte své jídlo.|Několikrát si odříhne a vypadá spokojeně.),280,0,1,EatMeal()
+270,0,0,,(Zůstaň potichu a|počkej si na své jídlo.),Pohni sebou! (Obě jíte své jídlo.|Několikrát si odříhne a vypadá spokojeně.),280,0,-1,EatMeal()
+280,0,0,,Bylo to dobré?,Jasně! S masem nemůžeš šlápnout vedle.|Už je čas se vrátit do školy?,290,0,0,CheckForSmoke()
+280,0,0,,Jsi najezená?,Jasně! S masem nemůžeš šlápnout vedle.|Už je čas se vrátit do školy?,290,0,0,CheckForSmoke()
+290,0,0,AllowSmoke,"Jasně, zakouříme si.|(Běž s ní kouřit.)","(Odcházíte spolu do odlehlého koutku,|kde ona zapaluje cosi, co vypadá jako joint.)",300,0,0,
+290,0,0,AllowSmoke,"Promiň, ale já nekouřím.|(Zpátky do školy.)",,0,0,0,EndChapter()
+290,0,0,!AllowSmoke,Pojďme zpátky.|(Zpátky do školy.),,0,0,0,EndChapter()
+300,0,0,,Můžu si taky dát?|(Kuř s ní.),Jasně! (Dá si pořádného šluka|a podělí se s tebou o jointa.),310,1,0,Smoke()
+300,0,0,,"Dej si beze mne.|(Nekuř s ní.)",Takže ty kouříš jenom cigarety?|(Třikrát mocně potáhne ze svého jointu.),320,-1,0,Smoke()
+300,0,0,,Dej mi ten joint!|(Kuř s ní.),"Na, tady ho máš. (Pošle ti jointa.)",310,1,1,Smoke()
+300,0,0,,Kouření ti neprospívá.|(Nekuř s ní.),Co jsi zač? Zkurvená policie?|(Třikrát mocně potáhne ze svého jointu.),320,-1,-1,Smoke()
+300,0,0,,Je bezpečné to kouřit?|(Kuř s ní.),Nemůže to být bezpečnější. (Dá si velkého|šluka a podělí se s tebou o jointa.),310,1,-1,Smoke()
+300,0,0,,Ne! Tohle není legální!|(Nekuř s ní.),Ty jseš takovej patetickéj lůzr!|(Třikrát mocně potáhne ze svého jointu.),320,-2,-2,Smoke()
+310,0,0,,To je boží!|(Kuř jointa.),Jo! Ale něco mi taky nechej!|(Párkrát potáhneš z jointu.),310,0,0,Smoke()
+310,0,0,,Díky!|(Pošli jí jointa.),(Pošleš jí jointa|a ona z něj třikrát rychle potáhne.),320,0,0,Smoke()
+320,0,0,,Jak často kouříš trávu?,Každý den. Nejlepší lék proti nudě!|(Dvakrát si šlukne a zkouřená se posadí.),330,0,0,Smoke()
+320,0,0,,"Opatrně, budeš|na hodině zhulená!","Máš dojem, že tohle už dávno nevím?|(Dvakrát si šlukne a zkouřená se posadí.)",330,0,-1,Smoke()
+320,0,0,,To je boží! Musíme|spolu obědvat častěji.,"Jasně, do píči! Zhulíme se každý den!|(Dvakrát si šlukne a zkouřená se posadí.)",330,1,0,Smoke()
+330,0,0,,Jsi v pohodě?,"To si piš, že jo! (Vypadá sjetě.)",330,0,0,
+330,0,0,,Měli bysme se|vybodnout na školu.,"Jo, jasně! Nejlepší nápad na světě!|(Chichotá se a zírá do prázdna.)",330,0,0,
+330,0,0,HateAmanda,Chceš si to|s Amandou vyřídit?,"Jo, kurva! Pojďme na to.|Pomůžeš mi jí to nandat?",400,0,0,
+330,0,0,HateSarah,Chceš si to|se Sárou vyřídit?,"Jo, kurva! Pojďme na to.|Pomůžeš mi jí to nandat?",500,0,0,
+330,0,0,,(Kuř s ní.)ADD_MINUTES:1,(Dělíte se o jointa a nečinně vysedáváte.),330,0,0,
+330,0,0,,(Zírej na ni.)ADD_MINUTES:1,(Tupě na ni zíráš|a ona ti do obličeje vypouští kouř.),330,0,0,
+330,0,0,,(Sundej jí šaty.)ADD_MINUTES:1,(Civí na tebe a odstrkuje ti ruku.) (Pro její|svlečení potřebuješ lásku nebo submisi aspoň +8.),330,0,0,RemoveClothes()
+330,0,0,,Pojďme zpátky.|(Zpátky do školy.),,0,0,0,EndChapter()
+340,0,0,!IsGagged,Jsi v pohodě?,"To si piš, že jo! (Vypadá sjetě.)",340,0,0,
+340,0,0,!CuteRemarkDone,Takhle vypadáš|fakt roztomile.,"(Podívá se na sebe, trochu se začervená a přikývne.)",340,0,0,CuteRemark()
+340,0,0,,(Polechtej ji.)ADD_MINUTES:1,"(Buď není lechtivá, nebo je příliš zhulená,|ale příliš na lechtání nereaguje.)",340,0,0,
+340,0,0,,(Masturbuj ji.)ADD_MINUTES:1,,340,0,0,Masturbate()
+340,0,0,IsRoped,(Rozvaž ji.)ADD_MINUTES:1,"(Zdá se, že to oceňuje, ale příliš|na to, že ji rozvazuješ nereaguje.)",340,0,0,Untie()
+340,0,0,IsGagged,(Sundej jí roubík.)ADD_MINUTES:1,(Sundáváš jí roubík a ona na tebe zírá.)|No kurva! To je teda síla.,340,0,0,Ungag()
+340,0,0,,(Zase ji obleč.)ADD_MINUTES:1,(Pouštíš ji a ona si zpátky obléká své šaty.),330,0,0,Release()
+340,0,0,IsBoundAndGagged,"Napálila jsem tě, čubko!|(Zanech ji spoutanou.)",,340,0,0,EvilEnd()
+340,0,0,,Pojďme zpátky.|(Zpátky do školy.),,0,0,0,EndChapter()
+350,0,0,,"Udělej se pro mě, zlato!|(Nechej ji vyvrcholit.)",(Jemně ji dráždíš kundičku zatímco|ona sténá a oddává se sladkému orgasmu.),340,1,0,Orgasm()
+350,0,0,,"Tak pojď, kurvičko!|(Nechej ji vyvrcholit.)",(Silně ji masturbuješ|a ona vyvrcholí ve skvělém orgasmu.),340,0,1,Orgasm()
+350,0,0,,"Teď ne, možná později!|(Nenech ji vyvrcholit.)",(Přestaneš ji dráždit|a ona pomalu přestává sténat.),340,-1,0,NoOrgasm()
+350,0,0,,Nezasloužíš si to!|(Nenech ji vyvrcholit.),(Přestaneš ji dráždit|a ona pomalu přestává sténat.),340,0,-1,NoOrgasm()
+400,0,0,,"Zmlátit Amandu?|Ne, to už je moc!",Vůbec to není moc!|Jednou mi zaplatí.,330,0,0,
+400,0,0,,Jo! Jdeme na to.,"Tak pojď se mnou! (Obě jdete|do prázdné třídy, kde si Amanda zrovna čte.)",410,0,0,StartBeatUp()
+410,0,0,,(Pomož Sidney|přemoct Amandu.)ADD_MINUTES:1,(Obě se vrhnete na Amandu a Sidney ji přidrží.)|Vysvlíkni ji!,420,1,0,
+410,0,0,,Tohle nemůžu udělat.|(Nepřemáhej Amandu.),"Ty zasraná zrádkyně! Máš štěstí, Amando!|(Amanda si rychle balí své věci a utíká pryč.)",490,-3,-2,
+420,0,0,,(Pomož Sidney|svléct Amandu.)ADD_MINUTES:1,"(Svlékáš ji do naha, zatímco ji Sidney drží.)|Nandej jí to!",430,1,0,
+420,0,0,,Tohle nemůžu udělat.|(Nech Amandu jít.),"Ty zasraná zrádkyně! Máš štěstí, Amando!|(Amanda si rychle balí své věci a utíká pryč.)",490,-3,-2,
+430,0,0,,(Zbij Amandu.)ADD_MINUTES:1,"(Kopeš a mlátíš Amandu, až se zhroutí na zem.)|Zbytek už nech na mně!",440,0,1,"BeatUp(""Amanda"")"
+430,0,0,,"Na to jsem příliš|slabá, slečno!ADD_MINUTES:1","(Sidney s Amandou zápasí sama a bije ji,|až se zhroutí na zem.) Ustup, děvče!",440,0,-1,
+430,0,0,,Tohle nemůžu udělat!|(Nech Amandu jít.),"Ty zasraná zrádkyně! Máš štěstí, Amando!|(Amanda si rychle balí své věci a utíká pryč.)",490,-3,-2,
+440,0,0,,Jen do toho!ADD_MINUTES:1,"(Sidney nasadí Amandě roubík a sváže ji do kozelce.)|Honem pryč, ať nás nikdo nenačapá!",450,1,0,"TieUp(""Amanda"")"
+440,0,0,,Tohle zašlo moc daleko.|(Pomož Amandě vstát.),"Ty zasraná zrádkyně! Máš štěstí, Amando!|(Amanda si rychle balí své věci a utíká pryč.)",490,-3,-2,
+450,0,0,,"Ano, slečno Sidney.|(Nech ji tam spoutanou.)",,0,0,-1,"CrimeStranded(""Amanda"")"
+450,0,0,,"Prchej, jak o život, děvče!|(Nech ji tam spoutanou.)",,0,0,1,"CrimeStranded(""Amanda"")"
+450,0,0,,Tohle zašlo moc daleko.|(Pusť ji.)ADD_MINUTES:1,"Ty zasraná zrádkyně! Máš štestí, Amando!|(Amanda si rychle balí své věci a utíká pryč.)",490,-3,-2,
+490,0,0,,Pojďme zpátky.|(Zpátky do vyučování.),,0,0,0,EndChapter()
+500,0,0,,"Zmlátit Sáru?|Ne, to už je moc!",Vůbec to není moc!|Jednou mi zaplatí.,330,0,0,
+500,0,0,,Jo! Jdeme na to.,"Tak pojď se mnou!|(Jdete spolu na školní dvůr, kde Sára odpočívá.)",510,0,0,StartBeatUp()
+510,0,0,,(Pomož Sidney|přemoct Sáru.)ADD_MINUTES:1,(Obě se vrhnete na Sáru a Sidney ji přidrží.)|Vysvlíkni ji!,520,1,0,
+510,0,0,,Tohle nemůžu udělat!|(Nechej Sáru jít.),"Ty zasraná zrádkyně! Máš štěstí, Sáro!|(Sára vyplazuje jazyk a rychle utíká pryč.)",590,-3,-2,
+520,0,0,,(Pomož Sidney|svléct Sáru.)ADD_MINUTES:1,"(Svlékáš ji do naha, zatímco ji Sidney drží.)|Nandej jí to!",530,1,0,
+520,0,0,,Tohle nemůžu udělat!|(Nechej Sáru jít.),"Ty zasraná zrádkyně! Máš štěstí, Sáro!|(Sára vyplazuje jazyk a rychle utíká pryč.)",590,-3,-2,
+530,0,0,,(Zbij Sáru.)ADD_MINUTES:1,"(Kopeš a mlátíš Sáru, až se zhroutí na zem.)|Zbytek už nech na mně!",540,0,1,"BeatUp(""Sarah"")"
+530,0,0,,"Na to jsem příliš|slabá, slečno!ADD_MINUTES:1","(Sidney se Sárou zápasí sama a bije ji,|až se zhroutí na zem.) Ustup, děvče!",540,0,-1,
+530,0,0,,Tohle nemůžu udělat!|(Nechej Sáru jít.),"Ty zasraná zrádkyně! Máš štěstí, Sáro!|(Sára vyplazuje jazyk a rychle utíká pryč.)",590,-3,-2,
+540,0,0,,Jen do toho!ADD_MINUTES:1,"(Sidney nasadí Sáře roubík a přiváže ji k plotu.)|Rychle pryč, kurva, ať nás nikdo nechytne!",550,1,0,"TieUp(""Sarah"")"
+540,0,0,,Tohle zašlo moc daleko!|(Pomož Sáře vstát.),"Ty zasraná zrádkyně! Máš štěstí, Sáro!|(Sára vyplazuje jazyk a rychle utíká pryč.)",590,-3,-2,
+550,0,0,,"Ano, slečno Sidney!|(Nech ji tam spoutanou.)",,0,0,-1,"CrimeStranded(""Sarah"")"
+550,0,0,,"Prchej, jak o život, děvče!|(Nech ji tam spoutanou.)",,0,0,1,"CrimeStranded(""Sarah"")"
+550,0,0,,Tohle zašlo moc daleko!|(Pusť ji.)ADD_MINUTES:1,"Ty zasraná zrádkyně! Máš štěstí, Sáro!|(Sára vyplazuje jazyk a rychle utíká pryč.)",590,-3,-2,
+590,0,0,,Pojďme zpátky.|(Zpátky do vyučování.),,0,0,0,EndChapter()

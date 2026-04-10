@@ -1,0 +1,13 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,（检查一下）ADD_MINUTES:1,"尽管这款肛门塞有着令人安心的柔软硅胶材质|但将它塞入后不太可能轻易滑出",0,0,0,
+0,0,0,Common_PlayerNotRestrained,(把它插入)ADD_MINUTES:1,你放松下来，轻轻地插入肛塞|它撑开并填满了你的臀部,0,0,0,Insert()
+10,0,0,HasLoosePlug,(检查那个松动的肛塞)ADD_MINUTES:1,"尽管这款肛门塞采用了柔软的硅胶和大底座|但插入过程中会有些挑战，并不会轻易滑出。",10,0,0,ShowImage()
+10,0,0,!Common_PlayerChaste,(用手轻轻地把它取出来)ADD_MINUTES:1,"你放松臀部，慢慢地拉扯肛门塞的底部|它再次扩张你的臀部，随着“噗”的一声，它出来了。",0,0,0,HandOut()
+10,0,0,Common_PlayerChaste,(用手轻轻地把它取出来)ADD_MINUTES:1,"贞操带覆盖住了臀部塞子，使得你无法自行移除它",10,0,0,
+10,0,0,,(夹紧你的屁股)ADD_MINUTES:1,"这个塞子感觉无比坚硬，你的臀部|也紧绷得疼痛，直到你再次放松下来",10,0,0,
+10,0,0,!Common_PlayerChaste,(通过收缩臀部来移除它)ADD_MINUTES:1,"你扭动着身体试着挤出去|但那玩意儿纹丝不动",10,0,0,
+10,0,0,Common_PlayerChaste,(通过收缩臀部来移除它)ADD_MINUTES:1,"你扭动着身体试着挤出去|但贞操带确保了塞子无法拔出",10,0,0,
+20,0,0,HasLoosePlug,(检查一下松动的肛塞)ADD_MINUTES:1,"尽管这款肛塞采用了柔软的硅胶和大号凸缘|但取出它可能会有些难度，不会轻易滑出",20,0,0,ShowImage()
+20,0,0,!Common_PlayerChaste,(通过收缩臀部来移除它)ADD_MINUTES:1,"你扭动着身体试着挤出去|但肛塞纹丝不动，你需要空出一只手才能把它拉出来",20,0,0,
+20,0,0,Common_PlayerChaste,(通过收缩臀部来移除它)ADD_MINUTES:1,"你扭动着身体试着挤出去|但贞操带确保了塞子无法拔出",20,0,0,
+20,0,0,,(夹紧你的屁股)ADD_MINUTES:1,"这个塞子感觉无比坚硬，你的臀部|也紧绷得疼痛，直到你再次放松下来",20,0,0,

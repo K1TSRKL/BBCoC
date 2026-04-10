@@ -1,0 +1,11 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,（把门打开）,（门已经锁上了，一动不动）,10,0,0,
+10,0,0,NotForce,（试着把门推开）,（Cassi打电话过来）俱乐部有锁门政策，以保证会员的安全。Jenna早就让你进来了。,10,0,0,Force()
+10,0,0,NotKick,（踢门）,（Cassi打电话过来）别这样，在俱乐部代表回来之前，你不能离开。,10,0,0,Kick()
+10,0,0,NotWho,谁有门钥匙？,（Cassi打电话过来）Jenna早些时候让你进来了，但她和其他俱乐部代表现在都不在。,10,0,0,Who()
+10,0,0,NotRestroom,但我真的需要洗手间。,（Cassi打电话过来）业余失误。你只需要忍住，直到俱乐部代表回来。,10,0,-1,NeedsRestroom()
+20,0,0,,（把门打开）,（门已经锁上了，一动不动）,30,0,0,
+30,0,0,NotPlead,@plmhfm lmt mm hht。,（Cassi叫了过来）门一直锁着，以保护像你这样无助的女孩。,30,0,-1,Plead()
+30,0,0,NotRestroom,@Bht Hm rmhlln nmmd | thm Rmftrhhm。,（Cassi打电话过来）业余失误。你只需要忍住，直到俱乐部代表回来。,30,0,-1,NeedsRestroom()
+30,0,0,NotForce,（试着把门推开）,（Cassi打电话过来）俱乐部有一项锁门政策，以保护像你这样无助的女孩。,30,0,0,Force()
+30,0,0,NotKick,（踢门）,（Cassi打电话过来）别这样，在俱乐部代表回来之前，你不能离开。,30,0,0,Kick()

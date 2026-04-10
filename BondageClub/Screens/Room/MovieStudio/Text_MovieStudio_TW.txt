@@ -1,0 +1,52 @@
+Main Hall
+大廳
+Your Profile
+你的個人資料
+Wait 1 Minute
+等待 1 分鐘
+Scene 1
+場景1
+Scene 2
+場景2
+Scene 3
+場景3
+(The movie director waves at you.  Telling you to try something else.)
+（電影導演向你揮手。告訴你嘗試別的東西。）
+(The movie director taps her foot.  She seems to be getting impatient.)
+（導演跺著腳，似乎有些不耐煩了。）
+(The movie director checks on her phone.  She seems to be bored by what you're doing.)
+（電影導演在滑手機。她似乎對你所做的事情感到無聊。）
+(The movie director yawns loudly.  She seems to want more action.)
+（電影導演打了很大的哈欠。她似乎想要更多動作。）
+(A maid enters the room, moves the drawer away and looks at you with a grin.)  Someone got herself in trouble?
+（一個女僕走進房間，把抽屜移開，笑著看著你。）有人惹上麻煩了？
+(A maid enters the room, moves the drawer away and rubs her hands greedily.)  Well, well, well, what do we have here?
+（一個女僕走進房間，把抽屜移開，貪婪地搓著手。） 好吧，好吧，好吧，我們這裡有什麼？
+(A maid enters the room, moves the drawer away and smiles at you.)  Hello, Miss.
+（一位女僕走進房間，把抽屜移開，並對你微笑。）你好，小姐。
+(A maid enters the room, moves the drawer away and nods politely.)  Sorry to bother you.
+（女僕走進房間，把抽屜移開，禮貌地點點頭。）抱歉打擾了。
+(A Club Mistress enters the room, her heels clicking on the ground.  She looks at you two.)  What's going on here?
+（一位俱樂部女主人走進房間，她的腳跟踩在地上，發出咔噠聲。她看著你們兩個。）這裡發生了什麼事？
+(A Club Mistress enters the room.  She stares at you two and crosses her arms.)  What are you two doing?
+（俱樂部女主人走進房間。她盯著你們兩個，交叉雙臂。）你們兩個在做什麼？
+(A Club Mistress enters the rooms.  She looks at you two and grins.)  What is happening here?
+（一位俱樂部女主人走進房間。她看著你們兩個，咧嘴一笑。）這裡發生了什麼事？
+(A Club Mistress enters the rooms.  Her eyes wander around and she seems to ponder.)  This is interesting.
+（一位俱樂部女主人走進房間。她的眼睛四處游移，似乎在沉思。）這很有趣。
+(The director stops the movie and cheers.)  Cut!  The End!  Fin!  We have a film!  Congratulations!
+（導演停止拍攝並歡呼。）停！ 結束了！ 我們電影拍好了！ 恭喜！
+(The director stops the movie and cheers.)  Cut!  This is it girls, we made it!  Congratulations!
+（導演停止拍攝並歡呼。）停！ 就是這樣，女孩們，我們成功了！ 恭喜！
+(The director stops the movie and cheers.)  Cut!  Wonderful!  You will all become stars.  Congratulations!
+（導演停止拍攝並歡呼。）停！ 精彩的！ 你們都會成為明星。 恭喜！
+(The director stops the movie and cheers.)  Cut!  Filming is done, it's time to edit it.  Congratulations!
+（導演停止拍攝並歡呼。）停！ 拍攝完畢，接下來就是剪輯了。 恭喜！
+(As soon as you release her, they quickly pounce on you and grab your arms to immobilise you.  The journalist defies you.)  Here we go!
+（你一放開她，他們就迅速撲向你，抓住你的手臂，讓你無法動彈。記者抓住了你。）我們開始吧！
+(Act two begins, a customer enters the place and stares at you two.)  Hello?  I'm here for the open house.  Why are you two naked?
+（第二幕開始，一位顧客走進來，盯著你們兩個。）餵？ 我是來參加開放日的。你們兩個為什麼裸體？
+(Act two begins, a customer enters the place and stares at you.)  Hello?  I'm here for the open house.  Why are you naked?
+（第二幕開始，一位顧客走進來，盯著你。）你好？ 我是來參加開放日的。你們兩個為什麼要裸體？
+(Act two begins, a customer enters the place and stares at the new girlfriend.)  Hello?  I'm here for the open house.  Why is she naked?
+（第二幕開始，一位顧客走進來，盯著新女友。）你好？ 我是來參加開放日的。她為什麼赤身裸體？

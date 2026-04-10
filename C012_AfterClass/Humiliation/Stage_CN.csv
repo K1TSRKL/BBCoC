@@ -1,0 +1,5 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,（忍受你的羞辱）,她确保很多人看到你丢脸,10,0,0,Process()
+10,0,0,,（忍受你的羞辱）,她带你去许多不同的公共场所拍照,20,0,0,Process()
+20,0,0,,（忍受你的羞辱）,她和你去了最后一个地方，告诉一切都结束了,30,0,0,Process()
+30,0,0,,（回到你的宿舍）,,40,0,0,BackToDorm()

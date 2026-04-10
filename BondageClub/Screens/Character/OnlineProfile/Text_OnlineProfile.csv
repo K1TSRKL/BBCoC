@@ -1,0 +1,8 @@
+EnterDescription,Enter your online description (MAXLEN characters maximum)
+ViewDescription,"CharacterName's online description"
+EnterOwnersNotes,Enter public notes for CharacterName (MAXLEN chars maximum)
+ViewOwnersNotes,"Notes from OwnerName, CharacterName's owner"
+Leave,Exit profile
+LeaveSave,Accept changes
+LeaveNoSave,Cancel changes
+OwnersNotes,"Owner's Notes"

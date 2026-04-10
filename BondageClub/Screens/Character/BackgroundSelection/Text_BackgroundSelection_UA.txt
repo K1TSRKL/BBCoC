@@ -1,0 +1,12 @@
+Accept
+Прийняти
+Previous
+Попередній
+Next
+Наступний
+Cancel
+Скасувати
+Selection: SelectedBackground
+Вибір: SelectedBackground
+Filter: Filtered / Total
+Фільтр: Filtered / Total

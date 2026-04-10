@@ -1,0 +1,100 @@
+Room Name
+房間名
+Language
+語言
+Description
+描述
+Ban List
+封禁列表
+Whitelist
+白名單
+Administrator List
+房管列表
+Size (2-20)
+大小 (2-20)
+Member numbers separated by commas (ex: 123, ...)
+逗號分隔的用戶號 (如: 123, ...)
+Use the above buttons to quickadd to the respective lists
+使用上述按鈕快速新增至相關清單
+Blacklist
+黑名單成員
+Ghostlist
+忽視列表成員
+Owner
+主人
+Lovers
+戀人
+Friends
+朋友們
+Room settings can only be updated by administrators
+房間選項僅能被房管修改
+Background
+背景
+Visibility
+能見度
+Access
+存取
+Public
+公眾
+Admin + Whitelist
+管理 + 白名單
+Admin
+管理員
+Unlisted
+未列名
+Import room code
+匯入房間代碼
+Please paste the room code. Importing room codes will overwrite existing settings. Are you sure?
+請貼上房間代碼。匯入房間代碼將會覆寫現有設定。確定嗎？
+Failed to parse the passed room code (incomplete? invalid? outdated?)
+無法解析傳入的房間代碼（不完整？無效？過時？）
+Successfully imported room code
+成功匯入房間代碼
+Export room code
+匯出房間代碼
+Failed to copy room code to clipboard
+無法將房間代碼複製到剪貼簿
+Room code copied to clipboard
+房間代碼已複製到剪貼簿
+Create
+創建
+Save
+保存
+Exit
+退出
+Cancel
+取消
+Updating the chat room...
+更新聊天室...
+This room name is already taken
+該房間名已被占用
+Account error, please try to relog
+帳號錯誤,請重新登入
+Invalid chat room data detected
+無效的聊天室數據
+Room created, joining it...
+房間已創建，正在加入...
+Block Categories
+屏蔽性癖
+No Game
+無遊戲
+LARP
+體感對戰
+Magic Battle
+魔法對戰
+GGTS
+GGTS
+(Click anywhere to return)
+(點擊任意位置返回)
+English
+英語
+French
+法語
+Spanish
+西班牙語
+German
+德語
+Chinese
+中文
+Russian
+俄語

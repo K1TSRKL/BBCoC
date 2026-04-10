@@ -1,0 +1,65 @@
+action,"[Message]: Display the message as an action, without including your name. **[Message] does the same"
+afk,: Toggle AFK emote
+attempt,"[Percentage 0-100]% [Message]: Display “[PlayerName] Message: ✔ or ❌ (Percentage %) as an attempt action. Percentage is a success chance. *[Percentage]% [Message] does the same. If percentage is omitted, success chance is 50%."
+ban,[MemberNumber]: Ban the player from the room
+beep,[MemberNumber]: Send a beep to the player
+blacklistadd,[MemberNumber]: Add the player to your blacklist
+blacklistremove,[MemberNumber]: Remove the player from your blacklist
+blush,"[0-5], ”+”, ”-” or ”b” or ”blue”: Remove blush with ”0”, set red blush intensity with ”1” to ”5” or increase and decrease it with ”+” and ”-”, or set blue blush with ”b” or ”blue”. Giving no blush opens the blush menu."
+bot,[Message]: sends hidden message to bots
+changelog,[start][stop]: Show the Bondage Club changelog for the specified version(s); defaults to the latest version
+coin,: Toss a coin
+craft,: Open the crafting menu
+demote,[MemberNumber]: Demote the player from room administrator
+dice,[Number]: Roll a 6-sided die. Adding “[Number]” after the command for any number between 2 and 100 will roll a die of that many sides instead. Adding “[Number]d[Number]” will roll multiple dice and sum the total.
+expr,[0-5]: Clear or load facial expression. ”0” after the command will clear current expression. ”1” to ”5” will load expression from the saved slot. Giving no number opens the saved expression menu.
+eyes,"[o|c][l|r] or [expression]: Open or close eyes or change expression. ”c” will close, ”o” will open, using ”l” or ”r” will target only one eye. Giving no action opens the expression menu, using one of ”default”, ”dazed”, ”shy”, ”sad”, ”horny”, ”lewd”, ”verylewd”, ”heart”, ”heartpink”, ”lewdheart”, ”lewdheartpink”, ”dizzy” (or ”@@”), ”daydream” (or ”><”), ”shylyhappy” (or ”^^”), ”angry” (or ”èé”), ”surprised” (or ”éè”) or ”scared” will change expression."
+focus,add/remove/list/clear/help [targeter(s)]: Modifies your focus list (which allows you to selectively view players in a chatroom). Run '/focus' for more information.
+focusadd,[targeter(s)]: Alias for /focus add [targeter(s)]
+focusremove,[targeter(s)]: Alias for /focus remove [targeter(s)]
+focuslist,: Alias for /focus list
+focusclear,: Alias for /focus clear
+focushelp,: Alias for /focus help
+friendlistadd,[MemberNumber]: Add the player to your friendlist
+friendlistremove,[MemberNumber]: Remove the player from your friendlist
+friendlistrequest,[MemberNumber]: Add the player to your friend list with a notification
+ghostadd,[MemberNumber]: Add the player to your ghostlist
+ghostremove,[MemberNumber]: Remove the player from your ghostlist
+help,[Keyword]: Display help for the command with prefix Keyword. Exclude [Keyword] to view all valid commands
+kick,[MemberNumber]: Kick the player out of the room
+me,[Message]: Display “[PlayerName] Message” as an action. *[Message] does the same.
+pandora,"[Activity]: Do a Pandora Guard activity on your whisper selection or all inmates if there's no selection. (Activities: Bondage, Cage, Chastity, Detain, Gag, Hogtie, Hose, Lock, Naked, Spank, Ungag, Release, Shibari, Uncage, Unchaste, Unlock)"
+pony,"[Activity]: Do a Pony activity (Activities: Stand, Trot, Gallop, Passage, Pirouette)"
+promote,[MemberNumber]: Promote the user to room administrator
+roomunwhitelist,[MemberNumber]: Removes the user from the room whitelist
+roomwhitelist,[MemberNumber]: Adds the user to the room whitelist
+safeword,use safeword
+showblacklist,: View your blacklist
+showfriendlist,: View you friendlist
+showghostlist,: View your ghostlist
+showwhitelist,: View your whitelist
+openfriendlist,: Open the friendlist screen
+unban,[MemberNumber]: Remove a ban on a player
+whitelistadd,[MemberNumber]: Add a player to your whitelist
+whitelistremove,[MemberNumber]: Remove a player from your whitelist
+forbiddenwords,Display your forbidden words set by your owner
+wheel,Spin your Wheel of Fortune
+release,[MemberNumber]: Release a submissive from your ownership
+customimage,[URL]: Set the http address of the background jpg/png image to use
+customfilter,[Color]: Set the color code of the background filter (ex: #0000FF40)
+custommusic,[URL]: Set the http address of the background mp3/mp4 music to use
+appcopy,Copy your current appearance in your clipboard
+apppaste,[Appearance]: Change your current appearance with the pasted string. No argument will use the clipboard.
+mapcords,Display your current coordinates
+mapcopy,Copy the current map layout in your clipboard
+mappaste,[Map]: Paste your map string to load it as current. No argument will use the clipboard.
+maptp,"[X] [Y]: Teleport yourself to X,Y. <br>maptp [MemberNumber|Name|Nickname] [X] [Y]: Teleport player to X,Y.<br>maptp [MemberNumber|Name|Nickname]: Teleport to player.<br>maptp [MemberNumber|Name|Nickname] [MemberNumber|Name|Nickname]: Teleport first player to second player.<br>Use '@' as a prefix for MemberNumber<br>Requires admin privileges."
+whisper,[MemberNumber|Name|Nickname]: Begin whispering to player.  Leave blank to stop whispering.<br>[MemberNumber|Name|Nickname] [Message]: Send whisper to target player.
+shop,Access the shop
+clubcard,: Open the club card editor
+mapgivekey, [MemberNumber] [bronze] [silver] [gold]: Give any map key to a player 
+maptakekey, [MemberNumber] [bronze] [silver] [gold]: Take any map key from a player 
+clear,Removes all messages from the chat
+arousal,Sets your arousal level
+sos,Toggle SOS emote
+brb,Toggle Be-right-back emote

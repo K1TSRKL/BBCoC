@@ -1,0 +1,209 @@
+###_NPC
+(You can use or remove items by selecting specific body regions on yourself.)
+(Ви можете використовувати або прибирати предмети, вибираючи певні ділянки тіла на собі.)
+###_PLAYER
+(View your profile.)
+(Переглянути свій профіль.)
+(Change your clothes.)
+(Змінити свій одяг.)
+(Room administrator action.)
+(Дії адміністратора кімнати.)
+###_NPC
+(As a room administrator, you can take these actions.)
+(Як адміністратор кімнати ви можете виконувати ці дії.)
+###_PLAYER
+(Character actions.)
+(Дії персонажа.)
+###_NPC
+(Possible character actions.)
+(Можливі дії персонажа.)
+###_PLAYER
+(Spend GGTS minutes.)
+(Витратит хвилини GGTS.)
+###_NPC
+(Select how to spend your minutes.)
+(Виберіть як витратити свої хвилини.)
+###_PLAYER
+(View your current rules.)
+(Переглянути свої поточні правила.)
+###_NPC
+(Here are your currently active rules.)
+(Ось Ваші поточні активні правила.)
+###_PLAYER
+(Leave this menu.)
+(Покинути це меню.)
+(Move Character.)
+(Перемістити персонажа.)
+###_NPC
+(Move started.)
+(Переміщення почалося.)
+###_PLAYER
+(Back to main menu.)
+(Назад до головного меню.)
+(Spend 15 minutes for a bondage position change.)
+(Витратити 15 хвилин на зміну позиції бондажа.)
+###_NPC
+(You don't have enough minutes available.)
+(У Вас недостатньо хвилин.)
+###_PLAYER
+(Spend 15 minutes for a new blindness level.)
+(Витратити 15 хвилин для іншого рівня сліпоти.)
+(Spend 15 minutes for a new deafness level.)
+(Витратити 15 хвилин для іншого рівня глухоти.)
+(Spend 15 minutes for an sexual intensity change.)
+(Витратити 15 хвилин для зміни секс. інтенсивності.)
+(Spend 15 minutes for a sexual intensity change.)
+(Витратити 15 хвилин для зміни секс. інтенсивності.)
+(Spend 30 minutes to unlock the door.)
+(Витратити 30 хвилин, щоб відкрити двері.)
+###_NPC
+(You must have 30 minutes and be the admistrator of the locked room.)
+(Ви маєте мати 30 хвилин і бути адміністратором закритої кімнати.)
+###_PLAYER
+(Spend 120 minutes to get $100.)
+(Витратити 120 хвилин, що отримати $100.)
+###_NPC
+(GGTS gives you $100 and substracts 120 minutes to your total.)
+(GGTS дає вам $100 та віднімає 120 хвилин.)
+###_PLAYER
+(Spend 200 minutes to get your own GGTS helmet.)
+(Витратити 200 хвилин, щоб отримати шолом GGTS.)
+###_NPC
+(You get a GGTS helmet and the AI substracts 200 minutes from your total.)
+(Ви отримуєте шолом GGTS, і ШІ віднімає 200 хвилин із вашої загальної кількості.)
+(You don't have enough minutes available or you already have the helmet in your inventory.)
+(У вас недостатньо доступних хвилин або шолом уже є у вашому інвентарі.)
+###_PLAYER
+(Adjust your bondage skill.)
+(Adjust your bondage skill.)
+###_NPC
+(By default, you restrain using your full bondage skill.  You can use less of your skill and make it easier for your victims to escape.)
+(By default, you restrain using your full bondage skill.  You can use less of your skill and make it easier for your victims to escape.)
+###_PLAYER
+(Adjust your evasion skill.)
+(Adjust your evasion skill.)
+###_NPC
+(By default, you struggle using your full evasion skill.  You can use less of your skill and make it harder for you to struggle free.)
+(By default, you struggle using your full evasion skill.  You can use less of your skill and make it harder for you to struggle free.)
+###_PLAYER
+(Call the maids for help)
+(Покликати покоївок на допомогу)
+###_NPC
+(The maids are not supposed to take room calls. This will result in punishment and public humiliation. Are you sure?)
+(The maids are not supposed to take room calls. This will result in punishment and public humiliation. Are you sure?)
+(The maids will be here shortly...)
+(The maids will be here shortly...)
+###_PLAYER
+(Use your safeword.)
+(Використати стоп-слово.)
+###_NPC
+(A safeword is serious and should not be used to cheat.  It can revert your clothes and restraints to when you entered the lobby, or release you completely.)
+(A safeword is serious and should not be used to cheat.  It can revert your clothes and restraints to when you entered the lobby, or release you completely.)
+###_PLAYER
+(Take a photo of yourself.)
+(Зробити селфі.)
+(Craft an item.)
+(Створити предмет.)
+(Boot Kinky Dungeon)
+(Запустити Kinky Dungeon)
+###_NPC
+(The helmet chimes as Kinky Dungeon starts up)
+(Шолом дзвенить, коли запускається Kinky Dungeon)
+###_PLAYER
+(Play Kinky Dungeon)
+(Грати Kinky Dungeon)
+###_NPC
+(Main menu.)
+(Головне меню.)
+###_PLAYER
+(Use your full bondage skill.  100%)
+(Use your full bondage skill.  100%)
+###_NPC
+(You will now use your full bondage skill when using a restraint.  100%)
+(You will now use your full bondage skill when using a restraint.  100%)
+###_PLAYER
+(Use most of your bondage skill.  75%)
+(Use most of your bondage skill.  75%)
+###_NPC
+(You will now use most of your bondage skill when using a restraint.  75%)
+(You will now use most of your bondage skill when using a restraint.  75%)
+###_PLAYER
+(Use half of your bondage skill.  50%)
+(Use half of your bondage skill.  50%)
+###_NPC
+(You will now use half of your bondage skill when using a restraint.  50%)
+(You will now use half of your bondage skill when using a restraint.  50%)
+###_PLAYER
+(Use very little of your bondage skill.  25%)
+(Use very little of your bondage skill.  25%)
+###_NPC
+(You will now use very little of your bondage skill when using a restraint.  25%)
+(You will now use very little of your bondage skill when using a restraint.  25%)
+###_PLAYER
+(Use none of your bondage skill.  0%)
+(Use none of your bondage skill.  0%)
+###_NPC
+(You will now use none of your bondage skill when using a restraint.  0%)
+(You will now use none of your bondage skill when using a restraint.  0%)
+###_PLAYER
+(Don't change your skill.)
+(Don't change your skill.)
+(Use your full evasion skill.  100%)
+(Use your full evasion skill.  100%)
+###_NPC
+(You will now use your full evasion skill when trying to struggle free.  100%)
+(You will now use your full evasion skill when trying to struggle free.  100%)
+###_PLAYER
+(Use most of your evasion skill.  75%)
+(Use most of your evasion skill.  75%)
+###_NPC
+(You will now use most of your evasion skill when trying to struggle free.  75%)
+(You will now use most of your evasion skill when trying to struggle free.  75%)
+###_PLAYER
+(Use half of your evasion skill.  50%)
+(Use half of your evasion skill.  50%)
+###_NPC
+(You will now use half of your evasion skill when trying to struggle free.  50%)
+(You will now use half of your evasion skill when trying to struggle free.  50%)
+###_PLAYER
+(Use very little of your evasion skill.  25%)
+(Use very little of your evasion skill.  25%)
+###_NPC
+(You will now use very little of your evasion skill when trying to struggle free.  25%)
+(You will now use very little of your evasion skill when trying to struggle free.  25%)
+###_PLAYER
+(Use none of your evasion skill.  0%)
+(Use none of your evasion skill.  0%)
+###_NPC
+(You will now use none of your evasion skill when trying to struggle free.  0%)
+(You will now use none of your evasion skill when trying to struggle free.  0%)
+###_PLAYER
+(Yes! Get me out of this room!)
+(Так! Заберіть мене з цієї кімнати!)
+(No, don't call the maids.)
+(Ні, не кликати покоївок.)
+(Revert Character.)
+(Відкатити персонажа.)
+###_NPC
+(This will revert your character's clothes and restraints back to how they were when you entered the lobby. Use this if you were forced into restraints against your consent. Are you sure you want to revert your character?)
+(Це відкатить Ваші одяг та обмеження до того часу як Ви зайшли в кімнату. Використовуйте це якщо вас насильно зв'язали проти Вашої згоди. Ви впевнені що хочете відкатити персонажа?)
+###_PLAYER
+(Release Character.)
+(Визволити персонажа.)
+###_NPC
+(This will immediately release you of ALL restraints you are wearing and return you to the Main Lobby. Use this only if you are stuck in restraints and nobody can or wants to help you. Are you sure about this?)
+(Це негайно звільнить вас від УСІХ обмежень, які ви носите, і поверне вас до Головного лобі. Використовуйте це, лише якщо ви застрягли в обмеженнях і ніхто не може або не хоче вам допомогти. Ви впевнені в цьому?)
+###_PLAYER
+(Don't use Safeword.)
+(Не використовувати стоп-слово.)
+(Yes, revert Character.)
+(Так, відкатити персонажа.)
+(No, don't revert Character.)
+(Ні, не відкатувати персонажа.)
+(Yes, I want to be released.)
+(Так, я хочу щоб мене визволили.)
+(No, don't release me.)
+(Ні, не визволяйте мене.)
+###_NPC
+(As you enter the luxurious hallway, a maid comes to greet you.)  Welcome to the Bondage Club, is this your first visit?
+(Як Ви входите в розкішний передпокій, вас зустрічає покоївка.)  Ласкаво просимо до Бондаж Клубу. Це Ваший перший візит?

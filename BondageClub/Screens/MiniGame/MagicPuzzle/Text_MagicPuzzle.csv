@@ -1,0 +1,4 @@
+StartMessage,Click in the green zone to start.
+GameMessage,Reach the red zone.  Never touch the dark zone.  Current time is
+SuccessMessage,You've succeeded.  Click here to return.  Your time was
+FailMessage,You've failed.  Click here to return.  Your time was

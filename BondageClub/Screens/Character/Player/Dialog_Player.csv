@@ -1,0 +1,61 @@
+PlayerGagged,,,(You can use or remove items by selecting specific body regions on yourself.),,
+0,,,(You can use or remove items by selecting specific body regions on yourself.),,
+0,,(View your profile.),,DialogViewProfile(),
+0,,(Change your clothes.),,DialogChangeClothes(),DialogCanChangeClothes()
+0,30,(Room administrator action.),"(As a room administrator, you can take these actions.)",,DialogChatRoomPlayerIsAdmin()
+0,100,(Character actions.),(Possible character actions.),,DialogCanPerformCharacterAction()
+0,40,(Spend GGTS minutes.),(Select how to spend your minutes.),,DialogGGTSCanSpendMinutes()
+0,0,(View your current rules.),(Here are your currently active rules.),DialogViewOwnerRules(),DialogCanViewRules()
+0,,(Leave this menu.),,DialogLeave(),
+30,0,(Move Character.),(Move started.),"AdminAction(""Move"")",
+30,0,(Back to main menu.),(You can use or remove items by selecting specific body regions on yourself.),,
+40,0,(Spend 15 minutes for a bondage position change.),,"DialogGGTSAction(""ItemPose"", ""15"")",DialogGGTSMinuteGreater(15)
+40,,(Spend 15 minutes for a bondage position change.),(You don't have enough minutes available.),,!DialogGGTSMinuteGreater(15)
+40,0,(Spend 15 minutes for a new blindness level.),,"DialogGGTSAction(""ItemMaskBlind"", ""15"")",DialogGGTSMinuteGreater(15)
+40,,(Spend 15 minutes for a new blindness level.),(You don't have enough minutes available.),,!DialogGGTSMinuteGreater(15)
+40,0,(Spend 15 minutes for a new deafness level.),,"DialogGGTSAction(""ItemEarsDeaf"", ""15"")",DialogGGTSMinuteGreater(15)
+40,,(Spend 15 minutes for a new deafness level.),(You don't have enough minutes available.),,!DialogGGTSMinuteGreater(15)
+40,0,(Spend 15 minutes for an sexual intensity change.),,"DialogGGTSAction(""ItemIntensity"", ""15"")",DialogGGTSMinuteGreater(15)
+40,,(Spend 15 minutes for a sexual intensity change.),(You don't have enough minutes available.),,!DialogGGTSMinuteGreater(15)
+40,0,(Spend 30 minutes to unlock the door.),,"DialogGGTSAction(""UnlockRoom"", ""30"")",DialogGGTSCanUnlock()
+40,,(Spend 30 minutes to unlock the door.),(You must have 30 minutes and be the admistrator of the locked room.),,!DialogGGTSCanUnlock()
+40,,(Spend 120 minutes to get $100.),(GGTS gives you $100 and substracts 120 minutes to your total.),"DialogGGTSAction(""MoneyForMinutes"", ""120"")",DialogGGTSMinuteGreater(120)
+40,,(Spend 120 minutes to get $100.),(You don't have enough minutes available.),,!DialogGGTSMinuteGreater(120)
+40,,(Spend 200 minutes to get your own GGTS helmet.),(You get a GGTS helmet and the AI substracts 200 minutes from your total.),"DialogGGTSAction(""GetHelmet"", ""200"")",DialogGGTSCanGetHelmet()
+40,,(Spend 200 minutes to get your own GGTS helmet.),(You don't have enough minutes available or you already have the helmet in your inventory.),,!DialogGGTSCanGetHelmet()
+40,0,(Back to main menu.),(You can use or remove items by selecting specific body regions on yourself.),,
+100,,,(Possible character actions.),,
+100,101,(Adjust your bondage skill.),"(By default, you restrain using your full bondage skill.  You can use less of your skill and make it easier for your victims to escape.)",,"DialogSkillGreater(""Bondage"", 1)"
+100,102,(Adjust your evasion skill.),"(By default, you struggle using your full evasion skill.  You can use less of your skill and make it harder for you to struggle free.)",,"DialogSkillGreater(""Evasion"", 1)"
+100,110,(Call the maids for help),(The maids are not supposed to take room calls. This will result in punishment and public humiliation. Are you sure?),,DialogCanCallMaidsPunishmentOn()
+100,0,(Call the maids for help),(The maids will be here shortly...),DialogCallMaids(),DialogCanCallMaidsPunishmentOff()
+100,120,(Use your safeword.),"(A safeword is serious and should not be used to cheat.  It can revert your clothes and restraints to when you entered the lobby, or release you completely.)",,DialogChatRoomCanSafeword()
+100,,(Take a photo of yourself.),(You can use or remove items by selecting specific body regions on yourself.),DialogPhotoPlayer(),DialogCanTakePhotos()
+100,,(Craft an item.),(You can use or remove items by selecting specific body regions on yourself.),DialogOpenCraftingScreen(),DialogCanCraft()
+100,,(Boot Kinky Dungeon),(The helmet chimes as Kinky Dungeon starts up),DialogStartKinkyDungeon(),DialogHasGamingHeadset()
+100,,(Play Kinky Dungeon),,DialogStartKinkyDungeon(),DialogHasGamingHeadsetReady()
+100,0,(Back to main menu.),(Main menu.),,
+101,,,"(By default, you restrain using your full bondage skill.  You can use less of your skill and make it easier for your victims to escape.)",,
+101,100,(Use your full bondage skill.  100%),(You will now use your full bondage skill when using a restraint.  100%),"DialogSetSkillRatio(""Bondage"", 100)",
+101,100,(Use most of your bondage skill.  75%),(You will now use most of your bondage skill when using a restraint.  75%),"DialogSetSkillRatio(""Bondage"", 75)",
+101,100,(Use half of your bondage skill.  50%),(You will now use half of your bondage skill when using a restraint.  50%),"DialogSetSkillRatio(""Bondage"", 50)",
+101,100,(Use very little of your bondage skill.  25%),(You will now use very little of your bondage skill when using a restraint.  25%),"DialogSetSkillRatio(""Bondage"", 25)",
+101,100,(Use none of your bondage skill.  0%),(You will now use none of your bondage skill when using a restraint.  0%),"DialogSetSkillRatio(""Bondage"", 0)",
+101,100,(Don't change your skill.),(You can use or remove items by selecting specific body regions on yourself.),,
+102,,,"(By default, you struggle using your full evasion skill.  You can use less of your skill and make it harder for you to struggle free.)",,
+102,100,(Use your full evasion skill.  100%),(You will now use your full evasion skill when trying to struggle free.  100%),"DialogSetSkillRatio(""Evasion"", 100)",
+102,100,(Use most of your evasion skill.  75%),(You will now use most of your evasion skill when trying to struggle free.  75%),"DialogSetSkillRatio(""Evasion"", 75)",
+102,100,(Use half of your evasion skill.  50%),(You will now use half of your evasion skill when trying to struggle free.  50%),"DialogSetSkillRatio(""Evasion"", 50)",
+102,100,(Use very little of your evasion skill.  25%),(You will now use very little of your evasion skill when trying to struggle free.  25%),"DialogSetSkillRatio(""Evasion"", 25)",
+102,100,(Use none of your evasion skill.  0%),(You will now use none of your evasion skill when trying to struggle free.  0%),"DialogSetSkillRatio(""Evasion"", 0)",
+102,100,(Don't change your skill.),(You can use or remove items by selecting specific body regions on yourself.),,
+110,0,(Yes! Get me out of this room!),(The maids will be here shortly...),DialogCallMaids(),DialogCanCallMaids()
+110,0,"(No, don't call the maids.)",(You can use or remove items by selecting specific body regions on yourself.),,
+120,121,(Revert Character.),(This will revert your character's clothes and restraints back to how they were when you entered the lobby. Use this if you were forced into restraints against your consent. Are you sure you want to revert your character?),,
+120,122,(Release Character.),(This will immediately release you of ALL restraints you are wearing and return you to the Main Lobby. Use this only if you are stuck in restraints and nobody can or wants to help you. Are you sure about this?),,
+120,0,(Don't use Safeword.),(You can use or remove items by selecting specific body regions on yourself.),,
+121,0,"(Yes, revert Character.)",(You can use or remove items by selecting specific body regions on yourself.),DialogChatRoomSafewordRevert(),
+121,0,"(No, don't revert Character.)",(You can use or remove items by selecting specific body regions on yourself.),,
+122,0,"(Yes, I want to be released.)",,DialogChatRoomSafewordRelease(),
+122,0,"(No, don't release me.)",(You can use or remove items by selecting specific body regions on yourself.),,
+IntroductionMaidGreetings,,,"(As you enter the luxurious hallway, a maid comes to greet you.)  Welcome to the Bondage Club, is this your first visit?",,

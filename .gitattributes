@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+BondageClub/Tools/Node/package-lock.json linguist-generated -diff
+BondageClub/Tools/Node/PoseMappingJSON/* linguist-generated

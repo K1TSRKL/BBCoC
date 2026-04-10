@@ -1,0 +1,54 @@
+﻿Welcome to the Bondage Club
+Добро пожаловать в Бондаж Клуб
+Enter your name and password
+Введите свое имя и пароль
+Account Name
+Имя Аккаунта
+Password
+Пароль
+Login
+Авторизоваться
+Language
+Язык
+Or create a new character
+Или создайте нового персонажа
+New Character
+Новый Персонаж
+Connecting to server...
+Подключение к серверу...
+Waiting in queue on position: QUEUE_POS
+Ожидание в очереди на позиции: QUEUE_POS
+Error loading character data
+Ошибка загрузки данных персонажа
+Disconnected from server. Retrying...
+Разрыв соединения с сервером. Повторное подключение...
+Disconnected for duplicated login
+Отключен из-за дублированного входа в систему
+Unable to connect to server. Retrying...
+Невозможно подключиться к серверу. Повторное подключение...
+Connection rejected: your connection has been rate limited.
+Соединение отклонено: скорость вашего соединения ограничена.
+Validating name and password...
+Проверка имени и пароля...
+Incorrect name or password
+Некорректное имя или пароль
+Error:
+Ошибка:
+Invalid name or password
+Неверное имя или пароль
+Select Cheats
+Выберите Читы
+Reset Password
+Восстановление Пароля
+Thank you
+Спасибо
+Developers
+Разработчики
+Translators
+Переводчики
+Support
+Поддержали
+Sponsors
+Спонсоры
+And a huge thanks to the fans!
+И огромная благодарность фанатам!

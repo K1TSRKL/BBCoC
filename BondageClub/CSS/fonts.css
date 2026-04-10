@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Calligraffitti';
+  src: url('../Fonts/Calligraffitti/Calligraffitti-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Saira Stencil One';
+  src: url('../Fonts/Saira Stencil One/SairaStencilOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../Fonts/Pacifico/Pacifico-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  src: url('../Fonts/Satisfy/Satisfy-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Nanum Pen Script';
+  src: url('../Fonts/Nanum\ Pen\ Script/NanumPenScript-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('../Fonts/Archivo Black/ArchivoBlack-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('../Fonts/Caveat/Caveat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Caveat-Bold';
+  src: url('../Fonts/Caveat/Caveat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Libre Barcode 39';
+  src: url('../Fonts/Libre_Barcode_39/LibreBarcode39-Regular.ttf');
+}

@@ -1,0 +1,71 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+110,0,0,PlayerIsVillain,她的心曾为你真挚地跳动,白骑士上前回答：|“废话真多赶紧放了她”,130,0,0,"GlobalStage(130, 1, 0)"
+110,0,0,PlayerIsVillain,她的心因真爱而跳动,白骑士困惑地回答：|“废话真多现在马上放开她”,130,0,0,"GlobalStage(130, -1, 0)"
+110,0,0,PlayerIsVillain,对不起，Julia|我忘了我的台词。,Julia轻声对你说：“她的心曾为你真挚地跳动。”,110,0,0,ForgetLine()
+110,0,0,!PlayerIsVillain,（静静地听着）,黑骑士摆了个姿势说：“她的心曾为你真挚地跳动。”,120,0,0,"GlobalStage(120, 0, 0)"
+110,0,0,!PlayerIsVillain,（不耐烦地拍手）,黑骑士迅速跳了进去，说：“她的心曾为你真挚地跳动。”,120,0,1,"GlobalStage(120, 0, 1)"
+130,0,0,PlayerIsVillain,再进一步，你就会见识|到我的剑有多厉害,当少女登台时，两位骑士面面相觑。,140,0,0,"GlobalStage(140, -1, 0)"
+130,0,0,PlayerIsVillain,来呀|我的剑等着你,当少女登台时，两位骑士面面相觑。,140,0,0,"GlobalStage(140, 1, 0)"
+130,0,0,PlayerIsVillain,对不起，Julia|我忘了我的台词。,Julia叹了口气，低声说：|“再进一步，你就会见识到我的剑有多厉害。”,130,0,0,ForgetLine()
+130,0,0,!PlayerIsVillain,（静静地听着）,黑骑士威胁地看了一眼，说：|“再进一步，你就会见识到我的剑有多厉害。”,140,0,0,"GlobalStage(140, 0, 0)"
+130,0,0,!PlayerIsVillain,（不耐烦地拍手）,黑骑士迅速回答：|“再进一步，你就会见识到我的剑有多厉害。”,140,0,0,"GlobalStage(140, 0, 1)"
+130,0,0,!PlayerIsVillain,（做些鬼脸来|分散她的注意力）,黑骑士咯咯地笑着回答：|“再进一步，你就会见识到我的剑有多厉害。”,140,0,0,"GlobalStage(140, -1, 0)"
+200,0,0,PlayerIsVillain,你赢得了她的心，但我赢得了肉体,白骑士拿起剑大喊：“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, 1, 0)"
+200,0,0,PlayerIsVillain,你有她的心，但我有她的身体。,白骑士用剑摸索着说：“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, -1, 0)"
+200,0,0,PlayerIsVillain,对不起，Julia|我忘了我的台词。,Julia轻声对你说：“你赢得了她的心，但我赢得了肉体”,200,0,0,ForgetLine()
+200,0,0,!PlayerIsVillain,（静静地听着）,黑骑士抓住少女说：|“白骑士！你赢得了她的心，但我赢得了肉体”,220,0,0,"GlobalStage(220, 0, 0)"
+200,0,0,PlayerIsHeroine,（轻轻鼓掌）,黑骑士抓住少女说：|“白骑士！你赢得了她的心，但我赢得了肉体”,220,1,0,"GlobalStage(220, 1, 0)"
+200,0,0,PlayerIsHeroine,（无聊地打呵欠）,黑骑士抓住少女说：|“白骑士！你赢得了她的心，但我赢得了肉体”,220,-1,0,"GlobalStage(220, -1, 0)"
+200,0,0,DamselCanInteract,（轻轻鼓掌）,黑骑士抓住少女说：|“白骑士！你赢得了她的心，但我赢得了肉体”,220,1,0,"GlobalStage(220, 1, 0)"
+200,0,0,DamselCanInteract,（无聊地打呵欠）,黑骑士抓住少女说：|“白骑士！你赢得了她的心，但我赢得了肉体”,220,-1,0,"GlobalStage(220, -1, 0)"
+210,0,0,PlayerIsVillain,承认你的失败吧，她是我的,白骑士拿起剑大喊：“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, 1, 0)"
+210,0,0,PlayerIsVillain,你是失败的|她是我的。,白骑士用剑摸索着说：“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, -1, 0)"
+210,0,0,PlayerIsVillain,对不起，Julia|我忘了我的台词。,Julia叹了口气，低声对你说：“承认你的失败吧，她是我的”,200,0,0,ForgetLine()
+210,0,0,!PlayerIsVillain,（静静地听着）,黑骑士看着少女说：“承认你的失败吧，她是我的”,220,0,0,"GlobalStage(220, 0, 0)"
+210,0,0,PlayerIsHeroine,（轻轻鼓掌）,黑骑士看着少女说：“承认你的失败吧，她是我的”,220,1,0,"GlobalStage(220, 1, 0)"
+210,0,0,PlayerIsHeroine,（无聊地打呵欠）,黑骑士看着少女说：“承认你的失败吧，她是我的”,220,-1,0,"GlobalStage(220, -1, 0)"
+210,0,0,DamselCanInteract,（轻轻鼓掌）,黑骑士看着少女说：“承认你的失败吧，她是我的”,220,1,0,"GlobalStage(220, 1, 0)"
+210,0,0,DamselCanInteract,（无聊地打呵欠）,黑骑士看着少女说：“承认你的失败吧，她是我的”,220,-1,0,"GlobalStage(220, -1, 0)"
+230,0,0,PlayerIsVillain,小心！|（进行一场剑术对决）,你们互相攻击，开始了一场有趣但激烈的剑战。,235,0,0,NoLeave()
+230,0,0,PlayerIsVillain,不要打了，我认输。|（不战而退）,你放下剑，白骑士笑着向前走去。,240,0,0,Surrender()
+230,0,0,PlayerIsHeroine,（进行一场剑术对决）,你们互相攻击，开始了一场有趣但激烈的剑战。,235,0,0,NoLeave()
+230,0,0,PlayerIsHeroine,（不战而退）,你放下剑，黑骑士笑着向前走去。,270,0,0,Surrender()
+230,0,0,PlayerIsDamsel,（观看比赛）,两位骑士相互冲锋，进行了一场非常巧妙的剑战。,235,0,0,NoLeave()
+235,0,0,CanDoSwordDance,（跳剑舞） ADD_MINUTES:1,你在对手周围优雅舞剑，当她被你迷住时|你很容易解除她的武装。,270,0,0,SwordDance()
+235,0,0,CanIntimidate,（恐吓她） ADD_MINUTES:1,你威胁地看了Amanda一眼，她几乎不敢还手|让你解除了她的武装。,270,0,0,"GlobalStage(270, 0, 1)"
+235,0,0,CanDisarm,（解除她的武装） ADD_MINUTES:1,Amanda打了一场漂亮的仗，但你可以通过解除她的武装来获胜。,270,0,0,"GlobalStage(270, 0, 0)"
+235,0,0,PlayerIsVillain,（防守） ADD_MINUTES:1,你坚持防守动作，Amanda利用这一点解除了你的武装。,240,0,0,"GlobalStage(240, 0, 0)"
+235,0,0,PlayerIsVillain,（让Amanda赢） ADD_MINUTES:1,你不怎么还手，Amanda很容易解除你的武装。,240,0,0,"GlobalStage(240, 0, -1)"
+235,0,10,PlayerIsHeroine,（恐吓她） ADD_MINUTES:1,你威胁地看了Amanda一眼，她几乎不敢还手|让你解除了她的武装。,240,0,0,"GlobalStage(240, 0, 1)"
+235,0,2,PlayerIsHeroine,（解除她的武装） ADD_MINUTES:1,Amanda打了一场漂亮的仗，但你还是解除了她的武装。,240,0,0,"GlobalStage(240, 0, 0)"
+235,0,0,PlayerIsHeroine,（防守） ADD_MINUTES:1,你坚持防守动作，Amanda利用这一点解除了你的武装。,270,0,0,"GlobalStage(270, 0, 0)"
+235,0,0,PlayerIsHeroine,（让Amanda赢） ADD_MINUTES:1,你不怎么还手，Amanda很容易解除你的武装。,270,0,0,"GlobalStage(270, 0, -1)"
+235,0,0,PlayerIsDamsel,为你的白骑士欢呼！,,235,0,0,AmandaSarahFight(-4)
+235,0,0,PlayerIsDamsel,为你的黑骑士欢呼！,,235,0,0,AmandaSarahFight(4)
+235,0,0,PlayerIsDamsel,加油，Amanda！,,235,0,0,AmandaSarahFight(2)
+235,0,0,PlayerIsDamsel,加油，Sarah！,,235,0,0,AmandaSarahFight(-2)
+235,0,0,PlayerIsDamsel,（保持沉默，观看比赛）,,235,0,0,AmandaSarahFight(0)
+270,0,0,PlayerIsVillain,你是我的囚犯|（束缚她） ADD_MINUTES:1,你剥去白骑士的盔甲，用剧院里的物品束缚她。,280,0,0,"GlobalStage(280, -1, 0)"
+270,0,0,PlayerIsVillain,你是我的囚徒|（束缚她） ADD_MINUTES:1,你剥去白骑士的盔甲，用剧院里的物品束缚她。,280,0,0,"GlobalStage(280, 1, 0)"
+270,0,0,PlayerIsVillain,对不起，Julia|我忘了我的台词。,Julia轻声对你说：“你是我的囚犯。”,270,0,0,ForgetLine()
+270,0,0,PlayerIsHeroine,（保持沉默） ADD_MINUTES:1,黑骑士剥去你的衣服，束缚住你说：“你是我的囚犯。”,280,0,0,"GlobalStage(280, 0, 0)"
+270,0,0,PlayerIsHeroine,（向黑骑士鞠躬） ADD_MINUTES:1,黑骑士剥去你的衣服，束缚住你说：“你是我的囚犯。”,280,0,-1,"GlobalStage(280, 0, -1)"
+270,0,0,PlayerIsHeroine,哇哦！ ADD_MINUTES:1,黑骑士剥去你的衣服，束缚住你说：“你是我的囚犯。”,280,-1,0,"GlobalStage(280, -1, 0)"
+270,0,0,PlayerIsDamsel,（观看现场） ADD_MINUTES:1,反派剥去并束缚了女主角，同时说：“你是我的囚犯。”,280,0,0,"GlobalStage(280, 0, 0)"
+270,0,0,PlayerIsDamsel,黑骑士万岁！ ADD_MINUTES:1,反派剥去并束缚了女主角，同时说：“你是我的囚犯。”,280,1,0,"GlobalStage(280, 1, 0)"
+280,0,0,Common_PlayerGagged,@加..偶！,Amanda微笑着，尽量不嘲笑你口齿不清的喃喃自语。,280,0,0,
+280,10,0,DamselCanInteract,（去吻她） ADD_MINUTES:1,你们冲进她的怀里，在最后一幕中亲吻。,290,0,0,FinalKiss()
+280,0,-5,DamselCanInteract,（为她跪下） ADD_MINUTES:1,你为黑骑士跪拜。在最后一幕中，她轻轻抱住双腿。,290,0,0,FinalDomme()
+280,0,0,DamselCanInteract,（去抱抱她） ADD_MINUTES:1,你走到她的怀里，拥抱她做最后一幕。,290,0,0,FinalHug()
+280,2,0,DamselCanBeg,（做恳求的眼神） ADD_MINUTES:1,你做了一双甜蜜的恳求的眼睛，她把你从束缚中解放出来。,280,0,0,ReleasePlayer()
+280,0,0,DamselCanBeg,（向她投降） ADD_MINUTES:1,你向她投降，她决定在最后一幕把你们俩都关起来。,300,0,0,FinalTwoPrisoners()
+400,0,0,PlayerIsDamsel,骑士先生，今晚你可以让我着迷。,（她带着邪恶的笑容看着你）,400,0,0,Ravish()
+400,0,0,PlayerIsHeroine,我们应该一起练剑术。,（她点了点头，咯咯地笑了起来）,400,0,0,
+400,0,0,CanConvinceJuliaToStrip,Julia难道不应该|展现魅力吗？,非常真实，Julia夫人！|（Julia服从了，脱了一点衣服）,400,0,0,JuliaStrip()
+400,0,0,CanUntie,（解开她） ADD_MINUTES:1,（你解开绳结，她一边穿上衣服，一边把绳子扔给你）,400,0,0,Untie()
+400,0,0,CanUnstrap,（把她解开） ADD_MINUTES:1,（你解开单手套的带子和鞋带，解放她的手臂）,400,0,0,Untie()
+400,0,0,CanUngag,（解开她嘴上的束缚） ADD_MINUTES:1,（你去掉了口塞，她盯着你看）|你确定这一切都在剧本里吗？,400,0,0,Ungag()
+400,0,0,CanKiss,（吻她） ADD_MINUTES:1,（你靠近她，在她的嘴唇上吻了她一个长吻）|哦，COMMON_PLAYERNAME！你给了我美妙的吻。,400,0,0,Kiss()
+400,0,0,CanAbuse,（挠她一下） ADD_MINUTES:1,（你挠她的肋骨和肚子。她很痒，笑得很大声）,400,0,0,Tickle()
+400,0,0,CanAbuse,（打她） ADD_MINUTES:1,（每次拍打她都会呜咽。她显然不喜欢）,400,0,0,Spank()
+400,0,0,CanAbuse,（自慰她） ADD_MINUTES:1,（你抓住她，慢慢地给她手淫|她脸红了，试图控制自己的呻吟）,400,0,0,Masturbate()

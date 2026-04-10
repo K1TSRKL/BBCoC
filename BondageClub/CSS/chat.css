@@ -1,0 +1,791 @@
+@charset "UTF-8";
+
+.chat-room-sep {
+  padding-left: 3px !important;
+  border-bottom: var(--border-width) solid black !important;
+  border-top: var(--border-width) solid black !important;
+  position: sticky !important;
+  overflow: visible !important;
+  top: 0%;
+  z-index: 2;
+}
+
+.chat-room-sep:has(.chat-room-sep-collapse[aria-expanded="false"]):not(.chat-room-sep-last) {
+  border-bottom: unset !important;
+}
+
+.chat-room-sep-div {
+  width: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 6% auto;
+  gap: min(0.4vh, 0.2vw);
+  justify-items: center;
+  margin-right: 6%;
+  background-color: black;
+}
+
+.chat-room-sep-div > button {
+  width: 100%;
+  height: 100%;
+  color: gray;
+  background-color: var(--base-color);
+}
+
+.chat-room-sep-header {
+  user-select: text !important;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.chat-room-sep-image {
+  max-width: 50px;
+  max-height: 50px;
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1 / 1;
+  background: gray;
+  margin-block: 0.1em;
+}
+
+.chat-room-sep-image > span {
+  opacity: 0;
+}
+
+.chat-room-no-copy {
+  user-select: none;
+}
+
+.chat-room-sep-collapse {
+  font-weight: bold;
+  text-align: center;
+}
+
+#chat-room-div {
+  --button-size: min(8vh, 4vw);
+}
+
+#chat-room-div > * {
+  margin-bottom: max(3px, min(0.4vh, 0.2vw));
+}
+
+/*
+ * NOTE: Explicitly set the scrollbar gutter to auto, as the combination of `overflow-y: scroll` and
+ * `scrollbar-gutter: stable` (see `.scroll-box`) can get laggy on Chrome due to optimization issues
+ */
+#TextAreaChatLog {
+  background-color: white;
+  word-wrap: break-word;
+  padding: 0 !important;
+  overflow-y: scroll;
+  scrollbar-gutter: auto;
+  height: max-content;
+}
+
+#chat-room-bot {
+  --button-color: white;
+
+  display: grid;
+  grid-template:
+    "chat-input chat-buttons-div chat-buttons-collapse chat-length" min-content
+    "chat-input chat-buttons-div chat-buttons-collapse chat-buttons" min-content
+    / auto min-content min-content min-content;
+  border: var(--border-width) inset black;
+  background-color: white;
+  column-gap: min(0.4vh, 0.2vw);
+}
+
+#chat-room-bot:has(#InputChat:invalid) {
+  box-shadow: 0 0 3px 2px #c22;
+}
+
+#chat-room-bot:has(#InputChat:focus) {
+  outline: 2px solid rgb(0, 96, 223);
+  box-shadow: 0 0 0 3px white;
+  border-radius: 1px;
+}
+
+#chat-room-buttons-div {
+  grid-area: chat-buttons-div;
+  width: 0;
+  border-left: var(--border-width) inset black;
+  justify-self: center;
+}
+
+#chat-room-reply-indicator {
+  display: grid;
+  gap: max(3px, min(0.4vh, 0.2vw));
+  grid-template-columns: auto min-content;
+}
+
+#chat-room-reply-indicator > * {
+  background-color: white;
+}
+
+#chat-room-reply-indicator-text {
+  overflow: hidden;
+  user-select: none;
+}
+
+#chat-room-reply-indicator-text .button-label {
+  left: 0%;
+  padding-left: 4px;
+  text-align: start;
+}
+
+#chat-room-reply-indicator-close {
+  aspect-ratio: 1;
+}
+
+#chat-room-reply-indicator-close::before {
+  content: "❌";
+}
+
+#InputChat {
+  grid-area: chat-input;
+  min-height: var(--button-size);
+  max-height: calc(4 * var(--button-size));
+  font: inherit;
+  scrollbar-width: none;
+  background: unset;
+  color: unset;
+  border: unset;
+  outline: unset;
+}
+
+#InputChat:focus {
+  scrollbar-width: auto;
+}
+
+#InputChatLength {
+  grid-area: chat-length;
+  justify-self: end;
+  align-self: flex-end;
+  user-select: none;
+  padding-right: min(0.5vh, 0.25vw);
+}
+
+#InputChatLength.invalid {
+  color: #FF0000;
+}
+
+#chat-room-buttons-collapse {
+  grid-area: chat-buttons-collapse;
+  height: 100%;
+  width: fit-content;
+  font-weight: bold;
+}
+
+@media (hover: hover) {
+  #chat-room-buttons-collapse:hover {
+    background-color: var(--hover-color);
+  }
+}
+
+#chat-room-buttons-collapse:active,
+#chat-room-buttons-collapse[data-active] {
+  background-color: var(--hover-color);
+}
+
+#chat-room-buttons-collapse:disabled {
+  cursor: auto;
+  background-color: unset;
+  color: var(--disabled-color);
+}
+
+#chat-room-buttons {
+  grid-area: chat-buttons;
+  display: grid;
+  direction: rtl;
+  align-items: end;
+  justify-self: end;
+  align-self: flex-end;
+  grid-template-columns: repeat(3, min-content);
+  grid-template-rows: repeat(auto-fit, min-content);
+  gap: min(0.4vh, 0.2vw);
+  padding: min(0.4vh, 0.2vw);
+}
+
+.chat-room-button {
+  height: var(--button-size);
+  width: var(--button-size);
+}
+
+.chat-room-button::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-color: var(--button-color);
+  background-blend-mode: multiply;
+  background-size: contain;
+  mask-position: center;
+  mask-size: contain;
+}
+
+@media (hover: hover) {
+  .chat-room-button:hover::before {
+    background-color: var(--hover-color);
+  }
+}
+
+.chat-room-button:disabled::before,
+.chat-room-button[aria-disabled="true"]::before {
+  background-color: var(--disabled-color);
+}
+
+.chat-room-button:active::before,
+.chat-room-button[data-active]::before {
+  background-color: var(--hover-color);
+}
+
+#chat-room-send::before {
+  background-image: url("../Icons/Chat.png");
+  mask-image: url("../Icons/Chat.png");
+}
+
+.ChatMessage {
+  position: relative;
+  padding-left: 0.4em;
+
+  /* Match or exceed the .chat-room-metadata min-height value, lest Opera might hurt itself in confusion */
+  min-height: 1.15em;
+}
+
+.ChatMessageAction,
+.ChatMessageEmote,
+.ChatMessageActivity {
+  --base-color: white;
+  --label-color: rgb(128, 128, 128);
+
+  background-color: var(--base-color);
+}
+.chat-room-message-reply::before {
+  content: "↱";
+  position: relative;
+  top: 4px
+}
+.chat-room-message-reply {
+  display: block;
+  color: gray;
+  max-width: 90%;
+  font-size: 0.75em;
+  line-height: 1.15em;
+  text-align: left;
+}
+.ChatMessageName {
+  text-shadow: 0.05em 0.05em black;
+  color: var(--label-color);
+  user-select: text;
+}
+
+.ChatMessageName:hover {
+  color: black;
+  text-shadow: 0.05em 0.05em var(--label-color);
+}
+
+.ChatMessageAction,
+.ChatMessageActivity {
+  color: gray;
+}
+
+.ChatMessageEmote {
+  color: gray;
+  font-style: italic;
+}
+
+.ChatMessageWhisper {
+  font-style: italic;
+  color: silver;
+}
+
+#TextAreaChatLog[data-shrinknondialogue=true] .ChatMessageEmote {
+  font-size: 0.75em;
+}
+
+#TextAreaChatLog[data-colortheme=dark],
+#TextAreaChatLog[data-colortheme="dark2"] {
+  background-color: #111;
+  color: #eee;
+  --base-color: #111;
+  --base-font-color: #eee;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] ~ #chat-room-bot,
+#TextAreaChatLog[data-colortheme="dark2"] ~ #chat-room-bot,
+#TextAreaChatLog[data-colortheme="dark"] ~ #chat-room-reply-indicator > *,
+#TextAreaChatLog[data-colortheme="dark2"] ~ #chat-room-reply-indicator > * {
+  --button-color: #eee;
+  --base-color: #111;
+  --base-font-color: #eee;
+  background-color: #111;
+  border-color: rgba(0, 0, 0, 0.25);
+  color: #eee;
+}
+
+#TextAreaChatLog[data-colortheme="dark"]~#chat-room-buttons-div,
+#TextAreaChatLog[data-colortheme="dark2"]~#chat-room-buttons-div {
+  border-left: var(--border-width) inset rgba(0, 0, 0, 0.25);
+}
+
+@media (hover: hover) {
+  #TextAreaChatLog[data-colortheme="dark"] .chat-room-sep-header:hover,
+  #TextAreaChatLog[data-colortheme="dark2"] .chat-room-sep-header:hover,
+  #TextAreaChatLog[data-colortheme="dark"] .chat-room-sep-collapse:hover,
+  #TextAreaChatLog[data-colortheme="dark2"] .chat-room-sep-collapse:hover {
+    color: #eee;
+  }
+
+  #TextAreaChatLog[data-colortheme="dark"] .chat-room-sep-header:hover > .chat-room-sep-image,
+  #TextAreaChatLog[data-colortheme="dark2"] .chat-room-sep-header:hover > .chat-room-sep-image {
+    background-color: #eee;
+  }
+
+  #TextAreaChatLog[data-colortheme="light"] .chat-room-sep-header:hover,
+  #TextAreaChatLog[data-colortheme="light2"] .chat-room-sep-header:hover,
+  #TextAreaChatLog[data-colortheme="light"] .chat-room-sep-collapse:hover,
+  #TextAreaChatLog[data-colortheme="light2"] .chat-room-sep-collapse:hover {
+    color: black;
+  }
+
+  #TextAreaChatLog[data-colortheme="light"] .chat-room-sep-header:hover > .chat-room-sep-image,
+  #TextAreaChatLog[data-colortheme="light2"] .chat-room-sep-header:hover > .chat-room-sep-image {
+    background-color: black;
+  }
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-sep-header[data-active] > .chat-room-sep-image,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-sep-header[data-active] > .chat-room-sep-image {
+  background-color: #eee;
+}
+
+#TextAreaChatLog[data-colortheme="light"] .chat-room-sep-header[data-active] > .chat-room-sep-image,
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-sep-header[data-active] > .chat-room-sep-image {
+  background-color: black;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-sep-div>.button:active,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-sep-div>.button:active,
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-sep-div>.button[data-active],
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-sep-div>.button[data-active] {
+  color: #eee;
+}
+
+#TextAreaChatLog[data-colortheme="light"] .chat-room-sep-div>.button:active,
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-sep-div>.button:active,
+#TextAreaChatLog[data-colortheme="light"] .chat-room-sep-div>.button[data-active],
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-sep-div>.button[data-active] {
+  color: black;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .ChatMessageName {
+  text-shadow: 0.05em 0.05em white;
+}
+
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageName {
+  text-shadow: 0 0 0.12em rgba(0, 0, 0, .5);
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageName {
+  text-shadow: 0 0 0.12em rgba(255, 255, 255, .4);
+}
+
+#TextAreaChatLog[data-colortheme="light"][data-colornames=false] .ChatMessageName:hover {
+  text-shadow: 0.05em 0.05em black;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .ChatMessageName:hover {
+  color: white;
+  text-shadow: 0.05em 0.05em var(--label-color);
+}
+
+#TextAreaChatLog[data-colortheme="dark"][data-colornames=false] .ChatMessageName:hover {
+  text-shadow: 0.05em 0.05em white;
+  outline: black;
+}
+
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageName:hover {
+  color: black;
+  text-shadow: 0 0 0.12em var(--label-color);
+}
+
+#TextAreaChatLog[data-colortheme="light2"][data-colornames=false] .ChatMessageName:hover {
+  text-shadow: 0 0 0.12em black;
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageName:hover {
+  color: white;
+  text-shadow: 0 0 0.12em var(--label-color);
+}
+
+#TextAreaChatLog[data-colortheme="dark2"][data-colornames=false] .ChatMessageName:hover {
+  text-shadow: 0 0 0.12em white;
+}
+
+#TextAreaChatLog[data-colortheme=dark] .ChatMessageWhisper,
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageWhisper {
+  color: gray;
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessage,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessage {
+  padding-block: 0.1em;
+  padding-left: 0.1em;
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-message-content,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-message-original,
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-message-content,
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-message-original {
+  padding-right: 2em;
+  line-height: 1.4em;
+}
+
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessage {
+  border-bottom: var(--border-width) solid rgba(0, 0, 0, 0.25);
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessage {
+  border-bottom: var(--border-width) solid rgba(255, 255, 255, 0.4);
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageEmote,
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageAction,
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageActivity,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageEmote,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageAction,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageActivity {
+  font-size: 0.8em;
+}
+
+#TextAreaChatLog[data-enterleave=smaller] .ChatMessageEnterLeave {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+#TextAreaChatLog[data-shrinknondialogue=true] .ChatMessageNonDialogue {
+  font-size: 0.5em;
+  text-align: center;
+}
+
+#TextAreaChatLog[data-enterleave=hidden] .ChatMessageEnterLeave {
+  display: none;
+}
+
+#TextAreaChatLog[data-colornames=false] .ChatMessageName {
+  color: inherit !important;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+#TextAreaChatLog[data-coloractions=false] .ChatMessageAction,
+#TextAreaChatLog[data-coloremotes=false] .ChatMessageEmote,
+#TextAreaChatLog[data-coloractivities=false] .ChatMessageActivity {
+  background-color: var(--base-color) !important;
+}
+
+#TextAreaChatLog[data-whitespace=preserve] {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+#TextAreaChatLog[data-colortheme="light"] .ChatMessageAction,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageAction,
+#TextAreaChatLog[data-colortheme="light"] .ChatMessageEmote,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageEmote,
+#TextAreaChatLog[data-colortheme="light"] .ChatMessageActivity,
+#TextAreaChatLog[data-colortheme="light2"] .ChatMessageActivity {
+  --base-color: white;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .ChatMessageAction,
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageAction,
+#TextAreaChatLog[data-colortheme="dark"] .ChatMessageEmote,
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageEmote,
+#TextAreaChatLog[data-colortheme="dark"] .ChatMessageActivity,
+#TextAreaChatLog[data-colortheme="dark2"] .ChatMessageActivity {
+  --base-color: #111;
+}
+
+.ReplyButton {
+  text-decoration: none;
+  font-style: normal;
+  display: inline;
+  cursor: pointer;
+  font-size: smaller;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.chat-room-changelog {
+  background-color: #D696FF;
+  white-space: normal;
+  font: inherit;
+  overflow: visible;
+}
+
+.chat-room-changelog + .chat-room-changelog {
+  border-top: min(0.4vh, 0.2vw) solid black;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] > .chat-room-changelog,
+#TextAreaChatLog[data-colortheme="dark2"] > .chat-room-changelog {
+  background-color: #481D64;
+}
+
+.chat-room-changelog ul {
+  margin: unset;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.chat-room-changelog h1,
+.chat-room-changelog h2,
+.chat-room-changelog h3,
+.chat-room-changelog h4,
+.chat-room-changelog h5,
+.chat-room-changelog h6,
+.chat-room-changelog [role="heading"] {
+  font-size: inherit;
+  margin: unset;
+  padding: 0.25em;
+  text-align: center;
+}
+
+.chat-room-changelog img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.chat-room-changelog a {
+  color: #003f91;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] > .chat-room-changelog a,
+#TextAreaChatLog[data-colortheme="dark2"] > .chat-room-changelog a {
+  color: #a9ceff;
+}
+
+.chat-room-changelog a:visited {
+  color: #380091;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] > .chat-room-changelog a:visited,
+#TextAreaChatLog[data-colortheme="dark2"] > .chat-room-changelog a:visited {
+  color: #3d91ff;
+}
+
+.chat-room-changelog-button {
+  height: 1em;
+  width: 1em;
+}
+
+.chat-room-changelog-button > .button-label {
+  font-size: smaller;
+  color: #003f91;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-changelog-button > .button-label,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-changelog-button > .button-label {
+  color: #a9ceff;
+}
+
+.chat-room-changelog-button:hover > .button-label,
+.chat-room-changelog-button[data-active] > .button-label {
+  color: #380091;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-changelog-button:hover > .button-label,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-changelog-button:hover > .button-label,
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-changelog-button[data-active] > .button-label,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-changelog-button[data-active] > .button-label {
+  color: #3d91ff;
+}
+
+.chat-room-changelog-header-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-room-changelog-header-div > span[aria-hidden="true"] {
+  width: 0.5em;
+  text-align: center;
+  user-select: none;
+}
+
+.chat-room-changelog-header-div:has([aria-expanded="false"]) ~ * {
+  display: none;
+}
+
+.chat-room-changelog-image {
+	border: min(0.3vh, 0.15vw) solid black;
+	display: block;
+	line-height: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.chat-room-message-popup {
+  display: grid;
+  grid-auto-flow: column;
+  direction: rtl;
+  visibility: hidden;
+  position: absolute;
+  top: -0.15em;
+  right: 0%;
+  z-index: 1;
+  background-color: var(--base-color, white);
+  border: 2px solid black;
+  border-right: unset;
+  border-radius: 0.3em 0px 0px 0.3em;
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.chat-room-message-popup > button {
+  direction: ltr;
+  height: 100%;
+  min-height: 1.15em;
+  min-width: 1.15em;
+  border-right: 2px solid black;
+  position: unset;
+  color: gray;
+}
+
+.chat-room-message-popup > button[name="reply"]::before {
+  content: "↲";
+}
+
+.chat-room-message-popup > .chat-room-metadata {
+  margin-top: calc(0.15em - 2px);
+}
+
+.chat-room-message-popup .chat-room-sender {
+	user-select: all;
+}
+
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-message-popup > .chat-room-metadata ,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-message-popup > .chat-room-metadata  {
+  margin-top: calc(0.15em - 4px);
+}
+
+#TextAreaChatLog[data-disablereplies="true"] .chat-room-message-popup {
+  display: none;
+}
+
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-message-popup,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-message-popup {
+  top: 0;
+}
+
+#TextAreaChatLog[data-colortheme="dark"] .chat-room-message-popup > button:hover,
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-message-popup > button:hover {
+  color: #eee;
+}
+
+#TextAreaChatLog[data-colortheme="light"] .chat-room-message-popup > button:hover,
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-message-popup > button:hover {
+  color: black;
+}
+
+.ChatMessage:focus-within > .chat-room-message-popup,
+.ChatMessage:hover > .chat-room-message-popup {
+  visibility: visible;
+}
+
+.chat-room-friendrequest-buttons button {
+  padding: 0.2em 0.5em;
+  margin: 0.2em 0.1em;
+  color: black;
+}
+
+.chat-room-metadata {
+  user-select: none;
+  min-width: 1.3em;
+  min-height: 1.15em;
+  margin-right: min(0.4vh, 0.2vw);
+  color: gray;
+  float: right;
+}
+
+.chat-room-metadata > * {
+  display: block;
+  text-align: right;
+}
+
+#TextAreaChatLog[data-displaytimestamps="false"][data-membernumbers="never"] .chat-room-metadata {
+  display: none;
+}
+
+.chat-room-time {
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+#TextAreaChatLog[data-displaytimestamps="false"] .chat-room-time {
+  display: none;
+}
+
+.chat-room-sender {
+  font-size: 0.3em;
+}
+
+#TextAreaChatLog[data-colortheme="dark2"] .chat-room-sender,
+#TextAreaChatLog[data-colortheme="light2"] .chat-room-sender {
+  font-size: 0.5em;
+}
+
+#TextAreaChatLog[data-membernumbers="never"] .chat-room-sender,
+#TextAreaChatLog[data-membernumbers="onmouseover"] .chat-room-sender {
+  display: none;
+}
+
+#TextAreaChatLog[data-membernumbers="onmouseover"] .ChatMessage:focus .chat-room-sender,
+#TextAreaChatLog[data-membernumbers="onmouseover"] .ChatMessage:has(:focus-visible) .chat-room-sender,
+#TextAreaChatLog[data-membernumbers="onmouseover"] .ChatMessage:hover .chat-room-sender {
+  display: block;
+}
+
+#TextAreaChatLog .beep-link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@supports (height: 100dvh) {
+  #chat-room-div {
+    --button-size: min(8dvh, 4dvw);
+  }
+
+  .chat-room-changelog-image {
+    border: min(0.3dvh, 0.15dvw) solid black;
+  }
+
+  .chat-room-changelog + .chat-room-changelog {
+    border-top: min(0.4dvh, 0.2dvw) solid black;
+  }
+
+  .chat-room-metadata {
+    margin-right: min(0.4dvh, 0.2dvw);
+  }
+}
+
+@supports (background-color: color-mix(in srgb, black 50%, transparent)) {
+  .chat-room-sep-div > button,
+  .ChatMessageAction,
+  .ChatMessageEmote,
+  .ChatMessageActivity {
+    background-color: color-mix(in srgb, var(--base-color) 90%, var(--label-color) 10%);
+  }
+
+  .ChatMessage:focus,
+  .ChatMessage:has(:focus-visible),
+  .chat-room-message-popup {
+    background-color: color-mix(in srgb, var(--base-color, white) 90%, gray 10%);
+  }
+}

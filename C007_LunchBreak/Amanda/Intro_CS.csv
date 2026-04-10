@@ -1,0 +1,51 @@
+Stage,LoveReq,SubReq,VarReq,IntroText,Image
+0,0,0,,"Jé, COMMON_PLAYERNAME! Chceš ukázat,|kde je tu školní jídelna?",AmandaIntro.jpg
+0,5,0,,COMMON_PLAYERNAME! Ráda tě vidím!|Už jsi našla školní jídelnu?,AmandaIntroHappy.jpg
+0,0,5,,"Zdravím vás, slečno COMMON_PLAYERNAME. (Sklání hlavu.)|Našla jste školní jídelnu?",AmandaIntroSubbie.jpg
+0,1,-3,,"Ahoj děvče, je čas na oběd!|Potřebuješ pomoct najít školní jídelnu?",AmandaIntroDomme.jpg
+0,0,0,TeamAgainstMildred,"Pořád nemůžu uvěřit, že jsme Mildred svázali!|Mimochodem, školní jídelnu jsi už našla?",AmandaIntroHappy.jpg
+0,0,0,TeamFailAgainstMildred,"Pořád nemůžu uvěřit, že jsme Mildred zkusili přemoct.|Mimochodem, školní jídelnu jsi už našla?",AmandaIntro.jpg
+5,0,0,,"(Amanda uteče, sotva tě zahlédne.|Předstírá, že má naspěch.)",AmandaGone.jpg
+10,0,0,,"Můžeš zkusit školní jídelnu,|ale jídlo tam není moc dobré.",AmandaIntro.jpg
+10,0,5,,"Pokud máte opravdu hlad, můžete zkusit školní|jídelnu, já bych to ale nedoporučovala, slečno.",AmandaIntroSubbie.jpg
+10,1,-3,,"Můžeš zkusit školní jídelnu,|ale jídlo tam není z nejlepších.",AmandaIntroDomme.jpg
+20,0,0,,"Nedaleko je malá kavárna,|kterou bys mohla zkusit, jestli chceš.",AmandaIntro.jpg
+20,0,5,,"Slečno, nedaleko je kavárna,|kterou byste mohla zkusit, jestli chcete.",AmandaIntroSubbie.jpg
+20,1,-3,,"Květinka, jako jsi ty, by měla zkusit blízkou kavárnu.|Je mnohem hezčí než školní jídelna.",AmandaIntroDomme.jpg
+30,0,0,,Chtěla bys jít do té kavárny se mnou?,AmandaIntro.jpg
+30,0,5,,"Přála byste si jít teď do té kavárny|se mnou, slečno?",AmandaIntroSubbie.jpg
+30,1,-3,,"Připrav si peněženku, půjdeme|do té kavárny spolu.",AmandaIntroDomme.jpg
+40,0,0,,"Omlouvám se, ale nemůžu jít jít s tebou.|Na oběd už mám plány.",AmandaIntro.jpg
+50,0,0,,,AmandaGone.jpg
+100,0,0,,,AmandaPlayerLunch0.jpg
+110,0,0,,,AmandaPlayerLunch0.jpg
+120,0,0,,,AmandaPlayerLunch0.jpg
+130,0,0,,,AmandaPlayerLunch0.jpg
+140,0,0,,,AmandaPlayerLunch0.jpg
+150,0,0,,,AmandaPlayerLunch0.jpg
+160,0,0,,,AmandaPlayerLunch0.jpg
+170,0,0,,,AmandaPlayerLunch0.jpg
+180,0,0,,,AmandaPlayerLunch0.jpg
+200,0,0,,"(Jak se tak vracíte zpět, popadnete se za ruce|a běžíte do opuštěného koutku.)",AmandaPlayerLovers.jpg
+210,0,0,,,AmandaPlayerLovers.jpg
+220,0,0,,,AmandaPlayerLoversKiss.jpg
+230,0,0,,,AmandaPlayerLoversKiss2.jpg
+240,0,0,,,AmandaPlayerLoversTouch.jpg
+250,0,0,,,AmandaPlayerLoversOrgasm.jpg
+260,0,0,,,AmandaPlayerLovers.jpg
+270,0,0,,,AmandaPlayerLovers.jpg
+280,0,0,,,AmandaPlayerLoversKiss.jpg
+300,0,0,,"(Jak se tak vracíte zpátky do školy, popadneš|ji za ruku a táhneš ji do opuštěného koutku.)",AmandaPlayerIsDomme.jpg
+310,0,0,,,AmandaPlayerIsDommeKiss.jpg
+320,0,0,,,AmandaPlayerIsDomme.jpg
+330,0,0,,,AmandaPlayerIsDommeTouch.jpg
+400,0,0,,"(Jak se tak vracíte zpátky do školy, popadne tě|za ruku a táhne tě do opuštěného koutku.)",AmandaPlayerIsSubbie.jpg
+410,0,0,,,AmandaPlayerIsSubbie.jpg
+420,0,0,,,AmandaPlayerIsSubbieStrip.jpg
+430,0,0,,,AmandaPlayerIsSubbieBack.jpg
+440,0,0,,,AmandaPlayerIsSubbieRope.jpg
+450,0,0,,,AmandaPlayerIsSubbieRopeBallGag.jpg
+460,0,0,,,AmandaPlayerIsSubbieTouch.jpg
+470,0,0,,,AmandaPlayerIsSubbieOrgasm.jpg
+480,0,0,,,AmandaPlayerIsSubbieRope.jpg
+490,0,0,,,AmandaPlayerIsSubbie.jpg

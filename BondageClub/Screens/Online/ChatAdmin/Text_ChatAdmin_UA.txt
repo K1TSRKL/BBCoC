@@ -1,0 +1,116 @@
+Room Name
+Назва кімнати
+Language
+Мова
+Description
+Опис
+Ban List
+Список банів
+Whitelist
+Білий список
+Administrator List
+Список адмінів
+Never use the map exploration
+Ніколи не використовувати режим карти
+Hybrid map, can go on and off
+Гібрид (карта та звичайний режим)
+Only use the map, no regular chat
+Використовувати лише режим карти
+Size (2-20)
+Розмір (2-20)
+Member numbers separated by commas (ex: 123, ...)
+Номери учасників, розділені комами (пр: 123, ...)
+Use the above buttons to quickadd to the respective lists
+Використовуйте вищевказані кнопки для швидкого додавання до відповідних списків
+Blacklist
+чорний список
+Ghostlist
+список привидів
+Owner
+власника
+Lovers
+коханих
+Friends
+Друзі
+Room settings can only be updated by administrators
+Налаштування кімнати можуть оновлювати лише адміністратори
+Background
+Задній фон
+Visibility
+Видимість
+Access
+Доступ
+Public
+Громадськість
+Admin + Whitelist
+Адміністратор + Білий список
+Admin
+Адміністратор
+Unlisted
+Не внесено до списку
+Import room code
+Імпортувати код кімнати
+Please paste the room code. Importing room codes will overwrite existing settings. Are you sure?
+Будь ласка, вставте код кімнати. Імпорт кодів кімнат призведе до перезапису існуючих налаштувань. Ви впевнені?
+Failed to parse the passed room code (incomplete? invalid? outdated?)
+Не вдалося розпізнати наданий код кімнати (неповний? недійсний? застарілий?)
+Successfully imported room code
+Код кімнати успішно імпортовано
+Export room code
+Експортувати код кімнати
+Failed to copy room code to clipboard
+Не вдалося скопіювати код кімнати в буфер обміну
+Room code copied to clipboard
+Код кімнати скопійовано в буфер обміну
+Create
+Створити
+Save
+Зберегти
+Exit
+Вийти
+Cancel
+Скасувати
+Updating the chat room...
+Оновлюємо кімнату...
+This room name is already taken
+Назва кімнати вже зайнята
+Account error, please try to relog
+Помилка акаунту, спробуйте перезайти
+Invalid chat room data detected
+Виявлено недійсні дані кімнати
+Block Categories
+Заблокувати категорії
+Customization
+Налаштування
+Don't use maps
+Не використовувати карти
+Allow on and off
+Дозволини перекатися
+Only use maps
+Використовувати лише карти
+No Game
+Без гри
+Club Card
+Клубні карти
+LARP
+LARP‎
+Magic Battle
+Магічна битва
+GGTS
+GGTS‎
+(Click anywhere to return)
+(Натисніть будь-де, щоб повернутися)
+English
+Англійська
+French
+Французька
+Spanish
+Іспанська
+German
+Німецька
+Ukrainian
+Українська
+Chinese
+Китайська
+Russian
+Російська

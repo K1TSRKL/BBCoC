@@ -1,0 +1,168 @@
+Select your displayed name and title
+Выберите отображаемое имя и титул
+Current title: TITLE
+Текущий титул: ТИТУЛ
+Nickname (letters and spaces)
+Псевдоним (буквы и пробелы)
+Nickname locked by your owner
+Псевдоним заблокирован вашей Хозяйкой
+Nickname is too long (max. 20 characters)
+Псевдоним слишком длинный (не более 20 символов)
+Nickname contains invalid characters
+Псевдоним содержит недопустимые символы
+None
+Нет
+Mistress
+Госпожа
+Club Slave
+Клубная рабыня
+Head Maid
+Главная горничная
+Maid
+Горничная
+Bondage Maid
+Бондаж Горничная
+Master Kidnapper
+Мастер-похититель
+Kidnapper
+Похититель
+Patient
+Пациент
+Permanent Patient
+Постоянный пациент
+Escaped Patient
+Сбежавший пациент
+Nurse
+Медсестра
+Doctor
+Доктор
+Lady Luck
+Леди Удача
+Patron
+Покровитель
+College Student
+Студент колледжа
+Nawashi
+Веревочный художник
+Houdini
+Гудини
+Superheroine
+Супергероиня
+Superhero
+Супергерой
+Foal
+Жеребенок
+Farm Horse
+Фермерская лошадь
+Cold Blood Horse
+Хладнокровная Лошадь
+Warm Blood Horse
+Обычная Лошадь
+Hot Blood Horse
+Горячая Лошадь
+Wild Mustang
+Дикий Мустанг
+Shining Unicorn
+Сияющий Единорог
+Flying Pegasus
+Летающий Пегас
+Majestic Alicorn
+Величественный Аликорн
+Mole
+Крот
+Infiltrator
+Лазутчик
+Agent
+Агент
+Operative
+Оперативник
+Superspy
+Супер шпион
+Wizard
+Волшебник
+Magus
+Маг
+Magician
+Фокусник
+Sorcerer
+Колдун
+Sage
+Мудрец
+Oracle
+Оракул
+Witch
+Ведьма
+Warlock
+Чернокнижник
+Little One
+Малыш
+Baby
+Младенец
+Diaper Lover
+Любитель Подгузников
+Bondage Baby
+Связанный Ребёнок
+Duchess
+Герцогиня
+Switch
+Свитч
+Princess
+Принцесса
+Prince
+Принц
+Missy
+Мисси
+Sissy
+Сисси
+Tomboy
+Томбой
+Femboy
+Фембой
+Pet
+Питомец
+Brat
+Сопляк
+Kitten
+Котёнок
+Puppy
+Щенок
+Foxy
+Лис
+Bunny
+Кролик
+Doll
+Кукла
+Demon
+Демон
+Angel
+Ангел
+Alien
+Чужак
+Succubus
+Суккуб
+Incubus
+Инкуб
+Good Girl
+Хорошая Девочка
+Good Boy
+Хороший Мальчик
+Good Slave Girl
+Хорошая Девочка-Рабыня
+Good Slave Boy
+Хороший Мальчик-Раб
+Good Slave
+Хороший Раб
+Drone
+Дрон
+Good One
+Хороший Вариант
+Liege
+Сеньор
+Concubus
+Сожитель
+Majesty
+Величество
+Captain
+Капитан
+Admiral
+Адмирал

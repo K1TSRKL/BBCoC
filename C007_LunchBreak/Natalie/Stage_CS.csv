@@ -1,0 +1,244 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,"Ahoj! Jo, zrovna|jsem přestoupila.",Myslela jsem si to. Mé jméno je Natálie.,10,0,0,
+0,0,0,,"Ahoj, první den. Ale už|připadá mi to jako týdny.","První dny se ti takové můžou zdát.|Natálie, ráda tě poznávám.",10,0,0,
+0,0,0,,"Ano jsem, ale asi mě|teď budeš vídat častěji!","Super, já jsem Natálie.",10,1,0,
+0,0,0,,"Nová? Zdá se mi,|že jsem tu dýl než ty.","Uznávám, to bylo dost neomalené, omlouvám se.|Jmenuji se Natálie.",10,0,1,
+10,0,0,,"Můžeš mi říct,|kde je tady jídelna?","Pokud to fakt chceš. Ale je pěkně mizerná.|Já raději obědvám v univerzitním klubu.",20,0,0,
+10,0,0,,Mám fakt hlad.|Mohla bys mi pomoct?,"Obědová pauza, to není jenom jídlo.|Neuvažovala jsi, že bys vstoupila do klubu?",20,0,-1,
+10,0,0,,Kde je tady nejlepší|dát si oběd?,"Dost studentů chodí do blízké kavárny,|ale podle mě jsou nejlepší klubové obědy.",20,1,0,
+20,0,0,,"Kluby, na ty si potrpím!|Per to do mě.","Já jsem v Kinbaku klubu,|který je zdaleka nejlepší.",30,1,1,
+20,0,0,,"Klub, a to by|mě nějaký chtěl?",Určitě! Kinbaku klub tě bude jednoduše milovat!,30,1,-1,
+20,0,0,,Nejsou kluby|jenom pro šprty?,"Děláš si ze mě legraci?|Kinbaku klub je daleko lepší než ty, co znáš.",30,0,0,
+20,0,0,,"Kluby! Ani náhodou,|já se chci jen najíst.","Pokud to cítíš takhle, tak si asi najdi tu jídelnu.",40,-1,0,
+20,0,0,,Kluby nejsou pro mě.|Příliš mnoho zasvěcování.,"Tak jo, já už musím jít. Někdo jiný|ti jistě ukáže nějakou pěknou kavárnu.",40,0,0,
+30,0,0,,Tak tedy pojďme!|(Běž s Natalií do klubu.),(Natálie tě bere do nedaleké volné učebny.),100,0,0,StartLunch()
+30,0,0,,"Asi ne, opravdu se|potřebuju pořádně najíst.","Tak jo, pokud si troufáš, pak jídelna,|jinak si najdi nějakou kavárnu.",40,0,0,
+40,0,0,,Užij si tedy|svou polední pauzu!,To každopádně! (Zamává ti a odchází pryč.),50,1,0,EndLunch()
+40,0,0,,"Tak jo, uvidíme se.",Rozhodně! (Zamává ti a odchází pryč.),50,0,0,EndLunch()
+40,0,0,,Ty jsi na prd!,"Ne, ty jsi na prd!|(Otáčí se a utíká pryč.)",50,-2,0,EndLunch()
+100,0,0,,"Tý jo, to je|reverse prayer?","Jasně! Zdá se, že se vyznáš.|Chloe se právě protahuje po hodině baletu.",110,1,0,
+100,0,0,,Je v pohodě?|Vypadá to drsně.,"To víš že, je. Chloe je při protahování|stejně pružná, jako na svých hodinách baletu.",110,0,0,
+100,0,0,,"Nevím, jestli|bych tohle zvládla.","Nemůžeme být všichni tak ohební, jako je Chloe.",110,0,-1,
+100,0,0,,"No ne, netušila jsem,|co je to Kinbaku.","Doslova to znamená „pevné svázání“.|Ale neboj se, budeš v pohodě.",110,0,-1,
+100,0,0,,"Boží, vsadím se, že tak|svázaná vypadáš skvěle.","Díky, ale já nejsem takhle ohebná,|jako je támhle Chloe.",110,1,1,
+110,0,0,,Neříkala jsi|něco o jídle?,"Ano, máme objednanou donášku jídla. Co takhle|jedno rychlé svázání, zatímco budeme čekat?",120,0,0,
+110,0,0,,Tak kde je to jídlo?|Mám už hlad.,Už se blíží roznáška jídla.|Nechceš si zatím zkusit nějaké vázání?,120,-1,1,
+110,0,0,,"Mohla bych si už dát|nějaký oběd, prosím?","Ještě chvíli počkej, donesou nám ho.|Trocha Kinbaku nám pomůže ukrátit si čas.",120,0,-1,
+120,0,0,,Můžu tě svázat?,"To rozhodně ne! Noví členové se nejprve|musí naučit, jak to tady chodí.",130,-1,-1,
+120,0,0,,Můžeš mě svázat?,"Samozřejmě, povinností nového člena|je nejprve se nechat svázat.",130,0,-1,
+120,1,1,,Ale jen jestli tě můžu|svázat jako první!,"Dobrá tedy, normálně se ale nejdřív vážou nováčci.|V klubu máme spoustu lana, co můžeš použít.",140,0,1,
+120,1,1,,"Předpokládám, že|nejprve se vážou nováčci.","Samozřejmě, i když bych tě možná nechala|nejdřív svázat mě. Svou šanci jsi ale propásla.",130,1,-1,
+130,0,0,,"Páni, to je vzrušující.",(Stáhne ti paže za záda a pevně je váže.)|To rozhodně ano!,150,1,0,PlayerRope()
+130,0,0,,"Au, ne tak pevně prosím.",Ale to musí být pevně!|(Stáhne ti paže za záda a pevně je váže.),150,-1,0,PlayerRope()
+130,0,0,,"Dobře, slečno,|ale buďte prosím něžná.",Ty jsi tak slaďoučká!|(Stáhne ti paže za záda a pevně je váže.),150,1,-1,PlayerRope()
+140,0,0,,Teď dej ruce za záda!,"Ano, slečno!|(Stáhneš jí paže za záda a pevně je vážeš.)",160,0,1,NatalieTied()
+140,0,0,,Svázaná provazy|budeš vypadat skvěle.,"(Stáhneš jí paže za záda a pevně je vážeš.)|Jsem ráda, že se ti to líbí.",160,1,0,NatalieTied()
+150,0,0,,To je ta donáška jídla?,"(Přichází Jenna s jídlem.) Tentokrát jsem objednala|pizzu, pomozte to svým subinkám nasoukat dovnitř.",170,0,0,
+160,0,0,,To je ta donáška jídla?,"(Přichází Jenna s jídlem.) Tentokrát jsem objednala|pizzu, pomozte to svým subinkám nasoukat dovnitř.",180,0,0,
+170,0,0,,"Můžeš mi prosím|pomoct se najíst, Natálie?","Jistě, když jsi byla tak poslušná.|Tak, jak se ti zatím líbí naše škola?",200,1,-1,
+170,0,0,,"No tak, Natálie,|na tohle jsem se těšila!","Jistě, když ses ode mě nechala svázat…|Tak, jak se ti zatím líbí naše škola?",200,1,0,
+180,0,0,,"Chtěla bys kousek,|Natálie?","Rozhodně chtěla!|Tak, jak se ti zatím líbí naše škola?",250,0,0,
+180,0,0,,"Zasloužíš si taky,|Natálie?","Ó ano, zasloužím, slečno!|Tak, jak se ti zatím líbí naše škola?",250,0,1,
+200,0,0,,"Moc! Zdá se, že|je to dobrá univerzita.","Ano a ne, některé hodiny jsou praktičtější.|A co bys v životě chtěla být?",210,0,0,Eat()
+200,0,0,,"Tahle škola, to je|hotový blázinec.",Mně se zdá být rozumná dost.|A co bys v životě chtěla být?,210,0,0,EatBadMatch()
+200,0,0,,Takhle úchylnou školu|jsem ještě neviděla!,(Nahlas se směje.) To se nedivím!|A co bys v životě chtěla být?,210,1,0,EatGoodMatch()
+200,0,0,,"Těžko soudit,|z těch pár hodin.",Už tady nějakou dobu jsem a taky si ještě|nejsem jista. A co bys v životě chtěla být?,210,0,0,EatGoodMatch()
+200,0,0,,Je to pěkně|nudná škola.,"No jo, některé předměty asi dokážou být nudné.|A co bys v životě chtěla být?",210,0,0,Eat()
+210,0,0,,Muzikantka.,Boží! A co je tvůj oblíbený předmět?,220,0,0,EatGoodMatch()
+210,0,0,,Doktorka.,To je pěkné. A co je tvůj oblíbený předmět?,220,0,0,Eat()
+210,0,0,,Atletka.,Boží! A co je tvůj oblíbený předmět?,220,0,0,EatGoodMatch()
+210,0,0,,Učitelka.,Ty jenom vymývají dětem mozky.|A co je tvůj oblíbený předmět?,220,-1,0,EatBadMatch()
+210,0,0,,Herečka.,To je pěkné. A co je tvůj oblíbený předmět?,220,0,0,Eat()
+210,0,0,,Domina.,(Usmívá se.) A co je tvůj oblíbený předmět?,220,1,0,Eat()
+210,0,0,,Architektka.,To je pěkné. A co je tvůj oblíbený předmět?,220,0,0,Eat()
+210,0,0,,Farmářka.,Jako moje sestřenice! Naučila mě spoustu uzlů.|A co je tvůj oblíbený předmět?,220,0,0,EatGoodMatch()
+210,0,0,,Programátorka.,Nuda! A co je tvůj oblíbený předmět?,220,0,0,EatBadMatch()
+210,0,0,,Já ještě nevím.,"No tááák, už přece musíš mít nějakou představu.|Co je třeba tvůj oblíbený předmět?",220,0,0,EatBadMatch()
+220,0,0,,Matika.,Čísla aspoň nelžou?|A co děláš mimo školu?,230,0,0,Eat()
+220,0,0,,Hudebka.,Super! A co děláš mimo školu?,230,0,0,EatGoodMatch()
+220,0,0,,Čeština.,"Literatura, to je jenom kreativní lhaní.|A co děláš mimo školu?",230,0,0,EatBadMatch()
+220,0,0,,Tělocvik.,Lekce Hojojutsu jsou super.|A co děláš mimo školu?,230,0,0,EatGoodMatch()
+220,0,0,,Chemie.,Výbušné reakce mě baví.|A co děláš mimo školu?,230,0,0,EatGoodMatch()
+220,0,0,,Francouzština.,Nuda! A co děláš mimo školu?,230,0,0,EatBadMatch()
+220,0,0,,Výtvarka.,S Julií je aspoň sranda!|A co děláš mimo školu?,230,0,0,Eat()
+220,0,0,,Dějepis.,To je hezké. A co děláš mimo školu?,230,0,0,Eat()
+220,0,0,,Divadelní kroužek.,To je hezké. A co děláš mimo školu?,230,0,0,Eat()
+220,0,0,,Já nevím.,"Neboj, je to jen o učení ne o vědění.|A co děláš mimo školu?",230,0,0,Eat()
+230,0,0,,Basketball.,To je hezké. (Společně dojídáte pizzu.),240,0,0,Eat()
+230,0,0,,Rockovou muziku.,Boží! (Společně dojídáte pizzu.),240,0,0,EatGoodMatch()
+230,0,0,,Počítačové hry.,Super! (Společně dojídáte pizzu.),240,0,0,EatGoodMatch()
+230,0,0,,Roztleskávání.,To je hezké. (Společně dojídáte pizzu.),240,0,0,Eat()
+230,0,0,,Chodím na párty.,To je hezké. (Společně dojídáte pizzu.),240,0,0,Eat()
+230,0,0,,Hry pro hrdiny.,Super! (Společně dojídáte pizzu.),240,0,0,EatGoodMatch()
+230,0,0,,Opíjím se.,"Opíjení je prima, ale kocovina je na hovno.|(Společně dojídáte pizzu.)",240,0,0,EatBadMatch()
+230,0,0,,Klasickou hudbu.,To je hezké. (Společně dojídáte pizzu.),240,0,0,Eat()
+230,0,0,,Šukám.,(Usmívá se.) Ty jsi tak zvrácená!|(Společně dojídáte pizzu.),240,1,0,EatGoodMatch()
+230,0,0,,Nemám koníčky.,Vážně? (Společně dojídáte pizzu.),240,0,0,EatBadMatch()
+240,0,0,,"Tak, co budeme|dělat teď?",Není to snad jasné?,320,0,0,TestMatch()
+240,0,0,,Můžeme zkusit|ještě další Kinbaku?,No jasně!,320,1,0,TestMatch()
+250,0,0,,"Moc! Zdá se, že|je to dobrá univerzita.","Ano a ne, některé hodiny jsou praktičtější.|A co bys v životě chtěla být?",260,0,0,Eat()
+250,0,0,,"Tahle škola, to je|hotový blázinec.",Mně se zdá být rozumná dost.|A co bys v životě chtěla být?,260,0,0,EatBadMatch()
+250,0,0,,Takhle úchylnou univerzitu|jsem ještě neviděla!,(Nahlas se směje.) To se nedivím!|A co bys v životě chtěla být?,260,0,0,EatGoodMatch()
+250,0,0,,"Těžko soudit,|z těch pár hodin.",Už tady nějakou dobu jsem a taky si ještě|nejsem jista. A co bys v životě chtěla být?,260,0,0,EatGoodMatch()
+250,0,0,,Je to pěkně|nudná škola.,"No jo, některé předměty asi dokážou být nudné.|A co bys v životě chtěla být?",260,0,0,Eat()
+260,0,0,,Muzikantka.,Boží! A co je tvůj oblíbený předmět?,270,0,0,EatGoodMatch()
+260,0,0,,Doktorka.,To je pěkné. A co je tvůj oblíbený předmět?,270,0,0,Eat()
+260,0,0,,Atletka.,Boží! A co je tvůj oblíbený předmět?,270,0,0,EatGoodMatch()
+260,0,0,,Učitelka.,Ty jenom vymývají dětem mozky.|A co je tvůj oblíbený předmět?,270,-1,0,EatBadMatch()
+260,0,0,,Herečka.,To je pěkné. A co je tvůj oblíbený předmět?,270,0,0,Eat()
+260,0,0,,Domina.,(Usmívá se.) A co je tvůj oblíbený předmět?,270,1,0,Eat()
+260,0,0,,Architektka.,To je pěkné. A co je tvůj oblíbený předmět?,270,0,0,Eat()
+260,0,0,,Farmářka.,Jako moje sestřenice! Naučila mě spoustu uzlů.|A co je tvůj oblíbený předmět?,270,0,0,EatGoodMatch()
+260,0,0,,Programátorka.,Nuda! A co je tvůj oblíbený předmět?,270,0,0,EatBadMatch()
+260,0,0,,Já ještě nevím.,"No tááák, už přece musíš mít nějakou představu.|Co je třeba tvůj oblíbený předmět?",270,0,0,EatBadMatch()
+270,0,0,,Matika.,Čísla aspoň nelžou?|A co děláš mimo školu?,280,0,0,Eat()
+270,0,0,,Hudebka.,Super! A co děláš mimo školu?,280,0,0,EatGoodMatch()
+270,0,0,,Čeština.,"Literatura, to je jenom kreativní lhaní.|A co děláš mimo školu?",280,0,0,EatBadMatch()
+270,0,0,,Tělocvik.,Lekce Hojojutsu jsou super.|A co děláš mimo školu?,280,0,0,EatGoodMatch()
+270,0,0,,Chemie.,Výbušné reakce mě baví.|A co děláš mimo školu?,280,0,0,EatGoodMatch()
+270,0,0,,Francouzština.,Nuda! A co děláš mimo školu?,280,0,0,EatBadMatch()
+270,0,0,,Výtvarka.,S Julií je aspoň sranda!|A co děláš mimo školu?,280,0,0,Eat()
+270,0,0,,Dějepis.,To je hezké. A co děláš mimo školu?,280,0,0,Eat()
+270,0,0,,Divadelní kroužek.,To je hezké. A co děláš mimo školu?,280,0,0,Eat()
+270,0,0,,Já nevím.,"Neboj, je to jen o učení ne o vědění.|A co děláš mimo školu?",280,0,0,Eat()
+280,0,0,,Basketball.,To je hezké. (Společně dojídáte pizzu.),290,0,0,Eat()
+280,0,0,,Rockovou muziku.,Boží! (Společně dojídáte pizzu.),290,0,0,EatGoodMatch()
+280,0,0,,Počítačové hry.,Super! (Společně dojídáte pizzu.),290,0,0,EatGoodMatch()
+280,0,0,,Roztleskávání.,To je hezké. (Společně dojídáte pizzu.),290,0,0,Eat()
+280,0,0,,Chodím na párty.,To je hezké. (Společně dojídáte pizzu.),290,0,0,Eat()
+280,0,0,,Hry pro hrdiny.,Super! (Společně dojídáte pizzu.),290,0,0,EatGoodMatch()
+280,0,0,,Opíjím se.,"Opíjení je prima, ale kocovina je na hovno.|(Společně dojídáte pizzu.)",290,0,0,EatBadMatch()
+280,0,0,,Klasickou hudbu.,To je hezké. (Společně dojídáte pizzu.),290,0,0,Eat()
+280,0,0,,Šukám.,(Usmívá se.) Ty jsi tak zvrácená!|(Společně dojídáte pizzu.),290,1,0,EatGoodMatch()
+280,0,0,,Nemám koníčky.,Vážně? (Společně dojídáte pizzu.),290,0,0,EatBadMatch()
+290,0,0,,"Tak, co budeme|dělat teď?",Není to snad jasné?,300,0,0,TestMatch()
+290,0,0,,Můžeme zkusit|ještě další Kinbaku?,No jasně!,300,1,0,TestMatch()
+300,0,0,,Je čas svázat tě ještě víc.,"Ne, nejprve se musíš naučit nedávat uzly na dosah.|(Natálie snadno uniká z provazů a přistupuje k tobě.)",310,0,0,NatalieEscape()
+310,0,0,,"Počkej, můžu to|zkusit ještě jednou?","Nejprve se pouč od experta. (Natálie tě svázuje,|a ukazuje ti, že všechny uzly jsou mimo tvůj dosah.)",320,0,0,SubbieRope()
+310,0,0,,"Dobře, ukážeš mi to?","Jistě. (Natálie tě svazuje,|a ukazuje ti, kam všechny uzly patří.)",320,1,0,SubbieRope()
+310,0,0,,Prosím ne!|Já nejsem subka.,Ale dominantní taky moc nejsi.|(Natálie pevně poutá tvé paže.),320,0,-1,SubbieRope()
+320,0,0,,Můžeš mi ukázat|ještě další Kinbaku?,"Ano, teď je čas zapracovat na tvých nohou.|(Natálie ti váže nohy.) A teď roubík!",330,0,0,
+320,0,0,,(Pokus se uniknout.),"Kam si myslíš, že jdeš, bez povolení?|(Natálie ti rychle váže nohy.) Čas na roubík!",330,0,-1,
+320,0,0,,(Hravě vzdoruj.),Ty jsi mi pěkná mrška mrštná!|(Natálie ti poutá nohy.) Čas na roubík!,330,1,0,
+330,0,0,,Cože?,"Udělej Á! (Otevíráš doširoka pusu a Natálie ji plní|látkou, váže ji dalším kusem a roubíkem přes ústa.)",350,0,0,SubbieClothGag()
+330,0,0,,Ty mi opravdu|chceš nasadit roubík?,"(Sotva stačíš domluvit a už ti plní ústa látkou,|váže ho dalším pruhem a roubíkem přes ústa.)",350,0,0,SubbieClothGag()
+330,0,0,,"Prosím, už ne!","Moc mluvíš. (Natálie ti plní ústa látkou, váže ji|dalším pruhem látky a roubíkem přes ústa.)",350,0,-1,SubbieClothGag()
+330,0,0,,To stačí!|(Zatni zuby.),Takže ty chceš hrát tvrdě!|(Natálie ti stisknutím ucpává nos.),340,1,0,
+340,0,0,,(Pokus se zadržet dech.|...................),"(Nakonec zalapáš po dechu, a vzápětí máš pusu|plnou látky, převázanou a ještě s roubíkem přes ústa.)",350,0,0,SubbieClothGag()
+340,0,0,,(Pokus se volat o pomoc.)|Pomó.....,"(Ani nestačíš vykřiknout první slovo, než ti ústa|vycpe látkou, převáže a nasadí roubík přes ústa.)",350,0,0,SubbieClothGag()
+350,0,0,,(Vrhej na Natálii|zlostný pohled.),(Natálie se chichotá.) Potřebuješ trochu|času na zklidnění! (Natálie odchází pryč.),360,0,0,
+350,0,0,,(Kňourej a|dělej psí oči.),(Natálie se usmívá.) Zůstaň! Kdo je hodná holka?|Vrátím se později. (Natálie odchází pryč.),360,1,-1,
+350,0,0,,(Bojuj se|svými pouty.),"A je to, teď si ty provazy chvíli zkoušej.|(Natálie odchází pryč.)",360,1,0,
+360,0,0,,"(Hledej způsob,|jak uniknout.)",(Dveře jsou zavřené a na podlaze|není nic použitelného.),360,0,0,NoEscape()
+360,0,0,,(Zkus volat o pomoc.),(S naprosto vycpanými ústy vydáváš ještě|méně hluku než s kuličkovým roubíkem.),360,0,0,NoHelp()
+360,0,0,,"(Podívej se,|co dělají ostatní.)","(Jenna si hraje s Chloe,|která cosi spokojeně mumlá Natálii.)",360,0,0,ChloeSuspended()
+360,0,0,,(Bojuj se svými provazy.),"(Zmítáš se a převaluješ se,|ale nic se neuvolňuje.)",360,0,0,Struggle()
+360,0,0,,"(Čekej, dokud|se Natálie nevrátí.)","(Čekáš, ale nikdo z ostatních|členů klubu si tě stále nevšímá.)",360,0,0,Wait()
+365,0,0,,@Nhthlnm.,"(Natálie ti sundává roubík přes ústa a látku|držící vycpávku, kterou v zápětí vyplivuješ.)",370,0,0,BadUngag()
+370,0,0,,"Děkuji, slečno,|prosím, pusťte mě.","S potěšením, už je skoro čas na další hodinu.|(Natálie tě rozvazuje a pomáhá ti vstát.)",380,1,-1,PlayerRelease()
+370,0,0,,"No konečně, proč ti|trvalo tak dlouho?","Myslela jsem, že potřebuješ trochu klidu…|(Natálie tě rozvazuje a ty vstáváš.)",380,0,0,PlayerRelease()
+370,0,0,,"Ó, tohle|se mi líbilo!","Tušila jsem to, ale za chvíli už končí polední pauza.|(Natálie tě osvobozuje.)",380,1,0,PlayerRelease()
+380,0,0,,"Byla to zábava,|uvidíme se později!",,0,2,0,EndChapter()
+380,0,0,,"Nechápu, že takovýhle|klub povolili!",,0,-1,0,EndChapter()
+380,0,0,,"(Rychle utíkej,|dokud není pozdě.)",,0,0,-1,EndChapter()
+400,0,0,,Vyzkoušíme některé|z mých hraček.,"Ty máš i nějaké svoje vlastní, no to je skvělé!|Nechceš mě nejprve rozvázat a svléct?",410,1,0,
+400,0,0,,"Má klub něco,|co bych mohla použít?",Ale jistě. (Jenna ti podává nějaké věci.)|Nechceš mě nejprve rozvázat a svléct?,410,0,0,GetToys()
+400,0,0,,"Vlastně, mohla bych|teď být svázaná já?",No tak tedy dobře. A chtěla bys být|svázaná a mít roubík ode mne a nebo se mnou?,405,0,0,
+405,0,0,,"Od tebe, prosím.","Jistě, můžeš mi pomoct? Sama se nikdy|nedokážu pořádně odvázat. (Rozvazuješ ji.)",505,0,-1,
+405,0,0,,To můžu být svázaná|s tebou? To zní zajímavě!,"Jenno, mohla bys nám pomoct? (Přichází Jenna|s dalším nádobíčkem a Natálii rozvazuje.)",600,1,0,
+410,0,0,,"Kdepak, v uniformě|vypadáš báječně!",No ale děkuji! (Co s ní teď budeš dělat?),430,1,0,
+410,0,0,,"Ano, Koukneme se|na to tvé krásné tělo.",Opravdu si to myslíš? Děkuji!|(Rozvazuješ ji a ona se svléká z šatů.),420,1,0,UntieStrip()
+410,0,0,,Tentokrát ne.,Tak jo. (Co s ní teď budeš dělat?),430,0,0,
+410,0,0,,"Chci? Já ti přikazuji,|abys ses pro mě svlékla!","Ehm… Ano, slečno!|(Rozvazuješ ji a ona se svléká z šatů.)",420,0,1,UntieStrip()
+420,0,0,,"To je vše,|co dovedeš?","Promiňte, slečno, vy jste mne chtěla úplně nahou?|(Zdráhavě se svléká. Co s ní budeš dělat?)",430,0,1,NatalieNaked()
+420,0,0,,"Rozkošné prádlo,|líbí se mi.","Děkuji, slečno! (Červená se.)|(Co s ní teď budeš dělat?)",430,1,0,
+420,0,0,,"No, vlastně jsi|vypadala líp oblečená.",Co se tím snažíš říct? (Znechuceně se obléká.)|(Co s ní teď budeš dělat?),430,-2,0,NatalieClothed()
+420,0,0,,Bez něj budeš|vypadat ještě lépe.,"Možná, pokud budu oblečená do provazů.|(Zdráhavě se svléká. Co s ní teď budeš dělat?)",430,0,1,NatalieNaked()
+430,0,0,,(Polib ji.),"(Letmo ji políbíš, než tě přeruší.)|Tohle je sice hezké, ale ty mě máš svazovat.",430,0,0,Kiss()
+430,0,0,,(Polechtej ji.),"(Ucukne a odstrčí tě.)|To ne, cokoliv, ale tohle ne!",430,0,0,Tickle()
+430,0,0,,(Masturbuj ji.),"(Chvěje se a slabě sténá, přitom co ji masturbuješ.)",430,0,0,DomMasturbate()
+430,0,0,TwoRopes,(Naplácej ji.),"(Křičí, svíjí se bolestí a krátce bojuje,|než se ti podvolí.)",430,0,0,Spank()
+430,0,0,IsRoped,(Rozvaž ji.),(Pomalu uvolňuješ Natalii z jejich těsných pout.),430,0,0,Untie()
+430,0,0,IsGagged,(Sundej jí roubík.),"(Opatrně jí sundáváš roubík.)|Děkuju ti, moje čelist si už potřebovala odpočinout.",430,0,0,Ungag()
+430,0,0,IsBlindfolded,(Sundej jí masku.),"(Mrká, než si její oči přivyknou světlu|a je šťastná, že tě zase vidí.)",430,0,0,Unblind()
+430,0,0,IsBoundAndGagged,"Napálila jsem tě, čubko!|(Zanech ji spoutanou.)",(Opravdu ji chceš nechat takhle|bezmocně svázanou a s roubíkem v ústech?),450,0,0,
+430,0,0,,Já se nudím.,"(Pouštíš ji.) Cože, už? Myslela jsem, že se ti to líbí!",480,-1,0,NatalieRelease()
+430,0,0,,To by na jednu|obědovou pauzu stačilo.,(Pouštíš ji.) To už jsi hotová? Tak dobře.,480,0,0,NatalieRelease()
+450,0,0,,Ano.,(Ostatní členové už místnost opustili|a šli na své odpolední předměty.),460,0,0,
+450,0,0,,Ne.,(Co s ní teď budeš dělat?),430,0,0,
+460,0,0,,Po hodině se|pro tebe vrátím.,(Políbíš ji na rozloučenou|a zanecháváš ji její panice a marnému zápasu.),470,-1,5,
+460,0,0,,"Jsi jenom zvrhlá děvka,|co si zaslouží potrestat.","(Lechtáš ji a dáváš jí tvrdý výprask,|dokud se nerozvzlyká.)",470,-5,3,
+470,0,0,,"Byla to zábava, uvidíme|se později, čubko!",,0,0,0,EvilEnd()
+470,0,0,,"Nechápu, že|takový klub povolili!",,0,0,0,EvilEnd()
+470,0,0,,"(Rychle uteč,|dokud není pozdě.)",,0,0,0,EvilEnd()
+480,0,0,,Polední pauza už|stejně skoro končí.,Asi jo.,490,0,0,
+480,0,0,,Musím se připravit|na další hodinu.,"To je ale pěkně chabá výmluva! (Nečekaně tě|přimáčkne k zemi, sváže tě a nasadí ti roubík.)",350,0,-1,PlayerBoundGagged()
+490,0,0,,"To bylo super,|můžu přijít zase?","Samozřejmě, klub má|skoro každý večer větší schůzky.",700,1,0,
+490,0,0,OrgasmDone,Líbílo se ti to.,"(Červená se.) Ano, a myslím, že tobě taky.",700,1,1,
+490,0,0,,Někdy bys mě|měla svázat pořádně.,"To bych rozhodně měla. Klub má večerní schůzky,|kde můžeš být svázaná třeba celé hodiny.",700,1,-1,
+490,0,0,,Děkuji za oběd.,"Bylo mi potěšením, měla bys řádně vstoupit|do klubu a přijít na večerní schůzku.",700,0,0,
+500,0,0,,Můžeš mě|nejprve rozvázat?,"Ano, můžu ti dát chvilku pauzu,|zatímco se budeš svlékat. (Rozvazuje tě.)",510,0,0,PlayerRelease()
+500,0,0,,Co kdybys teď|byla svázaná ty?,"Tentokrát ne, zasloužíš si kompletní zážitek.|To znamená bez šatů. (Rozvazuje tě.)",510,0,0,PlayerRelease()
+500,0,0,,Všechno tohle Kinbaku|mě pěkně rozpaluje.,"Vím, co máš na mysli.|Bez šatů ti bude chladněji. (Rozvazuje tě.)",510,1,0,PlayerRelease()
+500,1,1,,Teď je řada na tobě!,"No dobře, když už jsem tě jednou svázala.|(Rozvazuje tě a ty ji rychle poutáš.)",400,0,1,PlayerReversal()
+505,0,0,,Teď mě můžeš spoutat.,"Ano, ale myslím, že by sis měla nejprve|sundat uniformu, abys opravdu vnímala provazy.",510,0,0,
+510,0,0,,To by asi šlo.|(Svlékni si uniformu.),"(Svlékáš se.) To je ono,|takhle budeš vnímat provazy mnohem lépe.",530,0,0,PlayerStrip()
+510,0,0,,"Počkej, tohle je|na mě moc rychle!","To nevadí, budeš chtít zkoušet nějaké další Kinbaku?",520,0,-1,
+510,0,0,,"Kdepak, svlíkat se|pro tebe nebudu.","Tak jo, tak jo, byl to jen nápad.|Pořád ještě tě Kinbaku zajímá?",520,0,1,
+510,0,0,,"Ano, slečno.|(Svleč si uniformu.)",(Svlékáš se.) Dotek přírodního lana|na své měkké kůži si zamiluješ.,530,1,-1,PlayerStrip()
+520,0,0,,Ne.,"V tom případě si myslím,|že tohle asi není nejlepší klub pro tebe.",380,-1,0,
+520,0,0,,Ano.,Svázané ruce ti nevadily.|(Natálie ti znovu svazuje ruce.),320,0,0,PlayerRope()
+530,0,0,,Vnímat dotek provazu?,"Ano, musíš se naučit využívat všechny své smysly.|(Váže ti spousty provazů okolo paží a okolo těla.)",540,0,0,PlayerRope()
+530,0,0,,Už jsem je cítila|na holém zápěstí.,"To není totéž, jako cítit provaz na holém těle.|(Pevně ti poutá paže a tělo.)",540,-1,0,PlayerRope()
+540,0,0,,Pořád je to cítit|jenom jako provaz.,"Příliš se spoléháš na svůj zrak,|zkus tohle. (Zavazuje ti oči.)",550,0,0,PlayerBlindfold()
+540,0,0,,Ten provaz mě|prostě jenom svědí.,"To je dobrý začátek, ale pořád ještě|to necítíš. (Zavazuje ti oči.)",550,0,0,PlayerBlindfold()
+550,0,0,,"Počkej, prosím, ne!","(Ucítíš prst na svých rtech.)|Pšt, všechno je v pořádku. Jaké jsou ty provazy teď?",560,0,-1,
+550,0,0,,To jsem nečekala…,"Byla jsi příliš zaneprázdněná koukáním, ale nic jsi|vlastně neviděla. Jaký máš pocit z těch provazů teď?",560,0,0,
+550,0,0,,Nemůžeš mě|jenom tak oslepit!,"Přestaň si stěžovat, a řekni mi,|jaký máš z těch provazů pocit teď.",560,-1,0,
+560,0,0,,"Stále jsou cítit,|jenom jako provazy.","Ty jsi ztracený případ! Zkusíme něco, co cítit budeš.|(Vkládá do tebe vibrující vajíčko.)",570,-1,0,PlayerEgg()
+560,0,0,,Působí tak|těsně a bezpečné.,"Lepší, ale pořád ještě to nemáš. Zkus tohle.|(Vkládá do tebe vibrující vajíčko.)",570,0,0,PlayerEgg()
+560,0,0,,"Je to jako obětí,|které nepolevuje.","To už je mnohem lepší, ale ještě potřebuješ|trochu povzbuzení. (Vkládá do tebe vibrující vajíčko.)",570,1,0,PlayerEgg()
+560,0,0,,Je to tak|příjemné a lákavé.,To je ono! Teď tě budu hýčkat.|(Vkládá do tebe vibrující vajíčko.),570,1,-1,PlayerEgg()
+570,0,0,,"To je síla, vem|si mě teď a tady!",S radostí!|(Natálie si začíná hrát s provazem v tvém rozkroku.),580,1,0,
+570,0,0,,"Á, prosím, nasaď mi|roubík a vezmi si mě!","Jenom proto, že jsi taková malá hodná subinka.|(Nasadí ti roubík a hraje si s lanem v tvém rozkroku.)",580,0,-1,PlayerBallGag()
+570,0,0,,"Přestaň,|tohle už je moc!","Když nechceš, tak já tě tedy nechám.|(Natálie tě osvobozuje.)",590,-1,0,PlayerRelease()
+580,0,0,,(Užívej si její doteky.),"(Oddáváš se jejím láskyplným dotekům, ona tahá|provazem v tvém rozkroku a dráždí ti poštěváček.)",580,0,0,SubbieMasturbate()
+580,0,0,,(Svíjej se v jejím rytmu.),(Pohybuješ pánví do jejího rytmu.|Pomalu v tobě roste rozkoš z jejího dotyku.),580,0,0,SubbieMasturbate()
+580,0,0,,(Hravě bojuj.),"(Hravě s ní zápasíš a jí se to, zdá se, líbí.|Přidává na rychlosti a masturbuje tě o něco tvrději.)",580,0,0,SubbieMasturbate()
+590,0,0,,Můžeš ze mě vyndat|to vajíčko? Prosím.,"Pokud si jsi jistá, že si ho opravdu nechceš nechat…|(Natálie ti vyjme vajíčko a ty se oblékáš.)",700,-1,-1,PlayerNoEgg()
+590,0,0,,Můžu si to|vajíčko nechat?,"Můžeš, je to tvůj iniciační dárek.|(Oblékáš se.)",700,1,0,PlayerClothed()
+590,0,0,,Můžu si nechat|tu masku na oči?,"Promiň, ale to je jediná, kterou mám.|(Oblékáš se.)",700,0,0,PlayerClothed()
+600,0,0,,Jak budeme|svázané dohromady?,"(Jenna k tobě přistupuje.)|Svázané ne, tentokrát budete spoutané pouty.",610,0,0,
+600,0,0,,Opravdu musíš|Natálii rozvázat?,"(Jenna k tobě přistupuje.)|Ano, pro vás dvě mám naplánováno něco jiného.",610,0,1,
+610,0,0,,Co máš na mysli?,Nejdřív se vy dva zamilovaní ptáčci musíte obejmout.|(Obejmeš Natálii.),620,0,0,
+610,0,0,,"Aha, překvapení!","Nejspíš spousty překvapení, nejprve Natálii|pěkně obejmi. (Obejmeš Natálii.)",620,0,0,
+620,0,0,,(Pořádně a vroucně|Natálii obejmi.),"To je ono, teď dostanete prostor.|(Jenna vám oběma poutá ruce za zády té druhé.)",630,1,0,PlayerCuffed()
+620,0,0,,(Dej Natálii|jedno rychlé objetí.),"(Dříve, než ji pustíš, Jenna vám oběma spoutá|ruce za zády té druhé.) Teď už nemůžete přestat.",630,-1,0,PlayerCuffed()
+630,0,0,,"Moment, co to máš?","To je speciální dvojitý roubík, který budete sdílet.|(Jenna ti ten podivný roubík nasazuje.)",640,0,0,OpenGag()
+630,0,0,,"To je prima, Natálie.","To určitě je, ale teď pořádně otevři pusu.|(Jenna ti nasazuje podivný roubík.)",640,1,0,OpenGag()
+640,0,0,,@css thm mhh...,(Natálie je taky připásána k|roubíku a vaše jazyky se střetnou.),650,0,0,
+650,0,0,,(Zkus zápasit s Natálií.),Trpělivost! (Jenna dává tobě i Natálii vibrátor|a každé do ruky ovladač.) Tak a užívejte si!,660,0,0,
+660,0,0,Remote,(Uprav svůj ovladač.),,660,0,1,VibeNatalie()
+660,0,0,,(Hravě zápas.),(Natálie s tebou zápasí. Tvůj vibrátor zesiluje.),660,0,0,VibePlayer()
+660,0,0,,(Toužebně se|podívej na Natálii.),(Tvůj vibrátor zesiluje.|Natálie se svou nohou tře o tvůj rozkrok.),660,1,-1,KneePlayer()
+660,0,0,,(V panice se|zkus odtáhnout.),"(Natálie se tě snaží uklidnit nejlépe, jak umí.|Tvůj vibrátor mírně polevuje.)",660,0,0,Panic()
+660,0,0,,(Dej jí francouzák.),(Vaše jazyky spolu intimně tančí|a tvůj vibrátor zesiluje.),660,1,0,VibePlayer()
+660,0,0,,(Sténej do roubíku.),(Natálie tě svírá ještě těsněji.|Tvůj vibrátor zesiluje.),660,0,0,VibePlayer()
+660,0,0,,(Něžně Natálii objímej.),(Natálie ti vrací stejnou mírou|a vaše jazyky se jemně potkávají.),660,0,0,Hug()
+660,0,0,,(Pokus se rozepnout|Natálii roubík.),(Řemeny roubíku jsou zajištěny zámečky.|Roubík nejde sundat bez klíče.),660,0,0,Hug()
+670,0,0,,@dhekhjh th nhthlhe!,(Přichází Jenna a Natálii osvobozuje.|Padáš na kolena a snažíš se popadnout dech.),680,1,0,
+670,0,0,,@phoshhm nhthlhe|uch th vhphnhh!,(Přichází Jenna a Natálii osvobozuje.|Padáš na kolena a snažíš se popadnout dech.),680,0,-1,
+670,0,0,,@phmhinh! (Rudá studem|se dívej stranou.),(Přichází Jenna a Natálii osvobozuje.|Padáš na kolena a snažíš se popadnout dech.),680,1,-1,
+680,0,0,,@mhhzsh hsh|mhe rhzvhzt?,Ano. (Natálie tě osvobozuje.)|Tak jak se ti to líbilo?,685,0,0,PlayerRelease()
+680,0,0,,@phoshhm rhzvhz mhe.,Asi bych měla. (Natálie tě osvobozuje.)|Tak jak se ti to líbilo?,685,0,-1,PlayerRelease()
+685,0,0,NoRemote,Málem jsem tě|donutila mě prosit!,"Ano, promiň. Kvůli tobě mi uklouzl|prst na ovladači. Je čas na další hodinu.",700,1,2,
+685,0,0,,Už jsem zažila lepší.,"Vážně? O tom pochybuji. Viděla jsem, jak|ses rozsypala. Je čas na další hodinu.",700,-1,0,
+685,0,0,,"Nemůžu uvěřit, cos mi|to teď provedla!","Promiň, myslela jsem, že by se ti to mohlo líbit.|Je čas na další hodinu.",700,-1,1,
+685,0,0,,"Ještě se z toho|třesu, slečno.","To je roztomilé. Pokud to přejde, zase přijď.|Je čas na další hodinu.",700,0,-1,
+685,0,0,,To bylo fantastické!,To pro mě taky.|Je čas na další hodinu.,700,1,0,
+685,0,0,,Příště budeš moje!,Líbí se mi příslib tvého příště!|Je čas na další hodinu.,700,1,1,
+690,0,0,,@hkmhthe mhe phsth!,"Myslela jsem, že by se ti to mohlo líbit.|(Jenna tě osvobozuje.)",700,-1,0,PlayerRelease()
+690,0,0,,@plhshm hsh mhe phsth.,"Dobře, možná to napoprvé bylo příliš moc.|(Jenna tě osvobozuje.)",700,0,-1,PlayerRelease()
+690,0,0,,"@jhsthe hsphnh|hvhlkh, phshm.","Ne, kluby by neměly kolidovat s normálním studiem.|(Jenna tě osvobozuje.)",700,0,0,PlayerRelease()
+700,0,0,,Pojďme zpátky do|vyučování. (Odejdi.),,0,0,0,EndChapter()
+700,0,0,,Pojďme se po vyučování|zase sejít. (Odejdi.),,0,1,0,EndChapter()

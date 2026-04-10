@@ -1,0 +1,39 @@
+.commands-button .button-label {
+  display: contents;
+}
+
+.commands-command-section,
+.commands-command-arguments,
+.commands-command-arguments-list {
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.commands-command-header:has([aria-expanded="false"]) ~ * {
+  display: none;
+}
+
+.commands-button-collapse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+}
+
+.commands-button-delete {
+  float: right;
+  margin-right: min(0.4vh, 0.2vw);
+  margin-right: min(0.4dvh, 0.2dvw);
+  z-index: 1;
+}
+
+.commands-command-tag,
+.commands-command-argument {
+  font-weight: bold;
+}
+
+.commands-command-tag:hover,
+.commands-command-argument:hover {
+  text-decoration: underline;
+}

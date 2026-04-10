@@ -1,0 +1,47 @@
+.light-label {
+  color: white;
+}
+
+.dark-label {
+  color: black;
+}
+
+.center-label {
+  text-align: center;
+}
+
+.left-label {
+  text-align: left;
+}
+
+.right-label {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.center {
+  justify-content: center;
+}
+
+[concealed] {
+	visibility: hidden !important;
+}

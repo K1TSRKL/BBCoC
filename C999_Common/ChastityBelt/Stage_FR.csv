@@ -1,0 +1,9 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,(Tu l'examines.)ADD_MINUTES:1,Cette ceinture de chasteté semble en bon état.|Tu auras besoin d'une clé pour l'enlever.,0,0,0,
+0,0,0,Common_PlayerNotRestrained,(Tu la portes.)ADD_MINUTES:1,"Tu inspires profondément et boucle la ceinture.|Le verrouillage produit un ""clic"" assez fort.",0,0,0,LockSelf()
+10,0,0,,(Tu examines la ceinture.)ADD_MINUTES:1,Cette ceinture de chasteté semble en bon état.|Tu auras besoin d'une clé pour l'enlever.,10,0,0,
+10,0,0,HasLooseBelt,(Tu examines une|autre ceinture.)ADD_MINUTES:1,Cette ceinture de chasteté semble en bon état.|Tu auras besoin d'une clé pour l'enlever.,10,0,0,ShowImage()
+10,0,0,Common_PlayerNotRestrained,(Tu enlèves la ceinture.)ADD_MINUTES:1,Tu essayes de la faire glisser par les hanches|mais elle est beaucoup trop serrée et ne bouge pas.,10,0,0,
+10,0,0,Common_PlayerNotRestrained,(Tu l'ouvres par|la force.)ADD_MINUTES:1,Tu essayes de forcer l'ouverture|mais elle reste fermement cadenassée.,10,0,0,
+10,0,0,Common_PlayerNotRestrained,(Tu essayes de te toucher.)ADD_MINUTES:1,Tu parviens à peine à glisser un doigt.|Il est impossible de se masturber dans ces conditions.,10,0,0,
+10,0,0,,(Tu frottes ton clitoris.)ADD_MINUTES:1,Tu frottes délicatement ton clitoris contre la ceinture.|C'est agréable mais insuffisant pour pouvoir jouir.,10,0,0,

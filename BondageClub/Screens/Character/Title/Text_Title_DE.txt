@@ -1,0 +1,176 @@
+Select your displayed name and title
+Wähle deinen Namen und Titel aus
+Current title: TITLE
+Aktueller Titel: TITLE
+Nickname (letters and spaces)
+Nickname (Buchstaben und Leerzeichen)
+Nickname locked by your owner
+Nickname gesperrt durch deinen Besitzer
+Nickname is too long (max. 20 characters)
+Nickname ist zu lang (max. 20 Zeichen)
+Nickname contains invalid characters
+Nickname enthält ungültige Zeichen
+None
+Nichts
+Mistress
+Herrin
+Master
+Master
+Club Slave
+Clubsklavin
+Head Maid
+Hausdame
+Maid
+Hausmädchen
+Bondage Maid
+Bondage-Hausmädchen
+Master Kidnapper
+Meister Entführerin
+Kidnapper
+Entführerin
+Patient
+Patientin
+Permanent Patient
+Dauerhafte Patientin
+Escaped Patient
+Entlaufene Patientin
+Nurse
+Krankenschwester
+Doctor
+Doktor
+Lady Luck
+Lady Luck
+Lord Fortune
+Lord Fortune
+Patron
+Patron
+College Student
+College-Studentin
+Nawashi
+Nawashi
+Houdini
+Houdini
+Superheroine
+Superheldin
+Superhero
+Superheld
+Foal
+Fohlen
+Farm Horse
+Ackergaul
+Cold Blood Horse
+Kaltblutpferd
+Warm Blood Horse
+Warmblutpferd
+Hot Blood Horse
+Heißblutpferd
+Wild Mustang
+Wilder Mustang
+Shining Unicorn
+Glänzendes Einhorn
+Flying Pegasus
+Fliegender Pegasus
+Majestic Alicorn
+Majestätischer Alicorn
+Mole
+Mole
+Infiltrator
+Infiltrator
+Agent
+Agent
+Operative
+Geheimagent
+Superspy
+Superspion
+Wizard
+Zauberer
+Magus
+Magus
+Magician
+Magier
+Sorcerer
+Hexer
+Sage
+Weiser
+Oracle
+Orakel
+Witch
+Hexe
+Warlock
+Hexenmeister
+Little One
+Kleine
+Baby
+Baby
+Diaper Lover
+Windel Liebhaber
+Bondage Baby
+Bondage Baby
+Duchess
+Herzogin
+Duke
+Herzog
+Switch
+Wechsler
+Princess
+Prinzessin
+Prince
+Prinz
+Missy
+Missy
+Sissy
+Sissy
+Tomboy
+Tomboy
+Femboy
+Femboy
+Pet
+Haustier
+Brat
+Balg
+Kitten
+Kätzchen
+Puppy
+Welpe
+Foxy
+Fuchs
+Bunny
+Häschen
+Doll
+Puppe
+Demon
+dämonin
+Angel
+Engel
+Alien
+Alien
+Succubus
+Succubus
+Incubus
+Incubus
+Good Girl
+Good Girl
+Good Slave Girl
+Good Slave Girl
+Good Boy
+Good Boy
+Good Slave Boy
+Good Slave Boy
+Good Slave
+Good Slave
+Drone
+Drohne
+Mistree
+Mistree
+Good One
+Good One
+Liege
+Liege
+Concubus
+Concubus
+Majesty
+Majestät
+Captain
+Kapitän
+Admiral
+Admiral

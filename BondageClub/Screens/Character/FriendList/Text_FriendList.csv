@@ -1,0 +1,29 @@
+OnlineFriends,Online friends
+AllFriends,All friends
+Beeps,Beep history
+MemberName,Name
+MemberNickname,Nickname
+MemberNumber,Member number
+ChatRoomName,Chat room
+ChatRoomType,Room type
+RelationType,Relation type
+ActionFriends,Send a Beep
+ActionRead,Read a Beep
+ActionDelete,Delete a Friend
+AutoRefresh,Toggle 30 sec auto-refresh
+Refresh,Refresh
+ResetSorting,Reset sorting
+Exit,Exit
+PrevMode,Previous mode
+NextMode,Next mode
+ToggleRoomOn,Room name: included
+ToggleRoomOff,Room name: excluded
+TypeOwner,Owner
+TypeLover,Lover
+TypeSubmissive,Submissive
+TypeFriend,Friend
+TypeFemale,Femaly-only room
+TypeMale,Male-only room
+TypeMixed,Mixed male/female room
+TypeAsylum,Asylum room
+TypePrivate,Private room

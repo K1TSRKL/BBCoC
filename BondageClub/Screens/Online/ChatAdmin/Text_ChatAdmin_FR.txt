@@ -1,0 +1,82 @@
+Room Name
+Nom du Salon
+Description
+Description
+Ban List
+Liste des interdictions
+Whitelist
+Liste blanche
+Administrator List
+Liste des administrateurs
+Size (2-20)
+Taille (2-20)
+Member numbers separated by commas (ex: 123, ...)
+Numéros de membre séparés par des virgules (ex: 123, ...)
+Use the above buttons to quickadd to the respective lists
+Utilisez les boutons ci-dessus pour ajouter rapidement aux listes respectives
+Blacklist
+Liste noire
+Ghostlist
+Liste phantôme
+Owner
+Maitresse
+Lovers
+Amantes
+Friends
+Amis
+Room settings can only be updated by administrators
+Les paramètres des salons peuvent être mis à jour que par les administrateurs
+Background
+Style
+Visibility
+Visibilité
+Access
+Accès
+Public
+Public
+Admin + Whitelist
+Administrateur + Liste blanche
+Admin
+Administrateur
+Unlisted
+Non répertorié
+Import room code
+Importer un code de salon
+Please paste the room code. Importing room codes will overwrite existing settings. Are you sure?
+Veuillez coller le code du salon. L'importation de codes de salon écrasera les paramètres existants. Êtes-vous sûr ?
+Failed to parse the passed room code (incomplete? invalid? outdated?)
+Échec de l'analyse du code de salon transmis (incomplet ? invalide ? obsolète ?)
+Successfully imported room code
+Code de salon importé avec succès
+Export room code
+Exporter le code de salon
+Failed to copy room code to clipboard
+Échec de la copie du code de salon dans le presse-papiers
+Room code copied to clipboard
+Code de salon copié dans le presse-papiers
+Create
+Créer
+Save
+Sauvegarder
+Exit
+Quitter
+Cancel
+Cancel
+Updating the chat room...
+Mise à jour de la salle de chat ...
+This room name is already taken
+Ce nom de salon est déjà pris
+Account error, please try to relog
+Erreur de compte, veuillez essayer de vous reconnecter
+Invalid chat room data detected
+Données du salon invalides
+Room created, joining it...
+Salon créé, vous vous y rendez...
+Ban blacklist
+Barré la liste noire
+Ban ghostlist
+Barré la liste des fantômes
+Selection
+Sélection
+(Click anywhere to return)
+(Cliquer pour revenir)

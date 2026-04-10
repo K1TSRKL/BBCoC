@@ -1,0 +1,11 @@
+variables:
+  NPM_PREFIX: BondageClub/
+
+check:
+  stage: build
+  only:
+    - merge_requests
+  image: node:20
+  script:
+    - npm --prefix $NPM_PREFIX ci
+    - npm --prefix $NPM_PREFIX run checks

@@ -1,0 +1,52 @@
+﻿Select your appearance
+Виберіть свій зовнішній вигляд
+Select TargetCharacterName's appearance
+Виберіть зовнішній вигляд гравця TargetCharacterName
+You must pick an item of type:
+Ви повинні вибрати елемент типу:
+Set wardrobe character name:
+Встановити ім'я персонажа гардеробу:
+Invalid name for character.
+Недійсне ім'я персонажа.
+Reset character
+Скинути персонажа
+Randomize clothes
+Рандомізувати одяг
+Randomize character
+Рандомізувати персонажа
+Strip clothes
+Роздягтися
+Show character in previews
+Показати персонажа у попередньому перегляді
+Strip item
+Зняти
+Reorder Items
+Змінити порядок
+Next
+Наступна
+Previous
+Попередня
+Cancel changes
+Скасувати зміни
+Accept changes
+Прийняти зміни
+Wardrobe
+Гардероб
+Wardrobe can be bought in your private room.
+Гардероб можна купити в особистій кімнаті.
+Edit item permissions
+Редагувати дозволи для предметів
+Use this item
+Використати предмет
+Unable to use due to player permissions
+Неможливо використати через дозволи гравця
+Select a color
+Вибрати колір
+Unable to change color due to player permissions
+Неможливо змінити колір через дозволи гравця
+Select colors
+Вибрати кольори
+blocked by owner
+заблоковано власником
+Change item layering
+Налаштувати шари предмету

@@ -1,0 +1,209 @@
+###_NPC
+(You can use or remove items by selecting specific body regions on yourself.)
+(Wähle eine Körperregion, um Items zu benutzen oder zu entfernen.)
+###_PLAYER
+(View your profile.)
+(Profil anschauen.)
+(Change your clothes.)
+(Kleidung ändern.)
+(Room administrator action.)
+(Raum administrieren.)
+###_NPC
+(As a room administrator, you can take these actions.)
+(Als Raumadminstrator, kannst du  die Maßnamen ergreifen.)
+###_PLAYER
+(Character actions.)
+(Character Aktionen.)
+###_NPC
+(Possible character actions.)
+(Mögliche character Aktionen.)
+###_PLAYER
+(Spend GGTS minutes.)
+(GGTS Minuten investieren.)
+###_NPC
+(Select how to spend your minutes.)
+(Wähle wie du deine Minuten investieren möchtest.)
+###_PLAYER
+(View your current rules.)
+(Die aktuelle Rolle anzeigen.)
+###_NPC
+(Here are your currently active rules.)
+(Das ist deine aktuelle Rolle.)
+###_PLAYER
+(Leave this menu.)
+(Menü vverlassen.)
+(Move Character.)
+(Character bewegen.)
+###_NPC
+(Move started.)
+(Bewegung gestartet.)
+###_PLAYER
+(Back to main menu.)
+(Zurück zum Hauptmenü.)
+(Spend 15 minutes for a bondage position change.)
+(Investiere 15 Minuten für einen Wechsel der Bondageposition.)
+###_NPC
+(You don't have enough minutes available.)
+(Es sind nicht ausreichend Minuten verfügbar.)
+###_PLAYER
+(Spend 15 minutes for a new blindness level.)
+(Investiere 15 Minuten für einen neues Blindheitslevel.)
+(Spend 15 minutes for a new deafness level.)
+(Investiere 15 Minuten für einen neues Taubheitslevel.)
+(Spend 15 minutes for an sexual intensity change.)
+(Investiere 15 Minuten für einen neues Intensitätslevel.)
+(Spend 15 minutes for a sexual intensity change.)
+(Investiere 15 Minuten für einen neues Intensitätslevel.)
+(Spend 30 minutes to unlock the door.)
+(Investiere 30 Minuten für das öffnen der Tür.)
+###_NPC
+(You must have 30 minutes and be the admistrator of the locked room.)
+(Du brauchst 30 Minuten und musst der Adminstrator sein.)
+###_PLAYER
+(Spend 120 minutes to get $100.)
+(Investiere 120 Minuten um $100 zu bekommen.)
+###_NPC
+(GGTS gives you $100 and substracts 120 minutes to your total.)
+(GGTS gibt dir $100 und zieht dir 120 Minuten ab.)
+###_PLAYER
+(Spend 200 minutes to get your own GGTS helmet.)
+(Investiere 200 Minuten für dein eigenen GGTS Helm.)
+###_NPC
+(You get a GGTS helmet and the AI substracts 200 minutes from your total.)
+(Du bekommst einen GGTS Helm und die AI zieht dir 200 Minuten ab.)
+(You don't have enough minutes available or you already have the helmet in your inventory.)
+(Du hast nicht genug verfügbare Minuten, oder du hast den Helm schon.)
+###_PLAYER
+(Adjust your bondage skill.)
+(Anpassen des Bondage-Skill.)
+###_NPC
+(By default, you restrain using your full bondage skill.  You can use less of your skill and make it easier for your victims to escape.)
+(Normalerweise nutzt du deinen vollen Bondage-Skill.  Du kannst weniger einsetzen und es so deinem Opfer leichter machen zu entkommen.)
+###_PLAYER
+(Adjust your evasion skill.)
+(Anpassen des Befreiungs-Skill.)
+###_NPC
+(By default, you struggle using your full evasion skill.  You can use less of your skill and make it harder for you to struggle free.)
+(Normalerweise nutzt du deinen vollen Befreiungs-Skill.  Du kannst weniger einsetzen, so wird es schwerer diech zu befreien.)
+###_PLAYER
+(Call the maids for help)
+(Rufe die Maids zur Hilfe)
+###_NPC
+(The maids are not supposed to take room calls. This will result in punishment and public humiliation. Are you sure?)
+(Die Maids The maids are dürfen keine Raumrufe annehmen. Daher wirst du dafür bestraft und offentlich erniedrigd. Bist du sicher?)
+(The maids will be here shortly...)
+(The maids will be here shortly...)
+###_PLAYER
+(Use your safeword.)
+(Use your safeword.)
+###_NPC
+(A safeword is serious and should not be used to cheat.  It can revert your clothes and restraints to when you entered the lobby, or release you completely.)
+(A safeword is serious and should not be used to cheat.  It can revert your clothes and restraints to when you entered the lobby, or release you completely.)
+###_PLAYER
+(Take a photo of yourself.)
+(Take a photo of yourself.)
+(Craft an item.)
+(Craft an item.)
+(Boot Kinky Dungeon)
+(Boot Kinky Dungeon)
+###_NPC
+(The helmet chimes as Kinky Dungeon starts up)
+(The helmet chimes as Kinky Dungeon starts up)
+###_PLAYER
+(Play Kinky Dungeon)
+(Play Kinky Dungeon)
+###_NPC
+(Main menu.)
+(Main menu.)
+###_PLAYER
+(Use your full bondage skill.  100%)
+(Use your full bondage skill.  100%)
+###_NPC
+(You will now use your full bondage skill when using a restraint.  100%)
+(You will now use your full bondage skill when using a restraint.  100%)
+###_PLAYER
+(Use most of your bondage skill.  75%)
+(Use most of your bondage skill.  75%)
+###_NPC
+(You will now use most of your bondage skill when using a restraint.  75%)
+(You will now use most of your bondage skill when using a restraint.  75%)
+###_PLAYER
+(Use half of your bondage skill.  50%)
+(Use half of your bondage skill.  50%)
+###_NPC
+(You will now use half of your bondage skill when using a restraint.  50%)
+(You will now use half of your bondage skill when using a restraint.  50%)
+###_PLAYER
+(Use very little of your bondage skill.  25%)
+(Use very little of your bondage skill.  25%)
+###_NPC
+(You will now use very little of your bondage skill when using a restraint.  25%)
+(You will now use very little of your bondage skill when using a restraint.  25%)
+###_PLAYER
+(Use none of your bondage skill.  0%)
+(Use none of your bondage skill.  0%)
+###_NPC
+(You will now use none of your bondage skill when using a restraint.  0%)
+(You will now use none of your bondage skill when using a restraint.  0%)
+###_PLAYER
+(Don't change your skill.)
+(Don't change your skill.)
+(Use your full evasion skill.  100%)
+(Use your full evasion skill.  100%)
+###_NPC
+(You will now use your full evasion skill when trying to struggle free.  100%)
+(You will now use your full evasion skill when trying to struggle free.  100%)
+###_PLAYER
+(Use most of your evasion skill.  75%)
+(Use most of your evasion skill.  75%)
+###_NPC
+(You will now use most of your evasion skill when trying to struggle free.  75%)
+(You will now use most of your evasion skill when trying to struggle free.  75%)
+###_PLAYER
+(Use half of your evasion skill.  50%)
+(Use half of your evasion skill.  50%)
+###_NPC
+(You will now use half of your evasion skill when trying to struggle free.  50%)
+(You will now use half of your evasion skill when trying to struggle free.  50%)
+###_PLAYER
+(Use very little of your evasion skill.  25%)
+(Use very little of your evasion skill.  25%)
+###_NPC
+(You will now use very little of your evasion skill when trying to struggle free.  25%)
+(You will now use very little of your evasion skill when trying to struggle free.  25%)
+###_PLAYER
+(Use none of your evasion skill.  0%)
+(Use none of your evasion skill.  0%)
+###_NPC
+(You will now use none of your evasion skill when trying to struggle free.  0%)
+(You will now use none of your evasion skill when trying to struggle free.  0%)
+###_PLAYER
+(Yes! Get me out of this room!)
+(Yes! Get me out of this room!)
+(No, don't call the maids.)
+(No, don't call the maids.)
+(Revert Character.)
+(Revert Character.)
+###_NPC
+(This will revert your character's clothes and restraints back to how they were when you entered the lobby. Use this if you were forced into restraints against your consent. Are you sure you want to revert your character?)
+(This will revert your character's clothes and restraints back to how they were when you entered the lobby. Use this if you were forced into restraints against your consent. Are you sure you want to revert your character?)
+###_PLAYER
+(Release Character.)
+(Release Character.)
+###_NPC
+(This will immediately release you of ALL restraints you are wearing and return you to the Main Lobby. Use this only if you are stuck in restraints and nobody can or wants to help you. Are you sure about this?)
+(This will immediately release you of ALL restraints you are wearing and return you to the Main Lobby. Use this only if you are stuck in restraints and nobody can or wants to help you. Are you sure about this?)
+###_PLAYER
+(Don't use Safeword.)
+(Don't use Safeword.)
+(Yes, revert Character.)
+(Yes, revert Character.)
+(No, don't revert Character.)
+(No, don't revert Character.)
+(Yes, I want to be released.)
+(Yes, I want to be released.)
+(No, don't release me.)
+(No, don't release me.)
+###_NPC
+(As you enter the luxurious hallway, a maid comes to greet you.)  Welcome to the Bondage Club, is this your first visit?
+(Als du die luxoriöse Eingangshalle betrittst, wirst du von einem Hausmädchen begrüßt.) Willkommen im Bondage-Club, bist du zum ersten Mal hier?

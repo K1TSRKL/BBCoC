@@ -1,0 +1,142 @@
+Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+0,0,0,,(In der vorderen|Reihe umsehen.),In der ersten Reihe ist ein freier Sitzplatz.|Gleich neben dem Podium.,10,0,0,
+0,0,0,,(In der hinteren|Reihe umsehen.),"In der letzten Reihe ist ein freier Sitzplatz.|Es riecht, als hätte gerade jemand geraucht.",50,0,0,
+10,0,0,NatalieLunch,(Die Sitznachbarn|auskundschaften.),Natalie aus dem Kinbaku-Club sitzt gleich nebenan.|Sie schaut mit ungeduldigem Blick auf die Uhr.,20,0,0,
+10,0,0,!NatalieLunch,(Die Sitznachbarn|auskundschaften.),Ein braunhaariges Mädchen sitzt gleich nebenan.|Sie schaut mit ungeduldigem Blick auf die Uhr.,20,0,0,
+10,0,0,,(In der hinteren|Reihe umsehen.),"In der letzten Reihe ist ein freier Sitzplatz.|Es riecht, als hätte gerade jemand geraucht.",50,0,0,
+10,0,0,,(In den vorderen Teil|des Raums sehen.),Es ist keine Lehrerin da.|Das Pult ist leer.,0,0,0,
+10,0,0,,(Hier setzen.),Du entscheidest dich für den Platz in|der ersten Reihe und setzt dich.,100,0,0,SelectFront()
+20,0,0,,(Den Sitzplatz|ansehen.),In der ersten Reihe ist ein freier Sitzplatz.|Gleich neben dem Podium.,10,0,0,
+20,0,0,,(In der hinteren|Reihe umsehen.),"In der letzten Reihe ist ein freier Sitzplatz.|Es riecht, als hätte gerade jemand geraucht.",50,0,0,
+20,0,0,,(In den vorderen Teil|des Raums sehen.),Es ist keine Lehrerin da.|Das Pult ist leer.,0,0,0,
+50,0,0,SidneyWasPig,(Die Sitznachbarn|auskundschaften.),"Sidney sitzt neben dem freien Platz. Sie zeigt|dir den Mittelfinger, als du vorbeigehst.",60,0,0,
+50,0,0,!SidneyWasPig,(Die Sitznachbarn|auskundschaften.),Sidney sitzt neben dem freien Platz. Sie wirkt|sehr entspannt und ist möglicherweise bekifft.,60,0,0,
+50,0,0,,(In der vorderen|Reihe umsehen.),In der ersten Reihe ist ein freier Sitzplatz.|Gleich neben dem Podium.,10,0,0,
+50,0,0,,(In den vorderen Teil|des Raums sehen.),Es ist keine Lehrerin da.|Das Pult ist leer.,0,0,0,
+50,0,0,,(Hier setzen.),Du entscheidest dich für den Platz in|der letzten Reihe und setzt dich.,200,0,0,SelectBack()
+60,0,0,,(Den Sitzplatz|ansehen.),"In der letzten Reihe ist ein freier Sitzplatz.|Es riecht, als hätte gerade jemand geraucht.",50,0,0,
+60,0,0,,(In der vorderen|Reihe umsehen.),In der ersten Reihe ist ein freier Sitzplatz.|Gleich neben dem Podium.,10,0,0,
+60,0,0,,(In den vorderen Teil|des Raums sehen.),Es ist keine Lehrerin da.|Das Pult ist leer.,0,0,0,
+100,0,0,,(Geduldig warten.),"Du wartest leise auf die Lehrerin,|aber noch kommt niemand herein.",100,0,0,WaitTwoMinutes()
+100,0,0,,(In den vorderen Teil|des Raums sehen.),Es ist keine Lehrerin da.|Das Pult ist leer.,101,0,0,
+100,0,0,,(Deine Sitznachbarn|auskundschaften.),"(Die meisten Nachbarn beschäftigen sich mit|ihren Büchern, aber eine schaut nur auf die Uhr.)",110,0,0,CheckFront()
+101,0,0,,(Geduldig warten.),"Du wartest leise auf die Lehrerin,|aber noch kommt niemand herein.",101,0,0,WaitTwoMinutes()
+101,0,0,,(Deinen Tisch|ansehen.),Du drehst dich zu deinem Tisch.,100,0,0,
+101,0,0,,(Deine Sitznachbarn|auskundschaften.),"(Die meisten Nachbarn beschäftigen sich mit|ihren Büchern, aber eine schaut nur auf die Uhr.)",110,0,0,CheckFront()
+110,0,0,,Hallo.,"(Sie dreht sich um.)|Hallo, ich bin Natalie.",111,0,0,
+110,0,0,,Was geht?,"(Sie dreht sich um.) Nicht viel, ich warte auf|die Lehrerin. Ich bin übrigens Natalie.",111,0,0,
+110,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,100,0,0,UnloadActor()
+111,0,0,,Ich bin|COMMON_PLAYERNAME.,Schön dich kennenzulernen.|Du bist also neu im College?,112,0,0,
+111,0,0,,Nett dich kennenzulernen.|(Ihre Hand schütteln.),Ebenfalls. Du bist also neu im College?,112,1,0,
+112,0,0,,"Ja, ich hab noch|keine Freunde.","Wenn du Freunde finden willst,|kann ich einen tollen Club empfehlen.",113,0,-1,
+112,0,0,,"Ja, aber ich hab|schon viele Freunde.","Super! Ich kenne da einen tollen Club, falls du|mit deinen Freunden mal Spaß haben willst.",113,0,1,
+112,0,0,,"Ja, das ist|mein erster Tag.","Da du neu bist, solltest du Leute kennenlernen.|Und ich kenne den perfekten Club dafür.",113,0,0,
+112,0,0,HasSeduction,Ja. Und es gibt hier echt|süße Mädchen. (Zwinkern.),(Sie wird rot.) Du klingst sehr aufgeschlossen.|Ich kenne den perfekten Club für Mädchen wie dich.,113,1,0,
+113,0,0,,Klingt interessant. Erzähl|mir von diesem Club.,Er nennt sich Kinbaku-Club.|Wir mögen Bondage und Fesseln.,114,1,0,
+113,0,0,,Was für einen Club?,Er nennt sich Kinbaku-Club.|Wir mögen Bondage und Fesseln.,114,0,0,
+113,0,0,,Clubs sind für Streber.,Der Kinbaku-Club aber nicht.|Wir mögen Bondage und Fesseln.,114,-1,0,
+114,0,0,,Ich könnte dich|also fesseln?,"Nur, wenn du schnell und stark genug bist.|Wir treffen uns heute Abend, falls du Interesse hast.",121,0,1,
+114,0,0,,Du würdest mich|also fesseln?,"Könnte passieren. (Sie grinst dich an.)|Wir treffen uns heute Abend, falls du Interesse hast.",121,0,-1,
+114,0,0,,Das interessiert mich.,"Super! Wir haben heute Abend ein Treffen,|falls du mitmachen willst.",121,1,0,
+114,0,0,,Wann ist euer|nächstes Treffen?,"Heute Abend, du bist herzlich eingeladen.",121,0,0,
+114,0,0,,Das klingt schrecklich.,"Dann vergiss es, du bist zu weich für den Club.|(Sie dreht sich um und schaut auf die Uhr.)",180,-1,-1,NatalieOut()
+114,0,0,,Du bist pervers.,"Dann vergiss es, du bist zu weich für den Club.|(Sie dreht sich um und schaut auf die Uhr.)",180,-1,0,NatalieOut()
+114,0,0,,Kein Interesse.,"Kein Problem, der Club ist nicht für jeden was.|(Sie dreht sich um und schaut auf die Uhr.)",180,0,0,NatalieOut()
+120,0,0,,Ja! Der Kinbaku-|Club ist der Hammer.,"Super! (Sie zeigt einen Daumen nach oben.)|Wir treffen uns heute Abend, falls du beitreten willst.",121,1,0,
+120,0,0,,(Höflich nicken.),"Dann bist du jederzeit wieder willkommen, Mädchen.|Wir treffen uns heute Abend, falls du beitreten willst.",121,0,-1,
+120,0,0,,Ich weiß nicht.,"Vielleicht hilft's, wenn du es nochmal probierst.|Wir treffen uns heute Abend, falls du mitmachen willst.",121,0,0,
+120,0,0,,"Nein, dieser Club|ist grauenhaft.",Warum redest du dann mit mir?|(Sie dreht sich um und schaut auf die Uhr.),180,-1,0,NatalieOut()
+120,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,100,0,0,UnloadActor()
+121,0,0,,Ich weiß nicht genau.|Ich überleg's mir.,"Okay, vielleicht bin ich heute selber nicht da.|Wenn du hingehst, bring etwas zum Fesseln mit.",122,0,0,KinbakuClubInfo()
+121,0,0,,"Ich bin dabei, wenn|ich dich fesseln kann.","Vielleicht bin ich heute nicht da, aber ich versuch's.|Wenn du hingehst, bring etwas zum Fesseln mit.",122,0,1,KinbakuClubInfo()
+121,0,0,,Klar bin ich dabei.,"Toll! Ich weiß nicht, ob ich heute kommen kann,|aber ich versuch's. Bring etwas zum Fesseln mit.",122,1,0,KinbakuClubInfo()
+121,0,0,,Ich hab heute schon|was Besseres vor.,(Sie nickt mit gerunzelter Stirn.) Na gut.|(Sie dreht sich um und schaut auf die Uhr.),180,-1,0,NatalieOut()
+122,0,0,,Was soll ich|mitbringen?,"Handschellen, Seile, Knebel, all den guten Kram.|Es wirt ein schöner versauter Abend.",123,0,0,
+122,0,0,,Ich bringe mein|Halsband mit.,"Pass auf, dass es nicht um deinen Hals verriegelt wird.|(Sie kichert.) Es wird ein schöner versauter Abend.",123,0,-1,
+122,0,5,,"Ich hab ein Halsband|für dich, Mädchen.",Wirklich? (Sie wird rot.)|Es wird ein schöner versauter Abend.,123,0,1,
+122,0,0,,Ich habe nichts|zum Fesseln.,"Schade, aber vielleicht kann dir Jenna da helfen.|(Sie zwinkert.) Es wird ein schöner versauter Abend.",123,-1,0,
+123,0,0,,Das wird ein Spaß.,Und ob. Sobald diese Stunde vorbei ist.,124,0,0,
+123,0,0,,Wenn diese Stunde doch|nur schon vorbei wäre.,Da sagst du was! Und wir haben|noch nicht mal angefangen.,124,1,0,
+123,0,0,,"Ja, aber konzentrieren wir|uns erstmal auf die Stunde.",Diese Stunde ist so langweilig.|Aber wir haben wohl keine Wahl.,124,-1,0,
+124,0,0,,Bin ich zu früh?,"Du bist pünktlich, die Lehrerin ist mal wieder|zu spät. Vielleicht kommt eine Vertretung.",125,0,-1,
+124,0,0,,Ist die Lehrerin|verspätet?,Ja. Vielleicht bekommen|wir wieder eine Vertretung.,125,0,0,
+125,0,0,,Eine Vertretung?|Das ist doof.,"Kommt darauf an, wer es ist. Ich bin um 16:30 Uhr|sowieso hier raus, ganz egal wer es sein wird.",126,-1,0,
+125,0,0,,"Eine Vertretung? Zeit,|Unruhe zu stiften!","Kommt darauf an, wer es ist. Ich bin um 16:30 Uhr|sowieso hier raus, ganz egal wer es sein wird.",126,1,0,
+125,0,0,,Ich übernehme diese|dämliche Stunde.,"(Sie kichert.) Das könntest du sicher. Ich bin um 16:30|Uhr sowieso hier raus, ob ein Lehrer da ist oder nicht.",126,0,1,
+126,0,0,,Du scheinst es|eilig zu haben.,Ja! Ich hab ziemlich große Pläne für den Abend.|(Sie dreht sich um und schaut auf die Uhr.),180,0,0,NatalieOut()
+126,0,0,,Uns bleibt nicht viel|übrig außer zu warten.,Richtig. Wenn sich diese Uhr doch nur schneller drehen|würde. (Sie dreht sich um und schaut auf die Uhr.),180,0,0,NatalieOut()
+180,0,0,,"Hey, Natalie!","Nicht jetzt, wir können ein anderes Mal reden.|(Sie starrt die Klassenzimmeruhr an.)",180,0,0,
+180,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,100,0,0,UnloadActor()
+190,0,0,,Das war doch|nur Spaß!,"(Sie sieht dich böse an und flüstert.)|Wer zuletzt lacht, lacht am besten.",190,0,0,
+190,0,0,,Was hast|du jetzt vor?,Das wirst du bald sehen.,190,0,0,
+190,0,0,,Es tut mir so leid. Können|wir Frieden schließen?,"Vielleicht. Komm später zum Club,|dann schauen wir mal. (Sie grinst.)",190,0,0,NataliePeaceOffer()
+190,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,100,0,0,UnloadActor()
+200,0,0,,(Geduldig warten.),"Du wartest leise auf die Lehrerin,|aber noch kommt niemand herein.",200,0,0,WaitTwoMinutes()
+200,0,0,,(In den vorderen Teil|des Raums sehen.),Die Lehrerin fehlt noch immer.,201,0,0,
+200,0,0,,(Deine Sitznachbarn|auskundschaften.),Die meisten Nachbarn beschäftigen sich mit ihren|Büchern und Sidney scheint sich zu entspannen.,210,0,0,CheckBack()
+201,0,0,,(Geduldig warten.),"Du wartest leise auf die Lehrerin,|aber noch kommt niemand herein.",201,0,0,WaitTwoMinutes()
+201,0,0,,(Deinen Tisch|ansehen.),Du drehst dich zu deinem Tisch.,200,0,0,
+201,0,0,,(Deine Sitznachbarn|auskundschaften.),"Die meisten Nachbarn beschäftigen sich mit ihren|Büchern, aber Sidney scheint sich zu entspannen.",210,0,0,CheckBack()
+210,0,0,,"Hi, Sidney.","(Sie dreht sich langsam zu dir.)|Hey, ist dir auch so langweilig wie mir?",211,0,0,
+210,0,0,,Was geht?,"(Sie dreht sich langsam zu dir.)|Nichts, ist dir auch so langweilig wie mir?",211,0,0,
+210,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,200,0,0,UnloadActor()
+211,0,0,,Langweilig? Diese|Stunde wird super!,Du bist entweder 'ne Streberin oder geistig gestört.|(Sie sackt in ihrem Stuhl zusammen und wirkt bekifft.),260,-1,0,
+211,0,0,,"Ja, Literatur ist|ziemlich langweilig.","Ja, verdammt, ich hasse diese Stunde.|(Sie sackt in ihrem Stuhl zusammen und wirkt bekifft.)",260,1,0,
+211,0,0,,Weiß nicht. Es ist meine|erste Literaturstunde hier.,Dann bereite dich auf 'ne scheißlange Stunde vor.|(Sie sackt in ihrem Stuhl zusammen und wirkt bekifft.),260,0,0,
+230,0,0,,Du hast die letzte|Reihe reserviert?,Jep! Kein Zutritt für Waschlappen und Sarahs.|Du verbringst also diese langweilige Stunde mit mir?,231,0,0,
+230,0,0,,"Schön, dass neben|dir ein Platz frei war.","Dieser Platz ist für meine Freunde reserviert, wie dich.|Du verbringst also diese langweilige Stunde mit mir?",231,1,0,
+230,0,0,,Hören wir von hier|überhaupt die Lehrerin?,"Nein, genau darum geht's doch!|Du verbringst also diese langweilige Stunde mit mir?",231,0,-1,
+230,0,0,,"Dieser Platz ist perfekt,|um Ärger zu machen.",Genau! Darum halte ich ihn für Freunde frei.|Du verbringst also diese langweilige Stunde mit mir?,231,0,1,
+231,0,0,,Literatur könnte|Spaß machen.,Da liegst du sowas von daneben.|(Sie guckt zur Decke und driftet ab.),260,0,-1,
+231,0,0,,"Warum nimmst du ein|Fach, das du nicht magst?",Weil dieses ganze College behindert ist.|(Sie guckt zur Decke und driftet ab.),260,-1,0,
+231,0,0,,"Ja, wir stecken da|zusammen drin.","Jep, eine beschissene Stunde lang.|(Sie guckt zur Decke und driftet ab.)",260,0,0,
+231,0,0,HasSeduction,Ich hab immerhin ein|süßes Mädchen bei mir.,"Lieb von dir, COMMON_PLAYERNAME.|(Sie guckt zur Decke und driftet ab.)",260,1,0,
+240,0,0,,"Kann nicht klagen.|Was ist mit dir, Mädchen?","Es gab schon schlimmere Tage, Miss.|Ist der Platz in Ordnung, den ich freigehalten habe?",241,0,0,
+240,0,0,,Geht. Was ist mit dir?|Hast du was angezettelt?,"Na ja... Ja und nein, nichts Besonderes.|Ist der Platz in Ordnung, den ich freigehalten habe?",241,0,1,
+240,0,0,,Warum bist du vor|mir so schüchtern?,"Ich weiß nicht, ist wohl einfach so.|Gefällt dir der Platz, den ich freigehalten habe?",241,0,-1,
+240,0,0,,"Es wird ein guter Tag|sein, wenn er vorbei ist.","Finde ich auch, da sind wir einer Meinung, Miss.|Ist der Platz in Ordnung, den ich freigehalten habe?",241,1,0,
+240,0,0,,Es war ein guter Tag.|Dieses College hat was.,"Hat was? Bist du dir da sicher? Na, egal.|Gefällt dir der Platz, den ich freigehalten habe?",241,-1,0,
+241,0,0,,Wir sind zu weit vom|Lehrertisch entfernt.,"Oh! Ich dachte, das wäre gut.|(Sie guckt zur Decke und driftet ab.)",260,0,-1,
+241,0,0,,Ein guter Platz.,"Ja, das hier hinten ist die beste Reihe.|(Sie guckt zur Decke und driftet ab.)",260,0,0,
+241,0,0,HasSeduction,Ich hab immerhin ein|süßes Mädchen bei mir.,"Lieb von dir, COMMON_PLAYERNAME.|(Sie guckt zur Decke und driftet ab.)",260,1,0,
+250,0,0,,Es steht kein Name|auf dem Tisch.,"Hältst dich wohl für klug? Wenn du hier|sitzen willst, musst du einen Zoll bezahlen.",251,0,1,
+250,0,0,,"Bitte, Miss.|Darf ich hier sitzen?","Vielleicht lässt sich da was machen.|Du darfst hier sitzen, wenn du einen Zoll bezahlst.",251,0,-1,
+250,0,0,,Es sind kaum|noch Plätze frei.,"Sehe ich aus, als würde es mich kümmern?|Du darfst hier sitzen, wenn du einen Zoll bezahlst.",251,0,0,
+250,0,0,,Schön! Du stinkst sowieso.|(Nach vorne umziehen.),"(Du gehst mit deinen Sachen in die|erste Reihe, während Sidney lacht.)",100,-1,0,MoveToFront()
+250,0,0,,"Ja, Miss Sidney.|(Nach vorne umziehen.)","(Du gehst mit deinen Sachen in die|erste Reihe, während Sidney lacht.)",100,0,-1,MoveToFront()
+251,0,0,,Ich hab kein Geld.,"Dann hau ab, diese Reihe ist nicht für dich.",270,-1,0,
+251,0,0,,Ich zahle dir nichts.,"Dann hau ab, diese Reihe ist nicht für dich.",270,0,1,
+251,0,0,,"Bitteschön, Miss.|(Ihr Geld geben.)","Du bist erbärmlich, aber du kannst dich setzen.|(Sie guckt zur Decke und driftet ab.)",260,1,-1,
+251,0,0,,"Hier, nimm.|(Ihr Geld geben.)","Sehr gut, du kannst dich setzen.|(Sie guckt zur Decke und driftet ab.)",260,1,0,
+251,0,0,,"Vergiss es, ich gehe.|(Nach vorne umziehen.)","(Du gehst mit deinen Sachen in die|erste Reihe, während Sidney lacht.)",100,0,1,MoveToFront()
+260,0,0,,Alles okay?,"Besser als okay, ich bin hackebreit!|Was interessiert's dich?",261,0,0,
+260,0,0,,Hast du Drogen|genommen?,Wer zum Geier bist du?|Meine Mom? Was interessiert's dich?,261,-1,0,
+260,0,-1,,Drogen sind nicht|gut für dich.,Du bist erbärmlich! Du verdienst diesen Platz nicht.|Pack deinen Scheiß ein und geh in die erste Reihe.,270,0,-1,
+261,0,0,,Ich will auch|was davon.,"Gut, treffen wir uns nach der Schule,|dann rauchen wir einen.",262,1,0,
+261,0,0,,Es interessiert|mich nicht.,Dann rede nicht drüber.,262,0,0,
+261,0,-1,,Drogen sind illegal.,Du bist erbärmlich! Du verdienst diesen Platz nicht.|Pack deinen Scheiß ein und geh in die erste Reihe.,270,0,-1,
+262,0,0,,Das Buch war toll.|Hast du's gelesen?,"Ich hab den Titel gelesen, das reicht schon.",263,-1,0,
+262,0,0,,Das Buch war grauenhaft.|Hast du's gelesen?,"Ich hab den Titel gelesen, das reicht schon.",263,1,0,
+262,0,0,,"Also, hast du|das Buch gelesen?","Ich hab den Titel gelesen, das reicht schon.",263,0,0,
+262,0,0,,Hast du wenigstens|das Buch gelesen?,"Ich hab den Titel gelesen, das reicht schon.",263,0,1,
+263,0,0,,Das wird schon.,"Klar, ich werde ja auch schummeln.",264,0,0,AdmitCheat()
+263,0,0,,Du wirst Ärger|bekommen.,Mir egal. Ich schummel einfach.,264,0,-1,AdmitCheat()
+263,0,0,,"Was, wenn es einen|Test dazu gibt?",Mir egal. Ich schummel einfach.,264,0,0,AdmitCheat()
+264,0,0,,Guck nicht von mir ab. Ich|hab schreckliche Noten.,"Ha! Na ja, danke für die Info.|Ist ja eh nicht so, als wäre gerade Unterricht.",265,1,1,
+264,0,0,,Schummeln ist|für Versager.,"Selber Versager, verzieh dich.|(Sie driftet ab und beachtet dich nicht mehr.)",280,-1,0,SidneyOut()
+264,0,-5,,"Du kannst von mir ab-|schreiben, wenn du willst.","Danke, Dumpfbacke. Diese Stunde wird ein Zucker-|schlecken. Wenn sie irgendwann mal anfängt.",265,1,-1,
+264,0,0,,Schummeln ist|wohl eine Lösung.,"Ja, verdammt! Diese Stunde wird ein Zucker-|schlecken. Wenn sie irgendwann mal anfängt.",265,0,0,
+264,0,-1,,Schummeln ist|gegen die Regeln.,Du bist erbärmlich! Du verdienst diesen Platz nicht.|Pack deinen Scheiß ein und geh in die erste Reihe.,270,0,-1,
+265,0,0,,Bin ich zu früh?,"Keine Panik, Mädchen, die Lehrerin ist zu spät.|So ist die Stunde ohnehin besser.",266,0,-1,
+265,0,0,,Ist die Lehrerin|verspätet?,"Ja, aber mich juckt's nicht.|So ist die Stunde besser.",266,0,0,
+265,0,0,,Es ist kein Lehrer da.|Sollten wir abhauen?,Nein! Ich will nicht schon wieder nachsitzen.|Da ist diese Stunde schon noch besser.,266,0,1,
+266,0,0,,"Gut, warten wir.","(Sie dreht sich um und scheint abzudriften,|während sie zur Decke schaut.)",280,0,0,SidneyOut()
+266,0,0,,Dann lehnen|wir uns zurück.,"(Sie dreht sich um und scheint abzudriften,|während sie zur Decke schaut.)",280,0,0,SidneyOut()
+270,0,0,,Oh nein! Bitte!|Darf ich hier bleiben?,"Du bist ein Wurm, pack deine Sachen und|geh nach vorne zu den anderen Würmern.",270,0,0,
+270,0,0,,Gut! Mir doch egal.|(Nach vorne umziehen.),"(Du gehst mit deinen Sachen in die|erste Reihe, während Sidney lacht.)",100,0,0,MoveToFront()
+270,0,0,,"Ja, Miss Sidney.|(Nach vorne umziehen.)","(Du gehst mit deinen Sachen in die|erste Reihe, während Sidney lacht.)",100,0,-1,MoveToFront()
+280,0,0,,"Hey, Sidney!","(Sie antwortet nicht. Vielleicht ist sie zu|bekifft, oder sie ignoriert dich.)",280,0,0,
+280,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,200,0,0,UnloadActor()
+290,0,0,SidneyWasPig,OIIIIINKKK!|(Schweinelaute machen.),"Fick dich, COMMON_PLAYERNAME.|Das war sehr erniedrigend.",290,0,0,PigRemark()
+290,0,0,,Können wir diesen|albernen Krieg vergessen?,"Nein, verdammt! Der Krieg ist vorbei, wenn du|heulend davonläufst und nicht wiederkommst.",290,0,0,
+290,0,0,,(Zurück zu|deinem Platz.),Du drehst dich zu deinem Tisch.,200,0,0,UnloadActor()

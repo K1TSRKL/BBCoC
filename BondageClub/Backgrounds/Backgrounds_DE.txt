@@ -1,0 +1,344 @@
+Abandoned Building
+Verlassenes Gebäude
+Abandoned Side Room
+Verlassener Nebenraum
+Alchemist Office
+Alchemisten Schreibzimmer
+Ancient Ruins
+Antike Ruine
+Bedroom
+Schlafzimmer
+Entrance
+Eingangshalle
+GGTS Computer Room
+GGTS Computer Raum
+Meeting
+Meeting Raum
+Therapy
+Therapy Zimmer
+Back Alley
+Hintergasse
+Balcony Night
+Nächtlicher Balko
+Bar Restaurant
+Bar Restaurant
+BDSM Room Blue
+Blauer BDSM Room
+BDSM Room Purple
+Violetter BDSM Room
+BDSM Room Red
+Roter BDSM Room
+Beach
+Strand
+Beach Promenade Café
+Strandpromenaden Café
+Beach Hotel 1
+Strand Hotel 1
+Beach Hotel 2
+Strand Hotel 2
+Beach Sunset
+Strand mit Sonnenuntergang
+Bondage Bedchamber
+Bondage Schlafzimmer
+Boudoir
+Boudoir
+Shop Dressing Rooms
+Umkleidekabine
+Boutique Shop
+Boutique
+Captain Cabin
+Kapitänskajüte
+Fancy Castle
+Schönes Schloss
+Cellar
+Keller
+Ceremony Venue
+Zeremonieller Veranstaltungsort
+Chill Room
+Ruheraum
+College Classroom
+College Klassenraum
+Tennis Court
+Tennisplatz
+Theater
+Theater
+Confessions
+Beichtstuhl
+Cosy Chalet
+Gemütliches Chalet
+Cozy Living Room
+Gemütliches Wohnzimmer
+Creepy Basement
+Unheimlicher Keller
+Deep Forest
+Dunkler Wald
+Desert
+Wüste
+Desolate Village
+Ruinendorf
+Dining Room
+Esszimmer
+Dungeon
+Kerker
+Ruined Dungeon
+Ruinen Stadt
+Dystopian City
+Dystopische Metropole
+Egyptian Exhibit
+Ägyptische Ausstellung
+Egyptian Tomb
+Ägyptisches Grag
+Empty Warehouse
+Ägyptisches Lager
+Forest Cave
+Waldhöhle
+Forest Path
+Waldweg
+Public Garden
+Garten
+Gymnasium
+Gymnasium
+Entrance to Heaven
+Eingang zum Himmel
+Entrance to Hell
+Eingang zur Hölle
+Horse Stable
+Pferdestall
+Hotel Bedroom
+Hotel Schlafzimmer
+Hotel Bedroom 2
+Hotel Schlafzimmer2
+Empty Basement 1
+Leerer Keller 1
+Empty Basement 2
+Leerer Keller 2
+Empty Basement 3
+Leerer Keller 3
+Studio Living Room
+Studio-Wohnzimmer
+Wooden Living Room
+Hölzernes Wohnzimmer
+Appartment Living Room
+Apartment Wohnzimmer
+Hypnotic Spiral 2
+Hypnotische Spirale 2
+Hypnotic Spiral
+Hypnotische Spirale
+Indoor Pool
+Schwimmhalle
+Industrial
+Industie
+Infiltration Bunker
+Infiltration Bunker
+Introduction
+Einführungsraum
+Jungle Temple
+Dschungel Tempel
+Kennels
+Zwinger
+Kidnappers League
+Kidnapper Liga
+Kitchen 1
+Küche 1
+Kitchen 2
+Küche 2
+Latex Room
+Latex Zimmer
+Leather Chamber
+Leather Kammer
+Lingerie Shop
+Dessous Geschäft
+Locker Room
+Umkleideraum
+Lost Wages Casino
+Casino
+Maid Café
+Personalcafé
+Maid Quarters
+Personalzimmer
+Main Hall
+Haupthalle
+Club Management
+Club Management
+Medina Market
+Medina Markt
+Middletown School
+Kleinstadtschule
+Movie Studio
+Filmstudio
+Nightclub
+Nachtclub
+Nursery
+Kinderzimmer
+Luxury Office
+Luxus Büro
+Open Office
+Offenes Büro
+Old Farm
+Alter Bauernhof
+Onsen
+Heiße Quelle
+Outdoor Pool
+Outdoor Pool
+Luxury Pool
+Luxus Pool
+Outside Cells
+Gefängnisflur
+Padded Cell
+Gummizelle
+Padded Cell 2
+Gummizelle 2
+Pandora Cell A
+Pandora Zelle A
+Pandora Cell B
+Pandora Zelle B
+Pandora Cell C
+Pandora Zelle C
+Pandora Cell D
+Pandora Zelle D
+Pandora Cell E
+Pandora Zelle E
+Pandora Cell F
+Pandora Zelle F
+Pandora Cell G
+Pandora Zelle G
+Park Day
+Park Tag
+Park Night
+Park Nacht
+Park Winter
+Winterlicher Park
+Party Basement
+Partykeller
+Pirate Island
+Pirateninsel
+Pirate Island Night
+Nächtliche Pirateninsel
+Pool Bottom
+Schwimmbad
+Prison Hall
+Gefängnishalle
+Private Room
+Privat Zimmer
+Public Bath
+Öffentliches Bad
+Rainy Forest Path Day
+Waldpfad, regnerisch, Tag
+Rainy Forest Path Night
+Waldpfad, regnerisch, Nacht
+Rainy Street Day
+Straße, regnerisch, Tag
+Rainy Street Night
+Straße, regnerisch, Nacht
+Ranch
+Bauernhof
+Research Lab
+Forschungslabor
+Restaurant 1
+Restaurant 1
+Restaurant 2
+Restaurant 2
+Rooftop Party
+Dachparty
+Rusty Saloon
+Western Saloon
+School Hallway
+Schulflur
+School Hospital
+Schulkrankenzimmer
+Abandoned School
+Verlasene Schule
+Sci Fi Cell
+Sci-Fi Zelle
+Sci Fi Outdoors
+Sci-Fi Landschaft
+Red Sci-Fi Room
+Roter Sci-Fi Raum
+Secret Chamber
+Geheimzimmer
+Sheikh Private Room
+Scheichs Privatraum
+Sheikh Tent
+Scheichs Zelt
+Shibari Dojo
+Shibari Dojo
+Ship's Deck
+Schiffsdeck
+Ship Wreck
+Schiffswrack
+Slippery Classroom
+Rutschiges Klassenzimmer
+Slum Apartment
+Slum Apartment
+Slum Cellar
+Slum Keller
+Slum Ruins
+Slum Ruinen
+Snowy Chalet Day
+Chalet, Winter, Tag
+Snowy Chalet Night
+Chalet, Winter Nacht
+Snowy Deep Forest
+Dunkler winterlicher Wald
+Snowy Forest Path Day
+Verschneiter Waldweg, Tag
+Snowy Forest Path Night
+Verschneiter Waldweg, Nacht
+Snowy Lake Night
+Winterlicher See, Nacht
+Snowy Street
+Winterliche Straße
+Snowy Street Day 1
+Winterliche Straße, Tag 1
+Snowy Street Day 2
+Winterliche Straße, Tag 2
+Snowy Street Night
+Winterliche Straße, Nacht
+Snowy Town 1
+Winterlicher Ort 1
+Snowy Town 2
+Winterlicher Ort 2
+Space Station Captain Bedroom
+Space Station Kapitän Schlafzimmer
+Spooky Forest
+Spukwald
+Street Night
+Nächtliche Straße
+Sun Temple
+Sonnentempel
+Virtual World
+Virtuale Welt
+Throne Room
+Thronsaal
+Tiled Bathroom
+Gefliestes Badezimmer
+Underwater One
+Unterwasserwelt
+Vault Corridor
+Stahlgewölbe
+Wagon Circle
+Wagenburg
+Wedding Arch
+Hochzeitsbogen
+Wedding Beach
+Hochzeitsstrand
+Wedding Room
+Hochzeitszimmer
+Western Street
+Western Straße
+Witch Wood
+Hexenwald
+Wooden Cabin
+Blockhaus
+Ring
+Ring
+Christmas Day Lounge
+Weihnachtslounge, Tag
+Christmas Eve Lounge
+Weihnachtslounge, NAcht
+Yacht Chill Room
+Yatch, Ruheraum
+Yacht Main Hall
+Yatch, Haupthalle
+Yacht Deck
+Yatch, Deck

@@ -1,0 +1,49 @@
+﻿Stage,LoveReq,SubReq,VarReq,Interaction,Result,NextStage,LoveMod,SubMod,Function
+100,0,0,PlayerIsHeroine,恶徒！|你竟敢玷污我的未婚妻。,Amanda很快走了进来，回答说|“她的心曾为你真挚地跳动。”,120,0,0,"GlobalStage(120, 1, 0)"
+100,0,0,PlayerIsHeroine,曹贼！|安敢偷走吾妻！,即兴的台词让Amanda感到很困惑，回答说|“她的心因真爱而跳动。”,120,0,0,"GlobalStage(120, -1, 0)"
+100,0,0,PlayerIsHeroine,对不起，Julia|我忘了我的台词。,Julia轻声对你说：|“恶徒！你竟敢玷污我的未婚妻。”,100,0,0,ForgetLine()
+100,0,0,!PlayerIsHeroine,（静静地听着）,白骑士慢慢地走了进来，说：|“恶徒！你竟敢玷污我的未婚妻。”,110,0,0,"GlobalStage(110, 0, 0)"
+100,0,0,!PlayerIsHeroine,（不耐烦地拍手）,白骑士迅速走了进来，大喊道：|“恶徒！你竟敢玷污我的未婚妻。”,110,0,0,"GlobalStage(110, 0, 1)"
+120,0,0,PlayerIsHeroine,废话真多|现在马上放开她。,Amanda咯咯地笑着回答：|“再进一步，你就会见识我的剑有多厉害”,140,0,0,"GlobalStage(140, -1, 0)"
+120,0,0,PlayerIsHeroine,废话真多|赶紧放了她,Amanda盯着你，严肃地回答：|“来呀，我的剑等着你”,140,0,0,"GlobalStage(140, 1, 0)"
+120,0,0,PlayerIsHeroine,对不起，Julia|我忘了我的台词。,Julia叹了口气，低声说：|“脏话，赶紧解放吧。”,120,0,0,ForgetLine()
+120,0,0,!PlayerIsHeroine,（静静地听着）,白骑士表明立场说：|“废话真多，赶紧放了她”,130,0,0,"GlobalStage(130, 0, 0)"
+120,0,0,!PlayerIsHeroine,（不耐烦地拍手）,白骑士赶紧说：|“废话真多赶紧放了她”,130,0,0,"GlobalStage(130, 0, 1)"
+120,0,0,!PlayerIsHeroine,（做些鬼脸来|分散她的注意力）,白骑士笑着说：|“嘴巴真脏现在马上放开她。”,130,0,0,"GlobalStage(130, -1, 0)"
+220,0,0,PlayerIsHeroine,既然命运已定，拔剑吧！,你们同时拔出剑，向前迈进一步。,230,0,0,"GlobalStage(230, -1, 0)"
+220,0,0,PlayerIsHeroine,命运已定，钢铁为证|拔剑吧！,你们同时拔出剑，向前迈进一步。,230,0,0,"GlobalStage(230, 1, 0)"
+220,0,0,CanProposeTrio,等下，你听过“三人同居”么？,Amanda看起来很惊讶，回答道：|“同居？情侣？我们三个？你确定吗？”,225,0,0,
+220,0,0,PlayerIsHeroine,对不起，Julia|我忘了我的台词。,Julia轻声对你说：|“命运已定，钢铁为证，拔剑吧！”,220,0,0,ForgetLine()
+220,0,0,VillainCanTaunt,被捆绑的少女是我的,Amanda愤怒地抓起剑说：|“命运已定，钢铁为证，拔剑吧！”,230,0,1,"GlobalStage(230, 0, 1)"
+220,0,0,!PlayerIsHeroine,（静静地听着）,白骑士抓起她的剑说：|“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, 0, 0)"
+220,0,0,PlayerIsVillain,（无聊地打呵欠）,白骑士抓起她的剑说：|“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, -1, 0)"
+220,0,0,PlayerIsVillain,（轻轻鼓掌）,白骑士抓起她的剑说：|“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, 1, 0)"
+220,0,0,DamselCanInteract,（无聊地打呵欠）,白骑士抓起她的剑说：|“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, -1, 0)"
+220,0,0,DamselCanInteract,（轻轻鼓掌）,白骑士抓起她的剑说：|“命运已定，钢铁为证，拔剑吧！”,230,0,0,"GlobalStage(230, 1, 0)"
+225,0,0,,算了，小心！,你同时拔出剑，向前迈进一步。,230,0,0,"GlobalStage(230, 0, 0)"
+225,0,0,,是啊|让我们分享被禁止的爱,你们聚在一起分享亲吻，以爱情三人组的形式结束这部剧。,226,0,0,FinalTrio()
+240,0,0,PlayerIsHeroine,法律会审判你的（束缚她） ADD_MINUTES:1,你从剧院里挑选了一些物品，并束缚了黑骑士Amanda。,250,0,0,"GlobalStage(250, 1, 0)"
+240,0,0,PlayerIsHeroine,你将受到审判（束缚她） ADD_MINUTES:1,你从剧院里挑选了一些物品，并束缚了黑骑士Amanda。,250,0,0,"GlobalStage(250, -1, 0)"
+240,0,0,PlayerIsHeroine,对不起，Julia|我忘了我的台词。,Julia轻声对你说：“法律会审判你的。”,240,0,0,ForgetLine()
+240,0,0,PlayerIsVillain,（静静地听着） ADD_MINUTES:1,白骑士剥去你的衣服，束缚你说：“法律会审判你的。”,250,0,0,"GlobalStage(250, 0, 0)"
+240,0,0,PlayerIsVillain,（向白骑士鞠躬） ADD_MINUTES:1,白骑士剥去你的衣服，束缚你说：“法律会审判你的。”,250,0,-1,"GlobalStage(250, 0, -1)"
+240,0,0,PlayerIsVillain,太糟糕了！ ADD_MINUTES:1,白骑士剥去你的衣服，束缚你说：“法律会审判你的。”,250,-1,0,"GlobalStage(250, -1, 0)"
+240,0,0,PlayerIsDamsel,（观看现场） ADD_MINUTES:1,女主角剥去并束缚了反派，同时说：“法律会审判你的。”,250,0,0,"GlobalStage(250, 0, 0)"
+240,0,0,PlayerIsDamsel,万岁白骑士！ ADD_MINUTES:1,女主角剥去并束缚了反派，同时说：“法律会审判你的。”,250,1,0,"GlobalStage(250, 1, 0)"
+250,0,0,Common_PlayerGagged,@呜呜..!！,Amanda听了你的咕哝，咯咯地笑了笑，但仍然专注于她的角色。,250,0,0,
+250,10,0,DamselCanInteract,（赶紧吻她） ADD_MINUTES:1,你们冲进她的怀里，在最后一幕中温柔地亲吻。,260,0,0,FinalKiss()
+250,0,-5,DamselCanInteract,（为她跪下） ADD_MINUTES:1,你向白骑士鞠躬下跪。深情地抱住她的腿，等待最后一幕。,260,0,0,FinalDomme()
+250,0,0,DamselCanInteract,（去抱抱她） ADD_MINUTES:1,你走到她的怀里，拥抱她做最后一幕。,260,0,0,FinalHug()
+250,2,0,DamselCanBeg,（做恳求的眼神） ADD_MINUTES:1,你做了一双甜蜜的恳求的眼睛，她把你从束缚中解放出来。,250,0,0,ReleasePlayer()
+250,0,0,DamselCanBeg,（向她投降） ADD_MINUTES:1,你向她投降，她决定在最后一幕把你们俩都关起来。,300,0,0,FinalTwoPrisoners()
+400,0,0,PlayerIsVillain,下次你再也找不到你的女儿了。,（她皱着眉头看着你，然后咯咯地笑了起来）,400,0,0,
+400,0,0,PlayerIsDamsel,你的白色盔甲太浪漫了！,（她看了看盔甲，耸了耸肩）,400,0,0,
+400,0,0,CanConvinceJuliaToStrip,Julia难道不应该展现她的魅力吗？,非常真实，夫人。Julia！（Julia服从了，脱了一点衣服）,400,0,0,JuliaStrip()
+400,0,0,CanUntie,（解开她） ADD_MINUTES:1,（你解开绳结，把绳子藏起来，让她穿回衣服）,400,0,0,Untie()
+400,0,0,CanUnstrap,（把她解开） ADD_MINUTES:1,（你解开单手套的带子和鞋带，解放她的手臂）,400,0,0,Untie()
+400,0,0,CanUngag,（解开她嘴上的束缚） ADD_MINUTES:1,（你把口塞拿掉，她咯咯地笑了起来）|这出戏太古怪了。,400,0,0,Ungag()
+400,0,0,CanKiss,（吻她） ADD_MINUTES:1,（你靠近她，给她一个长长的吻）|（她保持沉默，享受着这一刻）,400,0,0,Kiss()
+400,0,0,CanAbuse,（挠她一下） ADD_MINUTES:1,（她努力避免你挠痒痒，但除了笑什么也做不了）,400,0,0,Tickle()
+400,0,0,CanAbuse,（打她） ADD_MINUTES:1,（每次拍打她都会呜咽，你不完全确定她是否喜欢）,400,0,0,Spank()
+400,0,0,CanAbuse,（自慰她） ADD_MINUTES:1,（你抓住她，深情地自慰。她呻吟着，颤抖着，喘着粗气）,400,0,0,Masturbate()
+400,0,0,CanBeg,（做恳求的眼神） ADD_MINUTES:1,你太可爱了，不能被释放。,400,0,0,BegRelease()

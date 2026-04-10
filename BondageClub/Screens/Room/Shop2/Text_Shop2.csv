@@ -1,0 +1,35 @@
+PagePrev,View previous items
+PageNext,View next items
+Exit,Exit
+ClothesModeClothes,Clothes
+ClothesModeUnderwear,Underwear
+ClothesModeCosplay,Cosplay
+ClothesModeNude,Nude
+ExtendedItemButton,Use item
+Color,Change item color
+BuyModePreview,Shop mode: Preview
+BuyModeSell,Shop mode: Sell
+BuyModeBuy,Shop mode: Buy
+InputSearch,Filter by item name
+GroupSelectHeader,Filter by item group
+GroupSelectCollapse,Show item group filter
+GroupSelectAll,Select All
+GroupSelectNone,Select None
+LayeringButton,Change item layering
+MaleOnly,male-only
+FemaleOnly,female-only
+ItemHeader00,Preview items: Page 0
+ItemHeader01,Buy items: Page 0
+ItemHeader02,Sell items: Page 0
+ItemHeader10,Preview female-only items: Page 0
+ItemHeader11,Buy female-only items: Page 0
+ItemHeader12,Sell female-only items: Page 0
+ItemHeader20,Preview male-only items: Page 0
+ItemHeader21,Buy male-only items: Page 0
+ItemHeader22,Sell male-only items: Page 0
+AssetGroupCategoryAppearance,Body & Clothing
+AssetGroupCategoryItem,Toys & Restraints
+AssetGroupCategoryScript,Misc
+PoseSelectHeader,Select pose
+PoseSelectCollapse,Show pose menu
+PoseSelectReset,Reset pose

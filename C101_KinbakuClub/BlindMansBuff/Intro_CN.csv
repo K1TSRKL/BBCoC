@@ -1,0 +1,14 @@
+﻿Stage,LoveReq,SubReq,VarReq,IntroText,Image
+0,0,0,,嘿，俱乐部，看起来这位新来的女孩当个盲人。,BlindMansBuff.jpg
+5,0,0,,（看不见，你只能听到繁忙的俱乐部房间的噪音）,BlindMansBuff.jpg
+7,0,0,,,BlindMansBuff.jpg
+10,0,0,,你准备好继续玩了吗？,BlindMansBuff.jpg
+15,0,0,,（明亮的光线会伤害你的眼睛，因为它们会适应房间）,TooBright.JPG
+20,0,0,,（你摔倒在地上了）,BlindMansBuff.jpg
+25,0,0,,你已经放弃了吗？,BlindMansBuff.jpg
+30,0,0,,,BlindMansBuff.jpg
+40,0,0,,,BlindMansBuff.jpg
+100,0,0,,,BlindMansBuff.jpg
+110,0,0,,,BlindMansBuff.jpg
+120,0,0,,,BlindMansBuff.jpg
+200,0,0,,,BlindMansBuff.jpg

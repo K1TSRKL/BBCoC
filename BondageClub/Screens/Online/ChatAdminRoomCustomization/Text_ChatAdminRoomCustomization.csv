@@ -1,0 +1,27 @@
+Title,"Room customization allows using external resources.  By default, players need to allow it manually."
+TitleMusicLibrary,Use can use copyright free music from the library.
+BackgroundImage1,Put the address of the background jpg image to use.  Ex: https://bondageprojects.com/images/school.jpg
+BackgroundImage2,You can use game resources also.  Ex: Screens/Room/Platform/Background/Savannah/TentInterior.jpg
+BackgroundSizeMode1,Fill the room
+BackgroundSizeMode2,"Fill the room, original aspect ratio"
+BackgroundSizeMode3,"Full image, original aspect ratio"
+BackgroundFilter,"You can put a color filter that will go over your background.  For example, use #00000080 to dim the lights."
+BackgroundMusic,Put the address of the background mp3 music file to use.  Ex: https://bondageprojects.com/music/relax.mp3
+Library,Library
+Preview,Preview
+Clear,Clear All
+Save,Save
+Cancel,Cancel
+Return,Return
+MusicLibraryFantasyAmbience,Fantasy Ambience
+MusicLibraryHorrorAmbience,Horror Ambience
+MusicLibraryWesternAmbience,Western Ambience
+MusicLibraryPop2020,Pop 2020
+MusicLibraryPop2022,Pop 2022
+MusicLibraryProgressiveHouse2022,Progressive House 2022
+MusicLibraryMetalInstrumental2021,Metal Instrumental 2021
+MusicLibraryElectroDance2022,Electro Dance 2022
+MusicLibraryElectroDance2023,Electro Dance 2023
+MusicLibraryElectroRoyKnox,Electro by Roy Knox
+MusicLibraryDanceElectroPop,Dance Electro Pop
+MusicLibraryDarkTechno,Dark Techno

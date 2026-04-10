@@ -1,0 +1,330 @@
+Abandoned Building
+Заброшенное здание
+Abandoned Side Room
+Заброшенная комната
+Alchemist Office
+Офис алхимика
+Ancient Ruins
+Древние руины
+Bedroom
+Спальня
+Entrance
+Вход
+GGTS Computer Room
+Серверная GGTS 
+Meeting
+Комната для встреч
+Therapy
+Манипуляционная
+Back Alley
+Дальний переулок
+Balcony Night
+Балкон ночью
+Bar Restaurant
+Бар-ресторан
+BDSM Room Blue
+Синяя БДСМ-комната
+BDSM Room Purple
+Фиолетовая БДСМ-комната
+BDSM Room Red
+Красная БДСМ-комната
+Beach
+Пляж
+Beach Promenade Café
+Открытое пляжное кафе
+Beach Hotel 1
+Пляжный отель
+Beach Hotel 2
+Пляжный отель
+Beach Sunset
+Закат на пляже
+Bondage Bedchamber
+Бондажная спальня
+Boudoir
+Будуар
+Shop Dressing Rooms
+Гардеробная магазина
+Boutique Shop
+Бутик-магазин
+Captain Cabin
+Каюта капитана
+Fancy Castle
+Изысканный замок
+Cellar
+Подвал
+Ceremony Venue
+Место проведения церемоний
+Chill Room
+Комната отдыха
+College Classroom
+Учебный класс колледжа
+Tennis Court
+Теннисный корт
+Theater
+Театр
+Confessions
+Камера дознания
+Cosy Chalet
+Уютное шале
+Cozy Living Room
+Уютная гостиная
+Creepy Basement
+Жуткий подвал
+Deep Forest
+Глухой лес
+Desert
+Пустыня
+Desolate Village
+Заброшенная деревня
+Dining Room
+Столовая
+Dungeon
+Подземелье
+Ruined Dungeon
+Разрушенное подземелье
+Dystopian City
+Антиутопический город
+Egyptian Exhibit
+Египетская выставка
+Egyptian Tomb
+Египетская гробница
+Empty Warehouse
+Пустой склад
+Forest Cave
+Лесная пещера
+Forest Path
+Лесная тропа
+Public Garden
+Сад
+Gymnasium
+Спортзал
+Entrance to Heaven
+Вход в Рай
+Entrance to Hell
+Вход в Ад
+Horse Stable
+Конюшня
+Hotel Bedroom
+Спальня отеля
+Hotel Bedroom 2
+Спальня отеля 2
+Empty Basement 1
+Пустой подвал 1
+Empty Basement 2
+Пустой подвал 2
+Empty Basement 3
+Пустой подвал 3
+Studio Living Room
+Студия-гостиная
+Wooden Living Room
+Деревянная гостиная
+Appartment Living Room
+Квартира-гостиная
+Hypnotic Spiral 2
+Гипнотическая спираль 2
+Hypnotic Spiral
+Hypnotic Spiral
+Indoor Pool
+Крытый бассейн
+Industrial
+Промышленная зона
+Infiltration Bunker
+Инфильтрационный бункер
+Introduction
+Вход в гостиницу
+Jungle Temple
+Храм в джунглях
+Kennels
+Питомники
+Kidnappers League
+Лига похитителей
+Kitchen 1
+Кухня 1
+Kitchen 2
+Кухня 2
+Latex Room
+Латексная комната
+Leather Chamber
+Кожаная комната
+Lingerie Shop
+Магазин дамского белья
+Locker Room
+Раздевалка
+Lost Wages Casino
+Игорный зал казино
+Maid Café
+Кафе "Горничная"
+Maid Quarters
+Помещенье для прислуги
+Main Hall
+Главный холл
+Club Management
+Управляющая Клубом
+Medina Market
+Рынок Медины
+Middletown School
+Среднегородская школа
+Movie Studio
+Киностудия
+Nightclub
+Ночной клуб
+Nursery
+Детская
+Luxury Office
+Роскошный офис
+Open Office
+Офиссный зал
+Old Farm
+Старая ферма
+Onsen
+Горячие источники
+Outdoor Pool
+Открытый бассейн
+Luxury Pool
+Роскошный бассейн
+Outside Cells
+Корридор возле камер
+Padded Cell
+Мягкая камера
+Padded Cell 2
+Мягкая камера 2
+Park Day
+Парк днем
+Park Night
+Парк ночью
+Park Winter
+Парк зимой
+Party Basement
+Вечеринка в подвале
+Pirate Island
+Пиратский остров
+Pirate Island Night
+Пиратский остров ночью
+Pool Bottom
+Дно бассейна
+Prison Hall
+Тюремный корридор
+Private Room
+Личная комната
+Public Bath
+Общественная купальня
+Rainy Forest Path Day
+Лесная дорога днем во время дождя
+Rainy Forest Path Night
+Лесная дорога ночью во время дождя
+Rainy Street Day
+Улица днем во время дождя
+Rainy Street Night
+Улица ночью во время дождя
+Ranch
+Ранчо
+Research Lab
+Исследовательская лаборатория
+Restaurant 1
+Ресторан 1
+Restaurant 2
+Ресторан 2
+Rooftop Party
+Вечеринка на крыше
+Rusty Saloon
+Старый салун
+School Hallway
+Школьный коридор
+School Hospital
+Школьная больница
+Abandoned School
+Заброшенная школа
+Sci Fi Cell
+Научно-фантастическая камера
+Sci Fi Outdoors
+Научная фантастика на улице
+Red Sci-Fi Room
+Красная научно-фантастическая комната
+Secret Chamber
+Тайная комната
+Sheikh Private Room
+Личная комната шейха
+Sheikh Tent
+Шатер шейха
+Shibari Dojo
+Шибари Додзё
+Ship's Deck
+Корабельная палуба
+Ship Wreck
+Кораблекрушение
+Slippery Classroom
+Хулиганистый класс
+Slum Apartment
+Квартира в трущобах
+Slum Cellar
+Подвал в трущебах
+Slum Ruins
+Трущебы
+Snowy Chalet Day
+Зимнее шале днем
+Snowy Chalet Night
+Зимнее шале ночью
+Snowy Deep Forest
+Глухой лес зимой
+Snowy Forest Path Day
+Зимняя лесная тропа днем
+Snowy Forest Path Night
+Зимняя лесная тропа ночью
+Snowy Lake Night
+Снежное озеро ночью
+Snowy Street
+Зимняя улица
+Snowy Street Day 1
+Зимняя улица днем 1
+Snowy Street Day 2
+Зимняя улица днем 2
+Snowy Street Night
+Зимняя улица ночью
+Snowy Town 1
+Зимний городок 1
+Snowy Town 2
+Зимний городок 2
+Space Station Captain Bedroom
+Спальня капитана космической станции
+Spooky Forest
+Жуткий лес
+Street Night
+Улица ночью
+Sun Temple
+Храм Солнца
+Virtual World
+Виртуальный мир
+Throne Room
+Тронный зал
+Tiled Bathroom
+Ванная комната
+Underwater One
+Подводный мир
+Vault Corridor
+Коридор хранилища
+Wagon Circle
+Круг из фургонов
+Wedding Arch
+Свадебная арка
+Wedding Beach
+Свадьба на пляже
+Wedding Room
+Свадебный зал
+Western Street
+Улица Дикого Запада
+Witch Wood
+Ведьмин лес
+Wooden Cabin
+Деревянный домик
+Ring
+Ринг
+Christmas Day Lounge
+Рождественская гостиная днем
+Christmas Eve Lounge
+Рождественская гостиная ночью
+Yacht Chill Room
+Комната отдыха на яхте
+Yacht Main Hall
+Кают-компания на яхте
+Yacht Deck
+Палуба яхты

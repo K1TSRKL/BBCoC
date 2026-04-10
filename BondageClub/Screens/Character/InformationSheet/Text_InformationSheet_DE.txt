@@ -1,0 +1,326 @@
+Name:
+Name:
+Nickname:
+Nickname:
+Title:
+Titel:
+None
+Nichts
+Mistress
+Herrin
+Master
+Master
+Club Slave
+Clubsklavin
+Head Maid
+Hausdame
+Maid
+Hausmädchen
+Bondage Maid
+Bondage-Hausmädchen
+Master Kidnapper
+Meister Entführerin
+Kidnapper
+Entführerin
+Patient
+Patientin
+Permanent Patient
+Dauerhafte Patientin
+Escaped Patient
+Entlaufene Patientin
+Nurse
+Krankenschwester
+Doctor
+Doktor
+Lady Luck
+Lady Luck
+Lord Fortune
+Lord Fortune
+Patron
+Patron
+College Student
+College-Studentin
+Nawashi
+Nawashi
+Houdini
+Houdini
+Superheroine
+Superheroine
+Superhero
+Superheld
+Foal
+Fohlen
+Farm Horse
+Ackergaul
+Cold Blood Horse
+Kaltblutpferd
+Warm Blood Horse
+Warmblutpferd
+Hot Blood Horse
+Heißblutpferd
+Wild Mustang
+Wilder Mustang
+Shining Unicorn
+Strahlendes Einhorn
+Flying Pegasus
+Fliegender Pegasus
+Majestic Alicorn
+Majestätischer Alicorn
+Mole
+Mole
+Infiltrator
+Infiltrator
+Agent
+Agent
+Operative
+Geheimagent
+Superspy
+Superspion
+Wizard
+Zauberer
+Magus
+Magus
+Magician
+Magier
+Sorcerer
+Hexer
+Sage
+Weiser
+Oracle
+Orakel
+Witch
+Hexe
+Warlock
+Hexenmeister
+Little One
+Kleine
+Baby
+Baby
+Diaper Lover
+Windel Liebhaber
+Bondage Baby
+Bondage Baby
+Duchess
+Herzogin
+Duke
+Herzog
+Switch
+Wechsler
+Princess
+Prinzessin
+Prince
+Prinz
+Missy
+Missy
+Sissy
+Sissy
+Tomboy
+Tomboy
+Femboy
+Femboy
+Pet
+Haustier
+Brat
+freches Balg
+Kitten
+Kätzchen
+Puppy
+Welpe
+Foxy
+Fuchs
+Bunny
+Häschen
+Doll
+Puppe
+Demon
+Dämonin
+Angel
+Engel
+Alien
+Alien
+Succubus
+Succubus
+Incubus
+Incubus
+Good Girl
+Good Girl
+Good Slave Girl
+Good Slave Girl
+Good Boy
+Good Boy
+Good Slave Boy
+Good Slave Boy
+Good Slave
+Good Slave
+Drone
+Drohne
+Mistree
+Mistress
+Good One
+Good One
+Liege
+Liege
+Concubus
+Concubus
+Majesty
+Majestät
+Captain
+Kapitän
+Admiral
+Admiral
+Dominatrix
+Dominatrix
+Pronouns:
+Pronomen:
+Member Number:
+Mitgliedsnummer:
+-
+-
+- Relationships -
+- Beziehungen -
+Lover:
+Liebhaberin:
+Owner:
+Besitzerin:
+GGTS
+GGTS
+Money:
+Geld:
+Member for
+Mitglied seit
+Bondage Club Birthday! 
+Bondage Club Geburtstag!
+Friends for
+Freunde seit
+On trial for
+Auf Probezeit seit
+Collared for
+Trägt Halsband seit
+Dating for
+Dating seit
+Engaged for
+Verlobt seit
+Married for
+Verheiratet seit
+day(s)
+Tag(en)
+Unknown
+Unbekannt
+- Reputation -
+- Rang -
+Dungeoneer:
+Dungeoneer:
+Dominant:
+Dominant:
+Submissive:
+Unterwürfig:
+Maid Sorority:
+Hausmädchen:
+Kidnappers League:
+Kidnapper-Liga:
+Asylum Nurse:
+Anstalts-Schwester:
+Asylum Patient:
+Anstalts-Patientin:
+LARP Battles:
+LARP Kämpfe:
+Gambling Hall:
+Spielhalle:
+ABDL:
+ABDL:
+House Maiestas:
+Haus Maiestas:
+House Vincula:
+Haus Vincula:
+House Amplector:
+Haus Amplector:
+House Corporis:
+Haus Corporis:
+difficulty
+Schwierigkeit
+ - Can change again in NumberOfDays day(s)
+ - Kann nach NumberOfDays day(s) geändert werden
+Roleplay
+Rollenspiel
+Regular
+Regulär
+Hardcore
+Hardcore
+Extreme
+Extreme
+- Skills -
+- Fähigkeiten -
+Bondage:
+Bondage:
+Self-bondage:
+Selbstbondage:
+Lockpicking:
+Schlösserknacken:
+Evasion:
+Entfesselung:
+Willpower:
+Willenskraft:
+Infiltration:
+Infiltration:
+Dressage:
+Dressur:
+ABSVAL for DURATION
+ABSVAL for DURATION
+- Traits -
+- Merkmale -
+Spend more time with her to know her traits
+Verbringe mehr Zeit mit ihr, um sie besser kennenzulernen
+Violent:
+Brutal:
+Peaceful:
+Friedlich:
+Horny:
+Scharf:
+Frigid:
+Frigide:
+Rude:
+Unhöflich:
+Polite:
+Höflich:
+Wise:
+Weise:
+Dumb:
+Dumm:
+Serious:
+Ernst:
+Playful:
+Verspielt:
+Relation:
+Beziehung:
+(Perfect)
+(Perfekt)
+(Great)
+(Klasse)
+(Good)
+(Gut)
+(Fair)
+(In Ordnung)
+(Neutral)
+(Neutral)
+(Poor)
+(Dürftig)
+(Bad)
+(Schlecht)
+(Horrible)
+(Schrecklich)
+(Atrocious)
+(Entsetzlich)
+Permission:
+Genehmigung:
+Everyone, no exceptions
+Alle, ohne Ausnahme
+Everyone, except blacklist
+Alle, außer Blacklist
+Owner, Lovers, whitelist & Dominants
+Besitzer, Liebhaber, Whitelist & Dominante
+Owner, Lovers and whitelist only
+Nur Besitzer, Liebhaber und Whitelist
+Owner and Lovers only
+Nur Besitzer und Liebhaber
+Owner only
+Nur Besitzer

@@ -1,0 +1,32 @@
+Enter your account & character information
+Введіть інформацію про Ваший обліковий запис та персонажа
+Character name (letters & spaces)
+Ім'я персонажа (літери та пробіли)
+Account name (letters & numbers)
+Ім'я облікового запису (літери та цифри)
+Account password (letters & numbers)
+Пароль облікового запису (літери та цифри)
+Confirm password (letters & numbers)
+Підтвердіть пароль
+Email (optional, to recover password)
+Електронна пошта (необов'язково, для відновлення паролю)
+Create your account
+Стровити акаунт
+Your account already exists?
+Вже маєте акаунт?
+Login
+Увійти
+Creating your character...
+Створення Вашого персонажу...
+Error:
+Помилка:
+Invalid character, account name, password or email
+Хибні ім'я облікогово запису або персонажа, пароль або електронна пошта
+Both passwords do not match
+Паролі не співпадають
+Import Bondage College data
+Імпортувати данні з Бондаж Коледжу
+Invalid server answer, it could be outdated.
+Хибна відповідь серверу, сервер може бути застарілим.
+Your character name, account name and password cannot be more than 20 characters long.
+Ім'я облікогово запису, персонажа або пароль не можуть бути довже ніж 20 символів.

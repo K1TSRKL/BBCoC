@@ -1,0 +1,30 @@
+Online friends
+Друзі в мережі
+All friends
+Всі друзі
+Beep history
+Історія повідомлень
+Member number
+Номер учасника
+Chat room
+Кімната
+Friend type
+Тип друга
+Send a beep
+Надіслати повідомлення
+Delete a friend
+Видалити
+Refresh
+Оновити
+Room name: included
+Назва кімнати: включена
+Room name: excluded
+Назва кімнати: виключена
+Owner
+Власник
+Lover
+Коханий/Кохана
+Submissive
+Сабмісив
+Friend
+Друг

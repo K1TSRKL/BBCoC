@@ -1,0 +1,276 @@
+.toast-container {
+  --bg-info: #56ccf2;
+  --bg-success: #6fcf97;
+  --bg-warning: #f4d35e;
+  --bg-error: #f28b82;
+
+  --accent-info: #002b36;
+  --accent-success: #1b3a2f;
+  --accent-warning: #4a3f00;
+  --accent-error: #5c1a16;
+
+  --min-width: min(30vh, 15vw);
+  --max-width: min(80vh, 40vw);
+
+  --toast-padding: min(0.8vh, 0.4vw);
+  --toast-border-radius: 0px;
+
+  --button-padding: min(0.5vh, 0.25vw);
+  --button-border-radius: min(0.8vh, 0.4vw);
+
+  --progress-height: 0.25em;
+  --progress-color: rgba(0, 0, 0, 0.4);
+
+  --gap: min(0.8vh, 0.4vw);
+  --font-size: 1em;
+  --z-index: 100;
+  --box-shadow: 0 min(0.8vh, 0.4vw) min(1.2vh, 0.6vw) rgba(0, 0, 0, 0.2);
+  --icon-size: 0;
+  --padding-for-dismiss: 0;
+}
+
+@supports (height: 100dvh) {
+  .toast-container {
+    --min-width: min(30dvh, 15dvw);
+    --max-width: min(60dvh, 30dvw);
+
+    --toast-padding: min(0.8dvh, 0.4dvw);
+    --gap: min(0.8dvh, 0.4dvw);
+    --box-shadow: 0 min(0.8dvh, 0.4dvw) min(1.2dvh, 0.6dvw) rgba(0, 0, 0, 0.2);
+
+    --button-padding: min(0.5dvh, 0.25dvw);
+    --button-border-radius: min(0.8dvh, 0.4dvw);
+  }
+}
+
+/* #region Insides */
+
+.toast-container {
+  position: absolute;
+  left: min(2vh, 1vw);
+  top: min(2vh, 1vw);
+  max-width: var(--max-width);
+  min-width: var(--min-width);
+  z-index: var(--z-index);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  pointer-events: none;
+}
+
+@supports (height: 100dvh) {
+  .toast-container {
+    left: min(2dvh, 1dvw);
+    top: min(2dvh, 1dvw);
+  }
+}
+
+.toast-container * {
+  box-sizing: border-box;
+}
+
+.toast {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap);
+  padding: var(--toast-padding);
+  border-radius: var(--toast-border-radius);
+  box-shadow: var(--box-shadow);
+  font-size: var(--font-size);
+  pointer-events: auto;
+  overflow: hidden;
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.toast-icon {
+  position: relative;
+  height: 2em;
+  width: 2em;
+  aspect-ratio: 1 / 1;
+  margin: auto 0;
+}
+
+.toast-icon.black,
+.toast-icon.white,
+.toast-icon.accent {
+  mask-image: var(--toast-icon);
+  mask-position: center;
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.toast-icon.black {
+  background-color: black;
+}
+
+.toast-icon.white {
+  background-color: white;
+}
+
+.toast-icon.accent {
+  background-color: var(--accent-color);
+}
+
+.toast-icon.default {
+  background-image: var(--toast-icon);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.toast:has(.toast-icon) .toast-content {
+  --icon-size: 2em;
+}
+
+.toast:has(.toast-dismiss) {
+  --padding-for-dismiss: 1.5em;
+  padding-right: var(--padding-for-dismiss);
+}
+
+.toast-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap);
+  max-width: calc(var(--max-width) - var(--toast-padding) * 2 - var(--icon-size) - var(--padding-for-dismiss));
+  width: 100%;
+  font-size: inherit;
+  overflow: hidden;
+}
+
+.toast:has(.progress-bar) .toast-content {
+  padding-bottom: var(--progress-height);
+}
+
+.toast-message {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  /* overflow: hidden; */
+  white-space: preserve;
+	max-height: 50vh;
+	max-height: 50dvh;
+}
+
+.toast-clamp-message {
+	line-clamp: 3;
+  -webkit-line-clamp: 3;
+}
+
+.toast-title {
+  font-weight: 600;
+}
+
+.toast-buttons {
+  display: flex;
+  gap: var(--gap);
+}
+
+.toast-button {
+  background: rgba(255, 255, 255, 0.15);
+  color: inherit;
+  border: none;
+  padding: var(--button-padding);
+  cursor: pointer;
+  font-size: 0.6em;
+  border-radius: var(--button-border-radius);
+  height: 1.2em;
+  width: 100%;
+}
+
+.button-styling[aria-checked="true"]::before,
+.button-styling:active::before,
+.button-styling[data-active]::before {
+  border-radius: var(--button-border-radius);
+}
+
+.toast-dismiss {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 1.5em;
+  height: 1.5em;
+
+  border: none;
+  color: inherit;
+  cursor: pointer;
+
+  mask-image: url("../Icons/cross.svg");
+  mask-position: center;
+  mask-size: 0.8em;
+  mask-repeat: no-repeat;
+
+  /* defined below in "Types" region */
+  background-color: var(--accent-color);
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: var(--progress-height);
+  border: none;
+  width: 100%;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* #endregion Insides */
+
+/* #region Types */
+
+.toast.info {
+  --background-color: var(--bg-info);
+  --accent-color: var(--accent-info);
+}
+
+.toast.success {
+  --background-color: var(--bg-success);
+  --accent-color: var(--accent-success);
+}
+
+.toast.warning {
+  --background-color: var(--bg-warning);
+  --accent-color: var(--accent-warning);
+}
+
+.toast.error {
+  --background-color: var(--bg-error);
+  --accent-color: var(--accent-error);
+}
+
+/* #endregion Types */
+
+/* #region Animation */
+
+.toast {
+  opacity: 0.5;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.toast.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* #endregion Animation */
+
+/* #region Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .toast {
+    transition: none;
+  }
+}
+
+/* #endregion Accessibility */

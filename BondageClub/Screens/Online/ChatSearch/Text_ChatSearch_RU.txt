@@ -1,0 +1,145 @@
+﻿No chat room found.  You can create a new one.
+Чат комната не найдена. Ты можешь создать новую.
+Search for a room:
+Поиск комнаты по названию:
+Search for a room
+Поиск комнаты
+Clear filter
+Очистить фильтр
+Create your room
+Создай свою комнату
+Apply filter
+Применить фильтр
+Load filtering
+Фильтрация загрузки
+Friends in room:
+Друзья в комнате:
+This room is already full
+Эта комната уже заполнена
+This room is locked
+Эта комната заперта
+You're banned from this room
+Вам запрещено посещать эту комнату
+You've been kicked out
+Вас выгнали
+Room doesn't exist anymore
+Комната больше не существует
+Account Error
+Ошибка аккаунта
+Invalid Room Data
+Неверные данные комнаты
+Entering the room...
+Входим в комнату...
+Duplicate join request
+Дублировать запрос на присоединение
+Remove unwanted rooms
+Удалить ненужные комнаты
+Temp Hide on click
+Временное скрытие по клику
+Ghost player on click
+Игрок-призрак по клику
+Show hidden rooms
+Показать скрытые комнаты
+Filter Rooms
+Фильтр комнат
+Return to room view
+Вернуться к просмотру комнаты
+Return to previous view
+Вернуться к предыдущему виду
+Filtered because:
+Отфильтровано, потому что:
+Contains filtered word
+Содержит отфильтрованное слово
+Temp Hidden
+Временно скрыто
+Creator on ghostlist
+Создатель в списке призраков
+Filter out terms (comma-separated):
+Отфильтровать термины (через запятую):
+Help
+Помощь
+Close help
+Закрыть помощь
+In filter mode you can remove rooms you do not wish to see.
+В режиме фильтра вы можете удалить комнаты, которые не хотите видеть.
+"A room will be hidden if it meets one or more of the following criteria: it is not in your selected language, it contains a filtered out word, it has been Temp Hidden (see below), or its creator is ghostlisted."
+"Комната будет скрыта, если она соответствует одному или нескольким из следующих критериев: она не на выбранном вами языке, она содержит отфильтрованное слово, она временно скрыта (см. ниже) или ее создатель занесен в список призраков."
+The Language filter allows to view only rooms in a particular language. Other filters can be used to remove objectionable content from your view.
+Фильтр «Язык» позволяет просматривать комнаты только на определенном языке. Другие фильтры можно использовать для удаления нежелательного контента из поля зрения.
+"Use ""Filter out terms"" to hide all rooms containing those words. Note this only checks the room name, not the description."
+"Используйте «Отфильтровать термины», чтобы скрыть все комнаты, содержащие эти слова. Обратите внимание, что при этом проверяется только название комнаты, а не описание."
+Click on a room in this view to instantly Temp Hide that one room (until next login) and/or ghostlist the player who made the room (saved permanently until you remove them from ghostlist). Use the buttons at bottom right to select which action to take.
+Нажмите на комнату в этом представлении, чтобы мгновенно скрыть эту комнату (до следующего входа в систему) и/или внести в список призраков игрока, создавшего эту комнату (сохраняется навсегда, пока вы не удалите его из списка призраков). Используйте кнопки внизу справа, чтобы выбрать, какое действие предпринять.
+"Use ""Show hidden rooms"" to show all the normally hidden rooms in case you want to unhide a particular room. Note that rooms hidden because of the language setting will not show here, but all other hidden rooms will."
+"Используйте «Показать скрытые комнаты», чтобы отобразить все обычно скрытые комнаты на случай, если вы захотите отобразить определенную комнату. Обратите внимание, что комнаты, скрытые из-за языковых настроек, здесь не отображаются, но все остальные скрытые комнаты будут отображаться."
+Нажатие на скрытую комнату отобразит ее. Если комната просто временно скрыта, она мгновенно отобразится. В противном случае вам будет предложено подтвердить, хотите ли вы удалить создателя из списка и/или удалить некоторые слова-фильтры, чтобы разрешить отображение комнаты.
+"In order to unhide ""{RoomLabel}"" you are also about to:"
+"Чтобы отобразить ""{RoomLabel}"", вам также необходимо:"
+"Remove ""{MemberLabel}"" from your ghostlist"
+"Удалите "{MemberLabel}"" из списка призраков."
+"Remove ""{WordsLabel}"" from your filtered words"
+"Удалите ""{WordsLabel}"" из отфильтрованных слов."
+Are you sure you want to do this?
+Вы уверены, что хотите это сделать?
+Cancel
+Отмена
+Do it
+Сделай это
+Refresh rooms
+Обновить комнаты
+Leave room search
+Оставить поиск комнаты
+Friends
+Друзья
+Next page
+Следующая страница
+Previous page
+Предыдущая страница
+Lobby:
+Лобби:
+Mixed
+Смешанное
+Female
+Женское
+Male
+Муское
+Asylum
+Психушка
+Block:
+Блокировать:
+ABDL
+ABDL
+Player Leashing
+Поводок игрока
+Sci-Fi
+Научная фантастика
+Photographs
+Фотографии
+Arousal Activities
+Возбуждающие Действия
+Fantasy
+Фантазия
+Game:
+Игра:
+Club Card
+Карточный Клуб
+LARP
+LARP
+Magic Battle
+Магическая битва
+GGTS
+GGTS
+All languages
+Все языки
+English
+English
+French
+Français
+Spanish
+Española
+German
+Deutsch
+Chinese
+中国人
+Russian
+Русский

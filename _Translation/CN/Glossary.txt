@@ -1,0 +1,20 @@
+# Glossary table is used to maintain consistency across the whole project.
+# Please insert new items by alphabetical order.
+# 术语表用来维护整个项目的一致性。
+# 请按字母顺序插入新条目。
+
+English         Chinese (Simplified)    Remark
+
+art             艺术
+bondage         束缚；捆绑
+college         学院
+dominate        支配
+fight           格斗
+kinky           古怪的；性癖的          这个词似乎不太好翻译……
+loser           废物
+rope mastery    绳艺
+seduction       诱惑
+subbie girl     乖乖女
+submission      顺从
+thrash          疯狂挣扎                非正式用法
+wad; wadding    布团

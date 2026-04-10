@@ -1,0 +1,23 @@
+:root {
+	/* The border width of buttons (among other interactive elements) */
+	--border-width: min(0.2vh, 0.1vw);
+	--border-width: min(0.2dvh, 0.1dvw);
+
+	/* The size of menubar buttons (_e.g._ the "exit screen" buttons) */
+	--menu-button-size: min(9vh, 4.5vw);
+	--menu-button-size: min(9dvh, 4.5dvw);
+
+	/* The gap between grid items such as menubar buttons */
+	--gap: min(2vh, 1vw);
+	--gap: min(2dvh, 1dvw);
+
+	/* Half the gap between grid items */
+	--half-gap: calc(var(--gap) / 2);
+
+	/**
+	 * The size of the gutter as reserved for scrollbars.
+	 * Note the absolute `px` component of the gutter width, which is there to accommodate the fixed (browser-enforced) width of scrollbars.
+	 */
+	--scrollbar-gutter: max(20px, min(2.5vh, 1.25vw));
+	--scrollbar-gutter: max(20px, min(2.5dvh, 1.25dvw));
+}

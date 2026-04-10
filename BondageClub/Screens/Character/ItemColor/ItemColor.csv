@@ -1,0 +1,18 @@
+Accept,Accept
+Cancel,Cancel
+Reset,Reset to default
+Copy,Copy color
+CopyFail,Failed to copy colors of item with {nColors} distinct colors
+CopySuccess,Color {color} successfully copied
+Paste,Paste color
+PasteFailBrowser,Browser does not support color pasting
+PasteFailInvalid,Failed to paste invalid color {color}
+PasteSuccess,Color {color} successfully pasted
+Default,Default
+Many,Many
+Next,Next page
+WholeItem,Whole Item
+All,All
+Heading,Select {item} colors
+SavedColors,Saved colors
+SaveColor,Save color
